@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <title>COA Admin — SideChain Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b1220'/%3E%3Cpath d='M6 22 L12 10 L16 18 L20 8 L26 22' stroke='%2322d3ee' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="nav is-scrolled">
+    <div class="container nav__inner">
+      <a href="/" class="brand">
+        <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8"/><path d="M6 22 L12 10 L16 18 L20 8 L26 22"/></svg>
+        <span>SideChain<b>Analytics</b> <span class="chip">COA admin</span></span>
+      </a>
+      <button class="btn btn--ghost btn--sm" id="logout" hidden>Sign out</button>
+    </div>
+  </header>
+
+  <main class="admin container">
+    <!-- Login -->
+    <form class="panel login" id="login" hidden>
+      <h1>Sign in</h1>
+      <label class="field"><span>Admin token</span><input type="password" id="token" autocomplete="current-password" required></label>
+      <p class="err" id="loginErr"></p>
+      <button class="btn" type="submit">Sign in</button>
+      <p class="small muted">The token is set on the server as <span class="mono">ADMIN_TOKEN</span>. It is kept only for this browser tab.</p>
+    </form>
+
+    <div id="app" hidden>
+      <div class="admin-tabs" role="tablist">
+        <button role="tab" aria-selected="true" data-view="issue">Issue report</button>
+        <button role="tab" aria-selected="false" data-view="reports">Reports</button>
+        <button role="tab" aria-selected="false" data-view="activity">Activity &amp; alerts</button>
+      </div>
+
+      <!-- Issue -->
+      <section data-pane="issue">
+        <form class="panel" id="issueForm">
+          <h2>New certificate</h2>
+          <ol class="steps-inline">
+            <li>Create the record here — you get the <b>report ID</b>, <b>access code</b> and <b>QR code</b>.</li>
+            <li>Print all three on the COA and export the final PDF.</li>
+            <li>Upload that final PDF to lock in its fingerprint. After this the report can't be edited — corrections are issued as a new report that supersedes it.</li>
+          </ol>
+          <div class="grid3">
+            <label class="field"><span>Analyte *</span><input name="analyte" required placeholder="e.g. BPC-157"></label>
+            <label class="field"><span>Lot / batch</span><input name="lot"></label>
+            <label class="field"><span>Submitted by (client)</span><input name="client"></label>
+            <label class="field"><span>Received</span><input name="received" type="date"></label>
+            <label class="field"><span>Released</span><input name="released" type="date"></label>
+            <label class="field"><span>Report ID <em>(blank = next number)</em></span><input name="id" class="mono up" placeholder="auto"></label>
+          </div>
+          <label class="field mt"><span>Sample description</span><input name="sampleDesc" placeholder="e.g. Lyophilised powder, 5 mg vial"></label>
+
+          <div class="admin__bar admin__bar--results">
+            <h2 class="m0">Results</h2>
+            <div class="btnrow">
+              <button type="button" class="btn btn--ghost btn--sm" id="presetCore">+ Core panel</button>
+              <button type="button" class="btn btn--ghost btn--sm" id="presetMetals">+ ICP-MS</button>
+              <button type="button" class="btn btn--ghost btn--sm" id="presetLal">+ LAL</button>
+              <button type="button" class="btn btn--ghost btn--sm" id="addRow">+ Row</button>
+            </div>
+          </div>
+          <div class="rows" id="rows"></div>
+
+          <label class="field mt"><span>Notes <em>(shown publicly)</em></span><textarea name="notes" rows="2"></textarea></label>
+          <p class="err" id="issueErr"></p>
+          <div class="mt"><button class="btn" type="submit">Create record</button></div>
+        </form>
+      </section>
+
+      <!-- Reports -->
+      <section data-pane="reports" hidden>
+        <div class="panel">
+          <div class="admin__bar"><h2 class="m0">Reports <span class="muted" id="total"></span></h2>
+            <input id="filter" class="filter" placeholder="Filter by ID, analyte, lot, client…" aria-label="Filter reports">
+          </div>
+          <div class="table-wrap">
+            <table class="table">
+              <thead><tr><th>ID</th><th>Analyte</th><th>Lot</th><th>Client</th><th>Released</th><th>Status</th><th>PDF</th><th>Checks</th><th>Alerts</th></tr></thead>
+              <tbody id="reportRows"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Activity -->
+      <section data-pane="activity" hidden>
+        <div class="panel">
+          <div class="admin__bar">
+            <h2 class="m0">Verification activity</h2>
+            <label class="small"><input type="checkbox" id="alertsOnly"> Alerts only</label>
+          </div>
+          <p class="small muted">Alerts: a wrong access code on a real report ID (<span class="mono">bad_code</span>), a PDF that doesn't match the original (<span class="mono">hash_mismatch</span>), or an unknown PDF (<span class="mono">file_unknown</span>). Repeated alerts on one report usually mean an edited copy is circulating.</p>
+          <div class="table-wrap">
+            <table class="table">
+              <thead><tr><th>Time</th><th>Report</th><th>Event</th><th>Visitor</th><th>Detail</th></tr></thead>
+              <tbody id="eventRows"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Detail (shared by issue + reports) -->
+      <section class="panel" id="detail" hidden></section>
+    </div>
+  </main>
+
+  <script src="/vendor/qrcode.js" defer></script>
+  <script src="/assets/admin.js" defer></script>
+</body>
+</html>

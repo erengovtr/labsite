@@ -25,7 +25,7 @@
         <a href="#services">Services</a>
         <a href="#process">How it works</a>
         <a href="#report">Reports</a>
-        <a href="#verify">Verify a COA</a>
+        <a href="/verify">Verify a COA</a>
         <a href="#faq">FAQ</a>
         <a href="#quote" class="btn btn--sm">Request a quote</a>
       </nav>
@@ -45,7 +45,7 @@
           <p class="lead">Independent peptide identity, purity and net peptide content by HPLC-MS/MS — with heavy-metal and endotoxin add-ons from the same sample. Verifiable Certificates of Analysis in about five business days.</p>
           <div class="hero__cta">
             <a href="#quote" class="btn">Request a quote</a>
-            <a href="#verify" class="btn btn--ghost">Verify a COA →</a>
+            <a href="/verify" class="btn btn--ghost">Verify a COA →</a>
           </div>
           <dl class="stats">
             <div><dt>~5</dt><dd>business days<br>core turnaround</dd></div>
@@ -191,7 +191,8 @@
           <h2>Reports built to be read — and trusted.</h2>
           <p class="muted">Every analysis is issued as a Certificate of Analysis that states identity, measured net peptide content, purity, acceptance criteria and chain of custody. No marketing, no rounding up.</p>
           <ul class="ticks ticks--lg">
-            <li><b>Unique report ID</b> verifiable online</li>
+            <li><b>Report ID, access code &amp; QR</b> — verifiable online in seconds</li>
+            <li><b>Tamper-evident</b> — we keep a SHA-256 fingerprint of every released PDF</li>
             <li><b>Raw chromatogram &amp; mass spectrum</b> included</li>
             <li><b>Clear pass / fail</b> against stated criteria</li>
             <li><b>Chain of custody</b> from receipt to release</li>
@@ -209,9 +210,9 @@
           <h4>Certificate of Analysis</h4>
           <div class="coa__meta mono">
             <div><span>Report ID</span><b>SCA-2026-0417</b></div>
+            <div><span>Access code</span><b>DEMO-2026</b></div>
             <div><span>Analyte</span><b>BPC-157</b></div>
-            <div><span>Received</span><b>2026-09-14</b></div>
-            <div><span>Released</span><b>2026-09-19</b></div>
+            <div><span>Lot</span><b>BPC-240912-A</b></div>
           </div>
           <table class="coa__table">
             <thead><tr><th>Test</th><th>Method</th><th>Result</th><th></th></tr></thead>
@@ -234,16 +235,23 @@
         <div>
           <p class="eyebrow">Verify a COA</p>
           <h2>Got a SideChain report? Check it's real.</h2>
-          <p class="muted">Enter the report ID printed on the certificate. If it doesn't match our records, it didn't come from us.</p>
+          <p class="muted">Every certificate carries a report ID, a private access code and a QR code. Verification confirms the report exists, shows our recorded results, and checks the PDF you were given hasn't been edited.</p>
+          <ul class="vpoints">
+            <li><b>Record match</b><span>Fake IDs and wrong codes fail instantly.</span></li>
+            <li><b>Tamper check</b><span>Change one digit in the PDF and we'll know.</span></li>
+            <li><b>Live status</b><span>Withdrawn or replaced reports are flagged.</span></li>
+          </ul>
         </div>
-        <form class="verify__form" id="verifyForm" novalidate>
-          <label for="coaId" class="sr-only">Report ID</label>
-          <div class="verify__field">
-            <input id="coaId" name="coaId" class="mono" placeholder="SCA-2026-0417" autocomplete="off" spellcheck="false" required>
-            <button class="btn" type="submit">Verify</button>
+        <form class="verify__form" action="/verify" method="get">
+          <div class="verify__card">
+            <label class="vlabel" for="coaId">Report ID</label>
+            <input id="coaId" name="id" class="vinput mono" placeholder="SCA-2026-0000" autocomplete="off" spellcheck="false" required>
+            <label class="vlabel" for="coaCode">Access code</label>
+            <input id="coaCode" name="k" class="vinput mono" placeholder="XXXX-XXXX" autocomplete="off" spellcheck="false" required>
+            <button class="btn btn--accent btn--block" type="submit">Verify certificate</button>
+            <a class="vfile" href="/verify?mode=file">Or drop the PDF to verify it →</a>
           </div>
-          <p class="hint mono">Demo: try <button type="button" class="linklike" data-fill="SCA-2026-0417">SCA-2026-0417</button></p>
-          <div class="verify__result" id="verifyResult" role="status" aria-live="polite"></div>
+          <p class="hint mono">Demo: ID <b>SCA-2026-0417</b> · code <b>DEMO-2026</b></p>
         </form>
       </div>
     </section>
@@ -311,7 +319,7 @@
           </details>
           <details>
             <summary>How can my customers verify my COA?</summary>
-            <p>Each report has a unique ID. Anyone can enter it in the <a href="#verify">Verify a COA</a> tool to confirm it was issued by us and matches our records.</p>
+            <p>Each certificate carries a report ID, a private access code and a QR code. Anyone holding the certificate can scan it or enter both on our <a href="/verify">verification page</a> to see our recorded results. They can also drop the PDF there — we compare its cryptographic fingerprint with the original, so any edit is detected. The file never leaves their device.</p>
           </details>
           <details>
             <summary>Do you test for human use?</summary>
@@ -356,6 +364,7 @@
     </div>
   </footer>
 
+  <script src="assets/nav.js" defer></script>
   <script src="assets/main.js" defer></script>
 </body>
 </html>

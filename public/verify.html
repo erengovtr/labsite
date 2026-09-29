@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verify a COA — SideChain Analytics</title>
+  <meta name="description" content="Confirm a SideChain Analytics Certificate of Analysis is authentic and unaltered. Enter the report ID and access code, or drop the PDF.">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#0b1220">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b1220'/%3E%3Cpath d='M6 22 L12 10 L16 18 L20 8 L26 22' stroke='%2322d3ee' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+</head>
+<body class="page-verify">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="/" class="brand" aria-label="SideChain Analytics home">
+        <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8"/><path d="M6 22 L12 10 L16 18 L20 8 L26 22"/></svg>
+        <span>SideChain<b>Analytics</b></span>
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="/#services">Services</a>
+        <a href="/#process">How it works</a>
+        <a href="/#report">Reports</a>
+        <a href="/verify" aria-current="page">Verify a COA</a>
+        <a href="/#faq">FAQ</a>
+        <a href="/#quote" class="btn btn--sm">Request a quote</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="vhero">
+      <div class="container vhero__inner">
+        <p class="eyebrow"><span class="shield" aria-hidden="true"></span> COA verification</p>
+        <h1>Is this certificate <span class="grad">real?</span></h1>
+        <p class="lead">Check any SideChain Analytics Certificate of Analysis against our records — and confirm the PDF you were given hasn't been edited since we released it.</p>
+      </div>
+    </section>
+
+    <section class="vmain">
+      <div class="container vmain__grid">
+        <div class="vpanel" id="vpanel">
+          <div class="tabs" role="tablist" aria-label="Verification method">
+            <button role="tab" id="tab-id" aria-controls="pane-id" aria-selected="true">Report ID &amp; code</button>
+            <button role="tab" id="tab-file" aria-controls="pane-file" aria-selected="false" tabindex="-1">Upload the PDF</button>
+          </div>
+
+          <form role="tabpanel" id="pane-id" aria-labelledby="tab-id" class="pane" action="/verify" method="get" novalidate>
+            <div class="grid2">
+              <label class="field">
+                <span>Report ID</span>
+                <input name="id" id="fId" class="mono up" placeholder="SCA-2026-0000" autocomplete="off" spellcheck="false" required>
+              </label>
+              <label class="field">
+                <span>Access code</span>
+                <input name="k" id="fCode" class="mono up" placeholder="XXXX-XXXX" autocomplete="off" spellcheck="false" maxlength="12" required>
+              </label>
+            </div>
+            <p class="small muted">Both are printed at the top of the certificate. Scanning the QR code on the COA fills them in for you.</p>
+            <button class="btn btn--block" type="submit">Verify certificate</button>
+          </form>
+
+          <div role="tabpanel" id="pane-file" aria-labelledby="tab-file" class="pane" hidden>
+            <label class="drop" id="dropMain">
+              <input type="file" accept="application/pdf,.pdf" id="fileMain" hidden>
+              <span class="drop__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M12 18v-6M9 15l3-3 3 3"/></svg>
+              </span>
+              <b>Drop the COA PDF here</b>
+              <span class="muted small">or click to choose a file</span>
+            </label>
+            <p class="privacy small">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+              Your file never leaves your device. We compute its SHA-256 fingerprint in your browser and send only that.
+            </p>
+          </div>
+
+          <div id="result" class="vresult" aria-live="polite"></div>
+        </div>
+
+        <aside class="vside">
+          <div class="vcard">
+            <h3>How verification works</h3>
+            <ol class="vhow">
+              <li><b>Record match.</b> Every COA we release is logged with a unique ID and a private access code. Unknown IDs or wrong codes mean the certificate isn't ours.</li>
+              <li><b>Tamper check.</b> We keep a cryptographic fingerprint of the exact PDF we released. Change a single digit and the fingerprint no longer matches.</li>
+              <li><b>Status.</b> If a report is ever corrected or withdrawn, verification says so — and points to the replacement.</li>
+            </ol>
+          </div>
+
+          <div class="vcard vcard--demo">
+            <p class="card__tag mono">Try it</p>
+            <h3>Demo certificate</h3>
+            <p class="small muted">Use these credentials, or download the two sample PDFs and drop them in.</p>
+            <dl class="democreds mono">
+              <div><dt>ID</dt><dd>SCA-2026-0417</dd></div>
+              <div><dt>Code</dt><dd>DEMO-2026</dd></div>
+            </dl>
+            <button type="button" class="btn btn--ghost btn--sm" id="demoFill">Fill in demo</button>
+            <div class="demofiles">
+              <a href="/demo/SCA-2026-0417.pdf" download>Original PDF</a>
+              <a href="/demo/SCA-2026-0417-edited.pdf" download>Edited PDF <span class="chip chip--bad">tampered</span></a>
+            </div>
+          </div>
+
+          <div class="vcard">
+            <h3>Something doesn't match?</h3>
+            <p class="small muted">If a certificate fails verification, it was not issued by us or has been altered. Please let us know at <a href="mailto:info@sidechainanalytics.com">info@sidechainanalytics.com</a> — we track forged reports.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <template id="tplResult">
+    <div class="banner">
+      <span class="banner__icon" aria-hidden="true"></span>
+      <div>
+        <h2 class="banner__title"></h2>
+        <p class="banner__sub"></p>
+      </div>
+    </div>
+    <div class="rbody">
+      <dl class="rmeta"></dl>
+      <div class="rtable-wrap">
+        <table class="rtable">
+          <thead><tr><th>Test</th><th>Method</th><th>Result</th><th>Specification</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="rnotes small muted"></p>
+
+      <div class="rcompare">
+        <h3>Compare your copy</h3>
+        <p class="small muted">Drop the PDF you were given to confirm it is byte-for-byte identical to the one we released.</p>
+        <label class="drop drop--sm">
+          <input type="file" accept="application/pdf,.pdf" hidden>
+          <b>Drop PDF to compare</b>
+          <span class="muted small">or click to choose</span>
+        </label>
+        <div class="rcompare__out" aria-live="polite"></div>
+      </div>
+
+      <div class="ractions">
+        <a class="btn rdownload">Download original from lab</a>
+        <button type="button" class="btn btn--ghost rreset">Verify another</button>
+      </div>
+
+      <div class="rchecklist">
+        <h3>Before you trust the product, also check:</h3>
+        <ul class="ticks">
+          <li>The <b>lot / batch</b> on your vial matches the one above.</li>
+          <li>The <b>analyte</b> is the product you actually bought.</li>
+          <li>The <b>submitter</b> is the seller you bought from (or they can explain why not).</li>
+        </ul>
+      </div>
+    </div>
+  </template>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="brand brand--sm">
+          <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8"/><path d="M6 22 L12 10 L16 18 L20 8 L26 22"/></svg>
+          <span>SideChain<b>Analytics</b></span>
+        </div>
+        <p class="muted small">Independent peptide testing · Mississauga, Ontario</p>
+      </div>
+      <p class="muted small footer__ruo">All services and reports are for research use only. Not for human or veterinary diagnostic or therapeutic use.</p>
+      <p class="muted small">© <span id="year">2026</span> SideChain Analytics</p>
+    </div>
+  </footer>
+
+  <script src="/assets/nav.js" defer></script>
+  <script src="/assets/verify.js" defer></script>
+</body>
+</html>

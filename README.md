@@ -1,26 +1,67 @@
-# SideChain Analytics — site concept
+# SideChain Analytics — website & COA verification
 
-A redesigned, dependency-free static website concept for **SideChain Analytics**, an independent peptide-analysis laboratory in Mississauga, Ontario.
+Website concept for **SideChain Analytics**, an independent peptide-analysis laboratory in Mississauga, Ontario, built around a tamper-evident Certificate of Analysis (COA) verification system.
+
+Zero dependencies: Node.js ≥ 22.13 (built-in `node:sqlite`) serves the site and API.
+
+```bash
+npm run seed    # demo report SCA-2026-0417 / code DEMO-2026 + sample PDFs
+ADMIN_TOKEN=$(openssl rand -hex 24) npm start   # http://localhost:8080
+npm test
+```
+
+| Page | Purpose |
+| --- | --- |
+| `/` | Marketing site (services, process, sample COA, quote builder, FAQ) |
+| `/verify` | Public COA verification |
+| `/admin` | Lab staff: issue reports, QR codes, lock PDFs, revoke/supersede, alerts |
+
+## How verification works
+
+Each COA carries a **report ID**, a private **access code** (8 chars, no look-alike characters) and a **QR code** linking to `/verify?id=…&k=…`.
+
+| Fraud | How it's caught |
+| --- | --- |
+| Fabricated COA / fake ID | ID + code must match a record |
+| Real report reused for another product | Verification shows lab-recorded analyte, lot, client and every result |
+| Edited PDF (e.g. purity 92% → 99%) | The SHA-256 of the released PDF is stored; visitors drop their copy and it's hashed **in the browser** (the file never leaves their device) and compared |
+| Enumerating IDs to read others' reports | Access code required; unknown ID and wrong code return identical responses; 10 failures / 15 min per IP locks lookups |
+| Withdrawn or corrected reports | `revoked` / `superseded` status shown publicly, with the replacement ID |
+
+Visitors can also verify with **just the PDF**: a byte-exact original resolves to its report without any code.
+
+Every lookup is logged. Wrong codes on real IDs (`bad_code`), mismatched PDFs (`hash_mismatch`) and unknown PDFs (`file_unknown`) show up as **alerts** in the admin panel — evidence that forged copies are circulating. Visitor IPs are stored only as salted hashes.
+
+### Issuing workflow (admin)
+
+1. Create the record → get ID, access code, QR (SVG download).
+2. Print them on the COA and export the final PDF.
+3. Upload the PDF → its fingerprint is locked. Reports are immutable after this; corrections are a new report that supersedes the old one.
+
+## Demo for the pitch
+
+On `/verify`, click **Fill in demo**, then download the two sample PDFs from the sidebar: the original matches, the *edited* copy (purity changed 99.2% → 99.8%) is flagged as tampered.
+
+## Deploying
+
+Any host that runs a Node process with a persistent disk (VPS, Fly.io, Render, Railway…). A `Dockerfile` is included; mount a volume at `/data`.
+
+| Env var | |
+| --- | --- |
+| `ADMIN_TOKEN` | Required for `/admin` (≥ 24 chars). Admin API is disabled without it. |
+| `DATA_DIR` | SQLite DB + stored PDFs (default `./data`). **Back this up.** |
+| `PUBLIC_URL` | Base for verify links / QR codes, e.g. `https://sidechainanalytics.com` |
+| `TRUST_PROXY=1` | Use `X-Forwarded-For` for rate limiting when behind a reverse proxy |
+| `PORT` | Default `8080` |
+
+Serve over **HTTPS** — browsers only allow in-page PDF hashing on secure origins.
 
 ## Structure
 
 ```
-index.html        Single-page site (all sections)
-assets/styles.css Design system + layout (light/dark aware)
-assets/main.js    Nav, quote builder, COA verification demo, FAQ, reveal animations
+server/app.js    HTTP server: static files, public + admin API, rate limiting, security headers
+server/db.js     SQLite schema and queries
+server/seed.js   Demo record + sample PDFs
+public/          index.html, verify.html, admin.html, assets/, vendor/qrcode.js (MIT)
+test/            API tests (node:test)
 ```
-
-## Run locally
-
-No build step. Open `index.html`, or:
-
-```bash
-python3 -m http.server 8080
-```
-
-## Notes for the lab
-
-- **COA verification** is a front-end demo. Try `SCA-2026-0417` (verified) or any other ID (not found). Wire `verifyCOA()` in `assets/main.js` to a real endpoint / database to go live.
-- **Quote builder** composes an email to `info@sidechainanalytics.com`; swap for a form backend (Formspree, Netlify Forms, custom API) if preferred.
-- Pricing is intentionally not shown — the builder collects what's needed for a quote.
-- Content is based on publicly listed information (address, methods, turnaround). Please review wording, and add accreditations/instrument details you want to highlight.
