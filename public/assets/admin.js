@@ -14,11 +14,12 @@
     unauthorized: 'Invalid token.',
     admin_disabled: 'The admin API is disabled on this server (ADMIN_TOKEN not set).',
     too_many_failures: 'Too many failed attempts. Try again in 15 minutes.',
-    analyte_required: 'Analyte is required.',
+    compound_required: 'Compound is required.',
+    invalid_type: 'Choose a report type.',
+    invalid_data: 'Some result values are malformed.',
     invalid_id: 'Report ID may only contain A–Z, 0–9 and dashes (3–40 characters).',
     id_exists: 'That report ID already exists.',
     invalid_date: 'Dates must be YYYY-MM-DD.',
-    result_test_required: 'Every result row needs a test name.',
     not_a_pdf: 'That file is not a PDF.',
     pdf_already_attached: 'A PDF is already attached to this report. Issue a new report to correct it.',
     pdf_used_by_other_report: 'This exact PDF is already attached to another report.',
@@ -57,7 +58,7 @@
     await api('/reports?limit=1');
     try { sessionStorage.setItem(TOKEN_KEY, t); } catch { /* ignore */ }
     $('#login').hidden = true; $('#app').hidden = false; $('#logout').hidden = false;
-    if (!$('#rows').children.length) addPreset('core');
+    if (!$('#rows-custody').children.length) resetIssueForm();
   }
   $('#login').addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -76,52 +77,132 @@
   }
   $$('[data-view]').forEach((b) => b.addEventListener('click', () => show(b.dataset.view)));
 
-  // ---- Result rows ----
-  const PRESETS = {
-    core: [
-      { test: 'Identity', method: 'HPLC-MS/MS', spec: 'Matches theoretical mass' },
-      { test: 'Purity', method: 'HPLC-UV 214 nm', spec: '>= 98.0%' },
-      { test: 'Net peptide content', method: 'HPLC-UV', spec: 'Report', outcome: 'report' },
-    ],
-    metals: [{ test: 'Heavy metals (Pb, Cd, As, Hg)', method: 'ICP-MS', spec: '< 10 ppm total' }],
-    lal: [{ test: 'Bacterial endotoxin', method: 'LAL kinetic chromogenic', spec: '< 5 EU/mg' }],
+  // ---- Issue form (type-aware) ----
+  const METHODS = {
+    peptide: ['Qualitative and Quantitative chemical analysis by Liquid Chromatography Tandem Mass Spectrometry (HPLC-MS/MS)', 'Agilent 1290 Infinity II with Agilent 6495 QQQ'],
+    blend: ['Qualitative and Quantitative chemical analysis by Liquid Chromatography Tandem Mass Spectrometry (HPLC-MS/MS)', 'Agilent 1290 Infinity II with Agilent 6495 QQQ'],
+    heavy_metals: ['Heavy Metals Analysis · ICP-MS · ICH Q3D Class 1 · Parenteral', 'Agilent 8800 ICP-MS QQQ'],
+    endotoxin: ['Kinetic Chromogenic LAL/TAL Endotoxin Test (USP <85>)', 'FireGene kit · kinetic chromogenic (quantitative)'],
   };
-  function addRow(v = {}) {
-    const outcome = el('select', { name: 'outcome', ariaLabel: 'Outcome' },
-      ...['pass', 'fail', 'report'].map((o) => el('option', { value: o, selected: (v.outcome || 'pass') === o }, o[0].toUpperCase() + o.slice(1))));
-    const row = el('div', { className: 'row' },
-      el('input', { name: 'test', placeholder: 'Test', value: v.test || '', ariaLabel: 'Test' }),
-      el('input', { name: 'method', placeholder: 'Method', value: v.method || '', ariaLabel: 'Method' }),
-      el('input', { name: 'result', placeholder: 'Result', value: v.result || '', ariaLabel: 'Result' }),
-      el('input', { name: 'spec', placeholder: 'Specification', value: v.spec || '', ariaLabel: 'Specification' }),
-      outcome,
-      el('button', { type: 'button', className: 'iconbtn', title: 'Remove row', ariaLabel: 'Remove row', onclick: () => row.remove() }, '×'));
-    $('#rows').append(row);
-  }
-  const addPreset = (k) => PRESETS[k].forEach(addRow);
-  $('#presetCore').addEventListener('click', () => addPreset('core'));
-  $('#presetMetals').addEventListener('click', () => addPreset('metals'));
-  $('#presetLal').addEventListener('click', () => addPreset('lal'));
-  $('#addRow').addEventListener('click', () => addRow());
+  const METALS = [['Pb', 'Lead', 5], ['Cd', 'Cadmium', 2], ['As', 'Arsenic', 15], ['Hg', 'Mercury', 3]];
+  const CUSTODY = ['Sample received & logged', 'Sample preparation', 'Instrument analysis', 'Second-analyst review', 'Certificate released'];
 
-  // ---- Issue ----
+  const input = (name, props = {}) => el('input', { name, ariaLabel: props.placeholder || name, ...props });
+  const removeBtn = (row) => el('button', { type: 'button', className: 'iconbtn', title: 'Remove', ariaLabel: 'Remove row', onclick: () => row.remove() }, '×');
+  const ROWS = {
+    blend(v = {}) {
+      const row = el('div', { className: 'row row--blend' });
+      row.append(input('name', { placeholder: 'Peptide', value: v.name || '' }), input('claimMg', { placeholder: 'Claim', inputMode: 'decimal' }),
+        input('netMg', { placeholder: 'Net', inputMode: 'decimal' }), input('purityPct', { placeholder: 'Purity', inputMode: 'decimal' }),
+        input('fillPct', { placeholder: 'auto', inputMode: 'decimal' }), removeBtn(row));
+      $('#rows-blend').append(row);
+    },
+    metals([symbol = '', name = '', limit = ''] = []) {
+      const row = el('div', { className: 'row row--metals' });
+      const status = el('select', { name: 'status', ariaLabel: 'Status' },
+        el('option', { value: 'auto' }, 'Auto'), el('option', { value: 'ok' }, 'Conforms'), el('option', { value: 'warn' }, 'Warning'), el('option', { value: 'fail' }, 'Fail'));
+      row.append(input('symbol', { placeholder: 'Symbol', value: symbol }), input('name', { placeholder: 'Element', value: name }),
+        input('result', { placeholder: 'e.g. 0.021 or <0.005' }), input('limit', { placeholder: 'Limit', value: String(limit), inputMode: 'decimal' }), status, removeBtn(row));
+      $('#rows-metals').append(row);
+    },
+    custody(event = '') {
+      const row = el('div', { className: 'row row--custody' });
+      row.append(input('event', { placeholder: 'Step', value: event }), input('date', { type: 'date' }), input('by', { placeholder: 'By (initials / role)' }), removeBtn(row));
+      $('#rows-custody').append(row);
+    },
+  };
+  $$('[data-add]').forEach((b) => b.addEventListener('click', () => ROWS[b.dataset.add]()));
+
+  function resetIssueForm() {
+    $('#issueForm').reset();
+    ['blend', 'metals', 'custody'].forEach((k) => $(`#rows-${k}`).replaceChildren());
+    ROWS.blend(); ROWS.blend();
+    METALS.forEach((m) => ROWS.metals(m));
+    CUSTODY.forEach((c) => ROWS.custody(c));
+    applyType();
+  }
+
+  function applyType() {
+    const type = $('#type').value;
+    $$('.typeset').forEach((fs) => { fs.hidden = fs.dataset.type !== type; });
+    $$('[data-for]').forEach((f) => { f.hidden = !f.dataset.for.split(' ').includes(type); });
+    [$('#mTitle').value, $('#mInst').value] = METHODS[type];
+  }
+  $('#type').addEventListener('change', applyType);
+
+  const toNum = (v) => {
+    const s = String(v ?? '').trim().replace(',', '.');
+    if (!s) return null;
+    const n = Number(s);
+    if (!Number.isFinite(n)) throw new Error(`"${v}" is not a number.`);
+    return n;
+  };
+  const setPath = (obj, path, value) => {
+    const [a, b] = path.split('.');
+    (obj[a] ||= {})[b] = value;
+  };
+  const rowsOf = (id, keys) => $$(`#${id} .row`).map((r) => Object.fromEntries(keys.map((k) => [k, $(`[name=${k}]`, r).value.trim()])));
+
+  function collectData(type) {
+    const data = {};
+    $$('#issueForm [data-k]').forEach((i) => {
+      const [group] = i.dataset.k.split('.');
+      const wanted = ['sample', 'method', type === 'heavy_metals' ? 'metals' : type].includes(group);
+      if (!wanted || i.closest('[hidden]')) return;
+      const v = 'num' in i.dataset ? toNum(i.value) : i.value.trim();
+      if (v !== '' && v !== null) setPath(data, i.dataset.k, v);
+    });
+    if (type === 'blend') {
+      const components = rowsOf('rows-blend', ['name', 'claimMg', 'netMg', 'purityPct', 'fillPct']).filter((c) => c.name).map((c) => {
+        const claimMg = toNum(c.claimMg); const netMg = toNum(c.netMg);
+        const fillPct = toNum(c.fillPct) ?? (claimMg && netMg != null ? Math.round((netMg / claimMg) * 1000) / 10 : null);
+        return { name: c.name, claimMg, netMg, purityPct: toNum(c.purityPct), fillPct };
+      });
+      if (!components.length) throw new Error('Add at least one blend component.');
+      const totalNetMg = Math.round(components.reduce((a, c) => a + (c.netMg || 0), 0) * 100) / 100;
+      const totalClaim = components.reduce((a, c) => a + (c.claimMg || 0), 0);
+      data.blend = { components, totalNetMg, totalFillPct: totalClaim ? Math.round((totalNetMg / totalClaim) * 1000) / 10 : null };
+      data.sample = { ...data.sample, components: `${components.length} peptides`, totalClaim: `${totalClaim.toFixed(2)} mg`, totalNet: `${totalNetMg.toFixed(2)} mg` };
+    }
+    if (type === 'heavy_metals') {
+      const elements = rowsOf('rows-metals', ['symbol', 'name', 'result', 'limit', 'status']).filter((m) => m.symbol).map((m) => {
+        const limit = toNum(m.limit);
+        const value = parseFloat(m.result.replace(/[^0-9.]/g, ''));
+        const status = m.status !== 'auto' ? m.status : (Number.isFinite(value) && limit != null && value > limit ? 'fail' : 'ok');
+        return { symbol: m.symbol, name: m.name, result: m.result, limit, status };
+      });
+      if (!elements.length) throw new Error('Add at least one element.');
+      data.metals = { unit: 'µg/g', ...data.metals, elements };
+    }
+    if (type === 'endotoxin') {
+      const e = data.endotoxin || {};
+      if (e.measured == null || e.limit == null) throw new Error('Enter the measured endotoxin and the limit.');
+      e.status = e.measured <= e.limit ? 'ok' : 'fail';
+      e.unit ||= 'EU/mL';
+      e.conclusion = `Measured endotoxin ${e.measured} ${e.unit} is ${e.status === 'ok' ? 'within' : 'above'} the ${e.limit} ${e.unit} limit.`;
+      data.endotoxin = e;
+    }
+    const custody = rowsOf('rows-custody', ['event', 'date', 'by']).filter((c) => c.event);
+    if (custody.length) data.custody = custody;
+    return data;
+  }
+
   $('#issueForm').addEventListener('submit', async (e) => {
     e.preventDefault();
     const f = e.currentTarget;
     $('#issueErr').textContent = '';
     const d = Object.fromEntries(new FormData(f));
-    const results = $$('#rows .row').map((r) => Object.fromEntries(
-      ['test', 'method', 'result', 'spec', 'outcome'].map((k) => [k, $(`[name=${k}]`, r).value.trim()]),
-    )).filter((r) => r.test || r.result);
     try {
+      if (!d.compound?.trim()) throw new Error('Compound is required.');
+      const data = collectData(d.type);
       const rep = await api('/reports', {
         method: 'POST',
         body: {
-          id: d.id || undefined, analyte: d.analyte, lot: d.lot, client: d.client, sampleDesc: d.sampleDesc,
-          received: d.received, released: d.released, notes: d.notes, results,
+          type: d.type, id: d.id || undefined, compound: d.compound, labelClaim: d.labelClaim, client: d.client,
+          labId: d.labId, lot: d.lot, issued: d.issued, notes: d.notes, data,
         },
       });
-      f.reset(); $('#rows').replaceChildren(); addPreset('core');
+      resetIssueForm();
       toast(`${rep.id} created`);
       openDetail(rep.id);
     } catch (err) { $('#issueErr').textContent = err.message; }
@@ -151,11 +232,12 @@
     qr.innerHTML = svg; // generated locally from our own URL
 
     const kv = el('dl', { className: 'kv' },
-      el('dt', {}, 'Report ID'), el('dd', { className: 'mono' }, r.id),
-      el('dt', {}, 'Access code'), el('dd', { className: 'mono' }, r.code),
+      el('dt', {}, 'Report No.'), el('dd', { className: 'mono' }, r.id),
+      el('dt', {}, 'Verify code'), el('dd', { className: 'mono' }, r.code),
       el('dt', {}, 'Verify URL'), el('dd', { className: 'mono small' }, r.verifyUrl),
       el('dt', {}, 'Status'), el('dd', {}, statusChip(r.status), r.statusReason ? ` — ${r.statusReason}` : '', r.supersededBy ? ` → ${r.supersededBy}` : ''),
-      el('dt', {}, 'Analyte / lot'), el('dd', {}, `${r.analyte}${r.lot ? ` · ${r.lot}` : ''}`),
+      el('dt', {}, 'Type'), el('dd', {}, r.typeLabel),
+      el('dt', {}, 'Compound / lot'), el('dd', {}, `${r.compound}${r.lot ? ` · ${r.lot}` : ''}`),
       el('dt', {}, 'PDF'), el('dd', { className: r.pdf ? 'mono small' : '' }, r.pdf ? `${r.pdf.name} · sha256 ${r.pdf.sha256}` : 'Not attached yet'),
       el('dt', {}, 'Verifications'), el('dd', {}, `${r.verifyCount}${r.lastVerifiedAt ? ` (last ${new Date(r.lastVerifiedAt).toLocaleString()})` : ''}`),
     );
@@ -163,8 +245,8 @@
     const actions = el('div', { className: 'btnrow' },
       el('button', { type: 'button', className: 'btn btn--ghost btn--sm', onclick: () => download(`${r.id}-qr.svg`, svg, 'image/svg+xml') }, 'Download QR (SVG)'),
       el('button', { type: 'button', className: 'btn btn--ghost btn--sm', onclick: () => copy(r.verifyUrl) }, 'Copy verify URL'),
-      el('button', { type: 'button', className: 'btn btn--ghost btn--sm', onclick: () => copy(`Report ID: ${r.id}\nAccess code: ${r.code}\nVerify: ${r.verifyUrl}`) }, 'Copy COA text'),
-      el('a', { className: 'btn btn--ghost btn--sm', href: r.verifyUrl, target: '_blank', rel: 'noopener' }, 'Open public page'),
+      el('button', { type: 'button', className: 'btn btn--ghost btn--sm', onclick: () => copy(`Report No.: ${r.id}\nVerify code: ${r.code}\nVerify: ${r.verifyUrl}`) }, 'Copy COA text'),
+      el('a', { className: 'btn btn--ghost btn--sm', href: r.verifyUrl, target: '_blank', rel: 'noopener' }, 'Open verified report'),
     );
 
     const parts = [el('h2', {}, `${r.id}`), el('div', { className: 'issued' }, qr, el('div', {}, kv, actions))];
@@ -237,11 +319,11 @@
   }
   function renderReports() {
     const q = $('#filter').value.trim().toLowerCase();
-    const rows = allReports.filter((r) => !q || [r.id, r.analyte, r.lot, r.client].some((v) => v && v.toLowerCase().includes(q)));
+    const rows = allReports.filter((r) => !q || [r.id, r.compound, r.lot, r.client].some((v) => v && v.toLowerCase().includes(q)));
     $('#reportRows').replaceChildren(...rows.map((r) => {
       const tr = el('tr', { className: 'clickable', tabIndex: 0 },
-        el('td', { className: 'mono' }, r.id), el('td', {}, r.analyte), el('td', {}, r.lot || '—'), el('td', {}, r.client || '—'),
-        el('td', {}, r.released || '—'), el('td', {}, statusChip(r.status)),
+        el('td', { className: 'mono' }, r.id), el('td', {}, r.typeLabel), el('td', {}, r.compound), el('td', {}, r.lot || '—'), el('td', {}, r.client || '—'),
+        el('td', {}, r.issued || '—'), el('td', {}, statusChip(r.status)),
         el('td', {}, r.pdf ? '✓' : el('span', { className: 'chip' }, 'missing')),
         el('td', {}, String(r.verifyCount)),
         el('td', {}, r.alerts ? el('span', { className: 'chip chip--bad' }, String(r.alerts)) : '0'));

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <meta name="referrer" content="no-referrer">
-  <title>COA Admin — SideChain Analytics</title>
+  <title>Report Admin — SideChain Analytics</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,8..36,400;0,8..36,500;0,8..36,600;1,8..36,400;1,8..36,500&display=swap" rel="stylesheet">
@@ -24,7 +24,6 @@
   </header>
 
   <main class="admin container">
-    <!-- Login -->
     <form class="panel login" id="login" hidden>
       <p class="eyebrow m0">Staff only</p>
       <h2 class="m0">Sign in</h2>
@@ -36,56 +35,129 @@
 
     <div id="app" hidden>
       <div class="admin-tabs" role="tablist">
-        <button role="tab" aria-selected="true" data-view="issue">Issue report</button>
-        <button role="tab" aria-selected="false" data-view="reports">Reports</button>
+        <button role="tab" aria-selected="true" data-view="issue">Issue certificate</button>
+        <button role="tab" aria-selected="false" data-view="reports">Certificates</button>
         <button role="tab" aria-selected="false" data-view="activity">Activity &amp; alerts</button>
       </div>
 
       <!-- Issue -->
       <section data-pane="issue">
-        <form class="panel" id="issueForm">
-          <h2>New certificate</h2>
+        <form class="panel" id="issueForm" novalidate>
+          <h2>New certificate record</h2>
           <ol class="steps-inline">
-            <li>Create the record here — you get the <b>report ID</b>, <b>access code</b> and <b>QR code</b>.</li>
-            <li>Print all three on the COA and export the final PDF.</li>
-            <li>Upload that final PDF to lock in its fingerprint. After this the report can't be edited — corrections are issued as a new report that supersedes it.</li>
+            <li>Enter the certificate here — you get the <b>report number</b>, <b>verify code</b> and <b>QR code</b>.</li>
+            <li>Print all three on the certificate and export the final PDF.</li>
+            <li>Upload that PDF to lock its fingerprint. After this the record can't be edited — corrections are issued as a new certificate that supersedes it.</li>
           </ol>
+
+          <h3 class="admin__h">Certificate</h3>
           <div class="grid3">
-            <label class="field"><span>Analyte *</span><input name="analyte" required placeholder="e.g. BPC-157"></label>
-            <label class="field"><span>Lot / batch</span><input name="lot"></label>
-            <label class="field"><span>Submitted by (client)</span><input name="client"></label>
-            <label class="field"><span>Received</span><input name="received" type="date"></label>
-            <label class="field"><span>Released</span><input name="released" type="date"></label>
-            <label class="field"><span>Report ID <em>(blank = next number)</em></span><input name="id" class="mono up" placeholder="COA-2026-SC-… (auto)"></label>
+            <label class="field"><span>Report type *</span>
+              <select name="type" id="type">
+                <option value="peptide">Identity · Purity (single peptide)</option>
+                <option value="blend">Blend Composition</option>
+                <option value="heavy_metals">Heavy Metals (-HM)</option>
+                <option value="endotoxin">Bacterial Endotoxin (-EN)</option>
+              </select>
+            </label>
+            <label class="field"><span>Compound *</span><input name="compound" required placeholder="e.g. BPC-157 or KLOW"></label>
+            <label class="field"><span>Label claim</span><input name="labelClaim" placeholder="e.g. 5 mg"></label>
+            <label class="field"><span>Client</span><input name="client"></label>
+            <label class="field"><span>Lab ID</span><input name="labId" class="mono up"></label>
+            <label class="field"><span>Lot number</span><input name="lot"></label>
+            <label class="field"><span>Issued</span><input name="issued" type="date"></label>
+            <label class="field"><span>Report number <em>(blank = next)</em></span><input name="id" class="mono up" placeholder="COA-2026-SC-… (auto)"></label>
           </div>
-          <label class="field mt"><span>Sample description</span><input name="sampleDesc" placeholder="e.g. Lyophilised powder, 5 mg vial"></label>
+
+          <h3 class="admin__h">§ 01 Sample information</h3>
+          <div class="grid3">
+            <label class="field"><span>Sample ID</span><input data-k="sample.sampleId" class="mono up"></label>
+            <label class="field"><span>Total mass</span><input data-k="sample.totalMass" placeholder="e.g. 27.4 mg"></label>
+            <label class="field"><span>Appearance</span><input data-k="sample.appearance" value="Lyophilized powder"></label>
+            <label class="field"><span>Received</span><input data-k="sample.received" type="date"></label>
+            <label class="field"><span>Analyzed</span><input data-k="sample.analyzed" type="date"></label>
+            <label class="field" data-for="peptide heavy_metals endotoxin"><span>CAS</span><input data-k="sample.cas"></label>
+            <label class="field" data-for="peptide heavy_metals endotoxin"><span>Formula</span><input data-k="sample.formula" placeholder="e.g. C62H98N16O22"></label>
+            <label class="field" data-for="peptide heavy_metals endotoxin"><span>Mol weight</span><input data-k="sample.molWeight" placeholder="e.g. 1419.5 g/mol"></label>
+          </div>
+
+          <h3 class="admin__h">§ 02 Method</h3>
+          <div class="grid2">
+            <label class="field"><span>Method</span><input data-k="method.title" id="mTitle"></label>
+            <label class="field"><span>Instrument</span><input data-k="method.instrument" id="mInst"></label>
+          </div>
+
+          <!-- Peptide -->
+          <fieldset class="typeset" data-type="peptide">
+            <h3 class="admin__h">§ 02 Results — single peptide</h3>
+            <div class="grid3">
+              <label class="field"><span>Identity</span><input data-k="peptide.identity" placeholder="confirmed principal component"></label>
+              <label class="field"><span>Net peptide content (mg)</span><input data-k="peptide.netContentMg" data-num inputmode="decimal"></label>
+              <label class="field"><span>Fill accuracy (%) <em>blank = —</em></span><input data-k="peptide.fillAccuracyPct" data-num inputmode="decimal"></label>
+              <label class="field"><span>Chromatographic purity (%)</span><input data-k="peptide.purityPct" data-num inputmode="decimal"></label>
+              <label class="field"><span>MRM transition</span><input data-k="peptide.mrm" placeholder="710.4 › 70.1 (quantifier)"></label>
+              <label class="field"><span>Retention time</span><input data-k="peptide.retentionTime" placeholder="4.82 min"></label>
+            </div>
+          </fieldset>
+
+          <!-- Blend -->
+          <fieldset class="typeset" data-type="blend" hidden>
+            <div class="admin__bar admin__bar--results">
+              <h3 class="admin__h m0">§ 02 Results — blend components</h3>
+              <button type="button" class="btn btn--ghost btn--sm" data-add="blend">+ Component</button>
+            </div>
+            <div class="rowhead rowhead--blend"><span>Peptide</span><span>Claim (mg)</span><span>Net (mg)</span><span>Purity (%)</span><span>Fill (%) <em>auto</em></span><span></span></div>
+            <div class="rows" id="rows-blend"></div>
+            <p class="small muted mt">Totals and composition are calculated from the components.</p>
+          </fieldset>
+
+          <!-- Heavy metals -->
+          <fieldset class="typeset" data-type="heavy_metals" hidden>
+            <div class="admin__bar admin__bar--results">
+              <h3 class="admin__h m0">§ 02 Results — elements (µg/g)</h3>
+              <button type="button" class="btn btn--ghost btn--sm" data-add="metals">+ Element</button>
+            </div>
+            <div class="rowhead rowhead--metals"><span>Symbol</span><span>Element</span><span>Result</span><span>Limit</span><span>Status</span><span></span></div>
+            <div class="rows" id="rows-metals"></div>
+            <div class="grid2 mt">
+              <label class="field"><span>Conclusion</span><input data-k="metals.conclusion" value="Class 1 heavy-metal screen: conforms"></label>
+              <label class="field"><span>Basis note</span><input data-k="metals.note" value="Class-1 limit = ICH Q3D Parenteral PDE (Cd 2.0 · Pb 5.0 · As 15.0 · Hg 3.0) · Units µg/g (≡ ppm)"></label>
+            </div>
+          </fieldset>
+
+          <!-- Endotoxin -->
+          <fieldset class="typeset" data-type="endotoxin" hidden>
+            <h3 class="admin__h">§ 02 Results — endotoxin</h3>
+            <div class="grid3">
+              <label class="field"><span>Measured</span><input data-k="endotoxin.measured" data-num inputmode="decimal"></label>
+              <label class="field"><span>Limit</span><input data-k="endotoxin.limit" data-num inputmode="decimal" value="1"></label>
+              <label class="field"><span>Unit</span><input data-k="endotoxin.unit" value="EU/mL"></label>
+            </div>
+            <p class="small muted mt">Status and conclusion are derived from measured vs limit.</p>
+          </fieldset>
 
           <div class="admin__bar admin__bar--results">
-            <h2 class="m0">Results</h2>
-            <div class="btnrow">
-              <button type="button" class="btn btn--ghost btn--sm" id="presetCore">+ Core panel</button>
-              <button type="button" class="btn btn--ghost btn--sm" id="presetMetals">+ ICP-MS</button>
-              <button type="button" class="btn btn--ghost btn--sm" id="presetLal">+ LAL</button>
-              <button type="button" class="btn btn--ghost btn--sm" id="addRow">+ Row</button>
-            </div>
+            <h3 class="admin__h m0">§ 03 Record &amp; chain of custody</h3>
+            <button type="button" class="btn btn--ghost btn--sm" data-add="custody">+ Step</button>
           </div>
-          <div class="rows" id="rows"></div>
+          <div class="rowhead rowhead--custody"><span>Step</span><span>Date</span><span>By</span><span></span></div>
+          <div class="rows" id="rows-custody"></div>
 
           <label class="field mt"><span>Notes <em>(shown publicly)</em></span><textarea name="notes" rows="2"></textarea></label>
-          <p class="err" id="issueErr"></p>
+          <p class="err mt" id="issueErr"></p>
           <div class="mt"><button class="btn" type="submit">Create record</button></div>
         </form>
       </section>
 
-      <!-- Reports -->
+      <!-- Certificates -->
       <section data-pane="reports" hidden>
         <div class="panel">
-          <div class="admin__bar"><h2 class="m0">Reports <span class="muted" id="total"></span></h2>
-            <input id="filter" class="filter" placeholder="Filter by ID, analyte, lot, client…" aria-label="Filter reports">
+          <div class="admin__bar"><h2 class="m0">Certificates <span class="muted" id="total"></span></h2>
+            <input id="filter" class="filter" placeholder="Filter by number, compound, lot, client…" aria-label="Filter certificates">
           </div>
           <div class="table-wrap">
             <table class="table">
-              <thead><tr><th>ID</th><th>Analyte</th><th>Lot</th><th>Client</th><th>Released</th><th>Status</th><th>PDF</th><th>Checks</th><th>Alerts</th></tr></thead>
+              <thead><tr><th>Report No.</th><th>Type</th><th>Compound</th><th>Lot</th><th>Client</th><th>Issued</th><th>Status</th><th>PDF</th><th>Checks</th><th>Alerts</th></tr></thead>
               <tbody id="reportRows"></tbody>
             </table>
           </div>
@@ -99,7 +171,7 @@
             <h2 class="m0">Verification activity</h2>
             <label class="small"><input type="checkbox" id="alertsOnly"> Alerts only</label>
           </div>
-          <p class="small muted">Alerts: a wrong access code on a real report ID (<span class="mono">bad_code</span>), a PDF that doesn't match the original (<span class="mono">hash_mismatch</span>), or an unknown PDF (<span class="mono">file_unknown</span>). Repeated alerts on one report usually mean an edited copy is circulating.</p>
+          <p class="small muted">Alerts: a wrong verify code on a real report number (<span class="mono">bad_code</span>), a PDF that doesn't match the original (<span class="mono">hash_mismatch</span>), or an unknown PDF (<span class="mono">file_unknown</span>). Repeated alerts on one certificate usually mean an edited copy is circulating.</p>
           <div class="table-wrap">
             <table class="table">
               <thead><tr><th>Time</th><th>Report</th><th>Event</th><th>Visitor</th><th>Detail</th></tr></thead>
@@ -109,7 +181,6 @@
         </div>
       </section>
 
-      <!-- Detail (shared by issue + reports) -->
       <section class="panel" id="detail" hidden></section>
     </div>
   </main>

@@ -33,8 +33,15 @@ async function call(path, { method = 'GET', body, admin = false, ip = nextIp() }
 async function issue(extra = {}) {
   const r = await call('/api/admin/reports', {
     method: 'POST', admin: true,
-    body: { analyte: 'BPC-157', lot: 'LOT-1', client: 'Acme', released: '2026-09-19',
-      results: [{ test: 'Purity', method: 'HPLC', result: '99.1%', spec: '>=98%', outcome: 'pass' }], ...extra },
+    body: {
+      type: 'peptide', compound: 'BPC-157', labelClaim: '5 mg', lot: 'LOT-1', client: 'Acme', issued: '2026-09-19',
+      data: {
+        sample: { sampleId: 'S-1', totalMass: '27.4 mg' },
+        peptide: { identity: 'BPC-157', netContentMg: 4.96, purityPct: 99.1, fillAccuracyPct: null },
+        custody: [{ event: 'Received', date: '2026-09-14', by: 'AK' }],
+      },
+      ...extra,
+    },
   });
   assert.equal(r.status, 201, JSON.stringify(r.data));
   return r.data;
@@ -69,9 +76,9 @@ test('issuing assigns sequential IDs and a formatted access code', async () => {
 test('custom IDs are validated and must be unique', async () => {
   const r = await issue({ id: 'legacy-001' });
   assert.equal(r.id, 'LEGACY-001');
-  const dup = await call('/api/admin/reports', { method: 'POST', admin: true, body: { id: 'LEGACY-001', analyte: 'X' } });
+  const dup = await call('/api/admin/reports', { method: 'POST', admin: true, body: { id: 'LEGACY-001', type: 'peptide', compound: 'X' } });
   assert.equal(dup.status, 409);
-  const bad = await call('/api/admin/reports', { method: 'POST', admin: true, body: { id: '../etc', analyte: 'X' } });
+  const bad = await call('/api/admin/reports', { method: 'POST', admin: true, body: { id: '../etc', type: 'peptide', compound: 'X' } });
   assert.equal(bad.status, 400);
 });
 
@@ -79,8 +86,11 @@ test('public lookup requires the correct access code, and hides which part was w
   const r = await issue();
   const ok = await call(`/api/coa/${r.id}?k=${r.code}`);
   assert.equal(ok.status, 200);
-  assert.equal(ok.data.analyte, 'BPC-157');
-  assert.equal(ok.data.results[0].result, '99.1%');
+  assert.equal(ok.data.compound, 'BPC-157');
+  assert.equal(ok.data.type, 'peptide');
+  assert.equal(ok.data.typeLabel, 'Identity · Purity');
+  assert.equal(ok.data.data.peptide.purityPct, 99.1);
+  assert.equal(ok.data.data.custody[0].event, 'Received');
   assert.equal(ok.data.code, undefined, 'code must not be echoed back');
 
   // Code is normalised: lowercase, no dash
@@ -175,4 +185,26 @@ test('static files are served with security headers and no traversal', async () 
   assert.equal((await call('/admin')).headers.get('x-robots-tag'), 'noindex, nofollow');
   assert.equal((await call('/..%2fserver%2fapp.js')).status, 404);
   assert.equal((await call('/%2e%2e/package.json')).status, 404);
+});
+
+test('heavy-metal and endotoxin reports get the lab\'s -HM / -EN suffix', async () => {
+  const hm = await issue({ type: 'heavy_metals', compound: 'Tirzepatide', data: { metals: { elements: [{ symbol: 'Pb', result: '0.02', limit: 5, status: 'ok' }] } } });
+  assert.match(hm.id, /^COA-\d{4}-SC-\d{5}-HM$/);
+  const en = await issue({ type: 'endotoxin', compound: 'Semaglutide', data: { endotoxin: { measured: 0.05, limit: 1 } } });
+  assert.match(en.id, /^COA-\d{4}-SC-\d{5}-EN$/);
+  assert.equal(Number(en.id.slice(12, 17)), Number(hm.id.slice(12, 17)) + 1, 'suffixed reports share one number sequence');
+  const next = await issue();
+  assert.equal(Number(next.id.slice(-5)), Number(en.id.slice(12, 17)) + 1);
+});
+
+test('report data is type-checked and bounded', async () => {
+  const post = (body) => call('/api/admin/reports', { method: 'POST', admin: true, body: { type: 'peptide', compound: 'X', ...body } });
+  assert.equal((await post({ type: 'nope' })).status, 400);
+  assert.equal((await post({ compound: '' })).status, 400);
+  assert.equal((await post({ data: { peptide: { purityPct: 'x'.repeat(2000) } } })).status, 400);
+  assert.equal((await post({ data: { 'bad key': 1 } })).status, 400);
+  assert.equal((await post({ data: { a: { b: { c: { d: { e: 1 } } } } } })).status, 400, 'too deep');
+  assert.equal((await post({ data: [1, 2] })).status, 400, 'must be an object');
+  const ok = await post({ data: { peptide: { note: '<script>alert(1)</script>' } } });
+  assert.equal(ok.status, 201, 'markup is stored as plain text; the page renders it with textContent');
 });

@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Peptide Testing in Canada — SideChain Analytics</title>
-  <meta name="description" content="Independent peptide identity, purity and net peptide content testing by HPLC-MS/MS, with verifiable, tamper-evident reports from our Mississauga, Ontario laboratory.">
+  <title>Report Verification — SideChain Analytics</title>
+  <meta name="description" content="Verify a SideChain Analytics Certificate of Analysis: confirm it was issued by the laboratory, view the full recorded results, and check the PDF has not been altered.">
   <meta name="theme-color" content="#143A3F">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,30 +17,26 @@
 
   <div class="topbar">
     <div class="container topbar__inner">
-      <span class="topbar__tag">Independent third-party protein chemistry &amp; peptide analytics laboratory</span>
-      <a href="mailto:info@sidechainanalytics.com">info@sidechainanalytics.com</a>
+      <span class="topbar__tag">Certificate of Analysis verification portal</span>
+      <a href="https://www.sidechainanalytics.com/">sidechainanalytics.com →</a>
     </div>
   </div>
 
   <header class="nav">
     <div class="container nav__inner">
-      <a href="/" class="brand" aria-label="SideChain Analytics home">
+      <a href="/" class="brand" aria-label="SideChain Analytics report verification">
         <span class="brand__mark">SC</span>
-        <span class="brand__text"><span class="brand__name">SIDECHAIN</span><span class="brand__sub">ANALYTICS</span></span>
+        <span class="brand__text"><span class="brand__name">SIDECHAIN</span><span class="brand__sub">REPORT VERIFICATION</span></span>
       </a>
       <div class="nav__menu" id="navLinks">
         <nav class="nav__links" aria-label="Primary">
-          <a href="#capabilities">Capabilities</a>
-          <a href="#panel">Panel</a>
-          <a href="#method">Methods</a>
-          <a href="/verify">Verify</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <a href="#checks">What we check</a>
+          <a href="#types">Report types</a>
+          <a href="#reading">Reading a report</a>
+          <a href="#faq">FAQ</a>
         </nav>
         <div class="nav__actions">
-          <a href="https://www.sidechainanalytics.com/register/customer">Register to order</a>
-          <a href="https://www.sidechainanalytics.com/login">Client login</a>
-          <a href="https://www.sidechainanalytics.com/login/staff" class="btn btn--ghost">Staff login</a>
+          <a href="https://www.sidechainanalytics.com/" class="btn btn--ghost">Laboratory site</a>
         </div>
       </div>
       <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu"><span></span><span></span></button>
@@ -48,341 +44,206 @@
   </header>
 
   <main id="main">
-    <!-- HERO -->
-    <section class="hero">
+    <!-- HERO + VERIFY -->
+    <section class="hero hero--verify">
       <svg class="hero__art" viewBox="0 0 1400 240" preserveAspectRatio="none" aria-hidden="true">
         <path d="M0 238 L120 236 C150 236 160 80 175 80 C190 80 200 236 230 236 L290 236 C310 236 318 10 332 10 C346 10 356 236 380 236 L460 236 C480 236 486 180 494 180 C502 180 508 236 530 236 L640 236 C660 236 668 130 678 130 C688 130 696 236 716 236 L1400 238"/>
       </svg>
       <div class="container hero__grid">
         <div>
-          <p class="eyebrow">Trusted purity data behind every vial.</p>
-          <h1>Independent peptide testing <em>in Canada.</em></h1>
-          <p class="hero__lead">SideChain Analytics is an independent, third-party analytical chemistry lab based in Mississauga, in the Greater Toronto Area. We confirm identity, purity, and net peptide content by HPLC-MS/MS — and bring the same precision to proteins, small molecules, and custom analytical work — issued as a plain-spoken analytical report that everyone reads the same way.</p>
-          <div class="hero__ctas">
-            <a href="#capabilities" class="btn arrow">Our capabilities</a>
-            <a href="/verify" class="btn btn--ghost arrow">Verify a report</a>
-          </div>
+          <p class="eyebrow">Certificate verification</p>
+          <h1>Verify a SideChain <em>analysis report.</em></h1>
+          <p class="hero__lead">Every Certificate of Analysis we issue is recorded here. Confirm a report is genuine, read the full results exactly as the laboratory recorded them, and check that the PDF in front of you hasn't been altered — no account required.</p>
+          <ul class="hero__points">
+            <li>Issued by the laboratory</li>
+            <li>Unaltered since release</li>
+            <li>Current — not withdrawn</li>
+          </ul>
         </div>
 
-        <aside class="preview" aria-label="Sample report">
-          <div class="preview__head"><p class="eyebrow">Sample report</p></div>
-          <div class="doc">
-            <div class="doc__top">
-              <span class="brand"><span class="brand__mark">SC</span><span class="brand__text"><span class="brand__name">SIDECHAIN</span><span class="brand__sub">ANALYTICS</span></span></span>
-              <div class="doc__qr" id="docQr" aria-hidden="true"></div>
-            </div>
-            <span class="doc__type">Certificate of analysis · Pure peptide</span>
-            <h4>BPC-157</h4>
-            <p class="doc__sub">Lyophilised powder · 5 mg label claim</p>
-            <dl class="doc__meta">
-              <dt>Report No.</dt><dd>COA-2026-SC-00417</dd>
-              <dt>Verify code</dt><dd>DEMO-2026</dd>
-              <dt>Lot</dt><dd>BPC-240912-A</dd>
-            </dl>
-            <table>
-              <thead><tr><th>Test</th><th>Result</th><th>Status</th></tr></thead>
-              <tbody>
-                <tr><td>Identity (MRM)</td><td>Conforms</td><td>Pass</td></tr>
-                <tr><td>Purity</td><td>99.2%</td><td>Pass</td></tr>
-                <tr><td>Net peptide content</td><td>82.4%</td><td>—</td></tr>
-                <tr><td>Heavy metals</td><td>&lt; LOQ</td><td>Pass</td></tr>
-              </tbody>
-            </table>
-            <div class="doc__foot"><span class="doc__seal">Verified · unaltered</span><span>Illustrative example</span></div>
+        <div class="vpanel" id="vpanel">
+          <div class="vpanel__head">
+            <p class="vbox__title">Verify a report</p>
+            <p class="vbox__sub">Use the details printed on the certificate, or the PDF itself.</p>
           </div>
-          <p class="preview__note">Scan the QR, or drop the PDF on our verify page — any edit is detected.</p>
-          <a class="textlink arrow" href="/verify?id=COA-2026-SC-00417&amp;k=DEMO-2026">Verify this sample report </a>
-        </aside>
+          <div class="tabs" role="tablist" aria-label="Verification method">
+            <button role="tab" id="tab-id" aria-controls="pane-id" aria-selected="true">Report № &amp; code</button>
+            <button role="tab" id="tab-file" aria-controls="pane-file" aria-selected="false" tabindex="-1">Upload PDF</button>
+          </div>
+
+          <form role="tabpanel" id="pane-id" aria-labelledby="tab-id" class="pane" action="/verify" method="get" novalidate>
+            <label class="field">
+              <span>Report number</span>
+              <input name="id" id="fId" class="finput mono" placeholder="COA-2026-SC-00000" autocomplete="off" spellcheck="false" required>
+            </label>
+            <label class="field">
+              <span>Verify code</span>
+              <input name="k" id="fCode" class="finput mono" placeholder="XXXX-XXXX" autocomplete="off" spellcheck="false" maxlength="12" required>
+            </label>
+            <button class="btn btn--block" type="submit">Verify report</button>
+            <p class="small muted pane__hint">Or scan the QR code on the report — no form needed.</p>
+          </form>
+
+          <div role="tabpanel" id="pane-file" aria-labelledby="tab-file" class="pane" hidden>
+            <label class="drop" id="dropMain">
+              <input type="file" accept="application/pdf,.pdf" id="fileMain" hidden>
+              <span class="drop__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M12 18v-6M9 15l3-3 3 3"/></svg></span>
+              <b>Drop the certificate PDF</b>
+              <span class="muted small">or click to choose a file</span>
+            </label>
+            <p class="privacy small">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+              The file stays on your device. Only its SHA-256 fingerprint is compared with our records.
+            </p>
+          </div>
+
+          <div id="result" class="vresult" aria-live="polite"></div>
+        </div>
       </div>
     </section>
 
-    <div class="strip">
-      <div class="container strip__row">
-        <span>Agilent 1290 Infinity II · 6495 QQQ</span><i>&amp;</i><span>Agilent 8800 ICP-MS</span><i>·</i><span>36-analyte MRM library</span>
+    <!-- WHAT WE CHECK -->
+    <section id="checks" class="section">
+      <div class="container">
+        <header class="section__head">
+          <span class="kicker">01 · What verification confirms</span>
+          <h2>Three questions, answered against the laboratory's own record.</h2>
+          <p>Our certificates state that they are <em class="serif-i">valid only as currently shown on this site and may be withdrawn.</em> Verification is how you see that current state.</p>
+        </header>
+        <div class="numcols">
+          <div class="numcol"><span class="numcol__n">01</span><div><h3>Was it issued by us?</h3><p>The report number and private verify code must match a certificate in our records. Unknown numbers or wrong codes fail — the same way, so report numbers can't be probed.</p></div></div>
+          <div class="numcol"><span class="numcol__n">02</span><div><h3>Is it unaltered?</h3><p>We keep the cryptographic fingerprint of every PDF we release. Drop your copy and we compare fingerprints: change a single character and it no longer matches.</p></div></div>
+          <div class="numcol"><span class="numcol__n">03</span><div><h3>Is it still current?</h3><p>If a certificate is reissued or withdrawn, verification says so, gives the reason, and points to the replacement report.</p></div></div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <!-- ORDERING -->
+    <!-- REPORT TYPES -->
+    <section id="types" class="section section--cream">
+      <div class="container">
+        <header class="section__head">
+          <span class="kicker">02 · Report types</span>
+          <h2>Four certificates, each verifiable in full.</h2>
+          <p>Verification shows the complete analytical record for each type — not just a yes or no. Open a sample to see exactly what you'll get.</p>
+        </header>
+        <div class="types">
+          <article class="type cap--1">
+            <span class="type__tag mono">COA-YYYY-SC-NNNNN</span>
+            <h3>Identity · Purity</h3>
+            <p class="cap__q">Single peptide · HPLC-MS/MS</p>
+            <p>Identity against a reference standard, net peptide content, fill accuracy against the label claim, and chromatographic purity.</p>
+            <a class="textlink arrow" href="/verify?id=COA-2026-SC-00417&amp;k=DEMO-2026">View sample report </a>
+          </article>
+          <article class="type cap--2">
+            <span class="type__tag mono">COA-YYYY-SC-NNNNN</span>
+            <h3>Blend Composition</h3>
+            <p class="cap__q">Multi-peptide · HPLC-MS/MS</p>
+            <p>Every component resolved from one vial: net content, purity and fill accuracy per peptide, plus total net content and composition.</p>
+            <a class="textlink arrow" href="/verify?id=COA-2026-SC-00418&amp;k=DEMO-2026">View sample report </a>
+          </article>
+          <article class="type cap--4">
+            <span class="type__tag mono">…-HM</span>
+            <h3>Heavy Metals</h3>
+            <p class="cap__q">ICP-MS · ICH Q3D Class 1</p>
+            <p>Lead, cadmium, arsenic and mercury in µg/g, each shown against its parenteral limit with a conformance status.</p>
+            <a class="textlink arrow" href="/verify?id=COA-2026-SC-00419-HM&amp;k=DEMO-2026">View sample report </a>
+          </article>
+          <article class="type cap--5">
+            <span class="type__tag mono">…-EN</span>
+            <h3>Bacterial Endotoxin</h3>
+            <p class="cap__q">Kinetic chromogenic LAL · USP &lt;85&gt;</p>
+            <p>Measured endotoxin in EU/mL against the specified limit, from the same submission.</p>
+            <a class="textlink arrow" href="/verify?id=COA-2026-SC-00420-EN&amp;k=DEMO-2026">View sample report </a>
+          </article>
+        </div>
+        <p class="types__more small muted">Also try a <a href="/verify?id=COA-2026-SC-00416&amp;k=DEMO-2026">superseded report</a>, or download the <a href="/demo/COA-2026-SC-00417.pdf" download>original</a> and an <a href="/demo/COA-2026-SC-00417-edited.pdf" download>edited copy</a> of a sample PDF and drop them above. All samples use verify code <span class="mono">DEMO-2026</span>.</p>
+      </div>
+    </section>
+
+    <!-- WHERE TO FIND -->
     <section class="section">
-      <div class="container">
-        <header class="section__head section__head--center">
-          <span class="kicker">Ordering</span>
-          <h2>How to order a test with SideChain</h2>
-          <p>From vial to Certificate of Analysis in three simple steps.</p>
-        </header>
-        <ol class="steps">
-          <li class="step">
-            <span class="step__num">01</span>
-            <span class="step__icon"><svg viewBox="0 0 24 24"><circle cx="9" cy="20" r="1.3"/><circle cx="18" cy="20" r="1.3"/><path d="M2 3h3l2.6 12.2a1.5 1.5 0 0 0 1.5 1.2h8.3a1.5 1.5 0 0 0 1.5-1.1L21 8H6"/></svg></span>
-            <span class="kicker">Step 01</span>
-            <h3>Order online</h3>
-            <p>Create an account, choose your peptide and its label potency, and check out securely by card.</p>
-          </li>
-          <li class="step">
-            <span class="step__num">02</span>
-            <span class="step__icon"><svg viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8M12 13v8"/></svg></span>
-            <span class="kicker">Step 02</span>
-            <h3>Ship your sample</h3>
-            <p>Send your vial to our Mississauga lab. We confirm the moment it arrives and keep you posted in your portal.</p>
-          </li>
-          <li class="step">
-            <span class="step__num">03</span>
-            <span class="step__icon"><svg viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9.5 14.5l2 2 3.5-4"/></svg></span>
-            <span class="kicker">Step 03</span>
-            <h3>Get your certificate</h3>
-            <p>HPLC-MS/MS identity, purity and net peptide content — released to your portal with a verification code, typically in 5–7 business days.</p>
-          </li>
-        </ol>
-        <div class="center-cta">
-          <a class="btn" href="https://www.sidechainanalytics.com/register/customer">Create an account to order</a>
-          <p>Already registered? <a href="https://www.sidechainanalytics.com/login">Sign in</a></p>
+      <div class="container findit">
+        <div>
+          <span class="kicker">03 · Where to find the details</span>
+          <h2>Top right of every certificate.</h2>
+          <p>The report number and QR code sit in the certificate header next to <em class="serif-i">Scan to verify</em>; the report number is repeated in the footer of every page. The verify code is printed in the Sample Information section.</p>
+          <p>Scanning the QR code opens the report here directly, with both filled in.</p>
+          <p class="small muted">Heavy-metal and endotoxin certificates carry a <span class="mono">-HM</span> or <span class="mono">-EN</span> suffix. Include it.</p>
         </div>
-      </div>
-    </section>
-
-    <!-- CAPABILITIES -->
-    <section id="capabilities" class="section section--cream">
-      <div class="container">
-        <header class="section__head">
-          <p class="eyebrow">01 — Capabilities</p>
-          <h2>Analytical capabilities.</h2>
-          <p>Our analytical methods run on state-of-the-art mass spectrometers — high-resolution instruments matched to the question each one answers. One vial yields a complete analytical record, so once a sample clears the stack you know everything that matters about it.</p>
-        </header>
-        <p class="caps-methods">Identity · Purity · Net peptide content — HPLC-MS/MS &nbsp;·&nbsp; Heavy metals — ICP-MS &nbsp;·&nbsp; Endotoxin — kinetic chromogenic LAL</p>
-        <div class="caps">
-          <article class="cap cap--1">
-            <h3>Identity</h3><p class="cap__q">What is it?</p>
-            <p>Precursor-to-product-ion transitions on the triple-quad confirm the identity of the peptide. Both quantifier and qualifier transitions are reported — and each peptide elutes as a characteristic chromatographic peak at its own retention time.</p>
-            <p class="cap__inst"><b>HPLC-MS/MS</b>Agilent 1290 Infinity II · 6495 QQQ</p>
-          </article>
-          <article class="cap cap--2">
-            <h3>Purity</h3><p class="cap__q">How clean is it?</p>
-            <p>Purity is examined through quantification of active peptide content in the sample. An R² value of 0.999 is routinely achieved in our analysis.</p>
-            <p class="cap__inst"><b>HPLC-MS/MS</b>Agilent 1290 Infinity II · 6495 QQQ</p>
-          </article>
-          <article class="cap cap--3">
-            <h3>Mass</h3><p class="cap__q">Does the mass match?</p>
-            <p>Confirms the molecular mass of the peptide, verifying its molecular structure.</p>
-            <p class="cap__inst"><b>HPLC-MS/MS</b>Agilent 1290 Infinity II · 6495 QQQ</p>
-          </article>
-          <article class="cap cap--4">
-            <h3>Heavy metals</h3><p class="cap__q">Is it contaminant-safe?</p>
-            <p>Trace Cu/Fe/Ni and the As/Pb/Cd/Hg panel, reported in µg/g from the same vial as a quiet add-on.</p>
-            <p class="cap__inst"><b>ICP-MS</b>Agilent 8800 ICP-MS QQQ</p>
-          </article>
-          <article class="cap cap--5">
-            <h3>Endotoxin</h3><p class="cap__q">Is it bio-safe?</p>
-            <p>A qualitative pass/fail limit test at selectable sensitivity flags bacterial endotoxin — a same-vial add-on issued as a standalone result.</p>
-            <p class="cap__inst"><b>Kinetic chromogenic LAL</b>FireGene kit · USP &lt;85&gt;</p>
-          </article>
-        </div>
-
-        <div class="panelgrid" id="panel">
-          <div>
-            <span class="kicker">The panel</span>
-            <h3>36 peptides currently — and our panel is rapidly growing to support your needs.</h3>
-            <p>Peptides — GLP-1 receptor agonists, growth-hormone-axis peptides, neuropeptides, regenerative compounds — plus related metabolic cofactors and small-molecule analytes. Single HPLC-MS/MS method, single result per analyte, quantified against an external calibration curve with an independent second-source standard for quality control.</p>
-            <p class="small muted">New compounds are added continuously. Salt forms (acetate, TFA, free acid) are specified on the COA — if it isn't listed yet, ask us.</p>
+        <figure class="coahead" aria-label="Illustration of a certificate header">
+          <div class="coahead__top">
+            <span class="brand"><span class="brand__mark">SC</span><span class="brand__text"><span class="brand__name">SIDECHAIN</span><span class="brand__sub">ANALYTICS</span></span></span>
+            <div class="coahead__scan">
+              <div><span class="coahead__label">Scan to verify</span><b class="mono">COA-2026-SC-00417</b><span class="coahead__url">sidechainanalytics.com/verify</span></div>
+              <div class="coahead__qr" id="docQr" aria-hidden="true"></div>
+            </div>
           </div>
-          <ul class="peptides">
-            <li>Retatrutide</li><li>Semaglutide</li><li>Tirzepatide</li>
-            <li>CJC-1295 <span>/ Mod GRF (1-29)</span></li><li>Sermorelin <span>/ GRF (1-29)</span></li><li>Tesamorelin</li>
-            <li>Semax</li><li>Selank</li><li>PT-141 <span>/ Bremelanotide</span></li>
-            <li>TB-500 <span>/ Thymosin β4 frag</span></li><li>BPC-157</li><li>Ipamorelin</li>
-            <li>GHK-Cu <span>/ Copper peptide</span></li><li>Emideltide <span>/ DSIP</span></li><li>Epitalon <span>/ Epithalon</span></li>
-            <li>MOTS-c</li><li>NAD+</li><li>α-MSH (11-13) <span>/ KPV</span></li>
-            <li>Melanotan II <span>/ MT-2</span></li><li>Kisspeptin-10 <span>/ KP-10</span></li><li>SS-31 <span>/ Elamipretide</span></li>
-            <li>5-Amino-1MQ</li><li>AOD-9604</li><li>SNAP-8</li>
-            <li>VIP</li><li>Thymosin α1 <span>/ Thymalfasin</span></li><li>Glutathione (GSH)</li>
-            <li>Pinealon <span>/ EDR</span></li><li>Dihexa <span>/ PNB-0408</span></li><li>Cagrilintide <span>/ AM833</span></li>
-            <li>AHK-Cu</li><li>CJC-1295 with DAC</li><li>Cartalax</li>
-            <li>Melanotan I</li><li>Oxytocin</li><li>PE-22-28</li>
-          </ul>
-        </div>
+          <span class="doc__type">Certificate of analysis · Identity · Purity</span>
+          <p class="coahead__title">BPC-157</p>
+          <dl class="coahead__meta">
+            <dt>Report No.:</dt><dd class="hl">COA-2026-SC-00417</dd>
+            <dt>Verify code:</dt><dd class="hl">DEMO-2026</dd>
+            <dt>Lot Number:</dt><dd>BPC-240912-A</dd>
+          </dl>
+          <figcaption class="small muted">Illustration — highlighted fields are what you need.</figcaption>
+        </figure>
       </div>
     </section>
 
-    <!-- THE REPORT -->
-    <section id="report" class="section">
+    <!-- READING -->
+    <section id="reading" class="section section--sand">
       <div class="container">
         <header class="section__head">
-          <span class="kicker">02 · The report</span>
-          <h2>Every result is a primary record.</h2>
-          <p>Identity, quantitative result, acceptance criteria, and chain of custody — laid out so an analyst can read the report at a glance. Nothing about how a number was reached is buried in an appendix.</p>
+          <span class="kicker">04 · Reading a report</span>
+          <h2>What each figure means.</h2>
+          <p>Every value on a certificate traces back to raw instrument data. These are the terms you'll see on the verified report.</p>
         </header>
-        <p class="rule-label">On every report</p>
-        <div class="numcols">
-          <div class="numcol"><span class="numcol__n">01</span><div><h3>Identity</h3><p>Precursor-to-product-ion transitions on the triple-quad — both quantifier and qualifier — confirm the peptide, each eluting as a characteristic chromatographic peak at its own retention time.</p></div></div>
-          <div class="numcol"><span class="numcol__n">02</span><div><h3>Purity</h3><p>Active peptide content quantified against an external calibration curve — ng/mL back-calculated to mg, replicated at every level and verified with an independent second-source standard. R² routinely 0.999.</p></div></div>
-          <div class="numcol"><span class="numcol__n">03</span><div><h3>Molecular mass</h3><p>Confirms the peptide's molecular mass, verifying its molecular structure.</p></div></div>
-        </div>
-        <p class="rule-label rule-label--gold rule-label--spaced">Optional, by request</p>
-        <div class="addons">
-          <div class="addon"><h3>Heavy metals <small>-HM</small></h3><p>Agilent 8800 ICP-MS QQQ — AOCS trace-metals reference (Cu, Fe, Ni) and LGC FC8227 heavy-metals CRM (As, Pb, Cd, Hg), in µg/g. Runs from the same vial.</p></div>
-          <div class="addon"><h3>Bacterial endotoxin <small>-EN</small></h3><p>Kinetic chromogenic LAL assay (USP &lt;85&gt;), reported quantitatively in EU/mL against your specified limit. Runs from the same submission.</p></div>
-        </div>
-        <p class="custody"><em>Chain of custody, recorded.</em> Sample receipt, handling, prep, and analyst signatures are part of the record — not a separate attestation.</p>
-      </div>
-    </section>
-
-    <!-- VERIFICATION -->
-    <section id="verify" class="section section--cream">
-      <div class="container vfeature">
-        <div>
-          <span class="kicker">03 · Verification</span>
-          <h2>A report you can check — and that can't be quietly edited.</h2>
-          <p>A certificate is only as good as the copy in front of you. Every SideChain report carries a report number, a private verify code and a QR code. Anyone holding it can confirm it against our records in seconds — no login required.</p>
-          <ul class="vlist">
-            <li><span class="numcol__n">01</span><div><b>Record match</b><span>Unknown report numbers or wrong verify codes fail. Verification shows the analyte, lot, submitter and every result we recorded.</span></div></li>
-            <li><span class="numcol__n">02</span><div><b>Tamper check</b><span>We keep the SHA-256 fingerprint of every PDF we release. Drop your copy on the verify page — change a single digit and it no longer matches. The file never leaves your device.</span></div></li>
-            <li><span class="numcol__n">03</span><div><b>Live status</b><span>If a report is ever corrected or withdrawn, verification says so and points to the replacement.</span></div></li>
-          </ul>
-        </div>
-        <form class="vbox" action="/verify" method="get">
-          <p class="vbox__title">Verify a report</p>
-          <p class="vbox__sub">Confirm any issued report — no login required.</p>
-          <label class="flabel" for="homeId">Report number</label>
-          <input id="homeId" name="id" class="finput mono" placeholder="COA-2026-SC-00000" autocomplete="off" spellcheck="false" required>
-          <label class="flabel" for="homeCode">Verify code</label>
-          <input id="homeCode" name="k" class="finput mono" placeholder="XXXX-XXXX" autocomplete="off" spellcheck="false" required>
-          <button class="btn btn--block" type="submit">Verify report</button>
-          <a class="vbox__alt" href="/verify?mode=file">Or drop the PDF to check it hasn't been altered →</a>
-          <p class="vbox__demo">Try the sample: <b>COA-2026-SC-00417</b> · <b>DEMO-2026</b></p>
-        </form>
-      </div>
-    </section>
-
-    <!-- METHOD -->
-    <section id="method" class="section">
-      <div class="container">
-        <header class="section__head">
-          <span class="kicker">Understanding our report</span>
-          <h2>From transition to result.</h2>
-          <p>Every figure on your Certificate of Analysis traces back to raw instrument data. Here is how HPLC-MS/MS turns a single vial into the numbers you read.</p>
-        </header>
-        <div class="numcols">
-          <div class="numcol"><span class="numcol__n">01</span><div><h3>Separate</h3><p>Liquid chromatography holds back each compound to a different degree, so the peptides leave the column one at a time — each at its own retention time.</p></div></div>
-          <div class="numcol"><span class="numcol__n">02</span><div><h3>Identify</h3><p>Tandem MS selects the intact peptide by its mass, fragments it, and re-selects one specific fragment — a <em class="serif-i">transition</em>. Two are followed: a quantifier (measures amount) and a qualifier (confirms identity).</p></div></div>
-          <div class="numcol"><span class="numcol__n">03</span><div><h3>Quantify</h3><p>The quantifier's chromatographic peak is integrated; its area — read against calibrated standards and scaled through the sample prep — becomes the measured milligrams, and the recovery.</p></div></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section section--sand">
-      <div class="container about">
-        <div>
-          <span class="kicker">04 · About SideChain Analytics</span>
-          <h2>Built by analytical chemists, for the people who need to trust the data.</h2>
-          <p>SideChain Analytics is an independent third-party protein-chemistry and peptide-analysis laboratory in Mississauga, Ontario, serving clients across Canada. We don't manufacture, we don't sell compounds, and we have no commercial interest in the outcome of any analysis we perform. Our only product is honest data.</p>
-          <p>Methods are developed and validated against pharmacopeial guidance and certified reference standards. Instruments are qualified on a documented schedule. Every result that leaves the lab is reviewed by a second analyst.</p>
-        </div>
-        <div>
-          <ul class="facts">
-            <li><b>Independent &amp; third-party</b><span>No manufacturing, no sample sales — our only product is the data.</span></li>
-            <li><b>Two-analyst review</b><span>Every result is checked by a second analyst before release.</span></li>
-            <li><b>Pharmacopeial-grade methods</b><span>Developed and validated against certified reference standards.</span></li>
-            <li><b>Tamper-evident reports</b><span>Every released PDF is fingerprinted and verifiable online.</span></li>
-          </ul>
-          <p class="scope"><b>SCOPE</b>No human or veterinary samples. No clinical claims. Methods and acceptance criteria stay in plain sight on every report.</p>
-        </div>
+        <dl class="gloss">
+          <div><dt>Identity</dt><dd>The principal component, confirmed against a reference standard by its MRM transitions (quantifier and qualifier) and retention time on the triple-quadrupole.</dd></div>
+          <div><dt>Net peptide content</dt><dd>The mass of peptide actually present in the vial as received, in mg — quantified against an external calibration curve.</dd></div>
+          <div><dt>Peptide fill accuracy</dt><dd>Measured net content ÷ declared label claim × 100. Shown as “—” when no label claim was declared.</dd></div>
+          <div><dt>Chromatographic purity</dt><dd>Principal-component peak area (Ph. Eur. 2.2.46). It bounds peptide-related impurities only — not excipients, counter-ions or water — and is separate from net content.</dd></div>
+          <div><dt>Result vs limit</dt><dd>Heavy-metal and endotoxin results are shown against their stated limits (ICH Q3D parenteral PDE; specified EU/mL limit) with a conformance status.</dd></div>
+          <div><dt>No pass/fail on peptide reports</dt><dd>Identity, purity and content values are reported as measured. Peptide certificates make no pass/fail determination against any specification or label claim.</dd></div>
+        </dl>
       </div>
     </section>
 
     <!-- FAQ -->
-    <section id="faq" class="section section--cream">
+    <section id="faq" class="section">
       <div class="container">
         <header class="section__head section__head--center">
           <span class="kicker">Common questions</span>
-          <h2>Peptide testing, answered.</h2>
+          <h2>Verification, answered.</h2>
         </header>
         <div class="faq">
-          <details><summary>How do I know a SideChain report is genuine?</summary><p>Enter the report number and verify code on our <a href="/verify">verification page</a>, or scan the QR code on the report. You'll see the results exactly as we recorded them. You can also drop the PDF there: we compare its cryptographic fingerprint with the file we released, so any edit — even a single digit — is detected. The file never leaves your device.</p></details>
-          <details><summary>What is peptide testing?</summary><p>Peptide testing is the analytical characterization of a peptide sample — confirming its identity, measuring its purity, and quantifying how much active peptide is actually present. SideChain Analytics performs this by HPLC-MS/MS and reports it as a plain-spoken analytical record.</p></details>
-          <details><summary>Which peptides can you test?</summary><p>36 peptides today on a validated HPLC-MS/MS panel — GLP-1 receptor agonists, growth-hormone-axis peptides, neuropeptides and regenerative compounds among them — and the panel is growing. If a compound isn't listed yet, ask us.</p></details>
-          <details><summary>Can you test peptide blends?</summary><p>Yes. When a sample contains two or more peptides, we resolve and quantify each component on a single HPLC-MS/MS run from one vial — reporting per-component identity and purity, the declared versus measured ratio, and a total active-recovery figure on one consolidated CoA.</p></details>
-          <details><summary>Can you test heavy metals and endotoxin too?</summary><p>Yes. Heavy-metal contaminants by ICP-MS (Agilent 8800 QQQ) and bacterial endotoxin by kinetic chromogenic LAL (USP &lt;85&gt;) both run from the same vial as add-ons, alongside the peptide analysis.</p></details>
-          <details><summary>How long does peptide testing take?</summary><p>Turnaround is 5 to 7 business days after we receive your sample, for the core HPLC-MS/MS identity, purity and net peptide content work. Add-on heavy-metal or endotoxin testing runs from the same vial and can extend that; we confirm timing when we acknowledge receipt.</p></details>
-          <details><summary>How do I send a peptide sample to your Ontario lab?</summary><p>We receive samples at our laboratory at 16 Falconer Drive, Unit 14, Mississauga, Ontario L5N 3M1. Email info@sidechainanalytics.com before shipping and we'll confirm packaging instructions and the right submission path for your work.</p></details>
-          <details><summary>How much sample do you need, and what does it cost?</summary><p>Required sample amount depends on the test and the analyte, so we confirm the quantity and provide a quote once we know what you'd like measured — email info@sidechainanalytics.com with your peptide and the tests you need.</p></details>
-          <details><summary>Is SideChain testing for research use only?</summary><p>Yes. All SideChain analysis is research-use-only and is not for human or veterinary administration. We don't manufacture or sell compounds — our only product is independent data.</p></details>
-          <details><summary>Are you independent of peptide sellers and manufacturers?</summary><p>Yes. We don't manufacture, sell or source compounds and have no commercial interest in the outcome of any analysis. Every result is reviewed by a second analyst before it's released.</p></details>
+          <details><summary>A report failed verification. What does that mean?</summary><p>Either the details were mistyped, or the certificate was not issued by SideChain Analytics. Check the report number (including any -HM or -EN suffix) and the verify code. If it still fails, please tell us at <a href="mailto:info@sidechainanalytics.com">info@sidechainanalytics.com</a> — we track forged certificates.</p></details>
+          <details><summary>The report is genuine, but my PDF doesn't match. Why?</summary><p>The PDF has been changed since we released it — even re-saving or editing a single figure changes its fingerprint. Rely on the results shown on the verified report page, or download the original directly from us there.</p></details>
+          <details><summary>What does “superseded” or “withdrawn” mean?</summary><p>Superseded: the certificate was reissued, usually to correct a detail; the page links to the current report. Withdrawn: the certificate must no longer be relied on. Either way, the reason is shown.</p></details>
+          <details><summary>Does my PDF get uploaded?</summary><p>No. Your browser computes the file's SHA-256 fingerprint locally and sends only that 64-character value. The document itself never leaves your device.</p></details>
+          <details><summary>Does a verified report certify a product or lot?</summary><p>No. Results relate only to the sample as received and the tests performed — not to any other unit, vial, lot or batch, or any product bearing the same name. Check that the lot on your vial matches the report.</p></details>
+          <details><summary>Can I share the verification link?</summary><p>Yes — the link contains the report number and verify code, so anyone with it can view the report. Share it only with people you'd share the certificate with.</p></details>
         </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section">
-      <div class="container contact">
-        <div class="contact__info">
-          <span class="kicker">05 · Begin a conversation</span>
-          <h2>For peptide testing in Canada, begin with the data.</h2>
-          <p>Whether you are validating a single peptide or characterizing a complex blend, SideChain Analytics brings precise, independent analysis to every vial — issued as a verifiable analytical record. Tell us about your sample, a result, or a method, and we'll point you to the right submission path for your work.</p>
-          <span class="kicker kicker--teal">General &amp; lab inquiries</span>
-          <a href="mailto:info@sidechainanalytics.com">info@sidechainanalytics.com</a>
-          <span class="kicker kicker--gold">Collaboration</span>
-          <p class="small">We're open to select analytical collaborations and contract-research engagements. If your work touches mass spectrometry or chromatography, we'd be glad to talk.</p>
-        </div>
-        <form class="contact__form" id="contactForm">
-          <div class="grid2">
-            <label class="field"><span>Name</span><input name="name" placeholder="Your name" autocomplete="name" required></label>
-            <label class="field"><span>Email</span><input name="email" type="email" placeholder="you@lab.org" autocomplete="email" required></label>
-          </div>
-          <label class="field"><span>Organization</span><input name="org" placeholder="Lab, company, or institution" autocomplete="organization"></label>
-          <label class="field"><span>Inquiry type</span>
-            <select name="type">
-              <option>Peptide / sample testing inquiry</option>
-              <option>Report verification question</option>
-              <option>Methodology / analytical question</option>
-              <option>Partnership / collaboration</option>
-              <option>Other</option>
-            </select>
-          </label>
-          <label class="field"><span>Message</span><textarea name="message" rows="5" placeholder="Tell us a bit about what you need." required></textarea></label>
-          <button class="btn" type="submit">Send Message</button>
-          <p class="small muted m0">Goes to <a href="mailto:info@sidechainanalytics.com">info@sidechainanalytics.com</a>.</p>
-        </form>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer footer--slim">
     <div class="container">
-      <div class="footer__top">
-        <div class="footer__about">
-          <a href="/" class="brand brand--light"><span class="brand__mark">SC</span><span class="brand__text"><span class="brand__name">SIDECHAIN</span><span class="brand__sub">ANALYTICS</span></span></a>
-          <p>Independent protein-chemistry and peptide analysis on Agilent 1290 Infinity II · 6495 QQQ and Agilent 8800 ICP-MS.</p>
-          <p class="small">Part of <a class="u" href="https://www.canaltlabs.com">CanAlt Health Laboratories</a>, Mississauga, Ontario.</p>
-          <div class="footer__cols">
-            <div><h4>Capabilities</h4><ul><li><a href="#capabilities">HPLC-MS/MS · Purity &amp; Mass Identity</a></li><li><a href="#capabilities">Heavy metals · ICP-MS QQQ</a></li><li><a href="#capabilities">Endotoxin · kinetic chromogenic LAL</a></li></ul></div>
-            <div><h4>Resources</h4><ul><li><a href="#panel">The panel</a></li><li><a href="#method">Methods overview</a></li><li><a href="/demo/COA-2026-SC-00417.pdf">Sample report (PDF)</a></li><li><a href="#about">About the lab</a></li></ul></div>
-            <div><h4>Submit / Contact</h4><ul><li><a href="#contact">General inquiries</a></li><li><a href="/verify">Verify a report</a></li><li><a href="https://www.sidechainanalytics.com/login">Client login</a></li><li><a href="https://www.sidechainanalytics.com/login/staff">Staff login</a></li></ul></div>
-          </div>
-        </div>
-        <form class="vbox" action="/verify" method="get">
-          <p class="vbox__title">Verify a report</p>
-          <p class="vbox__sub">Confirm any issued report — no login required.</p>
-          <label class="flabel" for="footId">Report number</label>
-          <input id="footId" name="id" class="finput mono" placeholder="COA-2026-SC-00000" autocomplete="off" spellcheck="false" required>
-          <label class="flabel" for="footCode">Verify code</label>
-          <input id="footCode" name="k" class="finput mono" placeholder="XXXX-XXXX" autocomplete="off" spellcheck="false" required>
-          <button class="btn btn--block" type="submit">Verify report</button>
-          <span class="vbox__alt">Or scan the QR on the report — no form needed.</span>
-        </form>
-      </div>
-      <div class="footer__land">
-        <h4>Land acknowledgement</h4>
-        <p>SideChain Analytics operates on the traditional territory of the Mississaugas of the Credit, the Anishnabeg, the Chippewa, the Haudenosaunee, and the Wendat peoples. We acknowledge this land remains home to many First Nations, Inuit and Métis peoples and are grateful for the opportunity to work on this land.</p>
+      <div class="footer__slim">
+        <a href="https://www.sidechainanalytics.com/" class="brand brand--light"><span class="brand__mark">SC</span><span class="brand__text"><span class="brand__name">SIDECHAIN</span><span class="brand__sub">ANALYTICS</span></span></a>
+        <p>Independent protein-chemistry and peptide analysis · 16 Falconer Drive, Unit 14, Mississauga, Ontario · <a href="mailto:info@sidechainanalytics.com">info@sidechainanalytics.com</a></p>
       </div>
       <div class="footer__bottom">
-        <span>© <span id="year">2026</span> SideChain Analytics · Mississauga, ON</span>
-        <span>For research use only — not for human consumption</span>
+        <span>© <span id="year">2026</span> SideChain Analytics · <a href="https://www.sidechainanalytics.com/">Laboratory site</a></span>
+        <span>For research use only — not authorized by Health Canada for human or veterinary use</span>
       </div>
     </div>
   </footer>
 
   <script src="/vendor/qrcode.js" defer></script>
+  <script src="/assets/common.js" defer></script>
   <script src="/assets/nav.js" defer></script>
-  <script src="/assets/main.js" defer></script>
+  <script src="/assets/home.js" defer></script>
 </body>
 </html>

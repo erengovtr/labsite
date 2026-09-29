@@ -5,7 +5,7 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, normalize, extname, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
-  openDb, generateCode, normalizeCode, normalizeId, SHA256_RE, STATUSES,
+  openDb, generateCode, normalizeCode, normalizeId, SHA256_RE, STATUSES, REPORT_TYPES,
 } from './db.js';
 
 const PUBLIC_DIR = fileURLToPath(new URL('../public/', import.meta.url));
@@ -86,26 +86,30 @@ function safeEqual(a, b) {
   return timingSafeEqual(ha, hb);
 }
 
-function parseResults(r) {
-  try { return JSON.parse(r || '[]'); } catch { return []; }
+function parseData(r) {
+  try { return JSON.parse(r || '{}'); } catch { return {}; }
 }
 
 function publicView(r) {
   return {
     id: r.id,
+    type: r.type,
+    typeLabel: REPORT_TYPES[r.type]?.label ?? r.type,
     status: r.status,
     statusReason: r.status_reason || null,
     supersededBy: r.superseded_by || null,
-    analyte: r.analyte,
+    statusChangedAt: r.status_changed_at || null,
+    compound: r.compound,
+    labelClaim: r.label_claim,
     lot: r.lot,
     client: r.client,
-    sampleDescription: r.sample_desc,
-    received: r.received,
-    released: r.released,
-    results: parseResults(r.results),
+    labId: r.lab_id,
+    issued: r.issued,
+    data: parseData(r.data),
     notes: r.notes,
     pdf: r.pdf_sha256 ? { sha256: r.pdf_sha256, name: r.pdf_name, size: r.pdf_size } : null,
-    issuedAt: r.created_at,
+    recordedAt: r.created_at,
+    checkedAt: new Date().toISOString(),
   };
 }
 
@@ -133,17 +137,38 @@ const date = (v) => {
   return s;
 };
 
-function validateResults(rows) {
-  if (rows === undefined) return [];
-  if (!Array.isArray(rows) || rows.length > 40) throw new HttpError(400, 'invalid_results');
-  return rows.map((row) => {
-    if (!row || typeof row !== 'object') throw new HttpError(400, 'invalid_results');
-    const outcome = str(row.outcome, 10) || 'report';
-    if (!['pass', 'fail', 'report'].includes(outcome)) throw new HttpError(400, 'invalid_outcome');
-    const test = str(row.test);
-    if (!test) throw new HttpError(400, 'result_test_required');
-    return { test, method: str(row.method), result: str(row.result), spec: str(row.spec), outcome };
-  });
+/**
+ * Report bodies differ by type (peptide tiles, blend components, element tables…), so
+ * they are stored as JSON. This bounds their shape rather than enforcing a schema:
+ * plain objects/arrays of strings, finite numbers and booleans, shallow and small.
+ * The public page renders every value as text, never as HTML.
+ */
+function sanitizeData(value, depth = 0) {
+  if (value === null || typeof value === 'boolean') return value;
+  if (typeof value === 'number') {
+    if (!Number.isFinite(value)) throw new HttpError(400, 'invalid_data');
+    return value;
+  }
+  if (typeof value === 'string') {
+    if (value.length > 1000) throw new HttpError(400, 'field_too_long');
+    return value.trim();
+  }
+  if (depth >= 4) throw new HttpError(400, 'invalid_data');
+  if (Array.isArray(value)) {
+    if (value.length > 50) throw new HttpError(400, 'invalid_data');
+    return value.map((v) => sanitizeData(v, depth + 1));
+  }
+  if (typeof value === 'object') {
+    const keys = Object.keys(value);
+    if (keys.length > 50) throw new HttpError(400, 'invalid_data');
+    const out = {};
+    for (const k of keys) {
+      if (!/^[a-zA-Z][a-zA-Z0-9_]{0,40}$/.test(k)) throw new HttpError(400, 'invalid_data');
+      out[k] = sanitizeData(value[k], depth + 1);
+    }
+    return out;
+  }
+  throw new HttpError(400, 'invalid_data');
 }
 
 export function createApp({ dataDir, adminToken, publicUrl, trustProxy = false } = {}) {
@@ -294,21 +319,25 @@ export function createApp({ dataDir, adminToken, publicUrl, trustProxy = false }
       }
       if (req.method === 'POST') {
         const b = await readJson(req);
-        const analyte = str(b.analyte);
-        if (!analyte) throw new HttpError(400, 'analyte_required');
+        if (!REPORT_TYPES[b.type]) throw new HttpError(400, 'invalid_type');
+        const compound = str(b.compound);
+        if (!compound) throw new HttpError(400, 'compound_required');
+        const data = sanitizeData(b.data ?? {});
+        if (!data || typeof data !== 'object' || Array.isArray(data) || JSON.stringify(data).length > 32_000) {
+          throw new HttpError(400, 'invalid_data');
+        }
         let id;
         if (b.id) {
           id = normalizeId(b.id);
           if (!id) throw new HttpError(400, 'invalid_id');
           if (db.get(id)) throw new HttpError(409, 'id_exists');
         } else {
-          id = db.nextId();
+          id = db.nextId(b.type);
         }
         const r = db.insert({
-          id, code: generateCode(), analyte,
-          lot: str(b.lot), client: str(b.client), sampleDesc: str(b.sampleDesc, 500),
-          received: date(b.received), released: date(b.released),
-          results: validateResults(b.results), notes: str(b.notes, 2000),
+          id, code: generateCode(), type: b.type, compound,
+          labelClaim: str(b.labelClaim), lot: str(b.lot), client: str(b.client), labId: str(b.labId),
+          issued: date(b.issued), data, notes: str(b.notes, 2000),
         });
         db.logEvent(id, 'issued', null);
         return send(res, 201, adminView(r, base));
