@@ -1,0 +1,109 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R /F4 8 0 R >> >> /Contents 7 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+7 0 obj
+<< /Length 2940 >>
+stream
+0.11 0.306 0.329 rg 0 776 612 16 re f
+0.776 0.639 0.361 rg 0 774 612 2 re f 0 g
+0.11 0.306 0.329 rg 48 732 26 26 re f 1 g
+BT /F2 11 Tf 53.5 740 Td (SC) Tj ET
+0.11 0.306 0.329 rg
+BT /F1 10 Tf 82 748 Td (SIDECHAIN) Tj ET
+0.4 g
+BT /F1 6 Tf 82 737 Td (ANALYTICS) Tj ET
+0 g
+0.69 0.51 0.165 rg
+BT /F2 8 Tf 380 748 Td (CERTIFICATE OF ANALYSIS) Tj ET
+0.4 g
+BT /F1 7 Tf 380 737 Td (Demonstration document) Tj ET
+0 g
+BT /F4 22 Tf 48 700 Td (BPC-157) Tj ET
+0.8 G 0.75 w 48 690 m 564 690 l S 0 G
+BT /F1 7 Tf 48 670 Td (REPORT NO.) Tj ET
+BT /F3 10 Tf 128 670 Td (COA-2026-SC-00417) Tj ET
+BT /F1 7 Tf 320 670 Td (VERIFY CODE) Tj ET
+BT /F3 10 Tf 400 670 Td (DEMO-2026) Tj ET
+BT /F1 7 Tf 48 650 Td (ANALYTE) Tj ET
+BT /F1 10 Tf 128 650 Td (BPC-157) Tj ET
+BT /F1 7 Tf 320 650 Td (LOT / BATCH) Tj ET
+BT /F1 10 Tf 400 650 Td (BPC-240912-A) Tj ET
+BT /F1 7 Tf 48 630 Td (SUBMITTED BY) Tj ET
+BT /F1 10 Tf 128 630 Td (Example Research Supply) Tj ET
+BT /F1 7 Tf 320 630 Td (SAMPLE) Tj ET
+BT /F1 10 Tf 400 630 Td (Lyophilised powder, 5 mg vial, white) Tj ET
+BT /F1 7 Tf 48 610 Td (RECEIVED) Tj ET
+BT /F1 10 Tf 128 610 Td (2026-09-14) Tj ET
+BT /F1 7 Tf 320 610 Td (RELEASED) Tj ET
+BT /F1 10 Tf 400 610 Td (2026-09-19) Tj ET
+0.8 G 0.75 w 48 586 m 564 586 l S 0 G
+BT /F2 8 Tf 48 568 Td (TEST) Tj ET
+BT /F2 8 Tf 210 568 Td (METHOD) Tj ET
+BT /F2 8 Tf 340 568 Td (RESULT) Tj ET
+BT /F2 8 Tf 450 568 Td (SPECIFICATION) Tj ET
+BT /F1 10 Tf 48 546 Td (Identity) Tj ET
+BT /F1 9 Tf 210 546 Td (HPLC-MS/MS) Tj ET
+BT /F2 10 Tf 340 546 Td (Conforms) Tj ET
+BT /F1 8 Tf 450 546 Td (MW 1419.5 Da  [PASS]) Tj ET
+0.9 G 0.75 w 48 538 m 564 538 l S 0 G
+BT /F1 10 Tf 48 524 Td (Purity) Tj ET
+BT /F1 9 Tf 210 524 Td (HPLC-UV 214 nm) Tj ET
+BT /F2 10 Tf 340 524 Td (99.8%) Tj ET
+BT /F1 8 Tf 450 524 Td (>= 98.0%  [PASS]) Tj ET
+0.9 G 0.75 w 48 516 m 564 516 l S 0 G
+BT /F1 10 Tf 48 502 Td (Net peptide content) Tj ET
+BT /F1 9 Tf 210 502 Td (HPLC-UV) Tj ET
+BT /F2 10 Tf 340 502 Td (82.4% w/w) Tj ET
+BT /F1 8 Tf 450 502 Td (Report  [REPORT]) Tj ET
+0.9 G 0.75 w 48 494 m 564 494 l S 0 G
+BT /F1 10 Tf 48 480 Td (Heavy metals \(Pb, Cd, As, Hg\)) Tj ET
+BT /F1 9 Tf 210 480 Td (ICP-MS) Tj ET
+BT /F2 10 Tf 340 480 Td (< LOQ) Tj ET
+BT /F1 8 Tf 450 480 Td (< 10 ppm total  [PASS]) Tj ET
+0.9 G 0.75 w 48 472 m 564 472 l S 0 G
+BT /F1 10 Tf 48 458 Td (Bacterial endotoxin) Tj ET
+BT /F1 9 Tf 210 458 Td (LAL kinetic chromogenic) Tj ET
+BT /F2 10 Tf 340 458 Td (< 0.5 EU/mg) Tj ET
+BT /F1 8 Tf 450 458 Td (< 5 EU/mg  [PASS]) Tj ET
+0.9 G 0.75 w 48 450 m 564 450 l S 0 G
+BT /F1 9 Tf 48 418 Td (Verify this report at sidechainanalytics.com/verify using the report number and verify code above.) Tj ET
+BT /F1 9 Tf 48 404 Td (Upload this PDF there to confirm it has not been altered since release.) Tj ET
+BT /F1 7 Tf 48 60 Td (For research use only. Not for human or veterinary diagnostic or therapeutic use.) Tj ET
+BT /F1 7 Tf 48 48 Td (This is a demonstration document and does not describe a real analysis.) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000271 00000 n 
+0000000341 00000 n 
+0000000416 00000 n 
+0000000484 00000 n 
+0000003476 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+3548
+%%EOF

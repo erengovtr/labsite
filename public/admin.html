@@ -8,16 +8,16 @@
   <title>COA Admin — SideChain Analytics</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,8..36,400;0,8..36,500;0,8..36,600;1,8..36,400;1,8..36,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/styles.css">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b1220'/%3E%3Cpath d='M6 22 L12 10 L16 18 L20 8 L26 22' stroke='%2322d3ee' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 </head>
 <body>
-  <header class="nav is-scrolled">
+  <header class="nav">
     <div class="container nav__inner">
       <a href="/" class="brand">
-        <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8"/><path d="M6 22 L12 10 L16 18 L20 8 L26 22"/></svg>
-        <span>SideChain<b>Analytics</b> <span class="chip">COA admin</span></span>
+        <span class="brand__mark">SC</span>
+        <span class="brand__text"><span class="brand__name">SIDECHAIN</span><span class="brand__sub">REPORT ADMIN</span></span>
       </a>
       <button class="btn btn--ghost btn--sm" id="logout" hidden>Sign out</button>
     </div>
@@ -26,7 +26,8 @@
   <main class="admin container">
     <!-- Login -->
     <form class="panel login" id="login" hidden>
-      <h1>Sign in</h1>
+      <p class="eyebrow m0">Staff only</p>
+      <h2 class="m0">Sign in</h2>
       <label class="field"><span>Admin token</span><input type="password" id="token" autocomplete="current-password" required></label>
       <p class="err" id="loginErr"></p>
       <button class="btn" type="submit">Sign in</button>
@@ -55,7 +56,7 @@
             <label class="field"><span>Submitted by (client)</span><input name="client"></label>
             <label class="field"><span>Received</span><input name="received" type="date"></label>
             <label class="field"><span>Released</span><input name="released" type="date"></label>
-            <label class="field"><span>Report ID <em>(blank = next number)</em></span><input name="id" class="mono up" placeholder="auto"></label>
+            <label class="field"><span>Report ID <em>(blank = next number)</em></span><input name="id" class="mono up" placeholder="COA-2026-SC-… (auto)"></label>
           </div>
           <label class="field mt"><span>Sample description</span><input name="sampleDesc" placeholder="e.g. Lyophilised powder, 5 mg vial"></label>
 

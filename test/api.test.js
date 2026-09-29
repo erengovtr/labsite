@@ -60,7 +60,7 @@ test('admin endpoints reject missing or wrong token', async () => {
 test('issuing assigns sequential IDs and a formatted access code', async () => {
   const a = await issue();
   const b = await issue();
-  assert.match(a.id, /^SCA-\d{4}-\d{4}$/);
+  assert.match(a.id, /^COA-\d{4}-SC-\d{5}$/);
   assert.equal(Number(b.id.slice(-4)), Number(a.id.slice(-4)) + 1);
   assert.match(a.code, /^[A-Z2-9]{4}-[A-Z2-9]{4}$/);
   assert.ok(a.verifyUrl.includes(`id=${a.id}`) && a.verifyUrl.includes(`k=${a.code}`));
@@ -88,7 +88,7 @@ test('public lookup requires the correct access code, and hides which part was w
   assert.equal(loose.status, 200);
 
   const wrong = await call(`/api/coa/${r.id}?k=AAAA-AAAA`);
-  const missing = await call('/api/coa/SCA-1999-9999?k=AAAA-AAAA');
+  const missing = await call('/api/coa/COA-1999-SC-99999?k=AAAA-AAAA');
   assert.equal(wrong.status, 404);
   assert.equal(missing.status, 404);
   assert.deepEqual(wrong.data, missing.data);

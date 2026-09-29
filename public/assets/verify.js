@@ -104,7 +104,7 @@
 
     const meta = $('.rmeta', frag);
     [
-      ['Report ID', r.id, true], ['Analyte', r.analyte], ['Lot / batch', r.lot], ['Submitted by', r.client],
+      ['Report No.', r.id, true], ['Analyte', r.analyte], ['Lot / batch', r.lot], ['Submitted by', r.client],
       ['Sample', r.sampleDescription], ['Received', fmtDate(r.received)], ['Released', fmtDate(r.released)],
     ].forEach(([k, v, mono]) => {
       if (!v) return;
@@ -228,7 +228,7 @@
 
   $('#demoFill').addEventListener('click', () => {
     selectTab(tabs[0]);
-    fId.value = 'SCA-2026-0417'; fCode.value = 'DEMO-2026';
+    fId.value = 'COA-2026-SC-00417'; fCode.value = 'DEMO-2026';
     verifyById(fId.value, fCode.value);
   });
 

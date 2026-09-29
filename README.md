@@ -1,11 +1,11 @@
 # SideChain Analytics — website & COA verification
 
-Website concept for **SideChain Analytics**, an independent peptide-analysis laboratory in Mississauga, Ontario, built around a tamper-evident Certificate of Analysis (COA) verification system.
+Website concept for **SideChain Analytics**, an independent peptide-analysis laboratory in Mississauga, Ontario. The design and copy follow the current sidechainanalytics.com (Newsreader + Helvetica, teal `#1C4E54` / gold `#C6A35C` / cream); the addition is a tamper-evident Certificate of Analysis (COA) verification system.
 
 Zero dependencies: Node.js ≥ 22.13 (built-in `node:sqlite`) serves the site and API.
 
 ```bash
-npm run seed    # demo report SCA-2026-0417 / code DEMO-2026 + sample PDFs
+npm run seed    # demo report COA-2026-SC-00417 / code DEMO-2026 + sample PDFs
 ADMIN_TOKEN=$(openssl rand -hex 24) npm start   # http://localhost:8080
 npm test
 ```
@@ -18,7 +18,7 @@ npm test
 
 ## How verification works
 
-Each COA carries a **report ID**, a private **access code** (8 chars, no look-alike characters) and a **QR code** linking to `/verify?id=…&k=…`.
+Each COA carries a **report number** (`COA-YYYY-SC-NNNNN`, matching the lab's existing format), a private **verify code** (8 chars, no look-alike characters) and a **QR code** linking to `/verify?id=…&k=…`.
 
 | Fraud | How it's caught |
 | --- | --- |
@@ -34,9 +34,14 @@ Every lookup is logged. Wrong codes on real IDs (`bad_code`), mismatched PDFs (`
 
 ### Issuing workflow (admin)
 
-1. Create the record → get ID, access code, QR (SVG download).
+1. Create the record → get report number, verify code, QR (SVG download).
 2. Print them on the COA and export the final PDF.
 3. Upload the PDF → its fingerprint is locked. Reports are immutable after this; corrections are a new report that supersedes the old one.
+
+## Notes
+
+- Register / client login / staff login link to the live site's existing portal.
+- The live site already has a basic report lookup in its footer; this adds the PDF tamper check, revoked/superseded status, original-PDF download and forgery alerts.
 
 ## Demo for the pitch
 

@@ -92,10 +92,12 @@ export function openDb(dataDir) {
     raw: db,
     get: (id) => q.get.get(id),
     byHash: (h) => q.byHash.get(h),
-    nextId(prefix = 'SCA', year = new Date().getUTCFullYear()) {
-      const last = q.lastForPrefix.get(`${prefix}-${year}-%`);
-      const n = last ? parseInt(last.id.split('-').pop(), 10) + 1 : 1;
-      return `${prefix}-${year}-${String(n).padStart(4, '0')}`;
+    /** Next number in the lab's report format, e.g. COA-2026-SC-00042. */
+    nextId(year = new Date().getUTCFullYear()) {
+      const prefix = `COA-${year}-SC-`;
+      const last = q.lastForPrefix.get(`${prefix}%`);
+      const n = last ? parseInt(last.id.slice(prefix.length), 10) + 1 : 1;
+      return `${prefix}${String(n).padStart(5, '0')}`;
     },
     insert(r) {
       q.insert.run(r.id, r.code, r.analyte, r.lot ?? null, r.client ?? null, r.sampleDesc ?? null,

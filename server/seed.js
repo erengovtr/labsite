@@ -1,6 +1,6 @@
 // Creates the demo report used on the public site, plus two sample PDFs:
-//   public/demo/SCA-2026-0417.pdf         – the original on file with the lab
-//   public/demo/SCA-2026-0417-edited.pdf  – same document with the purity figure altered
+//   public/demo/COA-2026-SC-00417.pdf         – the original on file with the lab
+//   public/demo/COA-2026-SC-00417-edited.pdf  – same document with the purity figure altered
 // Dropping the edited copy on /verify shows how tampering is caught.
 import { createHash } from 'node:crypto';
 import { mkdirSync, writeFileSync, copyFileSync } from 'node:fs';
@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url';
 import { openDb } from './db.js';
 
 const DEMO = {
-  id: 'SCA-2026-0417',
+  id: 'COA-2026-SC-00417',
   code: 'DEMO-2026',
   analyte: 'BPC-157',
   lot: 'BPC-240912-A',
@@ -33,11 +33,12 @@ function makePdf(ops) {
   const objs = [
     '<< /Type /Catalog /Pages 2 0 R >>',
     '<< /Type /Pages /Kids [3 0 R] /Count 1 >>',
-    '<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R >> >> /Contents 7 0 R >>',
+    '<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R /F4 8 0 R >> >> /Contents 7 0 R >>',
     '<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>',
     '<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>',
     '<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>',
     `<< /Length ${Buffer.byteLength(content, 'latin1')} >>\nstream\n${content}\nendstream`,
+    '<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>',
   ];
   let out = '%PDF-1.4\n';
   const offsets = [];
@@ -55,24 +56,34 @@ const rule = (y, gray = 0.8) => `${gray} G 0.75 w 48 ${y} m 564 ${y} l S 0 G`;
 
 function coaOps(r) {
   const ops = [
-    '0.03 0.57 0.70 rg 0 772 612 20 re f 0 g',
-    text(48, 730, 'SideChain Analytics', 'F2', 18),
-    text(48, 714, 'Independent peptide testing - Mississauga, Ontario', 'F1', 9),
-    text(400, 730, 'CERTIFICATE OF ANALYSIS', 'F2', 11),
-    text(400, 714, 'Demonstration document', 'F1', 8),
-    rule(700),
+    '0.11 0.306 0.329 rg 0 776 612 16 re f',
+    '0.776 0.639 0.361 rg 0 774 612 2 re f 0 g',
+    '0.11 0.306 0.329 rg 48 732 26 26 re f 1 g',
+    text(53.5, 740, 'SC', 'F2', 11),
+    '0.11 0.306 0.329 rg',
+    text(82, 748, 'SIDECHAIN', 'F1', 10),
+    '0.4 g',
+    text(82, 737, 'ANALYTICS', 'F1', 6),
+    '0 g',
+    '0.69 0.51 0.165 rg',
+    text(380, 748, 'CERTIFICATE OF ANALYSIS', 'F2', 8),
+    '0.4 g',
+    text(380, 737, 'Demonstration document', 'F1', 7),
+    '0 g',
+    text(48, 700, r.analyte, 'F4', 22),
+    rule(690),
   ];
   const meta = [
-    ['Report ID', r.id], ['Access code', r.code], ['Analyte', r.analyte], ['Lot / batch', r.lot],
+    ['Report No.', r.id], ['Verify code', r.code], ['Analyte', r.analyte], ['Lot / batch', r.lot],
     ['Submitted by', r.client], ['Sample', r.sampleDesc], ['Received', r.received], ['Released', r.released],
   ];
   meta.forEach(([k, v], i) => {
     const x = i % 2 ? 320 : 48;
-    const y = 680 - Math.floor(i / 2) * 20;
-    ops.push(text(x, y, k.toUpperCase(), 'F1', 7), text(x + 80, y, v, k === 'Report ID' || k === 'Access code' ? 'F3' : 'F1', 10));
+    const y = 670 - Math.floor(i / 2) * 20;
+    ops.push(text(x, y, k.toUpperCase(), 'F1', 7), text(x + 80, y, v, k === 'Report No.' || k === 'Verify code' ? 'F3' : 'F1', 10));
   });
-  ops.push(rule(596));
-  let y = 578;
+  ops.push(rule(586));
+  let y = 568;
   ops.push(text(48, y, 'TEST', 'F2', 8), text(210, y, 'METHOD', 'F2', 8), text(340, y, 'RESULT', 'F2', 8), text(450, y, 'SPECIFICATION', 'F2', 8));
   for (const row of r.results) {
     y -= 22;
@@ -81,7 +92,7 @@ function coaOps(r) {
   }
   y -= 40;
   ops.push(
-    text(48, y, 'Verify this certificate at sidechainanalytics.com/verify using the report ID and access code above.', 'F1', 9),
+    text(48, y, 'Verify this report at sidechainanalytics.com/verify using the report number and verify code above.', 'F1', 9),
     text(48, y - 14, 'Upload this PDF there to confirm it has not been altered since release.', 'F1', 9),
     text(48, 60, 'For research use only. Not for human or veterinary diagnostic or therapeutic use.', 'F1', 7),
     text(48, 48, 'This is a demonstration document and does not describe a real analysis.', 'F1', 7),
