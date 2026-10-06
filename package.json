@@ -1,13 +1,16 @@
 {
-  "name": "sidechain-analytics-site",
+  "name": "bioscience-blog",
   "version": "1.0.0",
   "private": true,
-  "description": "SideChain Analytics website with COA verification",
   "type": "module",
-  "engines": { "node": ">=22.13" },
   "scripts": {
-    "start": "node --disable-warning=ExperimentalWarning server/index.js",
-    "seed": "node --disable-warning=ExperimentalWarning server/seed.js",
-    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+    "dev": "astro dev --host",
+    "build": "astro build",
+    "preview": "astro preview --host"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.3.5"
   }
 }

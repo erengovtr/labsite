@@ -1,0 +1,30 @@
+---
+// Peptit zinciri / halka yapısı illüstrasyonu (dekoratif)
+---
+<svg class="hero-art" viewBox="0 0 400 400" role="img" aria-label="Peptit zincirini ve halka yapısını temsil eden çizim">
+  <defs>
+    <radialGradient id="g1" cx="35%" cy="30%"><stop offset="0" stop-color="#e9c37a"/><stop offset="1" stop-color="#b7791f"/></radialGradient>
+    <radialGradient id="g2" cx="35%" cy="30%"><stop offset="0" stop-color="#4f9c86"/><stop offset="1" stop-color="#1f5c4d"/></radialGradient>
+  </defs>
+  <circle cx="200" cy="200" r="170" fill="none" stroke="#ddd4c0" stroke-dasharray="2 8" stroke-linecap="round"/>
+  <circle cx="200" cy="200" r="120" fill="#e1ece5" opacity=".55"/>
+  <g class="float" stroke="#1f5c4d" stroke-width="5" stroke-linejoin="round" fill="none">
+    <path d="M200 110l78 45v90l-78 45-78-45v-90z"/>
+    <path d="M200 110v90M122 155l78 45M278 155l-78 45" stroke-width="3" opacity=".5"/>
+  </g>
+  <g class="float b">
+    <path d="M278 155 L340 120 L372 170 M122 245 L62 280 L40 228" fill="none" stroke="#1f5c4d" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="340" cy="120" r="14" fill="url(#g2)"/><circle cx="372" cy="170" r="10" fill="url(#g1)"/>
+    <circle cx="62" cy="280" r="14" fill="url(#g2)"/><circle cx="40" cy="228" r="10" fill="url(#g1)"/>
+  </g>
+  <g class="float">
+    <circle cx="200" cy="110" r="16" fill="url(#g2)"/><circle cx="278" cy="155" r="16" fill="url(#g1)"/>
+    <circle cx="278" cy="245" r="16" fill="url(#g2)"/><circle cx="200" cy="290" r="16" fill="url(#g1)"/>
+    <circle cx="122" cy="245" r="16" fill="url(#g2)"/><circle cx="122" cy="155" r="16" fill="url(#g1)"/>
+    <circle cx="200" cy="200" r="9" fill="#f5f0e6" stroke="#1f5c4d" stroke-width="3"/>
+  </g>
+  <g class="float b" opacity=".9">
+    <path d="M330 330c-20-30-60-30-80-6" fill="none" stroke="#b7791f" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 10"/>
+    <circle cx="330" cy="330" r="7" fill="#b7791f"/>
+  </g>
+</svg>

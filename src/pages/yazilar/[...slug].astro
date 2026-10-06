@@ -1,0 +1,64 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import Disclaimer from '../../components/Disclaimer.astro';
+import { slugOf, fmtDate, readingTime } from '../../lib/site';
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+const { post } = Astro.props;
+const { Content, headings } = await render(post);
+const d = post.data;
+const toc = headings.filter((h) => h.depth === 2);
+const mins = d.readingMinutes ?? readingTime(post.body ?? '');
+const related = (await getCollection('posts')).filter((p) => p.id !== post.id && (p.data.category === d.category || p.data.tags.some((t) => d.tags.includes(t)))).slice(0, 3);
+const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: d.title, description: d.description, datePublished: d.date.toISOString(), dateModified: (d.updated ?? d.date).toISOString(), inLanguage: 'tr', author: { '@type': 'Organization', name: 'Bioscience Editör Ekibi' } };
+---
+<Base title={d.title} description={d.description} type="article" published={d.date}>
+  <div class="progress" id="progress"></div>
+  <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+  <div class="wrap">
+    <header class="article-head">
+      <a class="chip" href={`/kategori/${slugOf(d.category)}/`}>{d.category}</a>
+      <h1>{d.title}</h1>
+      <p class="dek">{d.description}</p>
+      <div class="byline"><span>Bioscience Editör Ekibi</span><span>{fmtDate(d.date)}</span><span>{mins} dk okuma</span>{d.updated && <span>Güncelleme: {fmtDate(d.updated)}</span>}</div>
+    </header>
+    <div class="article-layout">
+      <article>
+        <Disclaimer />
+        <div class="prose" id="prose" style="margin-top:28px"><Content /></div>
+        {d.references.length > 0 && (
+          <section class="refs" id="kaynaklar">
+            <h2>Kaynaklar</h2>
+            <ol>{d.references.map((r) => <li>{r}</li>)}</ol>
+          </section>
+        )}
+        <div class="tags">{d.tags.map((t) => <span class="chip">#{t}</span>)}</div>
+        <div style="margin-top:32px"><Disclaimer /></div>
+      </article>
+      <aside class="toc" aria-label="İçindekiler">
+        <h4>Bu yazıda</h4>
+        {toc.map((h) => <a href={`#${h.slug}`}>{h.text}</a>)}
+        {d.references.length > 0 && <a href="#kaynaklar">Kaynaklar</a>}
+      </aside>
+    </div>
+    {related.length > 0 && (
+      <section style="padding-bottom:64px"><div class="section-head"><div><span class="eyebrow">Devamı</span><h2>İlgili yazılar</h2></div></div>
+        <div class="grid">{related.map((p) => <PostCard post={p} />)}</div></section>
+    )}
+  </div>
+  <script>
+    const bar = document.getElementById('progress')!;
+    const onScroll = () => { const h = document.documentElement; bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight || 1)) * 100 + '%'; };
+    document.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+    const links = [...document.querySelectorAll<HTMLAnchorElement>('.toc a')];
+    const targets = links.map((a) => document.getElementById(a.hash.slice(1))).filter(Boolean) as HTMLElement[];
+    if (targets.length) {
+      const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) links.forEach((a) => a.classList.toggle('active', a.hash === '#' + e.target.id)); }), { rootMargin: '-90px 0px -70% 0px' });
+      targets.forEach((t) => io.observe(t));
+    }
+  </script>
+</Base>

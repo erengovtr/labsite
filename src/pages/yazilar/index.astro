@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import { CATEGORIES } from '../../lib/site';
+const posts = (await getCollection('posts')).sort((a, b) => +b.data.date - +a.data.date);
+---
+<Base title="Tüm yazılar" description="Araştırma bileşikleri, etki mekanizmaları ve analitik kalite üzerine tüm yazılar.">
+  <div class="wrap">
+    <div class="page-head"><span class="eyebrow">Arşiv</span><h1>Tüm yazılar</h1><p>Konuya göre süzün veya başlıkta arayın.</p></div>
+    <div class="filters" role="group" aria-label="Kategori filtresi">
+      <button data-f="" aria-pressed="true">Tümü</button>
+      {CATEGORIES.map((c) => <button data-f={c.name} aria-pressed="false">{c.name}</button>)}
+      <input class="gloss-search" id="q" type="search" placeholder="Başlıkta ara…" style="max-width:240px;padding:8px 14px;margin-left:auto" />
+    </div>
+    <div class="grid" id="list">{posts.map((p) => <PostCard post={p} />)}</div>
+    <p id="none" class="muted" hidden>Eşleşen yazı yok.</p>
+    <div style="height:56px"></div>
+  </div>
+  <script>
+    const btns = [...document.querySelectorAll<HTMLButtonElement>('[data-f]')];
+    const cards = [...document.querySelectorAll<HTMLElement>('#list .card')];
+    const q = document.getElementById('q') as HTMLInputElement; const none = document.getElementById('none')!;
+    let cat = '';
+    const apply = () => {
+      const t = q.value.toLocaleLowerCase('tr'); let n = 0;
+      cards.forEach((c) => { const ok = (!cat || c.dataset.cat === cat) && (!t || c.dataset.title!.includes(t)); c.hidden = !ok; if (ok) n++; });
+      none.hidden = n > 0;
+    };
+    btns.forEach((b) => b.addEventListener('click', () => { cat = b.dataset.f!; btns.forEach((x) => x.setAttribute('aria-pressed', String(x === b))); apply(); }));
+    q.addEventListener('input', apply);
+  </script>
+</Base>

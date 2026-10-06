@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import Disclaimer from '../components/Disclaimer.astro';
+import { SITE } from '../lib/site';
+---
+<Base title="Hakkında & editoryal ilke" description="Bu blogun amacı, editoryal ilkeleri ve içerik sınırları.">
+  <div class="wrap" style="max-width:var(--prose)">
+    <div class="page-head" style="padding-left:0"><span class="eyebrow">Hakkında</span><h1>Bu blog neden var?</h1></div>
+    <div class="prose">
+      <p>{SITE.name} Araştırma Notları, araştırma bileşikleri hakkında merak edenlere <strong>doğru, kaynaklı ve abartısız</strong> bir başvuru kaynağı sunmak için hazırlandı. Amacımız ürün satmak değil; bir molekülün hücresel düzeyde ne yapabileceğini, bunun dokuları ve metabolizmayı kuramsal olarak nasıl etkileyebileceğini literatürden anlatmaktır.</p>
+      <h2>Editoryal ilkeler</h2>
+      <ul>
+        <li><strong>Kullanım önerisi yok.</strong> Doz, süre, protokol, kombinasyon, “nasıl kullanılır” türünden hiçbir bilgi vermeyiz.</li>
+        <li><strong>Kanıt düzeyi belirtilir.</strong> Hücre kültürü, hayvan modeli ve insan klinik çalışması birbirinden ayrı anlatılır; in vitro bulgu insan etkisi gibi sunulmaz.</li>
+        <li><strong>Riskler de yazılır.</strong> Çalışmalarda bildirilen yan etkiler ve bilinmeyenler makalenin parçasıdır.</li>
+        <li><strong>Kaynak gösterilir.</strong> Her yazı hakem denetimli literatüre dayanır ve kaynak listesiyle biter.</li>
+        <li><strong>Sağlık iddiası yok.</strong> “Yağ yakar”, “kas yapar”, “gençleştirir” gibi sonuç vaat eden ifadeler kullanılmaz.</li>
+      </ul>
+      <h2>Yasal ve tıbbi uyarı</h2>
+    </div>
+    <Disclaimer />
+    <div class="prose" style="margin-top:24px">
+      <p>Bahsi geçen bileşiklerin birçoğu hiçbir sağlık otoritesince onaylanmamıştır veya yalnızca belirli hastalıklar için reçeteyle onaylıdır. Onaylı ilaçların kendi kendine kullanımı ciddi riskler taşır. Sağlık durumunuzla ilgili kararlar için lisanslı bir hekime başvurun.</p>
+      <p>Bu sitedeki bilgiler yazıldığı tarihteki literatürü yansıtır ve değişebilir. Hata gördüğünüzde bize bildirmeniz yazıyı düzeltmemizi sağlar.</p>
+    </div>
+    <div style="height:64px"></div>
+  </div>
+</Base>

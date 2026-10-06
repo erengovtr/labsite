@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import { glossary } from '../data/glossary';
+const items = [...glossary].sort((a, b) => a.term.localeCompare(b.term, 'tr'));
+---
+<Base title="Sözlük" description="Peptit biyolojisi, farmakoloji ve analitik kimya terimleri sözlüğü.">
+  <div class="wrap">
+    <div class="page-head"><span class="eyebrow">Sözlük</span><h1>Araştırma dilinin sözlüğü</h1><p>Yazılarda geçen temel terimlerin kısa ve tarafsız tanımları.</p></div>
+    <input class="gloss-search" id="gq" type="search" placeholder="Terim ara…" />
+    <div class="gloss-list" id="gl">
+      {items.map((g) => (
+        <div class="gloss-item" data-t={(g.term + ' ' + (g.en ?? '') + ' ' + g.def).toLocaleLowerCase('tr')}>
+          <h3>{g.term}{g.en && <small>{g.en}</small>}</h3><p>{g.def}</p>
+        </div>
+      ))}
+    </div>
+    <div style="height:64px"></div>
+  </div>
+  <script>
+    const q = document.getElementById('gq') as HTMLInputElement;
+    const els = [...document.querySelectorAll<HTMLElement>('#gl .gloss-item')];
+    q.addEventListener('input', () => { const t = q.value.toLocaleLowerCase('tr'); els.forEach((e) => (e.hidden = !!t && !e.dataset.t!.includes(t))); });
+  </script>
+</Base>

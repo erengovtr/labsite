@@ -1,0 +1,14 @@
+---
+const { compact = false } = Astro.props;
+---
+{compact ? (
+  <div class="disclaimer-bar" role="note">
+    <div class="wrap"><strong>Yalnızca bilgilendirme amaçlıdır.</strong>
+    <span>Bu sitedeki içerikler tıbbi tavsiye, tanı, tedavi veya kullanım önerisi değildir; araştırma bileşikleri insan veya hayvan kullanımı için değildir.</span></div>
+  </div>
+) : (
+  <aside class="callout" role="note">
+    <strong>Önemli uyarı</strong>
+    Bu içerik yalnızca bilimsel bilgilendirme amacıyla hazırlanmıştır. Anlatılan etkiler laboratuvar, hayvan veya klinik araştırma verilerine dayanır; bir kullanım, doz veya tedavi önerisi değildir. Burada adı geçen araştırma bileşikleri insan veya hayvan tüketimi için değildir ve çoğu onaylı ilaç değildir. Sağlıkla ilgili kararlar için bir hekime danışın.
+  </aside>
+)}

@@ -1,0 +1,70 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import HeroArt from '../components/HeroArt.astro';
+import PostCard from '../components/PostCard.astro';
+import Disclaimer from '../components/Disclaimer.astro';
+import { CATEGORIES, slugOf, fmtDate, readingTime } from '../lib/site';
+import { glossary } from '../data/glossary';
+const posts = (await getCollection('posts')).sort((a, b) => +b.data.date - +a.data.date);
+const featured = posts.find((p) => p.data.featured) ?? posts[0];
+const rest = posts.filter((p) => p.id !== featured.id).slice(0, 6);
+const count = (c: string) => posts.filter((p) => p.data.category === c).length;
+---
+<Base>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Bilimsel araştırma blogu</span>
+        <h1>Moleküllerin arkasındaki <em>biyolojiyi</em> anlamak</h1>
+        <p class="lead">Araştırma bileşiklerinin hücrede, dokuda ve metabolizmada nasıl etki gösterebileceğini literatür ışığında anlatıyoruz. Kaynaklı, temkinli ve kullanım önerisi içermeden.</p>
+        <div class="hero-actions">
+          <a class="btn" href="/yazilar/">Yazıları keşfet</a>
+          <a class="btn ghost" href="/sozluk/">Sözlüğe göz at</a>
+        </div>
+        <div class="stats">
+          <div><b>{posts.length}</b><span>kaynaklı yazı</span></div>
+          <div><b>{CATEGORIES.length}</b><span>araştırma alanı</span></div>
+          <div><b>{glossary.length}</b><span>sözlük terimi</span></div>
+          <div><b>0</b><span>kullanım önerisi</span></div>
+        </div>
+      </div>
+      <HeroArt />
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="section-head"><div><span class="eyebrow">Öne çıkan</span><h2>Bu haftanın okuması</h2></div></div>
+      <a class="featured" href={`/yazilar/${featured.id}/`}>
+        <div class="f-art"><svg viewBox="0 0 200 200" width="170" aria-hidden="true"><g fill="none" stroke="#f5f0e6" stroke-width="5" stroke-linejoin="round" opacity=".92"><path d="M100 30l55 32v64l-55 32-55-32V62z"/><path d="M100 30v64M45 62l55 32M155 62l-55 32" stroke-width="3" opacity=".5"/></g><circle cx="100" cy="94" r="9" fill="#e2b35a"/><circle cx="155" cy="62" r="8" fill="#f5f0e6"/><circle cx="45" cy="126" r="8" fill="#f5f0e6"/></svg></div>
+        <div class="f-body">
+          <span class="chip" style="align-self:flex-start">{featured.data.category}</span>
+          <h3>{featured.data.title}</h3>
+          <p style="color:var(--ink-2);margin:0">{featured.data.description}</p>
+          <div class="muted" style="font-size:14px">{fmtDate(featured.data.date)} · {featured.data.readingMinutes ?? readingTime(featured.body ?? '')} dk okuma</div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="block" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head"><div><span class="eyebrow">Son yazılar</span><h2>Yeni eklenenler</h2></div><a href="/yazilar/">Tümü →</a></div>
+      <div class="grid">{rest.map((p) => <PostCard post={p} />)}</div>
+    </div>
+  </section>
+
+  <section class="block" style="background:var(--paper);border-block:1px solid var(--line)">
+    <div class="wrap">
+      <div class="section-head"><div><span class="eyebrow">Konular</span><h2>Araştırma alanları</h2></div></div>
+      <div class="cat-grid">
+        {CATEGORIES.map((c) => <a class="cat" href={`/kategori/${c.slug}/`}><b>{c.name}</b><span>{c.blurb}</span><small>{count(c.name)} yazı →</small></a>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap" style="max-width:820px"><Disclaimer /></div>
+  </section>
+</Base>

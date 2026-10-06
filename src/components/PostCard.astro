@@ -1,0 +1,13 @@
+---
+import { slugOf, fmtDate, readingTime } from '../lib/site';
+const { post } = Astro.props;
+const d = post.data;
+const mins = d.readingMinutes ?? readingTime(post.body ?? '');
+---
+<a class="card" href={`/yazilar/${post.id}/`} data-cat={d.category} data-title={d.title.toLowerCase()}>
+  <span class="chip" style="align-self:flex-start">{d.category}</span>
+  <h3>{d.title}</h3>
+  <p>{d.description}</p>
+  {d.compound && <span class="compound">{d.compound}</span>}
+  <div class="meta"><span>{fmtDate(d.date)}</span><span>·</span><span>{mins} dk okuma</span></div>
+</a>
