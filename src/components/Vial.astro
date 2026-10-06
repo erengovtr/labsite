@@ -6,14 +6,14 @@ const fs = name.length > 14 ? 15 : name.length > 9 ? 19 : 24;
 <svg class={`vial ${cls}`} viewBox="0 0 240 320" role="img" aria-label={`${name} (görsel yer tutucu)`}>
   <defs>
     <linearGradient id="glass" x1="0" x2="1"><stop offset="0" stop-color="#dfe9e3"/><stop offset=".45" stop-color="#fbfdfb"/><stop offset="1" stop-color="#cfdcd5"/></linearGradient>
-    <linearGradient id="cap" x1="0" x2="1"><stop offset="0" stop-color="#17463a"/><stop offset=".5" stop-color="#2f7a67"/><stop offset="1" stop-color="#17463a"/></linearGradient>
+    <linearGradient id="cap" x1="0" x2="1"><stop offset="0" stop-color="#143f24"/><stop offset=".5" stop-color="#3f8a43"/><stop offset="1" stop-color="#143f24"/></linearGradient>
   </defs>
   <ellipse cx="120" cy="300" rx="78" ry="10" fill="#1d2a27" opacity=".12"/>
   <rect x="82" y="22" width="76" height="34" rx="6" fill="url(#cap)"/>
   <rect x="76" y="52" width="88" height="14" rx="4" fill="#c6a35c"/>
   <path d="M84 66h72v20c0 8 18 14 18 30v152c0 14-8 22-22 22H88c-14 0-22-8-22-22V116c0-16 18-22 18-30z" fill="url(#glass)" stroke="#b8c7bf" stroke-width="2"/>
   <rect x="74" y="146" width="92" height="104" rx="6" fill="#f5f0e6" stroke="#ddd4c0"/>
-  <rect x="74" y="146" width="92" height="22" rx="6" fill="#1f5c4d"/>
+  <rect x="74" y="146" width="92" height="22" rx="6" fill="#1d5a30"/>
   <text x="120" y="161" text-anchor="middle" font-family="Fraunces, serif" font-size="11" letter-spacing="1.6" fill="#f5f0e6">BIOSCIENCE</text>
   <text x="120" y="204" text-anchor="middle" font-family="Fraunces, serif" font-size={fs} fill="#1d2a27">{name}</text>
   <text x="120" y="228" text-anchor="middle" font-family="Inter, sans-serif" font-size="8.5" letter-spacing="1.4" fill="#7a847f">ARAŞTIRMA AMAÇLI</text>
