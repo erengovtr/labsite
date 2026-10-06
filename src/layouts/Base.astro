@@ -53,7 +53,7 @@ const nav = [
   <Disclaimer compact />
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="/"><img src="/brand/logo-full.png" alt="Bioscience Pharma" width="140" height="42" /><span>{SITE.tagline}</span></a>
+      <a class="brand" href="/"><img src="/brand/logo-full.png" alt="Bioscience Pharma" width="171" height="50" /><span>{SITE.tagline}</span></a>
       <nav class="nav" id="nav" aria-label="Ana menü">
         {nav.map(([href, label]) => <a href={href} aria-current={(href === '/' ? path === '/' : path.startsWith(href)) ? 'page' : undefined}>{label}</a>)}
       </nav>
@@ -78,7 +78,7 @@ const nav = [
     <div class="wrap">
       <div class="cols">
         <div>
-          <a class="brand" href="/"><img src="/brand/logo-full-light.png" alt="Bioscience Pharma" style="height:48px" /></a>
+          <a class="brand" href="/"><img src="/brand/logo-full-light.png" alt="Bioscience Pharma" style="height:66px" /></a>
           <p style="margin-top:14px;max-width:44ch;font-size:15px">{SITE.description}</p>
         </div>
         <div><h4>Konular</h4><ul>{CATEGORIES.map((c) => <li><a href={`/kategori/${c.slug}/`}>{c.name}</a></li>)}</ul></div>
