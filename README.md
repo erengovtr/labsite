@@ -27,7 +27,14 @@ Kullanım, doz, protokol veya sonuç vaadi içermez; yalnızca mekanizma ve lite
 
 Önceki proje (SideChain Analytics doğrulama portalı) `archive/` altında saklanıyor.
 
-## Yayına alma (Firebase Hosting, Spark ücretsiz plan)
+## Yayına alma — terminalsiz (GitHub → Firebase)
+`.github/workflows/firebase-hosting.yml` her push'ta siteyi derleyip Firebase Hosting'e yayınlar.
+GitHub reposunda Settings → Secrets and variables → Actions altında:
+- **Secret** `FIREBASE_SERVICE_ACCOUNT`: Firebase konsolu → Project settings → Service accounts → "Generate new private key" ile inen JSON dosyasının tüm içeriği
+- **Variable** `FIREBASE_PROJECT_ID`: Firebase proje kimliği
+- **Variable** `SITE_URL`: ör. `https://PROJE-ADI.web.app`
+
+## Yayına alma — terminalle (Firebase Hosting, Spark ücretsiz plan)
 ```bash
 npm install -g firebase-tools
 firebase login
