@@ -2,7 +2,7 @@
 title: "GLP-1 reseptörü: iştah, insülin ve mide boşalmasının ortak noktası"
 description: "GLP-1 reseptörünün hücre içinde nasıl sinyal ilettiği ve pankreas, beyin ve sindirim sisteminde hangi biyolojik değişiklikleri başlatabildiği."
 category: "Metabolizma"
-tags: ["GLP-1", "inkretin", "cAMP", "GPCR"]
+tags: ["GLP-1", "inkretin", "cAMP", "GPCR", "retatrutide"]
 date: 2026-09-21
 compound: "GLP-1R"
 references:

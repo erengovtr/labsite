@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import Disclaimer from '../../components/Disclaimer.astro';
+const products = (await getCollection('products')).sort((a, b) => a.data.order - b.data.order);
+---
+<Base title="Ürünler" description="Bioscience ürünleri hakkında genel bilimsel bilgilendirme sayfaları.">
+  <div class="wrap">
+    <div class="page-head" data-reveal><span class="eyebrow">Ürünler</span><h1>Ürün bilgi sayfaları</h1>
+      <p>Her sayfa, ilgili bileşiğin biyolojisini, araştırma durumunu ve sınırlarını tarafsız bir dille özetler. Sayfa sonunda aynı etiketi taşıyan yazılar otomatik listelenir.</p></div>
+    <div class="pgrid" data-stagger="scale">{products.map((p) => <ProductCard product={p} />)}</div>
+    <div style="max-width:820px;margin:48px auto 64px" data-reveal><Disclaimer /></div>
+  </div>
+</Base>

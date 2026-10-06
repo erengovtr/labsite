@@ -1,0 +1,10 @@
+---
+import Vial from './Vial.astro';
+import { productImage } from '../lib/images';
+const { product, class: cls = '' } = Astro.props;
+const d = product.data;
+const img = productImage(product.id);
+---
+<div class={`pmedia ${cls}`}>
+  {img ? <img src={img} alt={d.name} /> : <Vial name={d.name} />}
+</div>

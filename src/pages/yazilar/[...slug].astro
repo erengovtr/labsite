@@ -3,7 +3,9 @@ import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import PostCard from '../../components/PostCard.astro';
 import Disclaimer from '../../components/Disclaimer.astro';
+import ProductCard from '../../components/ProductCard.astro';
 import { slugOf, fmtDate, readingTime } from '../../lib/site';
+import { tagSlug } from '../../lib/tags';
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
   return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
@@ -14,6 +16,7 @@ const d = post.data;
 const toc = headings.filter((h) => h.depth === 2);
 const mins = d.readingMinutes ?? readingTime(post.body ?? '');
 const related = (await getCollection('posts')).filter((p) => p.id !== post.id && (p.data.category === d.category || p.data.tags.some((t) => d.tags.includes(t)))).slice(0, 3);
+const relProducts = (await getCollection('products')).filter((pr) => d.tags.some((t) => tagSlug(t) === pr.data.tag));
 const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: d.title, description: d.description, datePublished: d.date.toISOString(), dateModified: (d.updated ?? d.date).toISOString(), inLanguage: 'tr', author: { '@type': 'Organization', name: 'Bioscience Editör Ekibi' } };
 ---
 <Base title={d.title} description={d.description} type="article" published={d.date}>
@@ -36,7 +39,8 @@ const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: d.t
             <ol>{d.references.map((r) => <li>{r}</li>)}</ol>
           </section>
         )}
-        <div class="tags">{d.tags.map((t) => <span class="chip">#{t}</span>)}</div>
+        <div class="tagline-chips" style="margin-top:28px">{d.tags.map((t) => <a class="tag" href={`/etiket/${tagSlug(t)}/`}>#{t}</a>)}</div>
+        {relProducts.length > 0 && <div style="margin-top:32px"><p class="eyebrow" style="margin-bottom:14px">Bu yazıyla ilişkili ürün bilgisi</p><div class="pgrid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">{relProducts.map((pr) => <ProductCard product={pr} />)}</div></div>}
         <div style="margin-top:32px"><Disclaimer /></div>
       </article>
       <aside class="toc" aria-label="İçindekiler">

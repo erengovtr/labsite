@@ -8,7 +8,7 @@ const full = title ? `${title} · ${SITE.name} ${SITE.tagline}` : `${SITE.name} 
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const path = Astro.url.pathname;
 const nav = [
-  ['/', 'Ana sayfa'], ['/yazilar/', 'Yazılar'], ['/sozluk/', 'Sözlük'], ['/hakkinda/', 'Hakkında'],
+  ['/', 'Ana sayfa'], ['/urunler/', 'Ürünler'], ['/yazilar/', 'Yazılar'], ['/sozluk/', 'Sözlük'], ['/hakkinda/', 'Hakkında'],
 ];
 ---
 <!doctype html>
@@ -25,10 +25,31 @@ const nav = [
   <meta property="og:type" content={type} /><meta property="og:locale" content="tr_TR" />
   {published && <meta property="article:published_time" content={published.toISOString()} />}
   <meta name="theme-color" content="#f5f0e6" />
+  <script is:inline>
+    (function () {
+      var d = document.documentElement; d.classList.add('js');
+      try {
+        if (!sessionStorage.getItem('bs-splash') && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          d.classList.add('splash-on'); sessionStorage.setItem('bs-splash', '1');
+        }
+      } catch (e) {}
+    })();
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 </head>
 <body>
+  <div id="splash" aria-hidden="true">
+    <div class="tv"></div>
+    <div class="tv-line"></div>
+    <div class="tv-scan"></div>
+    <div class="tv-brand">
+      <Logo />
+      <b>Bioscience</b>
+      <span>Araştırma Notları</span>
+    </div>
+    <div class="tv-skip">Geçmek için tıklayın</div>
+  </div>
   <a class="skip" href="#main">İçeriğe geç</a>
   <Disclaimer compact />
   <header class="site-header">
@@ -63,7 +84,7 @@ const nav = [
         </div>
         <div><h4>Konular</h4><ul>{CATEGORIES.map((c) => <li><a href={`/kategori/${c.slug}/`}>{c.name}</a></li>)}</ul></div>
         <div><h4>Site</h4><ul>
-          <li><a href="/yazilar/">Tüm yazılar</a></li><li><a href="/sozluk/">Sözlük</a></li>
+          <li><a href="/urunler/">Ürünler</a></li><li><a href="/yazilar/">Tüm yazılar</a></li><li><a href="/sozluk/">Sözlük</a></li>
           <li><a href="/hakkinda/">Editoryal ilke & uyarılar</a></li><li><a href="/rss.xml">RSS</a></li>
           <li><a href={SITE.shop} rel="noopener">Bioscience ürün kataloğu ↗</a></li>
         </ul></div>
@@ -76,6 +97,9 @@ const nav = [
     </div>
   </footer>
 
+  <script>
+    import '../scripts/motion.ts';
+  </script>
   <script>
     const nav = document.getElementById('nav'); const mt = document.getElementById('menu-toggle');
     mt?.addEventListener('click', () => { const o = nav!.classList.toggle('open'); mt.setAttribute('aria-expanded', String(o)); });

@@ -1,0 +1,57 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import ProductMedia from '../../components/ProductMedia.astro';
+import Disclaimer from '../../components/Disclaimer.astro';
+import { postHasTag } from '../../lib/tags';
+export async function getStaticPaths() {
+  const products = await getCollection('products');
+  return products.map((product) => ({ params: { slug: product.id }, props: { product } }));
+}
+const { product } = Astro.props;
+const d = product.data;
+const { Content } = await render(product);
+const posts = (await getCollection('posts')).filter((p) => postHasTag(p.data.tags, d.tag)).sort((a, b) => +b.data.date - +a.data.date);
+const others = (await getCollection('products')).filter((p) => p.id !== product.id).sort((a, b) => a.data.order - b.data.order).slice(0, 3);
+---
+<Base title={d.name} description={d.tagline}>
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Konum"><a href="/urunler/">Ürünler</a> / {d.name}</nav>
+    <section class="phero">
+      <div>
+        <span class="eyebrow" data-reveal>{d.category}</span>
+        <h1 data-reveal style="--d:.08s">{d.name}</h1>
+        <p class="tag-line" data-reveal style="--d:.16s">{d.tagline}</p>
+        <span class="status" data-reveal style="--d:.22s">{d.status}</span>
+        {d.facts.length > 0 && (
+          <dl class="facts" data-reveal style="--d:.3s">
+            {d.facts.map((f) => <div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}
+          </dl>
+        )}
+      </div>
+      <div class="pstage" data-reveal="scale" style="--d:.1s"><div data-parallax="0.08" style="width:62%;display:grid;place-items:center"><ProductMedia product={product} /></div></div>
+    </section>
+
+    <section class="pbody">
+      <div class="prose" data-reveal><Content /></div>
+    </section>
+    <div style="max-width:var(--prose);margin:8px 0 0" data-reveal><Disclaimer /></div>
+
+    <section class="related">
+      <div class="section-head" data-reveal>
+        <div><span class="eyebrow">İlgili yazılar</span><h2><span class="hash">#</span>{d.tag}</h2></div>
+        <a class="tag" href={`/etiket/${d.tag}/`}>Etiketin tüm yazıları →</a>
+      </div>
+      {posts.length > 0
+        ? <div class="grid" data-stagger>{posts.map((p) => <PostCard post={p} />)}</div>
+        : <div class="empty-box">Bu ürünle ilişkili yazı henüz yok. Bir yazıya <code>#{d.tag}</code> etiketi eklendiğinde burada otomatik görünür.</div>}
+    </section>
+
+    <section class="related" style="padding-top:0">
+      <div class="section-head" data-reveal><div><span class="eyebrow">Diğer ürünler</span><h2>Keşfetmeye devam edin</h2></div></div>
+      <div class="pgrid" data-stagger="scale">{others.map((p) => <ProductCard product={p} />)}</div>
+    </section>
+  </div>
+</Base>

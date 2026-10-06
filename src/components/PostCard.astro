@@ -9,5 +9,6 @@ const mins = d.readingMinutes ?? readingTime(post.body ?? '');
   <h3>{d.title}</h3>
   <p>{d.description}</p>
   {d.compound && <span class="compound">{d.compound}</span>}
+  {d.tags.length > 0 && <div class="tagrow">{d.tags.slice(0, 3).map((t) => <span>#{t}</span>)}</div>}
   <div class="meta"><span>{fmtDate(d.date)}</span><span>·</span><span>{mins} dk okuma</span></div>
 </a>
