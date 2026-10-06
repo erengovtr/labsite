@@ -26,3 +26,12 @@ içindekiler otomatik oluşur. Sözlük terimleri `src/data/glossary.ts` içinde
 Kullanım, doz, protokol veya sonuç vaadi içermez; yalnızca mekanizma ve literatür özeti. Her yazıda uyarı kutusu ve kaynak listesi bulunur.
 
 Önceki proje (SideChain Analytics doğrulama portalı) `archive/` altında saklanıyor.
+
+## Yayına alma (Firebase Hosting, Spark ücretsiz plan)
+```bash
+npm install -g firebase-tools
+firebase login
+firebase init hosting      # mevcut firebase.json'u koruyun; public klasörü: dist; SPA yönlendirmesi: Hayır
+SITE_URL=https://PROJE-ADI.web.app npm run deploy
+```
+`SITE_URL` canonical, site haritası ve RSS adreslerini belirler; özel alan adı bağlarsanız onu yazın.
