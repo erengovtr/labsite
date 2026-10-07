@@ -3,7 +3,6 @@ export const SITE = {
   tagline: 'Araştırma Notları',
   description:
     'Araştırma bileşikleri üzerine bilimsel, kaynaklı ve tarafsız içerikler: etki mekanizmaları, biyolojik yollar ve analitik kalite.',
-  shop: 'https://assistsupps.com/bioscience-1',
 };
 
 export const CATEGORIES = [
