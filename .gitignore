@@ -3,3 +3,6 @@ dist/
 .astro/
 .env
 .firebase/
+src/data/literature.json.lock
+src/data/literature.json.tmp
+__pycache__/

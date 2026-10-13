@@ -70,9 +70,13 @@ def fetch(pmids, save=True, scratch=None):
         }
         out[pmid] = (rec, abstract)
     if save:
-        db = load()
-        for k, (rec, _) in out.items(): db[k] = rec
-        json.dump(dict(sorted(db.items())), open(DB, 'w'), ensure_ascii=False, indent=1)
+        import fcntl
+        with open(DB + '.lock', 'w') as lk:
+            fcntl.flock(lk, fcntl.LOCK_EX)
+            db = load()
+            for k, (rec, _) in out.items(): db[k] = rec
+            json.dump(dict(sorted(db.items())), open(DB + '.tmp', 'w'), ensure_ascii=False, indent=1)
+            os.replace(DB + '.tmp', DB)
     time.sleep(0.4)
     return out
 
