@@ -16,7 +16,7 @@ facts:
   - { label: "Köken", value: "Tuftsin analoğu [@36322304]" }
   - { label: "Moleküler hedef", value: "GABA reseptörlerinde allosterik modülasyon (deneysel) [@30255741]" }
   - { label: "İnsan çalışması", value: "62 hastalık randomize karşılaştırma [@18454096]" }
-  - { label: "Düzenleyici durum", value: "13 Ekim 2026 itibarıyla Drugs@FDA'da kaydı yok; 2 çalışma kayıtlı" }
+  - { label: "Düzenleyici durum", value: "13 Ekim 2026 itibarıyla Drugs@FDA'da kaydı yok; ClinicalTrials.gov'da Selank çalışması bulunamadı (arama iki ilgisiz kayıt döndürdü)" }
 ---
 Selank, tuftsin analoğu yedi amino asitlik bir peptittir [@30255741]. Moleküler deneylerde GABA bağlanmasını allosterik olarak etkilediği gösterilmiştir [@30255741]. İnsanda yapılmış küçük karşılaştırmalı çalışmalar vardır [@18454096], ancak literatür çok sınırlı kalmıştır.
 

@@ -196,6 +196,23 @@
    "Review"
   ]
  },
+ "10944717": {
+  "pmid": "10944717",
+  "title": "A synthetic dipeptide vilon (L-Lys-L-Glu) inhibits growth of spontaneous tumors and increases life span of mice",
+  "authors": [
+   "Khavinson VKh",
+   "Anisimov VN"
+  ],
+  "journal": "Dokl Biol Sci",
+  "year": "2000",
+  "volume": "372",
+  "issue": "",
+  "pages": "261-3",
+  "doi": "",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "10967427": {
   "pmid": "10967427",
   "title": "Lyophilization and development of solid protein pharmaceuticals",
@@ -531,6 +548,24 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "11707921": {
+  "pmid": "11707921",
+  "title": "Immunomodulatory synthetic dipeptide L-Glu-L-Trp slows down aging and inhibits spontaneous carcinogenesis in rats",
+  "authors": [
+   "Anisimov VN",
+   "Khavinson VK",
+   "Morozov VG"
+  ],
+  "journal": "Biogerontology",
+  "year": "2000",
+  "volume": "1",
+  "issue": "1",
+  "pages": "55-9",
+  "doi": "10.1023/a:1010042008969",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "11713213": {
   "pmid": "11713213",
   "title": "The effects of human GH and its lipolytic fragment (AOD9604) on lipid metabolism following chronic treatment in obese mice and beta(3)-AR knock-out mice",
@@ -719,6 +754,25 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "12360356": {
+  "pmid": "12360356",
+  "title": "Studies of the effects of Vilon and Epithalon on gene expression in mouse heart using DNA-microarray technology",
+  "authors": [
+   "Anisimov SV",
+   "Bokheler KR",
+   "Khavinson VKh",
+   "Anisimov VN"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2002",
+  "volume": "133",
+  "issue": "3",
+  "pages": "293-9",
+  "doi": "10.1023/a:1015859322630",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "12374520": {
   "pmid": "12374520",
   "title": "Glucosamine sulfate use and delay of progression of knee osteoarthritis: a 3-year, randomized, placebo-controlled, double-blind study",
@@ -794,6 +848,28 @@
   "issue": "5-6",
   "pages": "452-4",
   "doi": "",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "12533768": {
+  "pmid": "12533768",
+  "title": "Effects of Livagen peptide on chromatin activation in lymphocytes from old people",
+  "authors": [
+   "Khavinson VKh",
+   "Lezhava TA",
+   "Monaselidze JG",
+   "Dzhokhadze TA",
+   "Dvalishvili NA",
+   "Bablishvili NK",
+   "Ryadnova IY"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2002",
+  "volume": "134",
+  "issue": "4",
+  "pages": "389-92",
+  "doi": "10.1023/a:1021924702103",
   "types": [
    "Journal Article"
   ]
@@ -1311,6 +1387,25 @@
    "Journal Article",
    "Multicenter Study",
    "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "15085253": {
+  "pmid": "15085253",
+  "title": "Effects of short peptides on lymphocyte chromatin in senile subjects",
+  "authors": [
+   "Khavinson VKh",
+   "Lezhava TA",
+   "Malinin VV"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2004",
+  "volume": "137",
+  "issue": "1",
+  "pages": "78-81",
+  "doi": "10.1023/b:bebm.0000024393.40560.05",
+  "types": [
+   "Journal Article",
    "Research Support, Non-U.S. Gov't"
   ]
  },
@@ -1865,6 +1960,67 @@
    "Comparative Study",
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "15920775": {
+  "pmid": "15920775",
+  "title": "Mechanism of protein stabilization by sugars during freeze-drying and storage: native structure preservation, specific interaction, and/or immobilization in a glassy matrix?",
+  "authors": [
+   "Chang L",
+   "Shepherd D",
+   "Sun J",
+   "Ouellette D",
+   "Grant KL",
+   "Tang XC",
+   "Pikal MJ"
+  ],
+  "journal": "J Pharm Sci",
+  "year": "2005",
+  "volume": "94",
+  "issue": "7",
+  "pages": "1427-44",
+  "doi": "10.1002/jps.20364",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "1592171": {
+  "pmid": "1592171",
+  "title": "Formulation and stability of freeze-dried proteins: effects of moisture and oxygen on the stability of freeze-dried formulations of human growth hormone",
+  "authors": [
+   "Pikal MJ",
+   "Dellerman K",
+   "Roy ML"
+  ],
+  "journal": "Dev Biol Stand",
+  "year": "1992",
+  "volume": "74",
+  "issue": "",
+  "pages": "21-37; discussion 37-8",
+  "doi": "",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "1592175": {
+  "pmid": "1592175",
+  "title": "Determining the optimum residual moisture in lyophilized protein pharmaceuticals",
+  "authors": [
+   "Hsu CC",
+   "Ward CA",
+   "Pearlman R",
+   "Nguyen HM",
+   "Yeung DA",
+   "Curley JG"
+  ],
+  "journal": "Dev Biol Stand",
+  "year": "1992",
+  "volume": "74",
+  "issue": "",
+  "pages": "255-70; discussion 271",
+  "doi": "",
+  "types": [
+   "Journal Article"
   ]
  },
  "16099219": {
@@ -2764,6 +2920,26 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "17925046": {
+  "pmid": "17925046",
+  "title": "Water intoxication-a dangerous condition in labor and delivery rooms",
+  "authors": [
+   "Ophir E",
+   "Solt I",
+   "Odeh M",
+   "Bornstein J"
+  ],
+  "journal": "Obstet Gynecol Surv",
+  "year": "2007",
+  "volume": "62",
+  "issue": "11",
+  "pages": "731-8",
+  "doi": "10.1097/01.ogx.0000286583.98141.a2",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "17928588": {
   "pmid": "17928588",
   "title": "The physiology of glucagon-like peptide 1",
@@ -3202,6 +3378,24 @@
    "Comparative Study",
    "Journal Article",
    "Randomized Controlled Trial"
+  ]
+ },
+ "18485029": {
+  "pmid": "18485029",
+  "title": "Vasoactive intestinal polypeptide/phentolamine for intracavernosal injection in erectile dysfunction",
+  "authors": [
+   "Dinsmore WW",
+   "Wyllie MG"
+  ],
+  "journal": "BJU Int",
+  "year": "2008",
+  "volume": "102",
+  "issue": "8",
+  "pages": "933-7",
+  "doi": "10.1111/j.1464-410X.2008.07764.x",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "18492182": {
@@ -3680,6 +3874,28 @@
    "Multicenter Study",
    "Randomized Controlled Trial",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "19072860": {
+  "pmid": "19072860",
+  "title": "Degradation pathways of a corticotropin-releasing factor antagonist in solution and solid states",
+  "authors": [
+   "Badawy S",
+   "Hussain M",
+   "Zhao F",
+   "Ye Q",
+   "Huang Y",
+   "Palaniswamy V"
+  ],
+  "journal": "J Pharm Sci",
+  "year": "2009",
+  "volume": "98",
+  "issue": "8",
+  "pages": "2636-47",
+  "doi": "10.1002/jps.21637",
+  "types": [
+   "Comparative Study",
+   "Journal Article"
   ]
  },
  "19079612": {
@@ -6344,6 +6560,27 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "23246832": {
+  "pmid": "23246832",
+  "title": "A comprehensive summary of LL-37, the factotum human cathelicidin peptide",
+  "authors": [
+   "Vandamme D",
+   "Landuyt B",
+   "Luyten W",
+   "Schoofs L"
+  ],
+  "journal": "Cell Immunol",
+  "year": "2012",
+  "volume": "280",
+  "issue": "1",
+  "pages": "22-35",
+  "doi": "10.1016/j.cellimm.2012.11.009",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Review"
+  ]
+ },
  "23255568": {
   "pmid": "23255568",
   "title": "Multivitamin-multimineral supplementation and mortality: a meta-analysis of randomized controlled trials",
@@ -7279,6 +7516,29 @@
    "Journal Article"
   ]
  },
+ "24623139": {
+  "pmid": "24623139",
+  "title": "Protein quantity on the air-solid interface determines degradation rates of human growth hormone in lyophilized samples",
+  "authors": [
+   "Xu Y",
+   "Grobelny P",
+   "Von Allmen A",
+   "Knudson K",
+   "Pikal M",
+   "Carpenter JF",
+   "Randolph TW"
+  ],
+  "journal": "J Pharm Sci",
+  "year": "2014",
+  "volume": "103",
+  "issue": "5",
+  "pages": "1356-66",
+  "doi": "10.1002/jps.23926",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ]
+ },
  "24634817": {
   "pmid": "24634817",
   "title": "Identification of a novel mitochondrial uncoupler that does not depolarize the plasma membrane",
@@ -7614,6 +7874,28 @@
    "Journal Article",
    "Randomized Controlled Trial",
    "Research Support, N.I.H., Extramural"
+  ]
+ },
+ "25041740": {
+  "pmid": "25041740",
+  "title": "Treatment with LL-37 is safe and effective in enhancing healing of hard-to-heal venous leg ulcers: a randomized, placebo-controlled clinical trial",
+  "authors": [
+   "Grönberg A",
+   "Mahlapuu M",
+   "Ståhle M",
+   "Whately-Smith C",
+   "Rollman O"
+  ],
+  "journal": "Wound Repair Regen",
+  "year": "2014",
+  "volume": "22",
+  "issue": "5",
+  "pages": "613-21",
+  "doi": "10.1111/wrr.12211",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "25051764": {
@@ -8461,6 +8743,27 @@
    "Review"
   ]
  },
+ "26033601": {
+  "pmid": "26033601",
+  "title": "Peptide Regulation of Cells Renewal Processes in Kidney Tissue Cultures from Young and Old Animals",
+  "authors": [
+   "Chalisova NI",
+   "Lin'kova NS",
+   "Nichik TE",
+   "Ryzhak AP",
+   "Dudkov AV",
+   "Ryzhak GA"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2015",
+  "volume": "159",
+  "issue": "1",
+  "pages": "124-7",
+  "doi": "10.1007/s10517-015-2906-9",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "26049207": {
   "pmid": "26049207",
   "title": "Intranasal Oxytocin: Myths and Delusions",
@@ -8853,6 +9156,31 @@
    "Journal Article"
   ]
  },
+ "26395996": {
+  "pmid": "26395996",
+  "title": "The Role of Cathelicidin LL-37 in Cancer Development",
+  "authors": [
+   "Piktel E",
+   "Niemirowicz K",
+   "Wnorowska U",
+   "Wątek M",
+   "Wollny T",
+   "Głuszek K",
+   "Góźdź S",
+   "Levental I",
+   "Bucki R"
+  ],
+  "journal": "Arch Immunol Ther Exp (Warsz)",
+  "year": "2016",
+  "volume": "64",
+  "issue": "1",
+  "pages": "33-46",
+  "doi": "10.1007/s00005-015-0359-5",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "26463139": {
   "pmid": "26463139",
   "title": "Total, Dietary, and Supplemental Vitamin C Intake and Risk of Incident Kidney Stones",
@@ -9164,6 +9492,25 @@
    "Clinical Trial, Phase I",
    "Journal Article",
    "Randomized Controlled Trial"
+  ]
+ },
+ "27117377": {
+  "pmid": "27117377",
+  "title": "LL-37: Cathelicidin-related antimicrobial peptide with pleiotropic activity",
+  "authors": [
+   "Fabisiak A",
+   "Murawska N",
+   "Fichna J"
+  ],
+  "journal": "Pharmacol Rep",
+  "year": "2016",
+  "volume": "68",
+  "issue": "4",
+  "pages": "802-8",
+  "doi": "10.1016/j.pharep.2016.03.015",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "27138015": {
@@ -11417,6 +11764,26 @@
    "Systematic Review"
   ]
  },
+ "29729269": {
+  "pmid": "29729269",
+  "title": "LL-37-induced human osteoblast cytotoxicity and permeability occurs independently of cellular LL-37 uptake through clathrin-mediated endocytosis",
+  "authors": [
+   "Anders E",
+   "Dahl S",
+   "Svensson D",
+   "Nilsson BO"
+  ],
+  "journal": "Biochem Biophys Res Commun",
+  "year": "2018",
+  "volume": "501",
+  "issue": "1",
+  "pages": "280-285",
+  "doi": "10.1016/j.bbrc.2018.04.235",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "29749440": {
   "pmid": "29749440",
   "title": "Vitamin K‑dependent proteins involved in bone and cardiovascular health (Review)",
@@ -11582,6 +11949,29 @@
    "Journal Article",
    "Research Support, N.I.H., Extramural",
    "Research Support, N.I.H., Intramural"
+  ]
+ },
+ "29843147": {
+  "pmid": "29843147",
+  "title": "Roles and Mechanisms of Human Cathelicidin LL-37 in Cancer",
+  "authors": [
+   "Chen X",
+   "Zou X",
+   "Qi G",
+   "Tang Y",
+   "Guo Y",
+   "Si J",
+   "Liang L"
+  ],
+  "journal": "Cell Physiol Biochem",
+  "year": "2018",
+  "volume": "47",
+  "issue": "3",
+  "pages": "1060-1073",
+  "doi": "10.1159/000490183",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "29897293": {
@@ -12019,6 +12409,24 @@
    "Journal Article",
    "Research Support, Non-U.S. Gov't",
    "Review"
+  ]
+ },
+ "30350639": {
+  "pmid": "30350639",
+  "title": "Fibril Nucleation Kinetics of a Pharmaceutical Peptide: The Role of Conformation Stability, Formulation Factors, and Temperature Effect",
+  "authors": [
+   "Zhang J",
+   "Mao X",
+   "Xu W"
+  ],
+  "journal": "Mol Pharm",
+  "year": "2018",
+  "volume": "15",
+  "issue": "12",
+  "pages": "5591-5601",
+  "doi": "10.1021/acs.molpharmaceut.8b00769",
+  "types": [
+   "Journal Article"
   ]
  },
  "30379415": {
@@ -13580,6 +13988,26 @@
    "Systematic Review"
   ]
  },
+ "32178977": {
+  "pmid": "32178977",
+  "title": "Oxidation of parathyroid hormone",
+  "authors": [
+   "Ursem SR",
+   "Vervloet MG",
+   "de Jongh RT",
+   "Heijboer AC"
+  ],
+  "journal": "Clin Chim Acta",
+  "year": "2020",
+  "volume": "506",
+  "issue": "",
+  "pages": "84-91",
+  "doi": "10.1016/j.cca.2020.03.020",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "32219282": {
   "pmid": "32219282",
   "title": "The combination effect of vitamin K and vitamin D on human bone quality: a meta-analysis of randomized controlled trials",
@@ -13740,6 +14168,26 @@
   "issue": "1",
   "pages": "9-11",
   "doi": "10.1134/S001249662001007X",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "32399807": {
+  "pmid": "32399807",
+  "title": "Gene expression in human mesenchymal stem cell aging cultures: modulation by short peptides",
+  "authors": [
+   "Ashapkin V",
+   "Khavinson V",
+   "Shilovsky G",
+   "Linkova N",
+   "Vanuyshin B"
+  ],
+  "journal": "Mol Biol Rep",
+  "year": "2020",
+  "volume": "47",
+  "issue": "6",
+  "pages": "4323-4329",
+  "doi": "10.1007/s11033-020-05506-3",
   "types": [
    "Journal Article"
   ]
@@ -15179,6 +15627,30 @@
    "Review"
   ]
  },
+ "33961953": {
+  "pmid": "33961953",
+  "title": "Effect of formulation and peptide folding on the fibrillar aggregation, gelation, and oxidation of a therapeutic peptide",
+  "authors": [
+   "Korang-Yeboah M",
+   "Ketcham S",
+   "Shih M",
+   "Ako-Adounvo AM",
+   "Zhang J",
+   "Bandaranayake BM",
+   "Abbey-Berko Y",
+   "Faustino P",
+   "Ashraf M"
+  ],
+  "journal": "Int J Pharm",
+  "year": "2021",
+  "volume": "604",
+  "issue": "",
+  "pages": "120677",
+  "doi": "10.1016/j.ijpharm.2021.120677",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "33982679": {
   "pmid": "33982679",
   "title": "Development of a Predictive Enrichment Marker for the Oral GH Secretagogue LUM-201 in Pediatric Growth Hormone Deficiency",
@@ -15701,6 +16173,25 @@
    "Journal Article"
   ]
  },
+ "34379318": {
+  "pmid": "34379318",
+  "title": "Water intoxication in the course of stimulation of labor with oxytocin",
+  "authors": [
+   "Szadok P",
+   "Bajorek A",
+   "Fluder R"
+  ],
+  "journal": "Ginekol Pol",
+  "year": "2021",
+  "volume": "92",
+  "issue": "7",
+  "pages": "534-535",
+  "doi": "10.5603/GP.a2021.0104",
+  "types": [
+   "Case Reports",
+   "Journal Article"
+  ]
+ },
  "34380875": {
   "pmid": "34380875",
   "title": "Pentadecapeptide BPC 157 and the central nervous system",
@@ -16034,6 +16525,43 @@
    "Validation Study"
   ]
  },
+ "34687253": {
+  "pmid": "34687253",
+  "title": "Evaluation of LL-37 in healing of hard-to-heal venous leg ulcers: A multicentric prospective randomized placebo-controlled clinical trial",
+  "authors": [
+   "Mahlapuu M",
+   "Sidorowicz A",
+   "Mikosinski J",
+   "Krzyżanowski M",
+   "Orleanski J",
+   "Twardowska-Saucha K",
+   "Nykaza A",
+   "Dyaczynski M",
+   "Belz-Lagoda B",
+   "Dziwiszek G",
+   "Kujawiak M",
+   "Karczewski M",
+   "Sjöberg F",
+   "Grzela T",
+   "Wegrzynowski A",
+   "Thunarf F",
+   "Björk J",
+   "Ekblom J",
+   "Jawien A",
+   "Apelqvist J"
+  ],
+  "journal": "Wound Repair Regen",
+  "year": "2021",
+  "volume": "29",
+  "issue": "6",
+  "pages": "938-950",
+  "doi": "10.1111/wrr.12977",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "34737341": {
   "pmid": "34737341",
   "title": "Structural basis of human ghrelin receptor signaling by ghrelin and the synthetic agonist ibutamoren",
@@ -16084,6 +16612,27 @@
    "Journal Article",
    "Multicenter Study",
    "Randomized Controlled Trial"
+  ]
+ },
+ "34834147": {
+  "pmid": "34834147",
+  "title": "Peptide Regulation of Gene Expression: A Systematic Review",
+  "authors": [
+   "Khavinson VK",
+   "Popovich IG",
+   "Linkova NS",
+   "Mironova ES",
+   "Ilina AR"
+  ],
+  "journal": "Molecules",
+  "year": "2021",
+  "volume": "26",
+  "issue": "22",
+  "pages": "7053",
+  "doi": "10.3390/molecules26227053",
+  "types": [
+   "Journal Article",
+   "Systematic Review"
   ]
  },
  "34956436": {
@@ -18213,6 +18762,27 @@
    "Journal Article"
   ]
  },
+ "36986796": {
+  "pmid": "36986796",
+  "title": "Designing Formulation Strategies for Enhanced Stability of Therapeutic Peptides in Aqueous Solutions: A Review",
+  "authors": [
+   "Nugrahadi PP",
+   "Hinrichs WLJ",
+   "Frijlink HW",
+   "Schöneich C",
+   "Avanti C"
+  ],
+  "journal": "Pharmaceutics",
+  "year": "2023",
+  "volume": "15",
+  "issue": "3",
+  "pages": "935",
+  "doi": "10.3390/pharmaceutics15030935",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "36999891": {
   "pmid": "36999891",
   "title": "Berberine and health outcomes: An umbrella review",
@@ -20015,6 +20585,26 @@
   "types": [
    "Case Reports",
    "Journal Article"
+  ]
+ },
+ "38450615": {
+  "pmid": "38450615",
+  "title": "Rosacea: Pathogenesis and Therapeutic Correlates",
+  "authors": [
+   "Geng RSQ",
+   "Bourkas AN",
+   "Mufti A",
+   "Sibbald RG"
+  ],
+  "journal": "J Cutan Med Surg",
+  "year": "2024",
+  "volume": "28",
+  "issue": "2",
+  "pages": "178-189",
+  "doi": "10.1177/12034754241229365",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "38460874": {
@@ -22036,6 +22626,29 @@
    "Journal Article"
   ]
  },
+ "39954662": {
+  "pmid": "39954662",
+  "title": "Cathelicidin LL-37 in periodontitis: current research advances and future prospects - A review",
+  "authors": [
+   "He Y",
+   "Zhou Y",
+   "Liu N",
+   "Zhang W",
+   "Chen X",
+   "Qiu G",
+   "Shen Y"
+  ],
+  "journal": "Int Immunopharmacol",
+  "year": "2025",
+  "volume": "150",
+  "issue": "",
+  "pages": "114277",
+  "doi": "10.1016/j.intimp.2025.114277",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "39963574": {
   "pmid": "39963574",
   "title": "Topically applied GHK as an anti-wrinkle peptide: Advantages, problems and prospective",
@@ -22731,6 +23344,27 @@
   "issue": "",
   "pages": "107820",
   "doi": "10.1016/j.phrs.2025.107820",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "40490042": {
+  "pmid": "40490042",
+  "title": "Effect of pH, buffers, molarity, and temperature on solution state degradation of semaglutide using LC-HRMS: A preformulation protocol for peptide drug delivery",
+  "authors": [
+   "Malgave A",
+   "Akbar S",
+   "Joseph A",
+   "Dande Aishwarya",
+   "Peraman R",
+   "Malayandi R"
+  ],
+  "journal": "Eur J Pharm Biopharm",
+  "year": "2025",
+  "volume": "214",
+  "issue": "",
+  "pages": "114780",
+  "doi": "10.1016/j.ejpb.2025.114780",
   "types": [
    "Journal Article"
   ]
@@ -25365,6 +25999,26 @@
    "Journal Article"
   ]
  },
+ "42839866": {
+  "pmid": "42839866",
+  "title": "Peptide Regulation of Ageing: From Experiment to Practice",
+  "authors": [
+   "Arutjunyan AV",
+   "Popovich IG",
+   "Kozina LS",
+   "Ryzhak GA"
+  ],
+  "journal": "Curr Aging Sci",
+  "year": "2026",
+  "volume": "19",
+  "issue": "1",
+  "pages": "30-41",
+  "doi": "10.2174/0118746098346230250116065407",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "42856902": {
   "pmid": "42856902",
   "title": "Up to 5 years of weekly somatrogon in children with growth hormone deficiency: final data from the global phase 3 study",
@@ -25884,6 +26538,28 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "8863280": {
+  "pmid": "8863280",
+  "title": "Effects of reducing sugars on the chemical stability of human relaxin in the lyophilized state",
+  "authors": [
+   "Li S",
+   "Patapoff TW",
+   "Overcashier D",
+   "Hsu C",
+   "Nguyen TH",
+   "Borchardt RT"
+  ],
+  "journal": "J Pharm Sci",
+  "year": "1996",
+  "volume": "85",
+  "issue": "8",
+  "pages": "873-7",
+  "doi": "10.1021/js950456s",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "8950613": {
   "pmid": "8950613",
   "title": "Growth hormone-releasing peptides: clinical and basic aspects",
@@ -25902,6 +26578,25 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "8997176": {
+  "pmid": "8997176",
+  "title": "Degradation pathways, analytical characterization and formulation strategies of a peptide and a protein. Calcitonine and human growth hormone in comparison",
+  "authors": [
+   "Cholewinski M",
+   "Lückel B",
+   "Horn H"
+  ],
+  "journal": "Pharm Acta Helv",
+  "year": "1996",
+  "volume": "71",
+  "issue": "6",
+  "pages": "405-19",
+  "doi": "10.1016/s0031-6865(96)00049-0",
+  "types": [
+   "Comparative Study",
+   "Journal Article"
   ]
  },
  "9008235": {
@@ -26000,6 +26695,24 @@
    "Journal Article",
    "Research Support, Non-U.S. Gov't",
    "Research Support, U.S. Gov't, P.H.S."
+  ]
+ },
+ "9358550": {
+  "pmid": "9358550",
+  "title": "The stability of insulin in crystalline and amorphous solids: observation of greater stability for the amorphous form",
+  "authors": [
+   "Pikal MJ",
+   "Rigsbee DR"
+  ],
+  "journal": "Pharm Res",
+  "year": "1997",
+  "volume": "14",
+  "issue": "10",
+  "pages": "1379-87",
+  "doi": "10.1023/a:1012164520429",
+  "types": [
+   "Comparative Study",
+   "Journal Article"
   ]
  },
  "9415227": {
@@ -26245,6 +26958,29 @@
   "pages": "39-43",
   "doi": "10.1385/ENDO:9:1:39",
   "types": [
+   "Journal Article",
+   "Research Support, U.S. Gov't, P.H.S."
+  ]
+ },
+ "9811499": {
+  "pmid": "9811499",
+  "title": "Effect of excipients on the stability and structure of lyophilized recombinant human growth hormone",
+  "authors": [
+   "Costantino HR",
+   "Carrasquillo KG",
+   "Cordero RA",
+   "Mumenthaler M",
+   "Hsu CC",
+   "Griebenow K"
+  ],
+  "journal": "J Pharm Sci",
+  "year": "1998",
+  "volume": "87",
+  "issue": "11",
+  "pages": "1412-20",
+  "doi": "10.1021/js980069t",
+  "types": [
+   "Comparative Study",
    "Journal Article",
    "Research Support, U.S. Gov't, P.H.S."
   ]
