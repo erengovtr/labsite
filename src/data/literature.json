@@ -9146,6 +9146,29 @@
    "Research Support, N.I.H., Intramural"
   ]
  },
+ "26289118": {
+  "pmid": "26289118",
+  "title": "The mitochondrial-derived peptide MOTS-c: a player in exceptional longevity?",
+  "authors": [
+   "Fuku N",
+   "Pareja-Galeano H",
+   "Zempo H",
+   "Alis R",
+   "Arai Y",
+   "Lucia A",
+   "Hirose N"
+  ],
+  "journal": "Aging Cell",
+  "year": "2015",
+  "volume": "14",
+  "issue": "6",
+  "pages": "921-3",
+  "doi": "10.1111/acel.12389",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "26353786": {
   "pmid": "26353786",
   "title": "Collagen peptide supplementation in combination with resistance training improves body composition and increases muscle strength in elderly sarcopenic men: a randomised controlled trial",
@@ -14922,6 +14945,31 @@
    "Journal Article"
   ]
  },
+ "32776825": {
+  "pmid": "32776825",
+  "title": "Mitochondrial-derived peptides in energy metabolism",
+  "authors": [
+   "Merry TL",
+   "Chan A",
+   "Woodhead JST",
+   "Reynolds JC",
+   "Kumagai H",
+   "Kim SJ",
+   "Lee C"
+  ],
+  "journal": "Am J Physiol Endocrinol Metab",
+  "year": "2020",
+  "volume": "319",
+  "issue": "4",
+  "pages": "E659-E666",
+  "doi": "10.1152/ajpendo.00249.2020",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't",
+   "Review"
+  ]
+ },
  "32777865": {
   "pmid": "32777865",
   "title": "Spermatogenesis of Male Patients with Congenital Hypogonadotropic Hypogonadism Receiving Pulsatile Gonadotropin-Releasing Hormone Therapy Versus Gonadotropin Therapy: A Systematic Review and Meta-Analysis",
@@ -16686,6 +16734,24 @@
    "Systematic Review"
   ]
  },
+ "34520826": {
+  "pmid": "34520826",
+  "title": "Mitochondrial-derived peptides and exercise",
+  "authors": [
+   "Woodhead JST",
+   "Merry TL"
+  ],
+  "journal": "Biochim Biophys Acta Gen Subj",
+  "year": "2021",
+  "volume": "1865",
+  "issue": "12",
+  "pages": "130011",
+  "doi": "10.1016/j.bbagen.2021.130011",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "34525397": {
   "pmid": "34525397",
   "title": "Circulating humanin is lower in coronary artery disease and is a prognostic biomarker for major cardiac events in humans",
@@ -16966,6 +17032,42 @@
    "Journal Article",
    "Randomized Controlled Trial",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "34728329": {
+  "pmid": "34728329",
+  "title": "The MOTS-c K14Q polymorphism in the mtDNA is associated with muscle fiber composition and muscular performance",
+  "authors": [
+   "Kumagai H",
+   "Natsume T",
+   "Kim SJ",
+   "Tobina T",
+   "Miyamoto-Mikami E",
+   "Shiose K",
+   "Ichinoseki-Sekine N",
+   "Kakigi R",
+   "Tsuzuki T",
+   "Miller B",
+   "Yen K",
+   "Murakami H",
+   "Miyachi M",
+   "Zempo H",
+   "Dobashi S",
+   "Machida S",
+   "Kobayashi H",
+   "Naito H",
+   "Cohen P",
+   "Fuku N"
+  ],
+  "journal": "Biochim Biophys Acta Gen Subj",
+  "year": "2022",
+  "volume": "1866",
+  "issue": "2",
+  "pages": "130048",
+  "doi": "10.1016/j.bbagen.2021.130048",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
   ]
  },
  "34737341": {
@@ -17810,6 +17912,27 @@
   "types": [
    "Case Reports",
    "Journal Article"
+  ]
+ },
+ "35656563": {
+  "pmid": "35656563",
+  "title": "Exercise, Mitohormesis, and Mitochondrial ORF of the 12S rRNA Type-C (MOTS-c)",
+  "authors": [
+   "Yoon TK",
+   "Lee CH",
+   "Kwon O",
+   "Kim MS"
+  ],
+  "journal": "Diabetes Metab J",
+  "year": "2022",
+  "volume": "46",
+  "issue": "3",
+  "pages": "402-413",
+  "doi": "10.4093/dmj.2022.0092",
+  "types": [
+   "Journal Article",
+   "Review",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "35658024": {
@@ -18881,6 +19004,30 @@
    "Randomized Controlled Trial",
    "Clinical Trial, Phase III",
    "Journal Article"
+  ]
+ },
+ "36670507": {
+  "pmid": "36670507",
+  "title": "Mitochondria-derived peptide MOTS-c: effects and mechanisms related to stress, metabolism and aging",
+  "authors": [
+   "Wan W",
+   "Zhang L",
+   "Lin Y",
+   "Rao X",
+   "Wang X",
+   "Hua F",
+   "Ying J"
+  ],
+  "journal": "J Transl Med",
+  "year": "2023",
+  "volume": "21",
+  "issue": "1",
+  "pages": "36",
+  "doi": "10.1186/s12967-023-03885-2",
+  "types": [
+   "Journal Article",
+   "Review",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "36705941": {
