@@ -3432,6 +3432,27 @@
    "Review"
   ]
  },
+ "19083405": {
+  "pmid": "19083405",
+  "title": "Long-term creatine supplementation is safe in aged patients with Parkinson disease",
+  "authors": [
+   "Bender A",
+   "Samtleben W",
+   "Elstner M",
+   "Klopstock T"
+  ],
+  "journal": "Nutr Res",
+  "year": "2008",
+  "volume": "28",
+  "issue": "3",
+  "pages": "172-8",
+  "doi": "10.1016/j.nutres.2008.01.001",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "19108572": {
   "pmid": "19108572",
   "title": "Myostatin inhibition by a follistatin-derived peptide ameliorates the pathophysiology of muscular dystrophy model mice",
@@ -6213,6 +6234,26 @@
    "Multicenter Study",
    "Randomized Controlled Trial",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "23632281": {
+  "pmid": "23632281",
+  "title": "Proton pump inhibitor-associated hypomagnesemia: what do FDA data tell us?",
+  "authors": [
+   "Luk CP",
+   "Parsons R",
+   "Lee YP",
+   "Hughes JD"
+  ],
+  "journal": "Ann Pharmacother",
+  "year": "2013",
+  "volume": "47",
+  "issue": "6",
+  "pages": "773-80",
+  "doi": "10.1345/aph.1R556",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "23684623": {
@@ -9878,6 +9919,32 @@
    "Review"
   ]
  },
+ "28667027": {
+  "pmid": "28667027",
+  "title": "Synergy between Paclitaxel and Anti-Cancer Peptide PNC-27 in the Treatment of Ovarian Cancer",
+  "authors": [
+   "Alagkiozidis I",
+   "Gorelick C",
+   "Shah T",
+   "Chen YA",
+   "Gupta V",
+   "Stefanov D",
+   "Amarnani A",
+   "Lee YC",
+   "Abulafia O",
+   "Sarafraz-Yazdi E",
+   "Michl J"
+  ],
+  "journal": "Ann Clin Lab Sci",
+  "year": "2017",
+  "volume": "47",
+  "issue": "3",
+  "pages": "271-281",
+  "doi": "",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "28680788": {
   "pmid": "28680788",
   "title": "Profile of Abaloparatide and Its Potential in the Treatment of Postmenopausal Osteoporosis",
@@ -10288,6 +10355,34 @@
   "doi": "10.12688/f1000research.11775.1",
   "types": [
    "Journal Article"
+  ]
+ },
+ "29167971": {
+  "pmid": "29167971",
+  "title": "Abaloparatide-SC improves trabecular microarchitecture as assessed by trabecular bone score (TBS): a 24-week randomized clinical trial",
+  "authors": [
+   "Bilezikian JP",
+   "Hattersley G",
+   "Fitzpatrick LA",
+   "Harris AG",
+   "Shevroja E",
+   "Banks K",
+   "Leder BZ",
+   "Zanchetta JR",
+   "Hans D"
+  ],
+  "journal": "Osteoporos Int",
+  "year": "2018",
+  "volume": "29",
+  "issue": "2",
+  "pages": "323-328",
+  "doi": "10.1007/s00198-017-4304-9",
+  "types": [
+   "Clinical Trial, Phase II",
+   "Journal Article",
+   "Multicenter Study",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "29177955": {
@@ -11893,6 +11988,44 @@
   "doi": "10.1530/JOE-19-0153",
   "types": [
    "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "31337857": {
+  "pmid": "31337857",
+  "title": "Targeting cell membrane HDM2: A novel therapeutic approach for acute myeloid leukemia",
+  "authors": [
+   "Wang H",
+   "Zhao D",
+   "Nguyen LX",
+   "Wu H",
+   "Li L",
+   "Dong D",
+   "Troadec E",
+   "Zhu Y",
+   "Hoang DH",
+   "Stein AS",
+   "Al Malki M",
+   "Aldoss I",
+   "Lin A",
+   "Ghoda LY",
+   "McDonald T",
+   "Pichiorri F",
+   "Carlesso N",
+   "Kuo YH",
+   "Zhang B",
+   "Jin J",
+   "Marcucci G"
+  ],
+  "journal": "Leukemia",
+  "year": "2020",
+  "volume": "34",
+  "issue": "1",
+  "pages": "75-86",
+  "doi": "10.1038/s41375-019-0522-9",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
    "Research Support, Non-U.S. Gov't"
   ]
  },
@@ -17492,6 +17625,27 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "37505256": {
+  "pmid": "37505256",
+  "title": "Abaloparatide dose-dependently increases bone mineral density in postmenopausal women with osteoporosis: a phase 2 study",
+  "authors": [
+   "Matsumoto T",
+   "Sone T",
+   "Yamashita A",
+   "Inoue T"
+  ],
+  "journal": "J Bone Miner Metab",
+  "year": "2023",
+  "volume": "41",
+  "issue": "6",
+  "pages": "807-816",
+  "doi": "10.1007/s00774-023-01455-6",
+  "types": [
+   "Clinical Trial, Phase II",
+   "Randomized Controlled Trial",
+   "Journal Article"
+  ]
+ },
  "37526714": {
   "pmid": "37526714",
   "title": "Folic Acid Supplementation to Prevent Neural Tube Defects: Updated Evidence Report and Systematic Review for the US Preventive Services Task Force",
@@ -18970,6 +19124,27 @@
    "Randomized Controlled Trial",
    "Clinical Trial, Phase III",
    "Multicenter Study"
+  ]
+ },
+ "38927351": {
+  "pmid": "38927351",
+  "title": "Poptosis or Peptide-Induced Transmembrane Pore Formation: A Novel Way to Kill Cancer Cells without Affecting Normal Cells",
+  "authors": [
+   "Pincus MR",
+   "Silberstein M",
+   "Zohar N",
+   "Sarafraz-Yazdi E",
+   "Bowne WB"
+  ],
+  "journal": "Biomedicines",
+  "year": "2024",
+  "volume": "12",
+  "issue": "6",
+  "pages": "1144",
+  "doi": "10.3390/biomedicines12061144",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "38938724": {
@@ -21218,6 +21393,34 @@
    "Systematic Review"
   ]
  },
+ "40750238": {
+  "pmid": "40750238",
+  "title": "HDM-2-Targeting Peptide PNC-27 Kills Cervical Cancer Cells but not Normal Cervical Cells",
+  "authors": [
+   "Krzesaj PK",
+   "Seydafkan S",
+   "Miller AI",
+   "Chen HT",
+   "Premsrirut P",
+   "Shim A",
+   "Mcglinchey S",
+   "Yazdi E",
+   "Brandt-Rauf P",
+   "Silberstein M",
+   "Jahari G",
+   "Feinman RD",
+   "Pincus MR"
+  ],
+  "journal": "Ann Clin Lab Sci",
+  "year": "2025",
+  "volume": "55",
+  "issue": "3",
+  "pages": "347-353",
+  "doi": "",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "40756949": {
   "pmid": "40756949",
   "title": "Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review",
@@ -21257,6 +21460,58 @@
   "issue": "12",
   "pages": "611-619",
   "doi": "10.1007/s12178-025-09990-7",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ "40790089": {
+  "pmid": "40790089",
+  "title": "Parathyroid hormone receptor agonists in the management of osteoporosis",
+  "authors": [
+   "Fuggle N",
+   "Rizzoli R",
+   "Beaudart C",
+   "Cortet B",
+   "Curtis EM",
+   "Hiligsmann M",
+   "Kaufman JM",
+   "Veronese N",
+   "Albergaria BH",
+   "Al-Daghri N",
+   "Alokail M",
+   "Brandi ML",
+   "Bruyère O",
+   "Burlet N",
+   "Campusano C",
+   "Casado E",
+   "Cavalier E",
+   "Chandran M",
+   "Cooper C",
+   "D'Amelio P",
+   "Dawson-Hughes B",
+   "Ebeling PR",
+   "Kanis JA",
+   "Kurth A",
+   "Matijevic R",
+   "McCloskey E",
+   "McClung M",
+   "Mkinsi O",
+   "Njeze N",
+   "Radermecker RP",
+   "Rannou F",
+   "Silverman S",
+   "Tüzün Ş",
+   "Zakraoui L",
+   "Reginster JY",
+   "Harvey NC"
+  ],
+  "journal": "Nat Rev Rheumatol",
+  "year": "2025",
+  "volume": "21",
+  "issue": "10",
+  "pages": "599-611",
+  "doi": "10.1038/s41584-025-01287-w",
   "types": [
    "Journal Article",
    "Review"
