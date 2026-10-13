@@ -1,56 +1,30 @@
 ---
-title: "Analiz sertifikası (CoA) nasıl okunur? Saflık, içerik ve kimlik farkı"
-description: "Bir CoA’daki testler neyi ölçer, “%99 saflık” ne anlama gelir ve belgede hangi unsurlar güvenilirliği artırır ya da azaltır?"
+title: "Analiz sertifikası (CoA) nasıl okunur?"
+description: "%99 saflık ne demek, net peptit içeriği neden farklı bir sayı ve bir CoA'da güvenilirliği hangi detaylar belli eder?"
 category: "Analitik Kalite"
 tags: ["CoA", "saflık", "net peptit içeriği", "endotoksin"]
 date: 2026-10-05
 references:
   - "ICH Q2(R2) Validation of Analytical Procedures. International Council for Harmonisation, 2023."
-  - "ISO/IEC 17025:2017 General requirements for the competence of testing and calibration laboratories."
+  - "ISO/IEC 17025:2017. General requirements for the competence of testing and calibration laboratories."
   - "United States Pharmacopeia. <85> Bacterial Endotoxins Test."
 ---
-Analiz sertifikası (Certificate of Analysis, CoA), belirli bir **partinin** test sonuçlarını bildiren belgedir. Ancak bir CoA’nın varlığı tek başına kalite kanıtı değildir; içeriğini okuyabilmek gerekir. Bu yazı, tipik bir peptit CoA’sının bölümlerini ve nelere dikkat edileceğini anlatıyor.
+Bir analiz sertifikası (Certificate of Analysis, CoA) belirli bir partinin test sonuçlarını bildiren belgedir. Elinizde bir CoA olması iyidir ama yeterli değildir. Aynı sayfada "%99" yazan iki belgeden biri çok değerli, diğeri hiçbir şey ifade etmeyebilir. Farkı anlamak için belgenin neyi ölçtüğünü bilmek gerekir.
 
-## Bir CoA’da bulunması beklenen testler
+## Belgede hangi testler olur?
 
-| Test | Ne sorar? | Tipik yöntem |
-| --- | --- | --- |
-| Görünüm | Fiziksel tanım | Gözle inceleme |
-| Kimlik | Doğru molekül mü? | Kütle spektrometrisi (ölçülen / kuramsal kütle) |
-| Kromatografik saflık | Pikin toplam içindeki payı | RP-HPLC, genellikle 214–220 nm |
-| Net peptit içeriği | Tozun ne kadarı peptit? | Amino asit analizi, azot analizi |
-| Su içeriği | Kalıntı nem | Karl Fischer |
-| Karşı iyon | Asetat, TFA vb. | İyon kromatografisi |
-| Endotoksin | Bakteriyel kirlilik | LAL testi (EU/mL veya EU/mg) |
-| Ağır metal / çözücü kalıntısı | Safsızlık | ICP-MS, GC |
+Tam bir peptit CoA'sı genellikle şu bölümleri içerir: görünüm, kimlik (kütle spektrometrisi ile ölçülen kütlenin hesaplanan kütleyle karşılaştırılması), kromatografik saflık (RP-HPLC, çoğunlukla 214 ya da 220 nm'de), net peptit içeriği (amino asit analizi ya da azot analiziyle), su içeriği (Karl Fischer), karşı iyon türü ve miktarı, bakteriyel endotoksin (LAL testi) ve gerekiyorsa ağır metal ve kalıntı çözücü sonuçları.
 
-Her testin yöntem adı ve sonuç birimi belirtilmelidir.
+Her sonucun yanında yöntem adı ve birim yazmalıdır. "Uygun" kelimesi tek başına bir sonuç değildir.
 
-## “%99 saflık” ne demektir, ne demez?
+## "%99 saflık" ne demek?
 
-**Kromatografik saflık**, HPLC kromatogramındaki ana pikin toplam pik alanına oranıdır. Bu, tozun %99’unun peptit olduğu anlamına **gelmez**. Liyofilize tozda tuz (karşı iyon) ve su da bulunur; bu yüzden net peptit içeriği genellikle %70–90 aralığında olabilir. İki farklı kavramdır:
+Kromatografik saflık, HPLC kromatogramındaki ana pikin toplam pik alanına oranıdır. Tozun yüzde 99'unun peptit olduğu anlamına gelmez. Liyofilize tozda tuz (karşı iyon) ve su da bulunur; bu yüzden net peptit içeriği çoğunlukla yüzde 70 ile 90 arasında çıkar. Eşiğin neresinde olduğunu bilmeden etiketteki "5 mg" ifadesini yorumlayamazsınız: net peptit mi, toz mu kastediliyor?
 
-- *Saflık:* Peptit kaynaklı safsızlıklar arasında ana ürünün payı.
-- *İçerik:* Toplam kütle içinde gerçek peptit payı.
+## Güven veren ve güven kırıcı işaretler
 
-Etiket miktarı (örneğin “5 mg”), net peptit mi yoksa toplam toz mu olduğunu açıkça belirtmelidir; aksi hâlde etiket ile gerçek içerik arasında fark oluşabilir.
+Parti numarası, test tarihi ve testi yapan laboratuvarın adı olmalı. ISO/IEC 17025 akreditasyonu bir artıdır. Ham kromatogram ve kütle spektrumunun belgeye eklenmesi, yalnızca bir sonuç tablosundan çok daha değerlidir. Belgeyi düzenleyen laboratuvara doğrulatabilmek de önemlidir.
 
-## Güvenilirliği artıran unsurlar
+Tersine, parti numarası olmayan, farklı partilerde birebir aynı sonuçları veren, testi yapanı belirtmeyen ya da yalnızca "≥99%" gibi yuvarlak rakamlarla yetinen belgelere şüpheyle bakmak gerekir. Endotoksin ve sterilite hakkında hiç bilgi bulunmaması da eksiklik sayılır.
 
-- Parti/lot numarası ve üretim-analiz tarihi
-- Testi yapan **laboratuvarın adı**, mümkünse ISO/IEC 17025 akreditasyonu
-- Ham kromatogram ve kütle spektrumunun eklenmesi (yalnızca sonuç tablosu değil)
-- Yöntem, kolon, dalga boyu ve kabul ölçütlerinin belirtilmesi
-- Belgeyi doğrulama yolu (örneğin düzenleyen laboratuvara sorgu veya benzersiz bir doğrulama kodu)
-
-## Dikkat edilmesi gereken işaretler
-
-- Parti numarası yok ya da farklı partilerde birebir aynı sonuçlar
-- Kromatogram olmadan yalnızca “≥99%” gibi yuvarlak değerler
-- Testi yapan laboratuvarın belirtilmemesi veya doğrulanamaması
-- Kimlik testi sonucu olarak yalnızca “uygun” yazılması, ölçülen kütle değerinin bulunmaması
-- Endotoksin ve steriliteye dair hiçbir veri bulunmaması
-
-## Sonuç
-
-Bir CoA, ancak kimlik, saflık ve içeriği birbirinden ayırıp yöntemini ve kaynağını açıkça gösterdiğinde anlamlıdır. Okurken “bu sayı neyi ölçüyor, kim ölçmüş ve ham veriyle desteklenmiş mi?” sorularını sormak yeterli bir başlangıçtır.
+Kısacası bir CoA'yı okurken şu üç soruyu sormak yeterli bir başlangıçtır: Bu sayı neyi ölçüyor, kim ölçmüş ve ham veriyle desteklenmiş mi?

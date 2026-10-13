@@ -1,6 +1,6 @@
 ---
-title: "HPLC ve kütle spektrometrisi: peptit analizinin iki ayağı"
-description: "Ters faz HPLC ile saflığın, kütle spektrometrisi ile kimliğin nasıl belirlendiği ve her yöntemin sınırları."
+title: "HPLC ve kütle spektrometrisi: biri saflığı, diğeri kimliği söyler"
+description: "Ters faz HPLC ne ölçer, ESI-MS neyi doğrular ve neden bir peptit için ikisine birden ihtiyaç duyulur?"
 category: "Analitik Kalite"
 tags: ["HPLC", "kütle spektrometrisi", "LC-MS", "analitik kimya"]
 date: 2026-09-19
@@ -8,41 +8,22 @@ references:
   - "Aguilar MI, editör. HPLC of Peptides and Proteins: Methods and Protocols. Humana Press, 2004."
   - "Aebersold R, Mann M. Mass spectrometry-based proteomics. Nature. 2003;422:198–207."
 ---
-Peptit kalitesini değerlendirmede iki yöntem öne çıkar: **HPLC** (ne kadar saf?) ve **kütle spektrometrisi** (gerçekten beklenen molekül mü?). İkisi birbirinin yerine geçmez; birlikte okunurlar.
+Laboratuvarda bir peptit numunesine iki soru sorulur. Birincisi: içinde ne kadar başka madde var? İkincisi: bu gerçekten beklenen molekül mü? İlkine HPLC, ikincisine kütle spektrometrisi cevap verir ve biri diğerinin yerini tutmaz.
 
-## Ters faz HPLC nasıl çalışır?
+## Ters faz HPLC
 
-Numune, apolar (genellikle C18) bir kolondan geçirilir. Mobil faz suyla başlar ve asetonitril oranı kademeli artırılır (gradyan). Daha hidrofobik moleküller kolona daha güçlü tutunur ve daha geç çıkar. Çıkış anında bir **UV dedektörü** sinyal verir; peptit bağı 214–220 nm’de iyi absorbe eder. Trifloroasetik asit (TFA) ya da formik asit gibi iyon eşleştirici katkılar pik şeklini keskinleştirir.
+Numune, yüzeyi apolar zincirlerle (genellikle C18) kaplı bir kolondan geçirilir. Taşıyıcı sıvı başta sudur ve zamanla asetonitril oranı artırılır. Hidrofobik moleküller kolona daha çok tutunur, daha geç çıkar. Çıkışı bir UV dedektörü izler. Peptit bağı 214 ile 220 nm arasında iyi ışık yuttuğu için bu bölge tercih edilir. Trifloroasetik asit ya da formik asit gibi katkılar piklerin keskinleşmesini sağlar.
 
-Sonuç bir **kromatogramdır**; saflık, ana pik alanının toplam alana yüzdesi olarak raporlanır.
+Ortaya çıkan grafiğe kromatogram denir. Saflık, ana pikin toplam alana yüzdesi olarak bildirilir. Bu yöntemin üç sınırı vardır: aynı anda çıkan safsızlıkları ayıramaz, her safsızlık aynı şiddette ışık yutmaz, ve ana pikin hangi molekül olduğunu söylemez.
 
-### HPLC’nin sınırları
-- Aynı anda çıkan (koelüte) safsızlıkları ayırt edemez.
-- Tüm safsızlıklar aynı UV yanıtını vermez; alan yüzdesi tam kütle yüzdesi değildir.
-- Kimliği tek başına kanıtlamaz; yalnızca “bir pik” gösterir.
+## Kütle spektrometrisi
 
-## Kütle spektrometrisi ne verir?
+Elektrosprey iyonlaşmasında peptitler çoğunlukla birden çok protonla yüklenir. Cihaz bir kütle/yük serisi görür ve yazılım bunlardan molekülün gerçek kütlesini hesaplar. Bu değer, dizi bilgisinden hesaplanan kütleyle birkaç ppm ile birkaç yüz ppm arasında örtüşmelidir.
 
-Elektrosprey iyonlaşması (ESI), peptitleri çoğunlukla **birden fazla yüklü iyon** ([M+nH]ⁿ⁺) olarak üretir. Bir kütle/yük serisi görülür; yazılım bu seriden moleküler kütleyi hesaplar (dekonvolüsyon). Ölçülen kütle, dizi bilgisinden hesaplanan kuramsal kütleyle birkaç ppm ile birkaç yüz ppm aralığında örtüşmelidir.
+Peptidi cihaz içinde kırıp parçalarına bakan tandem MS ise amino asit dizisini doğrular. Üç dörtlü cihazlarda MRM modu, belirli bir bileşiği çok seçici ve duyarlı biçimde ölçer.
 
-Tandem MS (MS/MS) ile peptit parçalanır; oluşan b ve y iyonu serileri **amino asit dizisini** doğrular. Üç dörtlü kütle spektrometrelerinde MRM (çoklu reaksiyon izleme) yöntemi, hedef bileşiğin çok seçici ve duyarlı ölçümünü sağlar.
+Sınır: kütle spektrometrisi genellikle sayısal bir saflık vermez, çünkü farklı moleküller aynı verimle iyonlaşmaz. Ayrıca aynı kütleli izomerleri (örneğin D ve L formlarını) tek başına ayıramaz.
 
-### MS’in sınırları
-- Genellikle nicel değil, **niteldir**; iyonlaşma verimi bileşiğe göre değişir.
-- Aynı kütleli izomerleri (örneğin D/L değişimi) tek başına ayıramaz.
+## İkisi birlikte
 
-## Neden ikisi birlikte?
-
-| Soru | Yöntem |
-| --- | --- |
-| Beklenen kütle var mı? | MS |
-| Ana pikin payı ne kadar? | HPLC |
-| Pikin altında ne var? | LC-MS (ikisinin birleşimi) |
-| Dizi doğru mu? | MS/MS |
-| Gerçek içerik ne kadar? | Amino asit analizi / net peptit içeriği |
-
-Ek olarak, farklı pH veya kolonla yapılan ikinci bir HPLC, birinci yöntemde gizli kalan safsızlıkları ortaya çıkarabilir; buna **ortogonal yöntem** denir.
-
-## Sonuç
-
-HPLC ve MS, birbirini tamamlayan iki ölçü aracıdır. Biri “ne kadar temiz?” sorusunu, diğeri “doğru molekül mü?” sorusunu yanıtlar. Güvenilir bir analiz raporu her ikisini de ham verisiyle birlikte sunar.
+LC-MS, kolonu doğrudan kütle spektrometresine bağlar; böylece HPLC'deki her pikin altında hangi kütlelerin olduğu görülür. Farklı bir pH'da ya da farklı kolonla ikinci bir HPLC çalıştırmak (ortogonal yöntem), ilk koşulda üst üste binen safsızlıkları açığa çıkarabilir. Bir peptidin saflığı hakkında ciddi bir söz söylenecekse bu verilerin hepsi masada olmalıdır.

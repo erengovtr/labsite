@@ -1,16 +1,19 @@
 export const SITE = {
-  name: 'Bioscience',
+  name: 'Bioscience Pharma',
   tagline: 'Araştırma Notları',
   description:
-    'Araştırma bileşikleri üzerine bilimsel, kaynaklı ve tarafsız içerikler: etki mekanizmaları, biyolojik yollar ve analitik kalite.',
+    'Bioscience Pharma ürünlerinin arkasındaki bilim: reseptörler, biyolojik yollar, klinik çalışmalar ve analiz yöntemleri.',
+  email: 'support@assistsupps.com',
 };
 
 export const CATEGORIES = [
-  { name: 'Peptit Bilimi', slug: 'peptit-bilimi', blurb: 'Peptit yapıları, sinyal yolları ve araştırma literatürü.' },
-  { name: 'Metabolizma', slug: 'metabolizma', blurb: 'Enerji dengesi, glukoz ve iştah regülasyonunun biyolojisi.' },
-  { name: 'Hormonal Eksenler', slug: 'hormonal-eksenler', blurb: 'GH/IGF-1, androjen reseptörü ve endokrin geri bildirim.' },
-  { name: 'Analitik Kalite', slug: 'analitik-kalite', blurb: 'HPLC, kütle spektrometrisi ve analiz sertifikalarını okumak.' },
-  { name: 'Temel Kavramlar', slug: 'temel-kavramlar', blurb: 'Araştırma dilinin temel taşları.' },
+  { name: 'Peptit Bilimi', slug: 'peptit-bilimi', blurb: 'Peptitlerin yapısı, sinyal yolları ve literatürü.' },
+  { name: 'Metabolizma', slug: 'metabolizma', blurb: 'Enerji, glukoz ve iştah biyolojisi.' },
+  { name: 'Hormonal Eksenler', slug: 'hormonal-eksenler', blurb: 'Büyüme hormonu, androjenler ve geri bildirim döngüleri.' },
+  { name: 'Analitik Kalite', slug: 'analitik-kalite', blurb: 'HPLC, kütle spektrometrisi ve analiz sertifikaları.' },
+  { name: 'Temel Kavramlar', slug: 'temel-kavramlar', blurb: 'Diğer yazıların dayandığı temel bilgiler.' },
+  { name: 'Küçük Moleküller', slug: 'kucuk-molekuller', blurb: 'Peptit olmayan bileşiklerin etki yolları.' },
+  { name: 'Vitamin ve Mineraller', slug: 'vitamin-ve-mineraller', blurb: 'Takviye bileşiklerinin biyokimyası.' },
 ] as const;
 
 export const slugOf = (name: string) => CATEGORIES.find((c) => c.name === name)?.slug ?? '';

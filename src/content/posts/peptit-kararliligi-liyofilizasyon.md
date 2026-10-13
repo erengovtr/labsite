@@ -1,6 +1,6 @@
 ---
-title: "Peptitler neden bozulur? Kararlılık kimyası ve liyofilizasyon"
-description: "Peptitlerin hidroliz, oksidasyon ve deamidasyonla bozulma yolları ve liyofilizasyonun kararlılığı neden artırdığı."
+title: "Peptitler nasıl bozulur ve liyofilizasyon neden işe yarar?"
+description: "Hidroliz, deamidasyon ve oksidasyon gibi bozunma yolları ile peptidi kuru toz hale getirmenin kimyasal mantığı."
 category: "Analitik Kalite"
 tags: ["kararlılık", "liyofilizasyon", "deamidasyon", "oksidasyon"]
 date: 2026-09-12
@@ -8,33 +8,22 @@ references:
   - "Manning MC, Chou DK, Murphy BM, Payne RW, Katayama DS. Stability of protein pharmaceuticals: an update. Pharm Res. 2010;27(4):544–575."
   - "Wang W. Lyophilization and development of solid protein pharmaceuticals. Int J Pharm. 2000;203(1–2):1–60."
 ---
-Peptitler laboratuvarda ve doğada kararsız moleküllerdir. Bunun nedenlerini bilmek, hem analiz sonuçlarının yorumlanmasına hem de neden kuru toz formunun tercih edildiğini anlamaya yardımcı olur. Bu yazı yalnızca kimyasal mekanizmayı ele alır.
+Bir peptidin etiketinde yazan miktar, laboratuvara ulaştığında hâlâ aynı olmayabilir. Çünkü peptitler su ortamında çeşitli kimyasal tepkimelere girer. Aşağıda bu tepkimelerin neler olduğunu ve kuru tozun neden tercih edildiğini anlatıyoruz.
 
-## Başlıca bozulma yolları
+## Başlıca bozunma yolları
 
-| Yol | Hassas kalıntılar | Ne olur? |
-| --- | --- | --- |
-| Hidroliz | Asp–Pro, Asp–Gly bağları | Peptit bağı kırılır |
-| Deamidasyon | Asn (özellikle Asn–Gly), Gln | Amid grubu karboksile dönüşür; kütle +1 Da değişir |
-| Oksidasyon | Met, Cys, Trp, His | Sülfoksit/disülfid oluşumu |
-| Rasemizasyon | Hemen tüm kalıntılar | L-amino asit D-forma dönüşür |
-| Agregasyon | Hidrofobik diziler | Çözünürlük ve etkinlik azalır |
-| Yüzeye adsorpsiyon | Kationik / hidrofobik peptitler | Cam ve plastik yüzeyinde kayıp |
+Hidroliz, peptit bağının suyla kırılmasıdır; özellikle aspartik asit içeren Asp-Pro ve Asp-Gly bağları hassastır. Deamidasyonda asparajin (özellikle Asn-Gly dizisinde) amid grubunu kaybeder ve aspartik asite dönüşür. Bu, kütlede sadece 1 dalton'luk bir fark yaratır ama bazı peptitlerin etkinliğini bozar.
 
-Bu tepkimelerin çoğu **su, sıcaklık, pH ve oksijen** varlığında hızlanır.
+Metiyonin, sistein, triptofan ve histidin gibi amino asitler oksijene duyarlıdır; metiyonin kolayca sülfoksit olur ve kütle 16 dalton artar. Rasemizasyon L amino asitlerin D formuna dönmesidir. Hidrofobik diziler zamanla birbirine yapışıp topaklanabilir ve cam ya da plastik yüzeylere tutunarak kayba yol açabilir.
 
-## Liyofilizasyon ne yapar?
+Bunların çoğu için ortak gerçek şu: su, sıcaklık, pH ve oksijen varlığında hız artar.
 
-Liyofilizasyon (dondurarak kurutma), çözeltinin dondurulup vakum altında buzun doğrudan buhara geçirilmesidir. Sonuçta düşük nemli, gözenekli bir kek elde edilir. Sulu ortamdaki moleküler hareketlilik büyük ölçüde azaldığı için hidroliz ve deamidasyon gibi su gerektiren tepkimeler yavaşlar. Formülasyonda genellikle **manitol, trehaloz** gibi dolgu ve koruyucu maddeler bulunur.
+## Kuru toz neden daha dayanıklı?
 
-Kalıntı nem miktarı kararlılığın önemli bir belirleyicisidir; bu yüzden CoA’larda su içeriği (Karl Fischer) ayrıca raporlanır.
+Liyofilizasyonda çözelti önce dondurulur, ardından vakum altında buzun doğrudan buhara geçmesi sağlanır. Elde edilen gözenekli kekte su neredeyse kalmamıştır; moleküler hareket büyük ölçüde durur ve suya bağımlı tepkimeler yavaşlar. Formülasyonlarda manitol ve trehaloz gibi dolgu ve koruyucu maddeler bulunur.
 
-## Analiz sonuçlarına etkisi
+Kalıntı nem miktarı bu yüzden kritiktir. CoA'larda Karl Fischer yöntemiyle su içeriğinin ayrıca bildirilmesinin nedeni budur.
 
-- Bozulma ürünleri HPLC’de ana pikin önünde veya arkasında küçük pikler olarak görülür.
-- Deamidasyon ve oksidasyon, kütle spektrometrisinde küçük kütle kaymalarıyla belirlenir (+1 Da, +16 Da).
-- Karşı iyon (TFA veya asetat) hem tozun toplam kütlesini hem de hücre çalışmalarındaki biyolojik arka planı etkileyebilir.
+## Analizde nasıl görünür?
 
-## Sonuç
-
-Peptit kararlılığı; dizi, ortam ve fiziksel formun ortak sonucudur. Kuru toz hâl kimyasal olarak daha kararlıdır; çözeltide ise bozulma yolları belirgin biçimde hızlanır. Bu nedenle analiz verisi yorumlanırken numunenin geçmişi göz önünde tutulmalıdır.
+Bozunma ürünleri HPLC'de ana pikin önünde ya da arkasında küçük pikler olarak belirir. Kütle spektrometrisinde deamidasyon +1 Da, oksidasyon +16 Da'luk kaymalarla fark edilir. Karşı iyon (TFA ya da asetat) ise hem toz kütlesini hem de hücre çalışmalarındaki biyolojik arka planı etkileyebilir. Bir numuneyi yorumlarken geçmişini bilmek bu nedenle önemlidir.

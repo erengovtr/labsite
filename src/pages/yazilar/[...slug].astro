@@ -17,7 +17,7 @@ const toc = headings.filter((h) => h.depth === 2);
 const mins = d.readingMinutes ?? readingTime(post.body ?? '');
 const related = (await getCollection('posts')).filter((p) => p.id !== post.id && (p.data.category === d.category || p.data.tags.some((t) => d.tags.includes(t)))).slice(0, 3);
 const relProducts = (await getCollection('products')).filter((pr) => d.tags.some((t) => tagSlug(t) === pr.data.tag));
-const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: d.title, description: d.description, datePublished: d.date.toISOString(), dateModified: (d.updated ?? d.date).toISOString(), inLanguage: 'tr', author: { '@type': 'Organization', name: 'Bioscience Editör Ekibi' } };
+const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: d.title, description: d.description, datePublished: d.date.toISOString(), dateModified: (d.updated ?? d.date).toISOString(), inLanguage: 'tr', author: { '@type': 'Organization', name: 'Bioscience Pharma' } };
 ---
 <Base title={d.title} description={d.description} type="article" published={d.date}>
   <div class="progress" id="progress"></div>
@@ -27,12 +27,11 @@ const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: d.t
       <a class="chip" href={`/kategori/${slugOf(d.category)}/`}>{d.category}</a>
       <h1>{d.title}</h1>
       <p class="dek">{d.description}</p>
-      <div class="byline"><span>Bioscience Editör Ekibi</span><span>{fmtDate(d.date)}</span><span>{mins} dk okuma</span>{d.updated && <span>Güncelleme: {fmtDate(d.updated)}</span>}</div>
+      <div class="byline"><span>Bioscience Pharma</span><span>{fmtDate(d.date)}</span><span>{mins} dk okuma</span>{d.updated && <span>Güncelleme: {fmtDate(d.updated)}</span>}</div>
     </header>
     <div class="article-layout">
       <article>
-        <Disclaimer />
-        <div class="prose" id="prose" style="margin-top:28px"><Content /></div>
+        <div class="prose" id="prose"><Content /></div>
         {d.references.length > 0 && (
           <section class="refs" id="kaynaklar">
             <h2>Kaynaklar</h2>
@@ -40,8 +39,8 @@ const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: d.t
           </section>
         )}
         <div class="tagline-chips" style="margin-top:28px">{d.tags.map((t) => <a class="tag" href={`/etiket/${tagSlug(t)}/`}>#{t}</a>)}</div>
-        {relProducts.length > 0 && <div style="margin-top:32px"><p class="eyebrow" style="margin-bottom:14px">Bu yazıyla ilişkili ürün bilgisi</p><div class="pgrid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">{relProducts.map((pr) => <ProductCard product={pr} />)}</div></div>}
-        <div style="margin-top:32px"><Disclaimer /></div>
+        {relProducts.length > 0 && <div style="margin-top:32px"><p class="eyebrow" style="margin-bottom:14px">Ürün sayfası</p><div class="pgrid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">{relProducts.map((pr) => <ProductCard product={pr} />)}</div></div>}
+        <div style="margin-top:36px"><Disclaimer /></div>
       </article>
       <aside class="toc" aria-label="İçindekiler">
         <h4>Bu yazıda</h4>
@@ -50,7 +49,7 @@ const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: d.t
       </aside>
     </div>
     {related.length > 0 && (
-      <section style="padding-bottom:64px"><div class="section-head"><div><span class="eyebrow">Devamı</span><h2>İlgili yazılar</h2></div></div>
+      <section style="padding-bottom:64px"><div class="section-head"><div><h2>Benzer yazılar</h2></div></div>
         <div class="grid">{related.map((p) => <PostCard post={p} />)}</div></section>
     )}
   </div>

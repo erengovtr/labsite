@@ -14,31 +14,17 @@ SITE_URL=https://alanadiniz.com npm run build   # canonical/sitemap/RSS için ge
 (başlık, açıklama, kategori, etiketler, tarih, `compound`, `references`). Arama, RSS, site haritası, kategori sayfaları ve
 içindekiler otomatik oluşur. Sözlük terimleri `src/data/glossary.ts` içindedir.
 
-## Ürün sayfaları ve etiketler
-- Ürün eklemek: `src/content/products/<ad>.md` (alanlar `src/content.config.ts` içinde; `tag` alanı yazılardaki etiketle eşleşir).
-- Yazıya etiket eklemek: yazının `tags:` listesine `"retatrutide"` gibi bir değer yazın. Etiketi (`#retatrutide`) taşıyan yazılar, `tag: "retatrutide"` olan ürün sayfasında otomatik listelenir. Büyük/küçük harf ve Türkçe karakter fark etmez (`GHK-Cu` → `ghk-cu`).
-- Ürün görseli: `public/urunler/<ürün-dosya-adı>.png` (ör. `retatrutide.png`, `ghk-cu.png`). Dosya yoksa yer tutucu şişe çizimi görünür; png/webp/jpg/jpeg/avif desteklenir.
+## İçerik
+- **Yazı eklemek:** `src/content/posts/<ad>.md`. `tags:` listesine yazılan etiketler `#etiket` olarak görünür.
+- **Ürün eklemek:** `src/content/products/<ad>.md` (`group`: "Araştırma bileşiği" ya da "Takviye"). Ürünün `tag` değeriyle aynı etiketi taşıyan yazılar ürün sayfasında otomatik listelenir.
+- **Ürün görseli:** `public/urunler/<ürün-dosya-adı>.webp` (png/jpg de olur). Dosya yoksa yer tutucu şişe çizimi gösterilir.
+- **Sözlük:** `src/data/glossary.ts`. **İletişim e-postası:** `src/lib/site.ts`.
 
 ## Animasyonlar
-`src/scripts/motion.ts` + `src/styles/global.css`: TV efektli açılış (oturum başına bir kez; tıklayınca geçilir), kaydırma animasyonları (`data-reveal`, `data-stagger`), parallax (`data-parallax`), kayan ürün şeridi, sayfa geçişleri (View Transitions). `prefers-reduced-motion` açıksa hepsi kapanır.
+`src/scripts/motion.ts` ve `src/styles/global.css`: açılış (TV efekti, oturum başına bir kez), kaydırma animasyonları (`data-reveal`, `data-stagger`), parallax (`data-parallax`), kayan ürün şeridi, sayfa geçişleri. `prefers-reduced-motion` açıksa kapanır.
 
-## Editoryal kural
-Kullanım, doz, protokol veya sonuç vaadi içermez; yalnızca mekanizma ve literatür özeti. Her yazıda uyarı kutusu ve kaynak listesi bulunur.
+## Yazı ilkesi
+Doz, süre, protokol ya da sonuç vaadi yok; her yazıda kaynaklar listelenir. Site satışa yönlendirmez.
 
-Önceki proje (SideChain Analytics doğrulama portalı) `archive/` altında saklanıyor.
-
-## Yayına alma — terminalsiz (GitHub → Firebase)
-`.github/workflows/firebase-hosting.yml` her push'ta siteyi derleyip Firebase Hosting'e yayınlar.
-GitHub reposunda Settings → Secrets and variables → Actions altında:
-- **Secret** `FIREBASE_SERVICE_ACCOUNT`: Firebase konsolu → Project settings → Service accounts → "Generate new private key" ile inen JSON dosyasının tüm içeriği
-- **Variable** `FIREBASE_PROJECT_ID`: Firebase proje kimliği
-- **Variable** `SITE_URL`: ör. `https://PROJE-ADI.web.app`
-
-## Yayına alma — terminalle (Firebase Hosting, Spark ücretsiz plan)
-```bash
-npm install -g firebase-tools
-firebase login
-firebase init hosting      # mevcut firebase.json'u koruyun; public klasörü: dist; SPA yönlendirmesi: Hayır
-SITE_URL=https://PROJE-ADI.web.app npm run deploy
-```
-`SITE_URL` canonical, site haritası ve RSS adreslerini belirler; özel alan adı bağlarsanız onu yazın.
+## Yayın
+`.github/workflows/firebase-hosting.yml` her push'ta siteyi Firebase Hosting'e yayınlar (GitHub'da `FIREBASE_SERVICE_ACCOUNT` secret'ı, `FIREBASE_PROJECT_ID` ve `SITE_URL` değişkenleri gerekir).

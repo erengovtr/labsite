@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bioscience-blog-f4c35.web.app/sitemap-index.xml

@@ -7,7 +7,7 @@ const posts = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    category: z.enum(['Peptit Bilimi', 'Metabolizma', 'Hormonal Eksenler', 'Analitik Kalite', 'Temel Kavramlar']),
+    category: z.enum(['Peptit Bilimi', 'Metabolizma', 'Hormonal Eksenler', 'Analitik Kalite', 'Temel Kavramlar', 'Küçük Moleküller', 'Vitamin ve Mineraller']),
     // Etiketler "#etiket" olarak görünür. Bir ürünün `tag` değeriyle eşleşen yazılar o ürün sayfasında otomatik listelenir.
     tags: z.array(z.string()).default([]),
     date: z.coerce.date(),
@@ -24,7 +24,8 @@ const products = defineCollection({
   schema: z.object({
     name: z.string(),
     tagline: z.string(),
-    category: z.string(),                 // ör. "Peptit · Metabolik"
+    category: z.string(),                 // ör. "Peptit · Metabolizma"
+    group: z.enum(['Araştırma bileşiği', 'Takviye']).default('Araştırma bileşiği'),
     status: z.string(),                   // ör. "Araştırma bileşiği"
     tag: z.string(),                      // yazılarla eşleşecek etiket slug'ı, ör. "retatrutide"
     order: z.number().default(100),

@@ -1,27 +1,21 @@
 ---
 import Base from '../layouts/Base.astro';
 import Disclaimer from '../components/Disclaimer.astro';
-import { SITE } from '../lib/site';
 ---
-<Base title="Hakkında & editoryal ilke" description="Bu blogun amacı, editoryal ilkeleri ve içerik sınırları.">
+<Base title="Hakkında" description="Bu sitenin amacı, yazı ilkeleri ve içerik sınırları.">
   <div class="wrap" style="max-width:var(--prose)">
-    <div class="page-head" style="padding-left:0"><span class="eyebrow">Hakkında</span><h1>Bu blog neden var?</h1></div>
-    <div class="prose">
-      <p>{SITE.name} Araştırma Notları, araştırma bileşikleri hakkında merak edenlere <strong>doğru, kaynaklı ve abartısız</strong> bir başvuru kaynağı sunmak için hazırlandı. Amacımız ürün satmak değil; bir molekülün hücresel düzeyde ne yapabileceğini, bunun dokuları ve metabolizmayı kuramsal olarak nasıl etkileyebileceğini literatürden anlatmaktır.</p>
-      <h2>Editoryal ilkeler</h2>
-      <ul>
-        <li><strong>Kullanım önerisi yok.</strong> Doz, süre, protokol, kombinasyon, “nasıl kullanılır” türünden hiçbir bilgi vermeyiz.</li>
-        <li><strong>Kanıt düzeyi belirtilir.</strong> Hücre kültürü, hayvan modeli ve insan klinik çalışması birbirinden ayrı anlatılır; in vitro bulgu insan etkisi gibi sunulmaz.</li>
-        <li><strong>Riskler de yazılır.</strong> Çalışmalarda bildirilen yan etkiler ve bilinmeyenler makalenin parçasıdır.</li>
-        <li><strong>Kaynak gösterilir.</strong> Her yazı hakem denetimli literatüre dayanır ve kaynak listesiyle biter.</li>
-        <li><strong>Sağlık iddiası yok.</strong> “Yağ yakar”, “kas yapar”, “gençleştirir” gibi sonuç vaat eden ifadeler kullanılmaz.</li>
-      </ul>
-      <h2>Yasal ve tıbbi uyarı</h2>
+    <div class="page-head" style="padding-left:0" data-reveal><span class="eyebrow">Hakkında</span><h1>Bu site neden var?</h1></div>
+    <div class="prose" data-reveal>
+      <p>Bioscience Pharma ürünleri hakkında sorulan soruların çoğu aynı yerden çıkıyor: bu bileşik nedir, vücutta neye bağlanır, bilim bu konuda ne diyor? Cevapları tek bir yerde, kaynaklarıyla birlikte toplamak istedik.</p>
+      <h2>Nasıl yazıyoruz</h2>
+      <p>Her yazı yayımlanmış literatüre dayanır ve altında kaynakları listelenir. Hücre kültürü, hayvan modeli ve insan çalışması ayrı ayrı anlatılır; laboratuvardaki bir bulgu insan için kanıtmış gibi sunulmaz. Çalışmalarda bildirilen yan etkiler ve bilinmeyenler de yazının parçasıdır.</p>
+      <h2>Yazmadıklarımız</h2>
+      <p>Doz, süre, protokol, kombinasyon ya da "şunu yaparsanız şu olur" cümleleri yok. Kilo vermek, kas yapmak, gençleşmek gibi sonuç vaatleri de yok. Bu site ürün satmıyor ve satışa yönlendirmiyor.</p>
+      <h2>Yasal not</h2>
     </div>
     <Disclaimer />
     <div class="prose" style="margin-top:24px">
-      <p>Bahsi geçen bileşiklerin birçoğu hiçbir sağlık otoritesince onaylanmamıştır veya yalnızca belirli hastalıklar için reçeteyle onaylıdır. Onaylı ilaçların kendi kendine kullanımı ciddi riskler taşır. Sağlık durumunuzla ilgili kararlar için lisanslı bir hekime başvurun.</p>
-      <p>Bu sitedeki bilgiler yazıldığı tarihteki literatürü yansıtır ve değişebilir. Hata gördüğünüzde bize bildirmeniz yazıyı düzeltmemizi sağlar.</p>
+      <p>Anlatılan bileşiklerin bir kısmı reçeteli ilaçtır, bir kısmı hiçbir otoritece onaylanmamış araştırma bileşiğidir, bir kısmı ise besin takviyesidir. Her yazıda hangisi olduğu belirtilir. Bilgiler yazıldığı tarihteki literatürü yansıtır ve değişebilir.</p>
     </div>
     <div style="height:64px"></div>
   </div>

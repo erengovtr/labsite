@@ -1,6 +1,6 @@
 ---
-title: "MK-677 (ibutamoren) ve ghrelin reseptörü: GH/IGF-1 ekseninde ne olur?"
-description: "Oral aktif bir ghrelin taklitçisinin büyüme hormonu ekseni üzerindeki etkisi ve klinik çalışmalarda gözlenen metabolik değişiklikler."
+title: "MK-677: ghrelin reseptörünü taklit eden küçük molekül"
+description: "İbutamoren büyüme hormonu ve IGF-1 düzeylerini nasıl yükseltiyor ve iki yıllık bir plazebo kontrollü çalışma neyi gösterdi?"
 category: "Hormonal Eksenler"
 tags: ["MK-677", "ghrelin", "GH", "IGF-1", "GHSR"]
 date: 2026-09-24
@@ -9,41 +9,18 @@ references:
   - "Kojima M, Hosoda H, Date Y, et al. Ghrelin is a growth-hormone-releasing acylated peptide from stomach. Nature. 1999;402:656–660."
   - "Nass R, Pezzoli SS, Oliveri MC, et al. Effects of an oral ghrelin mimetic on body composition and clinical outcomes in healthy older adults: a randomized trial. Ann Intern Med. 2008;149(9):601–611."
 ---
-MK-677 (ibutamoren), peptit olmayan, oral olarak aktif bir **büyüme hormonu salgılatıcı (sekretagog)** bileşiktir. Mideden salgılanan ghrelin hormonunun reseptörü olan GHSR-1a’yı uyarır. Bu yazı, ghrelin sisteminin biyolojisini ve MK-677 ile yapılan kontrollü çalışmalardan bilinenleri özetliyor.
-
-## Ghrelin sistemi
-
-1999’da keşfedilen ghrelin, mide kökenli bir peptit hormondur [1]. Açlık sinyali olarak hipotalamusta iştahı artırır ve hipofizden büyüme hormonu (GH) salgısını tetikler. Reseptörü GHSR-1a, hipotalamus ve hipofizde yoğundur. MK-677 bu reseptörü taklit ettiği için “ghrelin mimetiği” sınıfındadır.
+Ghrelin 1999'da Japonya'da bulunduğunda, mide kökenli bir hormonun büyüme hormonunu da salgılatabildiği anlaşıldı. Bu, ghrelin reseptörünü (GHSR-1a) ilaç araştırmasının ilgi odağı yaptı. MK-677, yani ibutamoren, o araştırmaların küçük molekül yanıtlarından biridir. Peptit değildir, ağızdan alınabilir ve vücutta uzun süre kalır.
 
 ## GH/IGF-1 ekseni
 
-Hipofiz GH salgılar; GH karaciğeri uyararak **IGF-1** üretimini artırır. Hormon düzeyleri yaşla azalır. GH ise somatostatin tarafından baskılanır ve kendi uyardığı IGF-1 tarafından geri bildirimle denetlenir. MK-677’nin kuramsal ilgi çekici yanı, bu fizyolojik geri bildirim ağı içinde **atımsal** GH salgısını artırmasıdır; sürekli GH uygulamasından farklı bir örüntü sunar.
+Hipofiz büyüme hormonunu (GH) atımlar halinde salgılar. GH karaciğeri uyarır, karaciğer IGF-1 üretir, IGF-1 de geri bildirimle hem hipotalamusa hem hipofize "yeter" sinyali gönderir. Somatostatin ise bu salgıyı frenleyen taraftır. İbutamoren, bu döngüye dışarıdan, ghrelinin kullandığı kapıdan girer.
 
-## Kontrollü çalışmadan bulgular
+## İki yıllık çalışmada ne çıktı?
 
-Sağlıklı yaşlı yetişkinlerde yürütülen iki yıllık plazebo kontrollü bir çalışmada [2]:
+Nass ve arkadaşlarının yaşlı gönüllülerle yaptığı randomize plazebo kontrollü çalışmada GH ve IGF-1 düzeyleri genç erişkin aralığına yükseldi. Yağsız kütle plazeboya göre arttı. Ama kuvvet ve fiziksel işlev ölçümlerinde anlamlı bir iyileşme görülmedi. Öte yandan açlık glukozu yükseldi, insülin duyarlılığı azaldı ve ödem, uyuşukluk, iştah artışı gibi olaylar daha sık yaşandı.
 
-- GH ve IGF-1 düzeyleri genç erişkin aralığına yükselmiştir.
-- Yağsız kütle plazeboya göre artmıştır.
-- Kuvvet ve fiziksel işlev ölçümlerinde anlamlı bir iyileşme gösterilememiştir.
-- Açlık glukozu yükselmiş ve insülin duyarlılığı azalmıştır.
-- Ödem, uyuşukluk ve iştah artışı gibi olaylar daha sık görülmüştür.
+Yağsız kütledeki artışın bir kısmı su tutulumuna bağlı olabilir. GH'nın insüline karşı çalışan bir hormon olduğunu düşününce glukoz bulguları şaşırtıcı değil; eksenin doğal bir sonucu olarak yorumlanıyor.
 
-## Biyolojik yorum
+## Ne durumda?
 
-| Gözlem | Olası mekanizma |
-| --- | --- |
-| IGF-1 artışı | GH salgısının uyarılması |
-| Yağsız kütle artışı | GH/IGF-1’in anabolik etkisi; su tutulumu da katkıda bulunabilir |
-| İnsülin duyarlılığında azalma | GH’nin karşı-düzenleyici (kontra-insülin) etkisi |
-| İştah artışı | Ghrelin reseptörü uyarımının merkezi etkisi |
-
-## Önemli noktalar
-
-- Yağsız kütledeki artışın bir bölümü sıvı artışına bağlı olabilir.
-- Glukoz metabolizmasındaki olumsuz değişimler eksenin doğal sonucu olarak yorumlanır; bu nedenle metabolik risk faktörleri araştırmaların merkezindedir.
-- Bileşik hiçbir sağlık otoritesince onaylı ilaç değildir ve araştırma bileşiği statüsündedir.
-
-## Sonuç
-
-MK-677, GH/IGF-1 eksenini ghrelin reseptörü üzerinden uyaran bir araştırma modeli sunar. Kontrollü veriler hormonal etkiyi doğrular, ancak işlevsel yarar gösterememiş ve metabolik yan etkileri öne çıkarmıştır.
+İbutamoren hiçbir sağlık otoritesince ilaç olarak onaylanmış değildir. Elimizdeki en sağlam veri bu iki yıllık çalışma ve ona benzer birkaç klinik denemedir. Sonuçlar hormonal etkiyi doğruluyor, ama beklenen işlevsel yarar ortaya çıkmadı ve metabolik risk soruları ayrıca duruyor.

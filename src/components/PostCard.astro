@@ -1,14 +1,22 @@
 ---
-import { slugOf, fmtDate, readingTime } from '../lib/site';
+import { getCollection } from 'astro:content';
+import { fmtDate, readingTime } from '../lib/site';
+import { tagSlug } from '../lib/tags';
+import { productImage } from '../lib/images';
 const { post } = Astro.props;
 const d = post.data;
 const mins = d.readingMinutes ?? readingTime(post.body ?? '');
+const products = await getCollection('products');
+const prod = products.find((p) => d.tags.some((t) => tagSlug(t) === p.data.tag));
+const thumb = prod ? productImage(prod.id) : null;
 ---
 <a class="card" href={`/yazilar/${post.id}/`} data-cat={d.category} data-title={d.title.toLowerCase()}>
-  <span class="chip" style="align-self:flex-start">{d.category}</span>
+  <div class="card-top">
+    <span class="chip">{d.category}</span>
+    {thumb && <img class="card-thumb" src={thumb} alt="" loading="lazy" width="56" height="56" />}
+  </div>
   <h3>{d.title}</h3>
   <p>{d.description}</p>
-  {d.compound && <span class="compound">{d.compound}</span>}
   {d.tags.length > 0 && <div class="tagrow">{d.tags.slice(0, 3).map((t) => <span>#{t}</span>)}</div>}
   <div class="meta"><span>{fmtDate(d.date)}</span><span>·</span><span>{mins} dk okuma</span></div>
 </a>

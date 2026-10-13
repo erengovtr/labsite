@@ -3,7 +3,7 @@ import '../styles/global.css';
 import Disclaimer from '../components/Disclaimer.astro';
 import { SITE, CATEGORIES } from '../lib/site';
 const { title, description = SITE.description, type = 'website', published } = Astro.props;
-const full = title ? `${title} · ${SITE.name} ${SITE.tagline}` : `${SITE.name} ${SITE.tagline} — Bilimsel araştırma blogu`;
+const full = title ? `${title} · ${SITE.name} ${SITE.tagline}` : `${SITE.name} ${SITE.tagline}`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const path = Astro.url.pathname;
 const nav = [
@@ -84,7 +84,7 @@ const nav = [
         <div><h4>Konular</h4><ul>{CATEGORIES.map((c) => <li><a href={`/kategori/${c.slug}/`}>{c.name}</a></li>)}</ul></div>
         <div><h4>Site</h4><ul>
           <li><a href="/urunler/">Ürünler</a></li><li><a href="/yazilar/">Tüm yazılar</a></li><li><a href="/sozluk/">Sözlük</a></li>
-          <li><a href="/hakkinda/">Editoryal ilke & uyarılar</a></li><li><a href="/rss.xml">RSS</a></li>
+          <li><a href="/hakkinda/">Hakkında</a></li><li><a href="/iletisim/">İletişim</a></li><li><a href="/rss.xml">RSS</a></li>
         </ul></div>
       </div>
       <p class="legal">
@@ -111,11 +111,11 @@ const nav = [
     function render(q: string) {
       if (!index) return; const n = norm(q).split(/\s+/).filter(Boolean);
       const hits = n.length ? index.map((p) => {
-        const hay = norm([p.title, p.description, p.tags.join(' '), p.compound ?? '', p.category].join(' '));
+        const hay = norm([p.title, p.description, p.tags.join(' '), p.category].join(' '));
         const score = n.every((t) => hay.includes(t)) ? n.reduce((a, t) => a + (norm(p.title).includes(t) ? 3 : 1), 0) : 0;
         return { p, score };
       }).filter((x) => x.score).sort((a, b) => b.score - a.score).slice(0, 8) : [];
-      list.innerHTML = hits.length ? hits.map(({ p }) => `<li><a href="/yazilar/${p.id}/">${p.title}<small>${p.category} · ${p.description.slice(0, 90)}…</small></a></li>`).join('')
+      list.innerHTML = hits.length ? hits.map(({ p }) => `<li><a href="${p.url}">${p.title}<small>${p.type} · ${p.category}</small></a></li>`).join('')
         : (q ? '<li class="empty">Sonuç bulunamadı.</li>' : '<li class="empty">Yazmaya başlayın…</li>');
       sel = -1;
     }

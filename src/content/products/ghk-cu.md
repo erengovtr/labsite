@@ -1,31 +1,20 @@
 ---
 name: "GHK-Cu"
-tagline: "Bakır(II) iyonunu bağlayan doğal tripeptit kompleksi."
+tagline: "Bakır(II) iyonunu bağlayan, insan plazmasında doğal olarak bulunan tripeptit kompleksi."
 category: "Peptit · Doku biyolojisi"
 status: "Araştırma bileşiği"
 tag: "ghk-cu"
-order: 2
+group: "Araştırma bileşiği"
+order: 4
 facts:
   - { label: "Sınıf", value: "Tripeptit–bakır kompleksi" }
-  - { label: "Dizi", value: "Gly–His–Lys (3 amino asit)" }
-  - { label: "Doğal bulunuş", value: "İnsan plazması, tükürük ve idrarda saptanmıştır" }
-  - { label: "İlk tanımlanma", value: "1973, insan plazması" }
-  - { label: "Kanıt düzeyi", value: "Ağırlıklı hücre kültürü ve hayvan modelleri; insanda sınırlı" }
+  - { label: "Dizi", value: "Gly–His–Lys" }
+  - { label: "Doğal bulunuş", value: "Plazma, tükürük, idrar" }
+  - { label: "İlk tanım", value: "1973, insan plazması" }
+  - { label: "Kanıt", value: "Çoğunlukla hücre ve hayvan çalışmaları" }
 ---
-## Genel bakış
+GHK, glisin, histidin ve lizinden oluşan üç amino asitlik bir dizidir. Histidin halkası ve lizinin amino grubu bakır(II) iyonunu sıkıca tutar; ortaya çıkan GHK-Cu kompleksi 1970'lerden beri doku onarımı araştırmalarının ilgi alanındadır.
 
-GHK, glisin–histidin–lizin dizisinden oluşan çok kısa bir peptittir ve bakır(II) iyonuyla kararlı bir kompleks (GHK-Cu) oluşturur. Doğal olarak insan vücut sıvılarında bulunur; araştırmalarda doku onarımı, kolajen sentezi ve gen ifadesi üzerindeki etkileri incelenmiştir.
+Fibroblast kültürlerinde kolajen ve glikozaminoglikan sentezinde artış, hayvan yara modellerinde ise daha hızlı epitel yenilenmesi bildirilmiştir. Çalışmaların büyük kısmı birkaç grubun elinden çıkmıştır ve insan verisi küçük, kısa süreli kozmetik denemelerle sınırlıdır.
 
-## Biyolojik ilgi alanları
-
-- **Matriks biyolojisi:** Fibroblast kültürlerinde kolajen ve glikozaminoglikan sentezinde artış bildirilmiştir.
-- **Yara iyileşmesi modelleri:** Hayvan çalışmalarında epitel yenilenmesi ve damarlanma gözlemleri.
-- **Gen ifadesi:** Çok sayıda geni etkilediğini öne süren veri tabanı analizleri.
-
-## Dikkat edilecek noktalar
-
-Literatürün önemli bir kısmı sınırlı sayıda araştırma grubundan gelir ve insan verisi küçük, kısa süreli çalışmalara dayanır. Güçlü sağlık iddiaları için kanıt henüz yeterli değildir.
-
-## Analitik kalite
-
-Peptit–metal kompleksleri için kimlik doğrulama, peptit dizisinin yanı sıra bakır içeriğini de kapsar. Kararlılık ve bozulma yolları için ilgili yazılara bakın.
+Peptit–metal kompleksleri için kimlik doğrulaması hem dizinin hem de bakır içeriğinin ölçülmesini gerektirir.

@@ -1,6 +1,6 @@
 ---
-title: "Retatrutide: üç reseptörü birden hedefleyen deneysel peptit"
-description: "GIP, GLP-1 ve glukagon reseptörlerini birlikte uyaran retatrutide’in mekanizması ve faz 2 çalışmalarında bildirilen bulgular."
+title: "Retatrutide: tek peptitle üç reseptör"
+description: "GIP, GLP-1 ve glukagon reseptörlerini birlikte uyaran retatrutide'in mekanizması ve faz 2 çalışmalarında bildirilen sonuçlar."
 category: "Metabolizma"
 tags: ["retatrutide", "GIP", "GLP-1", "glukagon", "klinik araştırma"]
 date: 2026-10-02
@@ -8,47 +8,25 @@ featured: true
 compound: "Retatrutide (LY3437943)"
 references:
   - "Coskun T, Urva S, Roell WC, et al. LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss. Cell Metab. 2022;34(9):1234–1247."
-  - "Jastreboff AM, Kaplan LM, Frías JP, et al. Triple–hormone-receptor agonist retatrutide for obesity — a phase 2 trial. N Engl J Med. 2023;389:514–526."
+  - "Jastreboff AM, Kaplan LM, Frías JP, et al. Triple–hormone-receptor agonist retatrutide for obesity: a phase 2 trial. N Engl J Med. 2023;389:514–526."
   - "Rosenstock J, Frias J, Jastreboff AM, et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes. Lancet. 2023;402:529–544."
 ---
-Retatrutide (geliştirme kodu LY3437943), tek bir peptit molekülünün **üç farklı reseptörü** birden uyarmasını amaçlayan deneysel bir bileşiktir: GIP reseptörü, GLP-1 reseptörü ve glukagon reseptörü. Bu yazı, bileşiğin biyolojik gerekçesini ve yayımlanmış faz 2 verilerini özetler.
+Semaglutid sadece GLP-1 reseptörünü uyarır. Tirzepatid buna GIP reseptörünü ekler. Retatrutide bir adım daha atar ve glukagon reseptörünü de işin içine alır. Eli Lilly'nin LY3437943 koduyla geliştirdiği bu peptit, yazının hazırlandığı dönemde onaylı bir ilaç değil, klinik geliştirme aşamasındadır. Güncel durumu birincil kaynaklardan kontrol etmenizi öneririz.
 
-> Retatrutide yazının hazırlandığı dönemde klinik geliştirme aşamasında bir araştırma bileşiğidir. Güncel regülasyon ve çalışma durumu için birincil kaynakları kontrol edin.
+## Glukagonu neden eklemek?
 
-## Neden üç reseptör?
+Glukagon çoğunlukla kan şekerini yükselten hormon olarak bilinir. Ama karaciğerde yağ asidi yıkımını artırdığı ve enerji harcamasını yükseltebildiği de gösterilmiştir. Tek başına bir glukagon agonisti kan şekerini bozacağı için kullanışsızdır; GLP-1 ve GIP'nin insülin tarafındaki etkisiyle birlikte olduğunda ise bu yan etkinin dengelenebileceği düşünülür. Retatrutide'in tasarım mantığı budur.
 
-Her reseptörün metabolizmadaki rolü farklıdır ve kuramsal olarak birbirini tamamlar:
+Hücre çalışmalarında molekül GIP reseptörüne doğal GIP'den güçlü, GLP-1 ve glukagon reseptörlerine ise doğal hormonlardan daha zayıf bağlanır. Bu dengesiz profil bilerek seçilmiş bir ayardır.
 
-- **GLP-1R:** Glukoza bağımlı insülin salgısı, glukagonun dolaylı baskılanması, mide boşalmasının yavaşlaması ve merkezi tokluk sinyali (ayrıntılar için [GLP-1 reseptörü yazısına](/yazilar/glp1-reseptor-sinyallesmesi/) bakın).
-- **GIP reseptörü:** İnsülin salgısını destekler; yağ dokusu biyolojisi ve iştah üzerindeki rolü hâlâ tartışmalı bir araştırma konusudur.
-- **Glukagon reseptörü:** Karaciğerde glukoz üretimini ve yağ asidi oksidasyonunu etkiler, enerji harcamasını artırabileceği öne sürülür. Tek başına glukagon uyarımı glukozu yükselteceğinden, bu bileşenin GLP-1/GIP ile birlikte dengelenmesi tasarımın temel fikridir.
+## Faz 2'de neler görüldü?
 
-Hücre çalışmalarında molekülün GIP reseptörüne doğal GIP’den daha güçlü, GLP-1 ve glukagon reseptörlerine ise doğal ligandlarından daha zayıf bağlandığı bildirilmiştir [1]. Bu dengesiz profil bilinçli bir tasarım tercihi olarak yorumlanmaktadır.
+Obezite ve fazla kilosu olan yetişkinlerle yapılan 48 haftalık çalışmada, en yüksek doz kolunda ortalama vücut ağırlığı yaklaşık yüzde 24 azaldı. Plazebo kolunda bu değişim yüzde 2 civarındaydı. Tip 2 diyabetli katılımcılardaki ayrı çalışmada da glisemik göstergelerde ve kilo parametrelerinde iyileşme bildirildi.
 
-## Faz 2 bulguları
+Rakamlar ilginç olsa da bunlar faz 2 verileridir: katılımcı sayısı sınırlı, izleme süresi kısa. Kalıcılık, uzun dönem güvenlik ve alt gruplardaki sonuçlar faz 3 programının konusu.
 
-Obezite ve fazla kilolu katılımcılarda yürütülen 48 haftalık faz 2 çalışmasında, ortalama vücut ağırlığı değişimi doz kollarına göre belirgin farklılık göstermiştir; en yüksek doz kolunda yaklaşık %24 azalma bildirilirken plazebo kolunda yaklaşık %2 azalma görülmüştür [2]. Tip 2 diyabetli katılımcılarda yürütülen ayrı bir faz 2 çalışmasında glisemik göstergelerde ve kilo parametrelerinde iyileşme raporlanmıştır [3].
+## Bildirilen yan etkiler
 
-Bu sonuçlar **ilk aşama** verileridir: katılımcı sayısı sınırlıdır ve uzun dönem güvenliği, kalıcılığı ve alt grupları geniş faz 3 programlarında değerlendirilmektedir.
+En sık görülenler mide ve bağırsak şikayetleri oldu: bulantı, ishal, kusma, kabızlık. Bunlar doza bağlıydı. Kalp atım hızında doza bağlı bir artış da kaydedildi. Yüksek doz kollarında bazı katılımcılar deride duyu değişikliği (disestezi) bildirdi ve bırakma oranları bu kollarda daha yüksekti.
 
-## Bildirilen güvenlik gözlemleri
-
-- Doza bağlı mide-bağırsak yan etkileri (bulantı, ishal, kusma, kabızlık) en sık bildirilenlerdi.
-- Kalp atım hızında doza bağlı artış gözlenmiştir.
-- Yüksek doz kollarında deri duyusu değişiklikleri (disestezi) rapor edilmiştir.
-- Bırakma oranlarının yüksek doz kollarında daha fazla olduğu belirtilmiştir.
-
-## Biyolojik olarak neler değişebilir?
-
-| Eksen | Kuramsal değişim |
-| --- | --- |
-| İştah | Merkezi tokluk sinyalinde artış |
-| Glukoz | İnsülin yanıtında iyileşme, mide boşalmasında yavaşlama |
-| Karaciğer | Yağ metabolizmasının ve yağlanmanın etkilenmesi |
-| Enerji harcaması | Glukagon reseptörü aracılı olası artış |
-
-Karaciğer yağlanması ve enerji harcamasına ilişkin etkiler hâlâ daha çok ön veriye ve mekanistik modellere dayanır.
-
-## Sonuç
-
-Retatrutide, inkretin biyolojisine glukagon bileşeni ekleyerek çok eksenli bir metabolik etki hedefleyen bir yaklaşımdır. Veriler umut vericidir ancak yalnızca klinik çalışma koşullarında, denetimli olarak elde edilmiştir; bu yazıdaki hiçbir bilgi bireysel kullanım için dayanak oluşturmaz.
+Karaciğer yağlanması ve enerji harcaması üzerindeki etkiler ise şimdilik daha çok ön veriye ve mekanistik çalışmalara dayanıyor; kesin yargı için beklemek gerekiyor.

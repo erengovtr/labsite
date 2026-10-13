@@ -1,47 +1,29 @@
 ---
-title: "GLP-1 reseptörü: iştah, insülin ve mide boşalmasının ortak noktası"
-description: "GLP-1 reseptörünün hücre içinde nasıl sinyal ilettiği ve pankreas, beyin ve sindirim sisteminde hangi biyolojik değişiklikleri başlatabildiği."
+title: "GLP-1 reseptörü: yemekten sonra bağırsaktan beyne giden sinyal"
+description: "Besin alımıyla salgılanan GLP-1 pankreasta, mide-bağırsak sisteminde ve beyinde nasıl bir etki zinciri başlatır?"
 category: "Metabolizma"
-tags: ["GLP-1", "inkretin", "cAMP", "GPCR", "retatrutide"]
+tags: ["GLP-1", "inkretin", "cAMP", "GPCR", "retatrutide", "semaglutid", "tirzepatid"]
 date: 2026-09-21
-compound: "GLP-1R"
 references:
   - "Drucker DJ. Mechanisms of action and therapeutic application of glucagon-like peptide-1. Cell Metab. 2018;27(4):740–756."
   - "Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1). Mol Metab. 2019;30:72–130."
 ---
-GLP-1 (glukagon benzeri peptit-1), besin alımının ardından bağırsaktaki L hücrelerinden salgılanan bir **inkretin hormonudur**. Reseptörü, birçok araştırmanın odağındaki bileşiklerin ortak hedefidir. Bu yazı, reseptörün biyolojisini bir mekanizma haritası olarak özetliyor.
+Yemek yediğinizde ince bağırsağın alt kısmındaki L hücreleri GLP-1 salgılar. Hormon dakikalar içinde yıkıldığı için etkisi kısa sürer, ama bu kısa sürede vücudun üç ayrı yerinde değişiklik başlatır: pankreas, mide ve beyin.
 
-## Reseptörün yapısı ve sinyal zinciri
+## Reseptörün içinde olanlar
 
-GLP-1 reseptörü (GLP-1R), G proteinine bağlı reseptör (GPCR) ailesindendir. Ligandı bağlandığında esas olarak Gαs proteinini etkinleştirir; bu da adenilil siklazı uyarır ve hücre içi **cAMP** düzeyini yükseltir. Pankreas β hücrelerinde cAMP, protein kinaz A (PKA) ve Epac2 yollarını çalıştırarak insülin granüllerinin salımını güçlendirir. Reseptör ayrıca β-arrestin yollarıyla da etkileşir; farklı ligandların bu iki yolu farklı oranlarda etkinleştirmesi (*yanlı agonizm*) aktif bir araştırma alanıdır.
+GLP-1 reseptörü, hücre zarını yedi kez geçen bir G proteinine bağlı reseptördür. Hormon bağlandığında Gαs proteinini çalıştırır, o da adenilil siklaz enzimini uyarır ve hücre içinde cAMP düzeyi yükselir. Pankreas β hücrelerinde cAMP, protein kinaz A ve Epac2 üzerinden insülin granüllerinin salınmasını kolaylaştırır.
 
-## Dokulara göre etkiler
+İlginç olan, bu etkinin glukoza bağımlı olmasıdır. Kan şekeri düşükken GLP-1 insülini pek artırmaz; yüksekken artırır. Aynı anda α hücrelerinden glukagon salgısını da baskılar. Hipoglisemi riskinin neden bu ilaç grubunda görece düşük kaldığı büyük ölçüde bununla açıklanır.
 
-### Pankreas
-Etki **glukoza bağımlıdır**: GLP-1R uyarımı, yüksek glukoz varlığında insülin salgısını belirgin artırırken glukoz düşükken bu etki zayıflar. Aynı zamanda α hücrelerinden glukagon salgısını baskılar. Bu glukoza bağımlılık, mekanizmanın kuramsal olarak hipoglisemi riskini sınırlayan yönüdür.
+## Mide ve beyin
 
-### Sindirim sistemi
-Mide boşalmasının yavaşlaması, vagal sinir yolları üzerinden olur. Besinin ince bağırsağa geçiş hızının düşmesi, yemek sonrası glukoz dalgalanmasını yumuşatabilir; mide-bağırsak yan etkilerinin (bulantı gibi) bir kaynağı da budur.
+Mide boşalması vagus siniri üzerinden yavaşlar. Yemek sonrası kan şekerindeki ani tırmanış bu yüzden yumuşar; bulantı gibi yan etkilerin bir kısmı da aynı kaynaktan gelir.
 
-### Merkezi sinir sistemi
-GLP-1R, hipotalamusta (arkuat çekirdek) ve beyin sapında (area postrema, NTS) bulunur. Hayvan çalışmaları, POMC/CART nöronlarının uyarıldığını, NPY/AgRP nöronlarının ise baskılandığını göstermiştir; sonuçta tokluk sinyali güçlenir. Bu yollar, iştah ve yeme davranışındaki değişikliklerin kuramsal temelidir.
+Beyinde GLP-1 reseptörleri hipotalamusun arkuat çekirdeğinde ve beyin sapındaki area postrema ile NTS bölgesinde bulunur. Hayvan çalışmalarında POMC nöronlarının uyarıldığı, NPY ve AgRP nöronlarının ise baskılandığı gösterilmiştir. Sonuç, tokluk hissinin daha erken gelmesidir.
 
-### Diğer dokular
-Kalp, damar, böbrek ve karaciğerde de GLP-1R ifadesi veya dolaylı etkiler bildirilmiştir; bunların klinik anlamı hâlâ tartışmalıdır.
+## Neden analoglar bu kadar çalışıldı?
 
-## Doğal hormon neden kısa ömürlüdür?
+Doğal GLP-1'in yarı ömrü iki dakikadan kısadır, çünkü DPP-4 enzimi onu hemen keser. Semaglutid gibi ilaçlarda 8. amino asit değiştirilerek bu kesim engellenir, yağ asidi zinciri ise albümine bağlanma sağlar. Retatrutide ve tirzepatid ise GLP-1'in yanına başka reseptörleri de ekler: GIP ve glukagon. Her ekleme, metabolik tabloya yeni bir kol katar ve yeni sorular getirir.
 
-Doğal GLP-1’i DPP-4 enzimi dakikalar içinde parçalar ve böbrek hızla uzaklaştırır; yarı ömrü yaklaşık 1–2 dakikadır. Araştırma bileşiklerinde görülen yapısal değişiklikler (örneğin yağ asidi zinciri eklenmesi veya amino asit değişimi) bu kısa ömrü uzatmaya yöneliktir.
-
-## Kuramsal sonuç tablosu
-
-| Doku | Başlıca mekanizma | Beklenen biyolojik yön |
-| --- | --- | --- |
-| β hücresi | Gαs → cAMP → PKA/Epac2 | Glukoza bağımlı insülin artışı |
-| α hücresi | Dolaylı baskılama | Glukagon azalması |
-| Mide | Vagal yol | Boşalma yavaşlaması |
-| Hipotalamus / beyin sapı | Nöron ağı değişimi | Tokluk sinyalinde artış |
-
-## Sınırlamalar
-
-Burada anlatılan etkiler bütüncül bir model sunar, ancak hayvan ve hücre verisi her zaman insana birebir aktarılamaz. Reseptörün farklı dokulardaki payı ve uzun dönem sonuçlar literatürde hâlâ çalışılmaktadır.
+Reseptörün karaciğer, kalp ve böbrekteki rolü hâlâ tartışılıyor. Hayvan modellerindeki bulguların insana ne kadar taşındığı henüz net değil.

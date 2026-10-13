@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../lib/site';
+---
+<Base title="İletişim" description="Düzeltme, kaynak önerisi ve geri bildirim için bize ulaşın.">
+  <div class="wrap" style="max-width:var(--prose)">
+    <div class="page-head" style="padding-left:0" data-reveal><span class="eyebrow">İletişim</span><h1>Bize yazın</h1>
+      <p>Bir yazıda hata gördüyseniz, daha iyi bir kaynak biliyorsanız ya da işlenmesini istediğiniz bir bileşik varsa e-posta gönderin.</p></div>
+    <div class="prose" data-reveal>
+      <p><a class="btn" href={`mailto:${SITE.email}?subject=Araştırma%20Notları`}>{SITE.email}</a></p>
+      <p>Yazılarımızdaki bir bilgiyi düzeltirken değişikliği ilgili yazının altına tarihiyle not düşeriz. Tıbbi tavsiye veremeyiz; kişisel sağlık soruları için bir hekime başvurun.</p>
+    </div>
+    <div style="height:64px"></div>
+  </div>
+</Base>

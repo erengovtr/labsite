@@ -1,44 +1,34 @@
 ---
-title: "Peptit nedir? Amino asitten sinyal molekülüne"
-description: "Peptit bağının kimyası, peptit ile protein arasındaki fark ve peptitlerin neden hem güçlü hem kırılgan biyolojik sinyaller olduğu."
+title: "Peptit nedir? Birkaç amino asitten oluşan sinyal molekülleri"
+description: "Peptit bağı nasıl kurulur, peptit ile protein arasındaki sınır nerede ve bu kadar işe yarar moleküller neden bu kadar çabuk bozulur?"
 category: "Temel Kavramlar"
 tags: ["peptit", "amino asit", "temel biyokimya"]
 date: 2026-09-14
 references:
   - "Muttenthaler M, King GF, Adams DJ, Alewood PF. Trends in peptide drug discovery. Nat Rev Drug Discov. 2021;20:309–325."
-  - "Nelson DL, Cox MM. Lehninger Principles of Biochemistry (Bölüm 3: Amino Acids, Peptides, and Proteins). W.H. Freeman."
+  - "Nelson DL, Cox MM. Lehninger Principles of Biochemistry, Bölüm 3. W.H. Freeman."
 ---
-Peptitler, amino asitlerin birbirine bağlanmasıyla oluşan kısa zincirlerdir. Vücutta hormon, nörotransmitter, bağışıklık mediyatörü ve antimikrobiyal savunma molekülü olarak çalışırlar. Araştırma literatüründe geçen birçok bileşiğin temelinde de bu yapı vardır; dolayısıyla peptitleri anlamak, sonraki yazıların ortak zeminidir.
+İnsülin, oksitosin, ghrelin, GLP-1: günlük konuştuğumuz hormonların çoğu peptittir. Bu yüzden bir araştırma bileşiğinin adı "-tid" ya da "-relin" ile bitiyorsa, genellikle bir amino asit zincirinden söz ediyoruz demektir.
 
-## Peptit bağı nasıl oluşur?
+## Zincirin kurulması
 
-Bir amino asidin karboksil (–COOH) grubu, bir sonrakinin amino (–NH₂) grubuyla tepkimeye girer ve bir su molekülü açığa çıkar. Bu yoğunlaşma tepkimesinin ürünü **peptit bağı** (amid bağı) olur. Zincirin amino ucuna **N-terminal**, karboksil ucuna **C-terminal** denir ve diziler her zaman N’den C’ye doğru yazılır.
+İki amino asit bir araya geldiğinde, birinin karboksil grubu diğerinin amino grubuyla birleşir ve ortaya bir su molekülü çıkar. Geriye kalan C–N bağına peptit bağı denir. Zincirin serbest amino ucu N-terminal, karboksil ucu C-terminaldir ve diziler her zaman N ucundan başlanarak yazılır.
 
-Peptit bağının önemli bir özelliği, kısmi çift bağ karakteri nedeniyle düzlemsel ve çoğunlukla *trans* konfigürasyonda olmasıdır. Bu sertlik, zincirin hangi açılarda kıvrılabileceğini sınırlar ve α-heliks, β-tabaka gibi ikincil yapıların ortaya çıkmasının temelini oluşturur.
+Bu bağ düz ve sert bir yapıdadır; kısmen çift bağ özelliği taşıdığı için dönmesi kısıtlıdır. Zincirin esnekliği yalnızca bağın iki yanındaki açılardan gelir ve ikincil yapılar (α-heliks, β-tabaka) bu sınırlı hareket alanından doğar.
 
-## Peptit mi, protein mi?
+## Peptit ile protein arasındaki çizgi
 
-Kesin bir sınır yoktur; pratikte yaklaşık 50 amino asite kadar olan zincirlere peptit, daha uzunlara protein denir. İnsülin 51 amino asitle sınırda bir örnektir; oksitosin ise yalnızca 9 amino asitlik bir peptittir. Kısa zincirler genellikle tek bir sabit üç boyutlu yapıya katlanmaz; esnek yapıları ve hızlı yıkılmaları, sinyalin kısa ömürlü olmasına hizmet eder.
+Kesin bir sınır yok. Genelde 50 kadar amino asite kadar olanlara peptit, ötesine protein denir. Oksitosin dokuz amino asitlik bir peptit, insülin ise 51 amino asitli iki zincir olarak tam sınırda duruyor. Kısa zincirler çoğunlukla sabit bir üç boyutlu şekle katlanmaz, bu da onları esnek ama çabuk bozunur kılar.
 
-## Neden sinyal molekülü olarak kullanılırlar?
+## Neden kırılgan?
 
-- **Yüksek seçicilik:** Dizi, reseptörle çok sayıda temas noktası kurmayı sağlar.
-- **Düşük genel toksisite:** Yıkım ürünleri amino asitlerdir.
-- **Modülerlik:** Tek bir amino asit değişikliği reseptör tercihini ve kararlılığı belirgin biçimde değiştirebilir.
+Vücuttaki proteazlar peptit bağlarını arayıp keser. Doğal GLP-1'in kandaki ömrü iki dakikayı bulmaz. Böbrekler küçük molekülleri hızla süzer. Peptitler ayrıca mide asidinde ve bağırsakta parçalandığı için ağızdan alındığında büyük ölçüde etkisini yitirir.
 
-## Zayıf noktaları
+Araştırmacıların bu soruna bulduğu yanıtlar şaşırtıcı biçimde basit:
 
-Peptitler aynı zamanda kırılgandır. Proteazlar tarafından hızla parçalanır, böbrekten çabuk atılır ve zarlardan zor geçerler. Bu nedenle doğal peptitlerin plazma yarı ömrü çoğu zaman dakikalarla ölçülür. Araştırmacılar bunu aşmak için dört ana strateji kullanır:
+- Doğal olmayan ya da D formundaki amino asitler eklemek, proteazların tanıyamayacağı bir bölge yaratır.
+- Yağ asidi zinciri bağlamak peptidi albümine tutundurur ve kan dolaşımında günlerce kalmasını sağlar. Semaglutid ve tirzepatid bu yolla haftalık etkili hale geldi.
+- Zinciri halkalaştırmak yapıyı sabitler.
+- Polietilen glikol gibi büyük gruplar eklemek böbrek süzülmesini yavaşlatır.
 
-| Strateji | Fikir |
-| --- | --- |
-| D-amino asit veya doğal olmayan amino asit | Proteazların tanıyamayacağı dizi |
-| Yağ asidi bağlama (lipidasyon) | Albümine bağlanıp dolaşımda kalma süresini uzatma |
-| Halkalaştırma | Yapıyı sabitleyip proteaz erişimini azaltma |
-| PEGilasyon ve füzyon | Boyutu büyüterek böbrek atılımını yavaşlatma |
-
-Bu tasarım ilkeleri, ilerleyen yazılarda ele alacağımız GLP-1 türevleri gibi bileşiklerin neden doğal hormonlardan çok daha uzun süre etkili olabildiğini açıklar.
-
-## Özet
-
-Peptit, amino asitlerin peptit bağlarıyla dizildiği kısa bir zincirdir. Dizisi işlevini, yapısı kararlılığını belirler. Biyolojik rolleri geniştir; ancak kararlılık ve iletim sorunları, peptit biyolojisinde araştırmanın büyük bölümünü yönlendirir.
+Bugün onlarca peptit ilaç kullanımda ve bu sayı artıyor; çünkü peptitler hedef reseptörle çok sayıda temas kurduğu için seçicidir ve yıkım ürünleri zaten amino asitlerdir.

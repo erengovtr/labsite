@@ -24,7 +24,7 @@ export const glossary: Term[] = [
   { term: 'Ghrelin', def: 'Mideden salgılanan, açlık sinyali ve büyüme hormonu salgılatıcı etkisi olan peptit hormon; reseptörü GHSR-1a’dır.' },
   { term: 'IGF-1', en: 'insulin-like growth factor 1', def: 'Büyüme hormonunun uyarısıyla özellikle karaciğerden salgılanan, büyüme ve doku onarımında rol oynayan hormon.' },
   { term: 'Androjen reseptörü', en: 'AR', def: 'Testosteron ve DHT’nin bağlandığı, bağlanınca gen ifadesini düzenleyen nükleer reseptör.' },
-  { term: 'SARM', en: 'selective androgen receptor modulator', def: 'Androjen reseptörüne seçici etki göstermesi amaçlanan bileşik sınıfı. Kuramsal hedef kas ve kemikte etki, prostat gibi dokularda daha az etkidir; klinik bilgi sınırlıdır ve hiçbiri onaylı ilaç değildir.' },
+  { term: 'SARM', en: 'selective androgen receptor modulator', def: 'Androjen reseptörüne seçici etki göstermesi amaçlanan bileşik sınıfı. Hedeflenen şey kas ve kemikte etki, prostat gibi dokularda daha az etkidir; klinik bilgi sınırlıdır ve hiçbiri onaylı ilaç değildir.' },
   { term: 'Fosfokreatin sistemi', en: 'phosphocreatine system', def: 'Kreatin kinaz enzimi aracılığıyla ADP’den hızla ATP yeniden üretilmesini sağlayan, kas ve beyinde bulunan enerji tamponu.' },
   { term: 'Bakteriyostatik', en: 'bacteriostatic', def: 'Bakterileri öldürmeden üremelerini durduran özellik. Çok dozlu laboratuvar çözücülerinde koruyucu olarak kullanılan maddeler için kullanılır.' },
   { term: 'Faz 2 / Faz 3 çalışma', def: 'Klinik gelişim aşamaları. Faz 2 etkinlik ve doz aralığını, faz 3 geniş hasta gruplarında etkinlik ve güvenliği değerlendirir. Faz çalışması bir bileşiğin onaylı olduğu anlamına gelmez.' },

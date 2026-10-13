@@ -1,31 +1,20 @@
 ---
 name: "Retatrutide"
-tagline: "GIP, GLP-1 ve glukagon reseptörlerini birlikte hedefleyen üçlü agonist peptit."
-category: "Peptit · Metabolik"
-status: "Araştırma bileşiği · Klinik geliştirme aşamasında"
+tagline: "Tek molekülle GIP, GLP-1 ve glukagon reseptörlerini birlikte hedefleyen deneysel peptit."
+category: "Peptit · Metabolizma"
+status: "Klinik geliştirme aşamasında"
 tag: "retatrutide"
+group: "Araştırma bileşiği"
 order: 1
 facts:
   - { label: "Sınıf", value: "Üçlü reseptör agonisti (peptit)" }
-  - { label: "Hedef reseptörler", value: "GIPR · GLP-1R · GCGR" }
-  - { label: "Geliştirme kodu", value: "LY3437943 (Eli Lilly)" }
-  - { label: "Düzenleyici durum", value: "Onaylı ilaç olarak değerlendirilmemelidir; güncel durumu birincil kaynaklardan kontrol edin" }
-  - { label: "Kanıt düzeyi", value: "Faz 2 klinik çalışmalar; faz 3 programı sürüyor" }
+  - { label: "Hedefler", value: "GIPR, GLP-1R, GCGR" }
+  - { label: "Geliştirme kodu", value: "LY3437943, Eli Lilly" }
+  - { label: "Durum", value: "Onaylı ilaç değil; faz 3 çalışmaları sürüyor" }
+  - { label: "Kanıt", value: "Faz 2 sonuçları yayımlandı" }
 ---
-## Genel bakış
+Retatrutide, inkretin hormonlarının (GIP ve GLP-1) yanına üçüncü bir ortak ekler: glukagon reseptörü. Fikir, iştah ve glukoz kontrolünü inkretin yoluyla etkilerken glukagon tarafından enerji harcamasına ve karaciğer yağ metabolizmasına dokunmaktır.
 
-Retatrutide, tek bir molekülle üç farklı reseptörü uyarmayı amaçlayan deneysel bir peptittir. Tasarım fikri, inkretin hormonlarının (GIP ve GLP-1) glukoz ve iştah üzerindeki etkilerini, glukagon reseptörünün enerji harcaması ve karaciğer metabolizması üzerindeki olası etkileriyle birleştirmektir.
+Bu kombinasyon, tek hedefli bileşiklere göre çok daha geniş bir etki yelpazesi vadeder; aynı zamanda daha fazla yan etki sorusu da getirir. Faz 2 çalışmalarında en sık bildirilen olaylar mide ve bağırsak şikayetleri ile kalp atım hızında artış olmuştur.
 
-## Biyolojik hedefler
-
-- **GLP-1R:** Glukoza bağımlı insülin salgısı, mide boşalmasının yavaşlaması, merkezi tokluk sinyali.
-- **GIPR:** İnsülin salgısına katkı; yağ dokusu ve iştah üzerindeki rolü araştırılmaktadır.
-- **GCGR:** Karaciğerde glukoz ve yağ asidi metabolizması, olası enerji harcaması etkisi.
-
-## Araştırmada nelere bakılıyor?
-
-Yayımlanmış faz 2 çalışmaları vücut ağırlığı ve glisemik göstergelerdeki değişimi incelemiştir. Aynı çalışmalarda mide-bağırsak yan etkileri ve kalp atım hızında artış gibi gözlemler de bildirilmiştir. Ayrıntılar aşağıdaki yazılarda ele alınıyor.
-
-## Analitik kalite
-
-Araştırma materyali olarak bir peptidin kimliği ve saflığı HPLC ve kütle spektrometrisiyle, partiye özel analiz sertifikası (CoA) ile belgelenir. CoA'nın nasıl okunacağı için ilgili yazılara bakın.
+Bir araştırma materyali olarak kimliği ve saflığı kütle spektrometrisi ile HPLC üzerinden doğrulanır. Bu doğrulamanın nasıl okunacağını CoA yazısında bulabilirsiniz.
