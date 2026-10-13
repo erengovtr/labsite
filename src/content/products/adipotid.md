@@ -25,4 +25,6 @@ Moleküle adipotid adı veren çalışma 2011'de obez maymunlarda yapılmıştı
 
 ClinicalTrials.gov'da "prohibitin targeting peptide 1" adlı bir faz 1 çalışma (NCT01262664) listelenir: metastatik prostat kanseri ve obezitesi olan hastalarda tek kür; kayıtta 4 gerçekleşen katılımcı vardır ve çalışma "araştırmacının isteğiyle" sonlandırılmıştır. Bu kaydın adipotid ile aynı molekül olduğunu okuduğumuz kaynaklardan doğrulayamadık; ayrıca sonuç yayını bulamadık.
 
+Hedef molekül olan prohibitin yağ dokusuna özgü olmayan, birçok hücrede bulunan çok işlevli bir zar proteinidir; Kolonin ve arkadaşları bunu yağ dokusu damarında bir belirteç olarak tanımlamıştır, ancak hedefin seçiciliği ve böbrek bulgusu nedeniyle insan güvenliği açık bir soru olarak kalmaktadır [@15133506][@22072637].
+
 Özetle kanıt fare ve primat verisine, bir de sonuçsuz kalmış erken faz kaydına dayanır. İnsanda etkinlik ve güvenlik gösterilmemiştir.

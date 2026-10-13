@@ -285,6 +285,25 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "11103316": {
+  "pmid": "11103316",
+  "title": "Effect of the Ala-Glu-Asp-Gly peptide on lifespan in Drosophila melanogaster",
+  "authors": [
+   "Khavinson VKh",
+   "Izmaylov DM",
+   "Obukhova LK",
+   "Malinin VV"
+  ],
+  "journal": "Dokl Biol Sci",
+  "year": "2000",
+  "volume": "374",
+  "issue": "",
+  "pages": "466-7",
+  "doi": "",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "11146367": {
   "pmid": "11146367",
   "title": "Metabolic studies of a synthetic lipolytic domain (AOD9604) of human growth hormone",
@@ -760,6 +779,25 @@
    "Journal Article"
   ]
  },
+ "12500171": {
+  "pmid": "12500171",
+  "title": "Epitalon influences pineal secretion in stress-exposed rats in the daytime",
+  "authors": [
+   "Sibarov DA",
+   "Kovalenko RI",
+   "Malinin VV",
+   "Khavinson VKh"
+  ],
+  "journal": "Neuro Endocrinol Lett",
+  "year": "2002",
+  "volume": "23",
+  "issue": "5-6",
+  "pages": "452-4",
+  "doi": "",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "12577695": {
   "pmid": "12577695",
   "title": "[Geroprotective effect of thymalin and epithalamin]",
@@ -777,6 +815,26 @@
    "English Abstract",
    "Journal Article",
    "Review"
+  ]
+ },
+ "12591111": {
+  "pmid": "12591111",
+  "title": "The potent melanocortin receptor agonist melanotan-II promotes peripheral nerve regeneration and has neuroprotective properties in the rat",
+  "authors": [
+   "Ter Laak MP",
+   "Brakkee JH",
+   "Adan RA",
+   "Hamers FP",
+   "Gispen WH"
+  ],
+  "journal": "Eur J Pharmacol",
+  "year": "2003",
+  "volume": "462",
+  "issue": "1-3",
+  "pages": "179-83",
+  "doi": "10.1016/s0014-2999(02)02945-x",
+  "types": [
+   "Journal Article"
   ]
  },
  "12634793": {
@@ -1470,6 +1528,29 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "15350695": {
+  "pmid": "15350695",
+  "title": "The melanocortin agonist melanotan II increases insulin sensitivity in OLETF rats",
+  "authors": [
+   "Banno R",
+   "Arima H",
+   "Sato I",
+   "Hayashi M",
+   "Goto M",
+   "Sugimura Y",
+   "Murase T",
+   "Oiso Y"
+  ],
+  "journal": "Peptides",
+  "year": "2004",
+  "volume": "25",
+  "issue": "8",
+  "pages": "1279-86",
+  "doi": "10.1016/j.peptides.2004.05.007",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "15452611": {
   "pmid": "15452611",
   "title": "Effect of peptide preparation epithalamin on circadian rhythm of epiphyseal melatonin-producing function in elderly people",
@@ -1489,6 +1570,25 @@
    "Clinical Trial",
    "Journal Article",
    "Randomized Controlled Trial"
+  ]
+ },
+ "15455129": {
+  "pmid": "15455129",
+  "title": "Peptide promotes overcoming of the division limit in human somatic cell",
+  "authors": [
+   "Khavinson VKh",
+   "Bondarev IE",
+   "Butyugov AA",
+   "Smirnova TD"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2004",
+  "volume": "137",
+  "issue": "5",
+  "pages": "503-6",
+  "doi": "10.1023/b:bebm.0000038164.49947.8c",
+  "types": [
+   "Journal Article"
   ]
  },
  "15525346": {
@@ -1882,6 +1982,26 @@
    "Journal Article",
    "Randomized Controlled Trial",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "16360286": {
+  "pmid": "16360286",
+  "title": "Melanotan-II: Investigation of the inducer and facilitator effects on penile erection in anaesthetized rat",
+  "authors": [
+   "Giuliano F",
+   "Clément P",
+   "Droupy S",
+   "Alexandre L",
+   "Bernabé J"
+  ],
+  "journal": "Neuroscience",
+  "year": "2006",
+  "volume": "138",
+  "issue": "1",
+  "pages": "293-301",
+  "doi": "10.1016/j.neuroscience.2005.11.008",
+  "types": [
+   "Journal Article"
   ]
  },
  "16362768": {
@@ -2300,6 +2420,28 @@
   "issue": "2",
   "pages": "328-35",
   "doi": "10.1007/s11095-006-9152-9",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "17113634": {
+  "pmid": "17113634",
+  "title": "The melanocortin agonist, melanotan II, enhances proceptive sexual behaviors in the female rat",
+  "authors": [
+   "Rössler AS",
+   "Pfaus JG",
+   "Kia HK",
+   "Bernabé J",
+   "Alexandre L",
+   "Giuliano F"
+  ],
+  "journal": "Pharmacol Biochem Behav",
+  "year": "2006",
+  "volume": "85",
+  "issue": "3",
+  "pages": "514-21",
+  "doi": "10.1016/j.pbb.2006.09.023",
   "types": [
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
@@ -3595,6 +3737,29 @@
   "pages": "14-8",
   "doi": "",
   "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "19110597": {
+  "pmid": "19110597",
+  "title": "Geroprotective effect of ala-glu-asp-gly peptide in male rats exposed to different illumination regimens",
+  "authors": [
+   "Vinogradova IA",
+   "Bukalev AV",
+   "Zabezhinski MA",
+   "Semenchenko AV",
+   "Khavinson VKh",
+   "Anisimov VN"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2008",
+  "volume": "145",
+  "issue": "4",
+  "pages": "472-7",
+  "doi": "10.1007/s10517-008-0121-7",
+  "types": [
+   "Evaluation Study",
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
   ]
@@ -6118,6 +6283,26 @@
   "types": [
    "English Abstract",
    "Journal Article"
+  ]
+ },
+ "23289226": {
+  "pmid": "23289226",
+  "title": "[Peptide Ala-Glu-Asp-Gly and interferon gamma: their role in immune response during aging]",
+  "authors": [
+   "Lin'kova NS",
+   "Kuznik BI",
+   "Khavinson VKh"
+  ],
+  "journal": "Adv Gerontol",
+  "year": "2012",
+  "volume": "25",
+  "issue": "3",
+  "pages": "478-82",
+  "doi": "",
+  "types": [
+   "English Abstract",
+   "Journal Article",
+   "Review"
   ]
  },
  "23327199": {
@@ -8864,6 +9049,32 @@
    "Randomized Controlled Trial"
   ]
  },
+ "27304511": {
+  "pmid": "27304511",
+  "title": "CD38 Dictates Age-Related NAD Decline and Mitochondrial Dysfunction through an SIRT3-Dependent Mechanism",
+  "authors": [
+   "Camacho-Pereira J",
+   "Tarragó MG",
+   "Chini CCS",
+   "Nin V",
+   "Escande C",
+   "Warner GM",
+   "Puranik AS",
+   "Schoon RA",
+   "Reid JM",
+   "Galina A",
+   "Chini EN"
+  ],
+  "journal": "Cell Metab",
+  "year": "2016",
+  "volume": "23",
+  "issue": "6",
+  "pages": "1127-1139",
+  "doi": "10.1016/j.cmet.2016.05.006",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "27334712": {
   "pmid": "27334712",
   "title": "Mechano-growth factor E peptide promotes healing of rat injured tendon",
@@ -9328,6 +9539,25 @@
   "types": [
    "Journal Article",
    "Randomized Controlled Trial"
+  ]
+ },
+ "28009464": {
+  "pmid": "28009464",
+  "title": "Effect of Melanotan-II on Brain Fos Immunoreactivity and Oxytocin Neuronal Activity and Secretion in Rats",
+  "authors": [
+   "Paiva L",
+   "Sabatier N",
+   "Leng G",
+   "Ludwig M"
+  ],
+  "journal": "J Neuroendocrinol",
+  "year": "2017",
+  "volume": "29",
+  "issue": "2",
+  "pages": "10.1111/jne.12454",
+  "doi": "10.1111/jne.12454",
+  "types": [
+   "Journal Article"
   ]
  },
  "28027918": {
@@ -10709,6 +10939,25 @@
    "Journal Article"
   ]
  },
+ "29514064": {
+  "pmid": "29514064",
+  "title": "Therapeutic Potential of NAD-Boosting Molecules: The In Vivo Evidence",
+  "authors": [
+   "Rajman L",
+   "Chwalek K",
+   "Sinclair DA"
+  ],
+  "journal": "Cell Metab",
+  "year": "2018",
+  "volume": "27",
+  "issue": "3",
+  "pages": "529-547",
+  "doi": "10.1016/j.cmet.2018.02.011",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "29527137": {
   "pmid": "29527137",
   "title": "Effects of caffeine intake on muscle strength and power: a systematic review and meta-analysis",
@@ -10773,6 +11022,31 @@
    "Journal Article",
    "Meta-Analysis",
    "Review"
+  ]
+ },
+ "29599478": {
+  "pmid": "29599478",
+  "title": "Chronic nicotinamide riboside supplementation is well-tolerated and elevates NAD+ in healthy middle-aged and older adults",
+  "authors": [
+   "Martens CR",
+   "Denman BA",
+   "Mazzo MR",
+   "Armstrong ML",
+   "Reisdorph N",
+   "McQueen MB",
+   "Chonchol M",
+   "Seals DR"
+  ],
+  "journal": "Nat Commun",
+  "year": "2018",
+  "volume": "9",
+  "issue": "1",
+  "pages": "1286",
+  "doi": "10.1038/s41467-018-03421-7",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, N.I.H., Extramural"
   ]
  },
  "29617641": {
@@ -11034,6 +11308,34 @@
    "Journal Article",
    "Randomized Controlled Trial",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "29812984": {
+  "pmid": "29812984",
+  "title": "Melanotan II causes hypothermia in mice by activation of mast cells and stimulation of histamine 1 receptors",
+  "authors": [
+   "Jain S",
+   "Panyutin A",
+   "Liu N",
+   "Xiao C",
+   "Piñol RA",
+   "Pundir P",
+   "Girardet C",
+   "Butler AA",
+   "Dong X",
+   "Gavrilova O",
+   "Reitman ML"
+  ],
+  "journal": "Am J Physiol Endocrinol Metab",
+  "year": "2018",
+  "volume": "315",
+  "issue": "3",
+  "pages": "E357-E366",
+  "doi": "10.1152/ajpendo.00024.2018",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, N.I.H., Intramural"
   ]
  },
  "29897293": {
@@ -11733,6 +12035,30 @@
    "Randomized Controlled Trial"
   ]
  },
+ "30629642": {
+  "pmid": "30629642",
+  "title": "Melanotan-II reverses autistic features in a maternal immune activation mouse model of autism",
+  "authors": [
+   "Minakova E",
+   "Lang J",
+   "Medel-Matus JS",
+   "Gould GG",
+   "Reynolds A",
+   "Shin D",
+   "Mazarati A",
+   "Sankar R"
+  ],
+  "journal": "PLoS One",
+  "year": "2019",
+  "volume": "14",
+  "issue": "1",
+  "pages": "e0210389",
+  "doi": "10.1371/journal.pone.0210389",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "30640042": {
   "pmid": "30640042",
   "title": "Survey of peptide quantification methods and comparison of their reproducibility: A case study using oxytocin",
@@ -12407,6 +12733,28 @@
    "Research Support, N.I.H., Extramural",
    "Research Support, Non-U.S. Gov't",
    "Systematic Review"
+  ]
+ },
+ "31572171": {
+  "pmid": "31572171",
+  "title": "A Pilot Study Investigating Changes in the Human Plasma and Urine NAD+ Metabolome During a 6 Hour Intravenous Infusion of NAD",
+  "authors": [
+   "Grant R",
+   "Berg J",
+   "Mestayer R",
+   "Braidy N",
+   "Bennett J",
+   "Broom S",
+   "Watson J"
+  ],
+  "journal": "Front Aging Neurosci",
+  "year": "2019",
+  "volume": "11",
+  "issue": "",
+  "pages": "257",
+  "doi": "10.3389/fnagi.2019.00257",
+  "types": [
+   "Journal Article"
   ]
  },
  "31573637": {
@@ -14013,6 +14361,28 @@
   "doi": "10.1111/1541-4337.12427",
   "types": [
    "Journal Article"
+  ]
+ },
+ "33353981": {
+  "pmid": "33353981",
+  "title": "NAD+ metabolism and its roles in cellular processes during ageing",
+  "authors": [
+   "Covarrubias AJ",
+   "Perrone R",
+   "Grozio A",
+   "Verdin E"
+  ],
+  "journal": "Nat Rev Mol Cell Biol",
+  "year": "2021",
+  "volume": "22",
+  "issue": "2",
+  "pages": "119-141",
+  "doi": "10.1038/s41580-020-00313-x",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't",
+   "Review"
   ]
  },
  "33362999": {
@@ -15841,6 +16211,35 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "35417909": {
+  "pmid": "35417909",
+  "title": "Efficacy and Safety of Once-Weekly Somatrogon Compared with Once-Daily Somatropin (Genotropin®) in Japanese Children with Pediatric Growth Hormone Deficiency: Results from a Randomized Phase 3 Study",
+  "authors": [
+   "Horikawa R",
+   "Tanaka T",
+   "Hasegawa Y",
+   "Yorifuji T",
+   "Ng D",
+   "Rosenfeld RG",
+   "Hoshino Y",
+   "Okayama A",
+   "Shima D",
+   "Gomez R",
+   "Pastrak A",
+   "Castellanos O"
+  ],
+  "journal": "Horm Res Paediatr",
+  "year": "2022",
+  "volume": "95",
+  "issue": "3",
+  "pages": "275-285",
+  "doi": "10.1159/000524600",
+  "types": [
+   "Clinical Trial, Phase III",
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
  "35441470": {
   "pmid": "35441470",
   "title": "Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension",
@@ -17156,6 +17555,32 @@
    "Journal Article"
   ]
  },
+ "36732285": {
+  "pmid": "36732285",
+  "title": "An open-label extension of a phase 2 dose-finding study of once-weekly somatrogon vs. once-daily Genotropin in children with short stature due to growth hormone deficiency: results following 5 years of treatment",
+  "authors": [
+   "Zadik Z",
+   "Zelinska N",
+   "Iotova V",
+   "Skorodok Y",
+   "Malievsky O",
+   "Mauras N",
+   "Valluri SR",
+   "Pastrak A",
+   "Rosenfeld R"
+  ],
+  "journal": "J Pediatr Endocrinol Metab",
+  "year": "2023",
+  "volume": "36",
+  "issue": "3",
+  "pages": "261-269",
+  "doi": "10.1515/jpem-2022-0359",
+  "types": [
+   "Randomized Controlled Trial",
+   "Clinical Trial, Phase II",
+   "Journal Article"
+  ]
+ },
  "36753958": {
   "pmid": "36753958",
   "title": "The single-chain relaxin mimetic, B7-33, maintains the cardioprotective effects of relaxin and more rapidly reduces left ventricular fibrosis compared to perindopril in an experimental model of cardiomyopathy",
@@ -17466,6 +17891,28 @@
    "Systematic Review"
   ]
  },
+ "37068054": {
+  "pmid": "37068054",
+  "title": "Dietary Supplementation With NAD+-Boosting Compounds in Humans: Current Knowledge and Future Directions",
+  "authors": [
+   "Freeberg KA",
+   "Udovich CC",
+   "Martens CR",
+   "Seals DR",
+   "Craighead DH"
+  ],
+  "journal": "J Gerontol A Biol Sci Med Sci",
+  "year": "2023",
+  "volume": "78",
+  "issue": "12",
+  "pages": "2435-2448",
+  "doi": "10.1093/gerona/glad106",
+  "types": [
+   "Review",
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ]
+ },
  "37130601": {
   "pmid": "37130601",
   "title": "Fracture risk reduction and safety by osteoporosis treatment compared with placebo or active comparator in postmenopausal women: systematic review, network meta-analysis, and meta-regression analysis of randomised clinical trials",
@@ -17554,6 +18001,36 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "37236413": {
+  "pmid": "37236413",
+  "title": "Efficacy, safety, quality of life, adherence and cost-effectiveness of long-acting growth hormone replacement therapy compared to daily growth hormone in children with growth hormone deficiency: A systematic review and meta-analysis",
+  "authors": [
+   "Mameli C",
+   "Orso M",
+   "Calcaterra V",
+   "Wasniewska MG",
+   "Aversa T",
+   "Granato S",
+   "Bruschini P",
+   "Guadagni L",
+   "d'Angela D",
+   "Spandonaro F",
+   "Polistena B",
+   "Zuccotti G"
+  ],
+  "journal": "Pharmacol Res",
+  "year": "2023",
+  "volume": "193",
+  "issue": "",
+  "pages": "106805",
+  "doi": "10.1016/j.phrs.2023.106805",
+  "types": [
+   "Meta-Analysis",
+   "Systematic Review",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "37244291": {
@@ -18005,6 +18482,24 @@
   "types": [
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "37478579": {
+  "pmid": "37478579",
+  "title": "Melanotan-II reverses memory impairment induced by a short-term HF diet",
+  "authors": [
+   "Wekwejt P",
+   "Wojda U",
+   "Kiryk A"
+  ],
+  "journal": "Biomed Pharmacother",
+  "year": "2023",
+  "volume": "165",
+  "issue": "",
+  "pages": "115129",
+  "doi": "10.1016/j.biopha.2023.115129",
+  "types": [
+   "Journal Article"
   ]
  },
  "37490269": {
@@ -18635,6 +19130,31 @@
    "Randomized Controlled Trial"
   ]
  },
+ "37955005": {
+  "pmid": "37955005",
+  "title": "Physician experience with once-weekly somatrogon versus once-daily rhGH regimen in pediatric patients with growth hormone deficiency: a cross-sectional survey of physicians from the global phase 3 study",
+  "authors": [
+   "Gomez R",
+   "Lamoureux R",
+   "Turner-Bowker DM",
+   "Loftus J",
+   "Maghnie M",
+   "Miller BS",
+   "Polak M",
+   "Yaworsky A"
+  ],
+  "journal": "Front Endocrinol (Lausanne)",
+  "year": "2023",
+  "volume": "14",
+  "issue": "",
+  "pages": "1254424",
+  "doi": "10.3389/fendo.2023.1254424",
+  "types": [
+   "Clinical Trial, Phase III",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "37971292": {
   "pmid": "37971292",
   "title": "Evaluation of safety and effectiveness of NAD in different clinical conditions: a systematic review",
@@ -19174,6 +19694,30 @@
   "doi": "10.1016/j.cbi.2024.110971",
   "types": [
    "Journal Article"
+  ]
+ },
+ "38580693": {
+  "pmid": "38580693",
+  "title": "Long-acting growth hormone in the treatment of growth hormone deficiency in children: a systematic literature review and network meta-analysis",
+  "authors": [
+   "Zhu J",
+   "Yuan K",
+   "Rana S",
+   "Jakki SL",
+   "Bhat AS",
+   "Liang L",
+   "Wang C"
+  ],
+  "journal": "Sci Rep",
+  "year": "2024",
+  "volume": "14",
+  "issue": "1",
+  "pages": "8061",
+  "doi": "10.1038/s41598-024-58616-4",
+  "types": [
+   "Systematic Review",
+   "Journal Article",
+   "Network Meta-Analysis"
   ]
  },
  "38598226": {
@@ -20128,6 +20672,31 @@
    "Journal Article"
   ]
  },
+ "39261416": {
+  "pmid": "39261416",
+  "title": "Efficacy and Safety of Somapacitan Relative to Somatrogon and Lonapegsomatropin in Pediatric Growth Hormone Deficiency: Systematic Literature Review and Network Meta-analysis",
+  "authors": [
+   "de Fries Jensen L",
+   "Antavalis V",
+   "Odgaard-Jensen J",
+   "Rossi A",
+   "Pietropoli A",
+   "Højby M"
+  ],
+  "journal": "Adv Ther",
+  "year": "2024",
+  "volume": "41",
+  "issue": "11",
+  "pages": "4098-4124",
+  "doi": "10.1007/s12325-024-02966-y",
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Systematic Review",
+   "Network Meta-Analysis",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "39285652": {
   "pmid": "39285652",
   "title": "Selective Androgen Receptor Modulators (SARMs) Effects on Physical Performance: A Systematic Review of Randomized Control Trials",
@@ -20724,6 +21293,33 @@
    "Meta-Analysis"
   ]
  },
+ "39672599": {
+  "pmid": "39672599",
+  "title": "Long-Acting Growth Hormone Therapy in Pediatric Growth Hormone Deficiency: A Consensus Statement",
+  "authors": [
+   "Maniatis A",
+   "Cutfield W",
+   "Dattani M",
+   "Deal C",
+   "Collett-Solberg PF",
+   "Horikawa R",
+   "Maghnie M",
+   "Miller BS",
+   "Polak M",
+   "Sävendahl L",
+   "Woelfle J"
+  ],
+  "journal": "J Clin Endocrinol Metab",
+  "year": "2025",
+  "volume": "110",
+  "issue": "4",
+  "pages": "e1232-e1240",
+  "doi": "10.1210/clinem/dgae834",
+  "types": [
+   "Journal Article",
+   "Consensus Statement"
+  ]
+ },
  "39684567": {
   "pmid": "39684567",
   "title": "Multifaced Nature of Yohimbine-A Promising Therapeutic Potential or a Risk?",
@@ -20837,6 +21433,28 @@
   "types": [
    "Journal Article",
    "Systematic Review"
+  ]
+ },
+ "39788414": {
+  "pmid": "39788414",
+  "title": "Epitalon-activated telomerase enhance bovine oocyte maturation rate and post-thawed embryo development",
+  "authors": [
+   "Ullah S",
+   "Haider Z",
+   "Perera CD",
+   "Lee SH",
+   "Idrees M",
+   "Park S",
+   "Kong IK"
+  ],
+  "journal": "Life Sci",
+  "year": "2025",
+  "volume": "362",
+  "issue": "",
+  "pages": "123381",
+  "doi": "10.1016/j.lfs.2025.123381",
+  "types": [
+   "Journal Article"
   ]
  },
  "39797501": {
@@ -20964,6 +21582,31 @@
   "issue": "1",
   "pages": "119",
   "doi": "10.3390/pharmaceutics17010119",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "39872400": {
+  "pmid": "39872400",
+  "title": "IGF-1 Assessment During Weekly Somatrogon Treatment in Pediatric Patients With GH Deficiency",
+  "authors": [
+   "Nayak S",
+   "Wajnrajch MP",
+   "Korth-Bradley J",
+   "Taylor CT",
+   "Thomas M",
+   "Maniatis A",
+   "Deal CL",
+   "Rosenfeld RG",
+   "Cara JF",
+   "Ravva P"
+  ],
+  "journal": "J Endocr Soc",
+  "year": "2025",
+  "volume": "9",
+  "issue": "2",
+  "pages": "bvaf001",
+  "doi": "10.1210/jendso/bvaf001",
   "types": [
    "Journal Article"
   ]
@@ -22838,6 +23481,34 @@
    "Multicenter Study"
   ]
  },
+ "41540253": {
+  "pmid": "41540253",
+  "title": "The differential impact of three different NAD+ boosters on circulatory NAD and microbial metabolism in humans",
+  "authors": [
+   "Christen S",
+   "Redeuil K",
+   "Goulet L",
+   "Giner MP",
+   "Breton I",
+   "Rota R",
+   "Frézal A",
+   "Nazari A",
+   "Van den Abbeele P",
+   "Godin JP",
+   "Nutten S",
+   "Cuenoud B"
+  ],
+  "journal": "Nat Metab",
+  "year": "2026",
+  "volume": "8",
+  "issue": "1",
+  "pages": "62-73",
+  "doi": "10.1038/s42255-025-01421-8",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
  "41543936": {
   "pmid": "41543936",
   "title": "NNMT inhibition counteracts tubular senescence and fibrosis in early stages of chronic kidney disease",
@@ -23018,6 +23689,24 @@
    "Journal Article"
   ]
  },
+ "41655607": {
+  "pmid": "41655607",
+  "title": "NAD⁺ supplementation for anti-aging and wellness: A PRISMA-guided systematic review of preclinical and clinical evidence",
+  "authors": [
+   "Gallagher C",
+   "Emmanuel OO"
+  ],
+  "journal": "Ageing Res Rev",
+  "year": "2026",
+  "volume": "116",
+  "issue": "",
+  "pages": "103057",
+  "doi": "10.1016/j.arr.2026.103057",
+  "types": [
+   "Journal Article",
+   "Systematic Review"
+  ]
+ },
  "41668671": {
   "pmid": "41668671",
   "title": "The effect of a serum containing acetyl hexapeptide-8, dipeptide diaminobutyroyl benzylamide diacetate and gluconolactone on skin biomarkers, wrinkles and skin texture: Ex vivo and clinical studies",
@@ -23067,6 +23756,28 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "41704678": {
+  "pmid": "41704678",
+  "title": "Intravenous infusion of nicotinamide adenine dinucleotide (NAD+) versus nicotinamide riboside (NR): a retrospective tolerability pilot study in a real-world setting",
+  "authors": [
+   "Reyna K",
+   "Heinzen G",
+   "Patel N",
+   "Ritter M",
+   "Siojo A",
+   "Legere H",
+   "Pojednic R"
+  ],
+  "journal": "Front Aging",
+  "year": "2026",
+  "volume": "7",
+  "issue": "",
+  "pages": "1652582",
+  "doi": "10.3389/fragi.2026.1652582",
+  "types": [
+   "Journal Article"
   ]
  },
  "41740946": {
@@ -23155,6 +23866,42 @@
    "Systematic Review",
    "Meta-Analysis",
    "Comparative Study"
+  ]
+ },
+ "41879875": {
+  "pmid": "41879875",
+  "title": "Efficacy and safety of once-weekly somatrogon in adults with growth hormone deficiency: a randomized phase 3 study",
+  "authors": [
+   "Fleseriu M",
+   "Biller BMK",
+   "Webb SM",
+   "Strasburger CJ",
+   "Georgescu CE",
+   "Bidlingmaier M",
+   "Wang C",
+   "Baciu I",
+   "Casanueva FF",
+   "Gilis-Januszewska A",
+   "Hart G",
+   "Manners A",
+   "Choe J",
+   "Bar-Ilan A",
+   "Carlsson M",
+   "Torre D",
+   "Taylor CT",
+   "Yuen KCJ"
+  ],
+  "journal": "Pituitary",
+  "year": "2026",
+  "volume": "29",
+  "issue": "2",
+  "pages": "59",
+  "doi": "10.1007/s11102-026-01661-1",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Clinical Trial, Phase III",
+   "Multicenter Study"
   ]
  },
  "41880199": {
@@ -23435,6 +24182,33 @@
    "Randomized Controlled Trial"
   ]
  },
+ "42224388": {
+  "pmid": "42224388",
+  "title": "Extension of the Phase 3 Trial of Somatrogon in Children with Growth Hormone Deficiency: 3 Years of Safety and Efficacy",
+  "authors": [
+   "Stawerska R",
+   "Choe J",
+   "Wang R",
+   "Wajnrajch MP",
+   "Cara JF",
+   "Thomas M",
+   "La Torre D",
+   "Taylor CT",
+   "Phillip M",
+   "Steelman J",
+   "Deal CL",
+   "Silverman LA"
+  ],
+  "journal": "Horm Res Paediatr",
+  "year": "2026",
+  "volume": "",
+  "issue": "",
+  "pages": "1-13",
+  "doi": "10.1159/000552183",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "42250575": {
   "pmid": "42250575",
   "title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial",
@@ -23666,6 +24440,30 @@
    "Randomized Controlled Trial",
    "Multicenter Study",
    "Clinical Trial, Phase III"
+  ]
+ },
+ "42372104": {
+  "pmid": "42372104",
+  "title": "Open-Label 9-Year Follow-Up Extension Phase 2 Study of Once-Weekly Somatrogon in Children With Growth Hormone Deficiency",
+  "authors": [
+   "Mauras N",
+   "Skorodok Y",
+   "Iotova V",
+   "Rosenfeld R",
+   "Wajnrajch MP",
+   "Malievskiy O",
+   "Zelinska N",
+   "Valluri SR",
+   "Zadik Z"
+  ],
+  "journal": "J Clin Endocrinol Metab",
+  "year": "2026",
+  "volume": "",
+  "issue": "",
+  "pages": "dgag260",
+  "doi": "10.1210/clinem/dgag260",
+  "types": [
+   "Journal Article"
   ]
  },
  "42395176": {
@@ -24037,6 +24835,32 @@
   "issue": "",
   "pages": "10.1056/NEJMoa2604169",
   "doi": "10.1056/NEJMoa2604169",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "42856902": {
+  "pmid": "42856902",
+  "title": "Up to 5 years of weekly somatrogon in children with growth hormone deficiency: final data from the global phase 3 study",
+  "authors": [
+   "Stawerska R",
+   "Deal CL",
+   "La Torre D",
+   "Taylor CT",
+   "Choe J",
+   "Wang R",
+   "Cara JF",
+   "Steelman J",
+   "Silverman LA",
+   "Phillip M",
+   "Wajnrajch MP"
+  ],
+  "journal": "J Endocr Soc",
+  "year": "2026",
+  "volume": "10",
+  "issue": "11",
+  "pages": "bvag175",
+  "doi": "10.1210/jendso/bvag175",
   "types": [
    "Journal Article"
   ]

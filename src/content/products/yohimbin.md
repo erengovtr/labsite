@@ -2,7 +2,7 @@
 name: "Yohimbin"
 tagline: "Yohimbe ağacından elde edilen, α2-adrenerjik reseptör antagonisti indol alkaloidi."
 category: "Küçük molekül · Adrenerjik reseptör antagonisti"
-status: "Araştırma bileşiği: ilaç olarak ruhsatlı değil; takviyelerde değişken içerikle satılıyor"
+status: "Araştırma bileşiği: Drugs@FDA'da ruhsatlı ilaç kaydı yok"
 tag: "yohimbin"
 group: "Araştırma bileşiği"
 order: 508
@@ -20,7 +20,7 @@ facts:
 ---
 Yohimbin, Pausinystalia yohimbe ağacından elde edilen bir indol alkaloididir ve esas olarak α2-adrenerjik reseptör antagonisti olarak etki eder; bu reseptörleri hem presinaptik hem postsinaptik düzeyde seçici biçimde bloke ettiği, başka monoaminerjik reseptörlere de bağlandığı bildirilmiştir [@36263866][@39684567]. Sinir uçlarından noradrenalin salımını artırarak sempatik sistemi etkinleştirir [@39728757]. Bu özelliğiyle hem araştırma aracı hem de takviye bileşeni olarak anılır.
 
-En çok incelenen klinik soru erektil disfonksiyondur. Ernst ve Pittler'in 1998 tarihli meta-analizinde yohimbin monoterapisini plazeboyla karşılaştıran yedi randomize çalışma yer aldı; yohimbin plazeboya üstün bulundu (OR 3,85) ve ciddi advers olayların seyrek ve geri dönüşlü olduğu bildirildi [@9649257]. Wibowo ve arkadaşlarının 2021 tarihli sistematik derlemesi sekiz çalışmayı kapsadı: tek başına yohimbinde ereksiyon iyileşme olasılığı plazeboya göre anlamlı yüksek bulunurken (OR 2,08) genel cinsel işlev iyileşmesi anlamlı bulunmadı (P = 0,07) [@35118966]. Eski ve küçük çalışmalardan oluşan bu havuzda yayın yanlılığı ve yöntemsel kısıtlar olasıdır; sonuçlar modern ilaçlarla kıyaslanabilir güçte kanıt sunmaz.
+En çok incelenen klinik soru erektil disfonksiyondur. Ernst ve Pittler'in 1998 tarihli meta-analizinde yohimbin monoterapisini plazeboyla karşılaştıran yedi randomize çalışma yer aldı; yohimbin plazeboya üstün bulundu (OR 3,85) ve ciddi advers olayların seyrek ve geri dönüşlü olduğu bildirildi [@9649257]. Wibowo ve arkadaşlarının 2021 tarihli sistematik derlemesi sekiz çalışmayı kapsadı: tek başına yohimbinde ereksiyon iyileşme olasılığı plazeboya göre anlamlı yüksek bulunurken (OR 2,08) genel cinsel işlev iyileşmesi anlamlı bulunmadı (P = 0,07) [@35118966]. İki analiz de ereksiyon sonlanımında plazebodan üstünlük bildirmiştir, ancak yalnızca yedi ve sekiz çalışmaya dayanır.
 
 Egzersiz alanında 2024 tarihli bir derleme, düşük dozların performans üzerinde olumlu etkisi olabileceğini öne sürmekle birlikte, yohimbinin biyoyararlanımının kişiler arasında çok değiştiğini, yanıltıcı biçimde güçlü olabildiğini ve yüksek dozlarda ciddi yan etkilerin belgelendiğini vurgulamıştır [@39728757]. Başka bir derleme toksikolojik kaygıların özellikle yüksek dozlarda söz konusu olduğunu belirtir [@39684567]. Olgu düzeyinde, yohimbin içerdiği etiketlenen bir cinsel destek takviyesini aldıktan sonra kan basıncı 198/93'e çıkan ve bazal gangliyon kanaması gelişen 39 yaşında bir kadın bildirilmiştir; hasta klonidin kullanıyordu ve ürün içeriği doğrulanmadığı için yazarlar kesin nedensellik kuramadığını belirtmiştir [@36115742].
 
