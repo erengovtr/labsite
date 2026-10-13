@@ -651,6 +651,28 @@
    "Journal Article"
   ]
  },
+ "12195242": {
+  "pmid": "12195242",
+  "title": "Pineal-regulating tetrapeptide epitalon improves eye retina condition in retinitis pigmentosa",
+  "authors": [
+   "Khavinson V",
+   "Razumovsky M",
+   "Trofimova S",
+   "Grigorian R",
+   "Razumovskaya A"
+  ],
+  "journal": "Neuro Endocrinol Lett",
+  "year": "2002",
+  "volume": "23",
+  "issue": "4",
+  "pages": "365-8",
+  "doi": "",
+  "types": [
+   "Clinical Trial",
+   "Controlled Clinical Trial",
+   "Journal Article"
+  ]
+ },
  "12196747": {
   "pmid": "12196747",
   "title": "A randomized clinical trial of 5% topical minoxidil versus 2% topical minoxidil and placebo in the treatment of androgenetic alopecia in men",
@@ -854,6 +876,49 @@
   "doi": "10.1023/a:1019239413480",
   "types": [
    "Journal Article"
+  ]
+ },
+ "12937682": {
+  "pmid": "12937682",
+  "title": "Epithalon peptide induces telomerase activity and telomere elongation in human somatic cells",
+  "authors": [
+   "Khavinson VKh",
+   "Bondarev IE",
+   "Butyugov AA"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2003",
+  "volume": "135",
+  "issue": "6",
+  "pages": "590-2",
+  "doi": "10.1023/a:1025493705728",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "12964022": {
+  "pmid": "12964022",
+  "title": "Epitalon and colon carcinogenesis in rats: proliferative activity and apoptosis in colon tumors and mucosa",
+  "authors": [
+   "Kossoy G",
+   "Zandbank J",
+   "Tendler E",
+   "Anisimov V",
+   "Khavinson V",
+   "Popovich I",
+   "Zabezhinski M",
+   "Zusman I",
+   "Ben-Hur H"
+  ],
+  "journal": "Int J Mol Med",
+  "year": "2003",
+  "volume": "12",
+  "issue": "4",
+  "pages": "473-7",
+  "doi": "",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "1299794": {
@@ -1403,6 +1468,27 @@
   "types": [
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "15452611": {
+  "pmid": "15452611",
+  "title": "Effect of peptide preparation epithalamin on circadian rhythm of epiphyseal melatonin-producing function in elderly people",
+  "authors": [
+   "Korkushko OV",
+   "Khavinson VKh",
+   "Shatilo VB",
+   "Magdich LV"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2004",
+  "volume": "137",
+  "issue": "4",
+  "pages": "389-91",
+  "doi": "10.1023/b:bebm.0000035139.31138.bf",
+  "types": [
+   "Clinical Trial",
+   "Journal Article",
+   "Randomized Controlled Trial"
   ]
  },
  "15525346": {
@@ -1980,6 +2066,27 @@
   "types": [
    "Clinical Trial",
    "Comparative Study",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "16634527": {
+  "pmid": "16634527",
+  "title": "Effect of the synthetic pineal peptide epitalon on spontaneous carcinogenesis in female C3H/He mice",
+  "authors": [
+   "Kossoy G",
+   "Anisimov VN",
+   "Ben-Hur H",
+   "Kossoy N",
+   "Zusman I"
+  ],
+  "journal": "In Vivo",
+  "year": "2006",
+  "volume": "20",
+  "issue": "2",
+  "pages": "253-7",
+  "doi": "",
+  "types": [
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
   ]
@@ -3286,6 +3393,28 @@
   "types": [
    "Journal Article",
    "Randomized Controlled Trial"
+  ]
+ },
+ "18856211": {
+  "pmid": "18856211",
+  "title": "Effect of Ala-Glu-Asp-Gly peptide on life span and development of spontaneous tumors in female rats exposed to different illumination regimes",
+  "authors": [
+   "Vinogradova IA",
+   "Bukalev AV",
+   "Zabezhinski MA",
+   "Semenchenko AV",
+   "Khavinson VKh",
+   "Anisimov VN"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2007",
+  "volume": "144",
+  "issue": "6",
+  "pages": "825-30",
+  "doi": "10.1007/s10517-007-0441-z",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "18950853": {
@@ -9519,6 +9648,43 @@
    "Research Support, N.I.H., Extramural"
   ]
  },
+ "28340339": {
+  "pmid": "28340339",
+  "title": "Targeted Apoptosis of Senescent Cells Restores Tissue Homeostasis in Response to Chemotoxicity and Aging",
+  "authors": [
+   "Baar MP",
+   "Brandt RMC",
+   "Putavet DA",
+   "Klein JDD",
+   "Derks KWJ",
+   "Bourgeois BRM",
+   "Stryeck S",
+   "Rijksen Y",
+   "van Willigenburg H",
+   "Feijtel DA",
+   "van der Pluijm I",
+   "Essers J",
+   "van Cappellen WA",
+   "van IJcken WF",
+   "Houtsmuller AB",
+   "Pothof J",
+   "de Bruin RWF",
+   "Madl T",
+   "Hoeijmakers JHJ",
+   "Campisi J",
+   "de Keizer PLJ"
+  ],
+  "journal": "Cell",
+  "year": "2017",
+  "volume": "169",
+  "issue": "1",
+  "pages": "132-147.e16",
+  "doi": "10.1016/j.cell.2017.02.031",
+  "types": [
+   "Journal Article",
+   "Comment"
+  ]
+ },
  "28371906": {
   "pmid": "28371906",
   "title": "Lipid-modifying effects of krill oil in humans: systematic review and meta-analysis of randomized controlled trials",
@@ -11567,6 +11733,46 @@
    "Randomized Controlled Trial"
   ]
  },
+ "30640042": {
+  "pmid": "30640042",
+  "title": "Survey of peptide quantification methods and comparison of their reproducibility: A case study using oxytocin",
+  "authors": [
+   "Li C",
+   "Bhavaraju S",
+   "Thibeault MP",
+   "Melanson J",
+   "Blomgren A",
+   "Rundlöf T",
+   "Kilpatrick E",
+   "Swann CJ",
+   "Rudd T",
+   "Aubin Y",
+   "Grant K",
+   "Butt M",
+   "Shum W",
+   "Kerim T",
+   "Sherwin W",
+   "Nakagawa Y",
+   "Pavón S",
+   "Arrastia S",
+   "Weel T",
+   "Pola A",
+   "Chalasani D",
+   "Walfish S",
+   "Atouf F"
+  ],
+  "journal": "J Pharm Biomed Anal",
+  "year": "2019",
+  "volume": "166",
+  "issue": "",
+  "pages": "105-112",
+  "doi": "10.1016/j.jpba.2018.12.028",
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Multicenter Study"
+  ]
+ },
  "30641102": {
   "pmid": "30641102",
   "title": "Single chain peptide agonists of relaxin receptors",
@@ -12593,6 +12799,35 @@
    "Review"
   ]
  },
+ "31959736": {
+  "pmid": "31959736",
+  "title": "FOXO4-DRI alleviates age-related testosterone secretion insufficiency by targeting senescent Leydig cells in aged mice",
+  "authors": [
+   "Zhang C",
+   "Xie Y",
+   "Chen H",
+   "Lv L",
+   "Yao J",
+   "Zhang M",
+   "Xia K",
+   "Feng X",
+   "Li Y",
+   "Liang X",
+   "Sun X",
+   "Deng C",
+   "Liu G"
+  ],
+  "journal": "Aging (Albany NY)",
+  "year": "2020",
+  "volume": "12",
+  "issue": "2",
+  "pages": "1272-1284",
+  "doi": "10.18632/aging.102682",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "31974794": {
   "pmid": "31974794",
   "title": "Pemafibrate, a New Selective PPARα Modulator: Drug Concept and Its Clinical Applications for Dyslipidemia and Metabolic Diseases",
@@ -12635,6 +12870,29 @@
    "Journal Article",
    "Research Support, N.I.H., Extramural",
    "Research Support, N.I.H., Intramural"
+  ]
+ },
+ "32019204": {
+  "pmid": "32019204",
+  "title": "AEDG Peptide (Epitalon) Stimulates Gene Expression and Protein Synthesis during Neurogenesis: Possible Epigenetic Mechanism",
+  "authors": [
+   "Khavinson V",
+   "Diomede F",
+   "Mironova E",
+   "Linkova N",
+   "Trofimova S",
+   "Trubiani O",
+   "Caputi S",
+   "Sinjari B"
+  ],
+  "journal": "Molecules",
+  "year": "2020",
+  "volume": "25",
+  "issue": "3",
+  "pages": "609",
+  "doi": "10.3390/molecules25030609",
+  "types": [
+   "Journal Article"
   ]
  },
  "32048404": {
@@ -14247,6 +14505,45 @@
    "Review"
   ]
  },
+ "33982679": {
+  "pmid": "33982679",
+  "title": "Development of a Predictive Enrichment Marker for the Oral GH Secretagogue LUM-201 in Pediatric Growth Hormone Deficiency",
+  "authors": [
+   "Bright GM",
+   "Do MT",
+   "McKew JC",
+   "Blum WF",
+   "Thorner MO"
+  ],
+  "journal": "J Endocr Soc",
+  "year": "2021",
+  "volume": "5",
+  "issue": "6",
+  "pages": "bvab030",
+  "doi": "10.1210/jendso/bvab030",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "33996787": {
+  "pmid": "33996787",
+  "title": "Senolytic Peptide FOXO4-DRI Selectively Removes Senescent Cells From in vitro Expanded Human Chondrocytes",
+  "authors": [
+   "Huang Y",
+   "He Y",
+   "Makarcyzk MJ",
+   "Lin H"
+  ],
+  "journal": "Front Bioeng Biotechnol",
+  "year": "2021",
+  "volume": "9",
+  "issue": "",
+  "pages": "677576",
+  "doi": "10.3389/fbioe.2021.677576",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "34064994": {
   "pmid": "34064994",
   "title": "Outstanding Contributions of LAL Technology to Pharmaceutical and Medical Science: Review of Methods, Progress, Challenges, and Future Perspectives in Early Detection and Management of Bacterial Infections and Invasive Fungal Diseases",
@@ -14307,6 +14604,24 @@
   "types": [
    "Case Reports",
    "Journal Article"
+  ]
+ },
+ "34141995": {
+  "pmid": "34141995",
+  "title": "Treatment of Pediatric Growth Hormone Deficiency With Oral Secretagogues Revisited",
+  "authors": [
+   "Yau M",
+   "Rapaport R"
+  ],
+  "journal": "J Endocr Soc",
+  "year": "2021",
+  "volume": "5",
+  "issue": "7",
+  "pages": "bvab096",
+  "doi": "10.1210/jendso/bvab096",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "34170647": {
@@ -15499,6 +15814,33 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "35413689": {
+  "pmid": "35413689",
+  "title": "Epitalon protects against post-ovulatory aging-related damage of mouse oocytes in vitro",
+  "authors": [
+   "Yue X",
+   "Liu SL",
+   "Guo JN",
+   "Meng TG",
+   "Zhang XR",
+   "Li HX",
+   "Song CY",
+   "Wang ZB",
+   "Schatten H",
+   "Sun QY",
+   "Guo XP"
+  ],
+  "journal": "Aging (Albany NY)",
+  "year": "2022",
+  "volume": "14",
+  "issue": "7",
+  "pages": "3191-3202",
+  "doi": "10.18632/aging.204007",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "35441470": {
   "pmid": "35441470",
   "title": "Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension",
@@ -16392,6 +16734,33 @@
    "Journal Article"
   ]
  },
+ "36263866": {
+  "pmid": "36263866",
+  "title": "A literature perspective on the pharmacological applications of yohimbine",
+  "authors": [
+   "Jabir NR",
+   "Firoz CK",
+   "Zughaibi TA",
+   "Alsaadi MA",
+   "Abuzenadah AM",
+   "Al-Asmari AI",
+   "Alsaieedi A",
+   "Ahmed BA",
+   "Ramu AK",
+   "Tabrez S"
+  ],
+  "journal": "Ann Med",
+  "year": "2022",
+  "volume": "54",
+  "issue": "1",
+  "pages": "2861-2875",
+  "doi": "10.1080/07853890.2022.2131330",
+  "types": [
+   "Journal Article",
+   "Review",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "36281683": {
   "pmid": "36281683",
   "title": "Oral Tau Aggregation Inhibitor for Alzheimer's Disease: Design, Progress and Basis for Selection of the 16 mg/day Dose in a Phase 3, Randomized, Placebo-Controlled Trial of Hydromethylthionine Mesylate",
@@ -16645,6 +17014,41 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "36515093": {
+  "pmid": "36515093",
+  "title": "Eliminating Senescent Cells Can Promote Pulmonary Hypertension Development and Progression",
+  "authors": [
+   "Born E",
+   "Lipskaia L",
+   "Breau M",
+   "Houssaini A",
+   "Beaulieu D",
+   "Marcos E",
+   "Pierre R",
+   "Do Cruzeiro M",
+   "Lefevre M",
+   "Derumeaux G",
+   "Bulavin DV",
+   "Delcroix M",
+   "Quarck R",
+   "Reen V",
+   "Gil J",
+   "Bernard D",
+   "Flaman JM",
+   "Adnot S",
+   "Abid S"
+  ],
+  "journal": "Circulation",
+  "year": "2023",
+  "volume": "147",
+  "issue": "8",
+  "pages": "650-666",
+  "doi": "10.1161/CIRCULATIONAHA.122.058794",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "36551977": {
@@ -16991,6 +17395,29 @@
   "types": [
    "Meta-Analysis",
    "Systematic Review",
+   "Journal Article"
+  ]
+ },
+ "36949371": {
+  "pmid": "36949371",
+  "title": "Reference Standards to Support Quality of Synthetic Peptide Therapeutics",
+  "authors": [
+   "McCarthy D",
+   "Han Y",
+   "Carrick K",
+   "Schmidt D",
+   "Workman W",
+   "Matejtschuk P",
+   "Duru C",
+   "Atouf F"
+  ],
+  "journal": "Pharm Res",
+  "year": "2023",
+  "volume": "40",
+  "issue": "6",
+  "pages": "1317-1328",
+  "doi": "10.1007/s11095-023-03493-1",
+  "types": [
    "Journal Article"
   ]
  },
@@ -19284,6 +19711,34 @@
    "Meta-Analysis"
   ]
  },
+ "39025385": {
+  "pmid": "39025385",
+  "title": "FOXO4-DRI improves spermatogenesis in aged mice through reducing senescence-associated secretory phenotype secretion from Leydig cells",
+  "authors": [
+   "Li Y",
+   "Zhang C",
+   "Cheng H",
+   "Lv L",
+   "Zhu X",
+   "Ma M",
+   "Xu Z",
+   "He J",
+   "Xie Y",
+   "Yang X",
+   "Liang X",
+   "Deng C",
+   "Liu G"
+  ],
+  "journal": "Exp Gerontol",
+  "year": "2024",
+  "volume": "195",
+  "issue": "",
+  "pages": "112522",
+  "doi": "10.1016/j.exger.2024.112522",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "39034734": {
   "pmid": "39034734",
   "title": "Hair follicle sulfotransferase activity and effectiveness of oral minoxidil in androgenetic alopecia",
@@ -20076,6 +20531,32 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "39509151": {
+  "pmid": "39509151",
+  "title": "Multifactor Quality and Safety Analysis of Semaglutide Products Sold by Online Sellers Without a Prescription: Market Surveillance, Content Analysis, and Product Purchase Evaluation Study",
+  "authors": [
+   "Ashraf AR",
+   "Mackey TK",
+   "Vida RG",
+   "Kulcsár G",
+   "Schmidt J",
+   "Balázs O",
+   "Domián BM",
+   "Li J",
+   "Csákó I",
+   "Fittler A"
+  ],
+  "journal": "J Med Internet Res",
+  "year": "2024",
+  "volume": "26",
+  "issue": "",
+  "pages": "e65440",
+  "doi": "10.2196/65440",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "39545789": {
   "pmid": "39545789",
   "title": "Supplementing With Which Form of Creatine (Hydrochloride or Monohydrate) Alongside Resistance Training Can Have More Impacts on Anabolic/Catabolic Hormones, Strength and Body Composition?",
@@ -20581,6 +21062,28 @@
    "Observational Study"
   ]
  },
+ "39994346": {
+  "pmid": "39994346",
+  "title": "FOXO4-DRI induces keloid senescent fibroblast apoptosis by promoting nuclear exclusion of upregulated p53-serine 15 phosphorylation",
+  "authors": [
+   "Kong YX",
+   "Li ZS",
+   "Liu YB",
+   "Pan B",
+   "Fu X",
+   "Xiao R",
+   "Yan L"
+  ],
+  "journal": "Commun Biol",
+  "year": "2025",
+  "volume": "8",
+  "issue": "1",
+  "pages": "299",
+  "doi": "10.1038/s42003-025-07738-0",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "40005999": {
   "pmid": "40005999",
   "title": "Multifunctionality and Possible Medical Application of the BPC 157 Peptide-Literature and Patent Review",
@@ -20767,6 +21270,26 @@
   "doi": "",
   "types": [
    "Journal Article"
+  ]
+ },
+ "40141333": {
+  "pmid": "40141333",
+  "title": "Overview of Epitalon-Highly Bioactive Pineal Tetrapeptide with Promising Properties",
+  "authors": [
+   "Araj SK",
+   "Brzezik J",
+   "Mądra-Gackowska K",
+   "Szeleszczuk Ł"
+  ],
+  "journal": "Int J Mol Sci",
+  "year": "2025",
+  "volume": "26",
+  "issue": "6",
+  "pages": "2691",
+  "doi": "10.3390/ijms26062691",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "40142611": {
@@ -21124,6 +21647,33 @@
    "Journal Article"
   ]
  },
+ "40493162": {
+  "pmid": "40493162",
+  "title": "The Antioxidant Tetrapeptide Epitalon Enhances Delayed Wound Healing in an in Vitro Model of Diabetic Retinopathy",
+  "authors": [
+   "Gatta M",
+   "Dovizio M",
+   "Milillo C",
+   "Ruggieri AG",
+   "Sallese M",
+   "Antonucci I",
+   "Trofimov A",
+   "Khavinson V",
+   "Trofimova S",
+   "Bruno A",
+   "Ballerini P"
+  ],
+  "journal": "Stem Cell Rev Rep",
+  "year": "2025",
+  "volume": "21",
+  "issue": "6",
+  "pages": "1822-1834",
+  "doi": "10.1007/s12015-025-10911-x",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "40496623": {
   "pmid": "40496623",
   "title": "Semax, a Copper Chelator Peptide, Decreases the Cu(II)-Catalyzed ROS Production and Cytotoxicity of aβ by Metal Ion Stripping and Redox Silencing",
@@ -21243,6 +21793,31 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "40593617": {
+  "pmid": "40593617",
+  "title": "The disordered p53 transactivation domain is the target of FOXO4 and the senolytic compound FOXO4-DRI",
+  "authors": [
+   "Bourgeois B",
+   "Spreitzer E",
+   "Platero-Rochart D",
+   "Paar M",
+   "Zhou Q",
+   "Usluer S",
+   "de Keizer PLJ",
+   "Burgering BMT",
+   "Sánchez-Murcia PA",
+   "Madl T"
+  ],
+  "journal": "Nat Commun",
+  "year": "2025",
+  "volume": "16",
+  "issue": "1",
+  "pages": "5672",
+  "doi": "10.1038/s41467-025-60844-9",
+  "types": [
+   "Journal Article"
   ]
  },
  "40609154": {
@@ -21542,6 +22117,26 @@
    "Journal Article",
    "Meta-Analysis",
    "Systematic Review"
+  ]
+ },
+ "40908429": {
+  "pmid": "40908429",
+  "title": "Epitalon increases telomere length in human cell lines through telomerase upregulation or ALT activity",
+  "authors": [
+   "Al-Dulaimi S",
+   "Thomas R",
+   "Matta S",
+   "Roberts T"
+  ],
+  "journal": "Biogerontology",
+  "year": "2025",
+  "volume": "26",
+  "issue": "5",
+  "pages": "178",
+  "doi": "10.1007/s10522-025-10315-x",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "40918053": {
@@ -21891,6 +22486,25 @@
    "Journal Article",
    "Systematic Review",
    "Meta-Analysis"
+  ]
+ },
+ "41240216": {
+  "pmid": "41240216",
+  "title": "Correction: Epitalon increases telomere length in human cell lines through telomerase upregulation or ALT activity",
+  "authors": [
+   "Al-Dulaimi S",
+   "Thomas R",
+   "Matta S",
+   "Roberts T"
+  ],
+  "journal": "Biogerontology",
+  "year": "2025",
+  "volume": "27",
+  "issue": "1",
+  "pages": "1",
+  "doi": "10.1007/s10522-025-10326-8",
+  "types": [
+   "Published Erratum"
   ]
  },
  "41294864": {
@@ -22378,6 +22992,32 @@
    "Journal Article"
   ]
  },
+ "41625068": {
+  "pmid": "41625068",
+  "title": "FOXO4-DRI regulates endothelial cell senescence via the P53 signaling pathway",
+  "authors": [
+   "Hu Z",
+   "Li F",
+   "Hu C",
+   "Shan Q",
+   "Tang Z",
+   "Jiang M",
+   "Yi X",
+   "Chen X",
+   "Jin L",
+   "Wang X",
+   "Wang Y"
+  ],
+  "journal": "Front Bioeng Biotechnol",
+  "year": "2025",
+  "volume": "13",
+  "issue": "",
+  "pages": "1729166",
+  "doi": "10.3389/fbioe.2025.1729166",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "41668671": {
   "pmid": "41668671",
   "title": "The effect of a serum containing acetyl hexapeptide-8, dipeptide diaminobutyroyl benzylamide diacetate and gluconolactone on skin biomarkers, wrinkles and skin texture: Ex vivo and clinical studies",
@@ -22633,6 +23273,25 @@
    "Randomized Controlled Trial",
    "Clinical Trial, Phase III",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "42021992": {
+  "pmid": "42021992",
+  "title": "Therapeutic peptides in gerontology: mechanisms and applications for healthy aging",
+  "authors": [
+   "Mavrych V",
+   "Shypilova I",
+   "Bolgova O"
+  ],
+  "journal": "Front Aging",
+  "year": "2026",
+  "volume": "7",
+  "issue": "",
+  "pages": "1790247",
+  "doi": "10.3389/fragi.2026.1790247",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "42067476": {
@@ -24155,6 +24814,24 @@
    "Controlled Clinical Trial",
    "Journal Article",
    "Research Support, U.S. Gov't, P.H.S."
+  ]
+ },
+ "9701766": {
+  "pmid": "9701766",
+  "title": "Pineal peptide preparation epithalamin increases the lifespan of fruit flies, mice and rats",
+  "authors": [
+   "Anisimov VN",
+   "Mylnikov SV",
+   "Khavinson VK"
+  ],
+  "journal": "Mech Ageing Dev",
+  "year": "1998",
+  "volume": "103",
+  "issue": "2",
+  "pages": "123-32",
+  "doi": "10.1016/s0047-6374(98)00034-7",
+  "types": [
+   "Journal Article"
   ]
  },
  "9760697": {
