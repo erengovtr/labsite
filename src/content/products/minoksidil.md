@@ -1,20 +1,23 @@
 ---
 name: "Minoksidil"
-tagline: "Başlangıçta kan basıncı ilacı olarak geliştirilen, saç döngüsünü uzatan potasyum kanalı açıcı."
+tagline: "Topikal formu saç dökülmesi için kullanılan, mekanizması tam anlaşılmamış potasyum kanalı açıcı."
 category: "Küçük molekül · Saç folikülü"
-status: "Topikal formu onaylı ilaç"
+status: "Topikal formu onaylı; ağızdan saç tedavisi onaylı endikasyon değil"
 tag: "minoksidil"
 group: "Araştırma bileşiği"
 order: 11
+checked: "2026-10-13"
+sources: ["14996087", "12196747", "32622136", "38598226"]
+docs:
+  - title: "DailyMed: erkekler için minoksidil %5 topikal çözelti etiketi"
+    url: "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00c83180-0e13-4a07-9ce8-a9cae19a79a3"
 facts:
-  - { label: "Sınıf", value: "Potasyum kanalı (K-ATP) açıcı, vazodilatör" }
-  - { label: "Aktif form", value: "Minoksidil sülfat (SULT1A1 enzimiyle)" }
-  - { label: "Onaylı kullanım", value: "Androjenetik alopesi, topikal %2 ve %5" }
-  - { label: "Mekanizma", value: "Tam olarak bilinmiyor" }
-  - { label: "Not", value: "Oral kullanım onaylı endikasyon dışıdır" }
+  - { label: "Sınıf", value: "Vazodilatör; sülfatlı metaboliti KATP kanalı açıcı [@14996087]" }
+  - { label: "Etiket (topikal %5)", value: "Erkeklerde başın tepesinde saç çıkarmak için; yanıcı" }
+  - { label: "Saçtaki mekanizma", value: "Kesin olarak bilinmiyor [@14996087]" }
+  - { label: "Topikal kanıt", value: "393 erkekle 48 hafta, %5 > %2 > plazebo [@12196747]" }
+  - { label: "Ağızdan kanıt", value: "17 çalışmalık derleme [@32622136]; 90 erkekle RCT, topikale üstünlük yok [@38598226]" }
 ---
-Minoksidil ilk olarak yüksek tansiyon için geliştirildi ve hastalarda istenmeyen saç uzaması fark edilince 1980’lerde saç dökülmesine yönelik topikal bir ilaca dönüştü. Hâlâ en çok çalışılan saç dökülmesi tedavisidir.
+Minoksidil, ağızdan alındığında sülfatlı metaboliti üzerinden KATP kanallarını açıp tansiyonu düşüren bir ilaçtır; saç büyümesi üzerindeki etkisinin mekanizması ise derlemelere göre hâlâ belirsizdir [@14996087]. Topikal yüzde 5'lik çözelti 48 haftalık randomize çalışmada yüzde 2'lik çözeltiye ve plazeboya üstün bulundu [@12196747]. Ağızdan düşük doz kullanım bir derlemede etkili ve iyi tolere edilen bir alternatif olarak değerlendirilirken [@32622136], 2024'teki randomize çalışmada topikal yüzde 5'e üstünlük göstermedi [@38598226].
 
-Folikülde sülfotransferaz enzimi onu minoksidil sülfata çevirir. Etkiyi potasyum kanalı açılmasıyla, damarlanmanın artışıyla ve büyüme (anajen) evresinin uzamasıyla ilişkilendiren modeller vardır, ancak kesin mekanizma ortaya konmuş değildir.
-
-Topikal kullanımda yan etkiler çoğunlukla deri tahrişi ve istenmeyen bölgelerde tüylenmedir. Düşük doz oral kullanım ise henüz onaylı bir endikasyon değildir ve kalp-damar etkileri nedeniyle hekim gözetimi gerektirir.
+Ayrıntılar aşağıdaki yazıda.

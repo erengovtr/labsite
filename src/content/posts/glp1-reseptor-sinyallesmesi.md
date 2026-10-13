@@ -1,29 +1,30 @@
 ---
-title: "GLP-1 reseptörü: yemekten sonra bağırsaktan beyne giden sinyal"
-description: "Besin alımıyla salgılanan GLP-1 pankreasta, mide-bağırsak sisteminde ve beyinde nasıl bir etki zinciri başlatır?"
+title: "GLP-1: yemekle salgılanan, dakikalar içinde yıkılan bir hormon"
+description: "Bağırsak hücrelerinden salgılanan GLP-1 pankreasta, mide-bağırsak sisteminde ve iştah düzenlemesinde ne yapıyor, ilaçlar bu tabloyu nasıl değiştirdi?"
 category: "Metabolizma"
-tags: ["GLP-1", "inkretin", "cAMP", "GPCR", "retatrutide", "semaglutid", "tirzepatid"]
+tags: ["GLP-1", "inkretin", "GPCR", "retatrutide", "semaglutid", "tirzepatid"]
 date: 2026-09-21
-references:
-  - "Drucker DJ. Mechanisms of action and therapeutic application of glucagon-like peptide-1. Cell Metab. 2018;27(4):740–756."
-  - "Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1). Mol Metab. 2019;30:72–130."
+sources: ["17928588", "23684623", "14693691", "29617641", "34626851", "39114288"]
+docs:
+  - title: "DailyMed: Zepbound (tirzepatid) etiketi, bölüm 12.1"
+    url: "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b"
+  - title: "DailyMed: Wegovy (semaglutid) etiketi, bölüm 12.1"
+    url: "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5e548d0-cc79-4c34-a3f5-e20a5b8b6564"
 ---
-Yemek yediğinizde ince bağırsağın alt kısmındaki L hücreleri GLP-1 salgılar. Hormon dakikalar içinde yıkıldığı için etkisi kısa sürer, ama bu kısa sürede vücudun üç ayrı yerinde değişiklik başlatır: pankreas, mide ve beyin.
+GLP-1 (glukagon benzeri peptit-1), 30 amino asitlik bir peptit hormondur. Ince bağırsağın L hücrelerinde proglukagon geninin ürününden işlenerek yapılır ve besin alımına yanıt olarak salgılanır [@17928588]. Holst'un derlemesine göre hormon, bağırsaktan daha ayrılmadan DPP-IV enzimi tarafından çok hızlı biçimde yıkılır. Bu hızlı yıkım, etkinin bir kısmının hormonun kana geçmeden bağırsaktaki ve karaciğerdeki duyu sinirleri üzerinden iletildiği ihtimalini doğurmuştur [@17928588].
 
-## Reseptörün içinde olanlar
+## Pankreasta
 
-GLP-1 reseptörü, hücre zarını yedi kez geçen bir G proteinine bağlı reseptördür. Hormon bağlandığında Gαs proteinini çalıştırır, o da adenilil siklaz enzimini uyarır ve hücre içinde cAMP düzeyi yükselir. Pankreas β hücrelerinde cAMP, protein kinaz A ve Epac2 üzerinden insülin granüllerinin salınmasını kolaylaştırır.
+GLP-1'in en iyi bilinen işi, insülin salgısını artırmak (inkretin etkisi) ve glukagon salgısını baskılamaktır; böylece yemek sonrası kan şekerindeki yükselişi sınırlar [@17928588][@29617641]. İnsülin artışı glukoza bağımlıdır [@34626851]. Reseptör hücre içinde cAMP düzeyini yükseltir. Holz'un derlemesi, β hücrelerinde cAMP'nin yalnızca protein kinaz A (PKA) üzerinden değil, Epac adı verilen cAMP bağlayıcı proteinler üzerinden de iş gördüğünü ve Epac'ın kalsiyum bağımlı hızlı granül salınımını bağladığını göstermişti [@14693691].
 
-İlginç olan, bu etkinin glukoza bağımlı olmasıdır. Kan şekeri düşükken GLP-1 insülini pek artırmaz; yüksekken artırır. Aynı anda α hücrelerinden glukagon salgısını da baskılar. Hipoglisemi riskinin neden bu ilaç grubunda görece düşük kaldığı büyük ölçüde bununla açıklanır.
+## Mide, bağırsak ve iştah
 
-## Mide ve beyin
+GLP-1 mide boşalmasını yavaşlatır ve besin alımını azaltır; Drucker'a göre bu iki etki, besinlerin emilimini artırırken kilo artışını sınırlamaya yarar [@29617641]. Holst'a göre hormon bağırsak hareketini ve salgısını baskılayan "ileal fren" mekanizmasının parçasıdır ve iştahın fizyolojik düzenleyicilerinden biri gibi görünmektedir [@17928588]. GLP-1 reseptörleri hem merkezi hem otonom sinir sisteminde yaygın biçimde bulunur; iştah azalmasında vagus yolları ile merkezi sinir sistemindeki reseptör gruplarının payı ayrı ayrı çalışılan bir konudur [@34626851]. FDA etiketlerinde de, reseptörün iştah düzenlemesiyle ilişkili beyin bölgelerinde bulunduğu ve hayvan çalışmalarında semaglutid ile tirzepatidin bu bölgelerdeki nöronlara dağıldığı ve onları etkinleştirdiği yazılıdır (etiket bölüm 12.1).
 
-Mide boşalması vagus siniri üzerinden yavaşlar. Yemek sonrası kan şekerindeki ani tırmanış bu yüzden yumuşar; bulantı gibi yan etkilerin bir kısmı da aynı kaynaktan gelir.
+## Tek hormon değil, iki
 
-Beyinde GLP-1 reseptörleri hipotalamusun arkuat çekirdeğinde ve beyin sapındaki area postrema ile NTS bölgesinde bulunur. Hayvan çalışmalarında POMC nöronlarının uyarıldığı, NPY ve AgRP nöronlarının ise baskılandığı gösterilmiştir. Sonuç, tokluk hissinin daha erken gelmesidir.
+Campbell ve Drucker incretin ailesinin iki üyesini, GLP-1 ve GIP'yi birlikte ele alır; ikisi de adacık hormon salgısını, glukozu, yağ metabolizmasını, bağırsak hareketini ve iştahı etkiler [@23684623]. Aralarında farklar vardır: Liu'nun derlemesine göre GIP hipoglisemide glukagon salgısını artırırken GLP-1 hiperglisemide glukagonu baskılar. Ayrıca GIP yağ dokusunda doğrudan lipojenezi uyarırken GLP-1 lipolizi dolaylı olarak destekler [@39114288]. Tirzepatid ve retatrutide gibi çoklu agonistler bu iki hormonun etkisini tek molekülde toplama fikrine dayanır [@29617641][@39114288].
 
-## Neden analoglar bu kadar çalışıldı?
+## İlaç geliştirmedeki yeri
 
-Doğal GLP-1'in yarı ömrü iki dakikadan kısadır, çünkü DPP-4 enzimi onu hemen keser. Semaglutid gibi ilaçlarda 8. amino asit değiştirilerek bu kesim engellenir, yağ asidi zinciri ise albümine bağlanma sağlar. Retatrutide ve tirzepatid ise GLP-1'in yanına başka reseptörleri de ekler: GIP ve glukagon. Her ekleme, metabolik tabloya yeni bir kol katar ve yeni sorular getirir.
-
-Reseptörün karaciğer, kalp ve böbrekteki rolü hâlâ tartışılıyor. Hayvan modellerindeki bulguların insana ne kadar taşındığı henüz net değil.
+Drucker, GLP-1 reseptörü agonistlerinin tip 2 diyabette başarıyla kullanıldığını ve besin alımını azalttıkları için obezite tedavisi için de incelendiğini anlatır [@34626851]. Aynı derlemede GLP-1'in tek bir G proteinine bağlı reseptör üzerinden çalışması ve tip 2 diyabette birikmiş geniş güvenlik veri tabanı, uzun dönem kullanım konusunda güven verici bir zemin olarak sunulur. Aynı yazıda, GLP-1'in besin alımı ve kiloyu azaltma etkisinin obez hayvanlarda ve insanlarda, hem ergenlerde hem yetişkinlerde korunduğu belirtilir [@34626851].

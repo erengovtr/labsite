@@ -1,29 +1,23 @@
 ---
-title: "HPLC ve kütle spektrometrisi: biri saflığı, diğeri kimliği söyler"
-description: "Ters faz HPLC ne ölçer, ESI-MS neyi doğrular ve neden bir peptit için ikisine birden ihtiyaç duyulur?"
+title: "HPLC ve kütle spektrometrisi: peptit analizinde ayrı soruların yanıtları"
+description: "HPLC bileşenleri ayırır, kütle spektrometresi kütleyi ölçer. İkisi birlikte kullanıldığında bile izomerler ve gizli pikler sorun olmaya devam eder."
 category: "Analitik Kalite"
 tags: ["HPLC", "kütle spektrometrisi", "LC-MS", "analitik kimya"]
 date: 2026-09-19
-references:
-  - "Aguilar MI, editör. HPLC of Peptides and Proteins: Methods and Protocols. Humana Press, 2004."
-  - "Aebersold R, Mann M. Mass spectrometry-based proteomics. Nature. 2003;422:198–207."
+sources: ["18604941", "36841023", "2774189", "12634793", "34110145"]
 ---
-Laboratuvarda bir peptit numunesine iki soru sorulur. Birincisi: içinde ne kadar başka madde var? İkincisi: bu gerçekten beklenen molekül mü? İlkine HPLC, ikincisine kütle spektrometrisi cevap verir ve biri diğerinin yerini tutmaz.
+Bir peptit numunesinin kalitesi iki ayrı soruya bölünür: içinde başka ne var, ve ana madde gerçekten beklenen molekül mü? Birinci soruya genellikle kromatografi, ikinciye kütle spektrometrisi yanıt verir. İki yöntem birbirinin yerini tutmaz.
 
-## Ters faz HPLC
+## HPLC
 
-Numune, yüzeyi apolar zincirlerle (genellikle C18) kaplı bir kolondan geçirilir. Taşıyıcı sıvı başta sudur ve zamanla asetonitril oranı artırılır. Hidrofobik moleküller kolona daha çok tutunur, daha geç çıkar. Çıkışı bir UV dedektörü izler. Peptit bağı 214 ile 220 nm arasında iyi ışık yuttuğu için bu bölge tercih edilir. Trifloroasetik asit ya da formik asit gibi katkılar piklerin keskinleşmesini sağlar.
-
-Ortaya çıkan grafiğe kromatogram denir. Saflık, ana pikin toplam alana yüzdesi olarak bildirilir. Bu yöntemin üç sınırı vardır: aynı anda çıkan safsızlıkları ayıramaz, her safsızlık aynı şiddette ışık yutmaz, ve ana pikin hangi molekül olduğunu söylemez.
+Mant ve arkadaşlarının derlemesine göre yüksek performanslı sıvı kromatografisi (HPLC) son 25 yılda, kaynağı, miktarı ve karmaşıklığı çok değişen peptitlerin izolasyonu ve saflaştırılması için çok yönlü bir araç olduğunu kanıtlamıştır. Peptitler için başlıca modlar boyut dışlama, iyon değişimi ve ters faz kromatografisidir. Aynı derleme HPLC'nin yapısal karakterizasyondaki değerini de anlatır; örneğin peptitlerin oligomerleşme durumunu boyut dışlama kromatografisiyle değerlendirmek gibi. Kapiler elektroforezin de peptit ayrımı için bir yöntem olarak gösterildiğini yazar [@18604941].
 
 ## Kütle spektrometrisi
 
-Elektrosprey iyonlaşmasında peptitler çoğunlukla birden çok protonla yüklenir. Cihaz bir kütle/yük serisi görür ve yazılım bunlardan molekülün gerçek kütlesini hesaplar. Bu değer, dizi bilgisinden hesaplanan kütleyle birkaç ppm ile birkaç yüz ppm arasında örtüşmelidir.
+Loo ve arkadaşlarının 1989 tarihli çalışması, elektrosprey iyonlaşmasının (ESI) biyopolimerlerden gaz fazında, tam moleküler yapıyı koruyan, çok yüklü iyonlar ürettiğini ve yüksek molekül ağırlıklı maddelerin spektrumunda her komşu tepenin bir yük farkıyla ayrıldığı çan şekilli bir dağılım görüldüğünü anlatır. O dönemde büyük proteinler için molekül ağırlığı yüzde 0,01 ile 0,05 doğrulukla belirlenebiliyordu; yazarlar bunun en az bir basamak daha iyileşebileceğini öngörüyordu [@2774189]. Aebersold ve Mann'in derlemesi, kütle spektrometrisinin karmaşık örneklerden binlerce proteini tanıyıp giderek daha kesin biçimde ölçebildiğini bildirir [@12634793].
 
-Peptidi cihaz içinde kırıp parçalarına bakan tandem MS ise amino asit dizisini doğrular. Üç dörtlü cihazlarda MRM modu, belirli bir bileşiği çok seçici ve duyarlı biçimde ölçer.
+## İkisi bir arada bile yetmeyebilir
 
-Sınır: kütle spektrometrisi genellikle sayısal bir saflık vermez, çünkü farklı moleküller aynı verimle iyonlaşmaz. Ayrıca aynı kütleli izomerleri (örneğin D ve L formlarını) tek başına ayıramaz.
+Petersson ve arkadaşları, kütle spektrometrisinin aynı kütle/yük oranına sahip bileşikleri kolayca ayırt edemediğini, bu nedenle izomerlerin kromatografik olarak ayrılması gerektiğini yazar. Çalışmalarında 29 farklı peptit ve 30 kolon/hareketli faz kombinasyonu kullanıldı. Trifloroasetik asit (TFA) kolonlar arası seçicilik farklarını azalttı ve özellikle 10 kDa'dan büyük peptitlerde pik şeklini iyileştirdi; ama bu peptit türüne göre değişen bir sonuçtu [@36841023].
 
-## İkisi birlikte
-
-LC-MS, kolonu doğrudan kütle spektrometresine bağlar; böylece HPLC'deki her pikin altında hangi kütlelerin olduğu görülür. Farklı bir pH'da ya da farklı kolonla ikinci bir HPLC çalıştırmak (ortogonal yöntem), ilk koşulda üst üste binen safsızlıkları açığa çıkarabilir. Bir peptidin saflığı hakkında ciddi bir söz söylenecekse bu verilerin hepsi masada olmalıdır.
+Lian ve arkadaşları, sentetik peptit safsızlıklarının tanımlanmasında LC-MS'in ağırlıklı olarak kullanıldığını, ancak yapısal izomerler ve stereoizomerlerin (epimerler) ayrı bir zorluk oluşturduğunu ve LC-MS ile karakterizasyonda çeşitli tuzaklar bulunduğunu belirtir [@34110145]. Bu nedenle bir peptit için "HPLC'de tek pik ve doğru kütle" bilgisi güçlü bir başlangıçtır, ama izomer ve epimer sorusunu kendi başına kapatmaz.

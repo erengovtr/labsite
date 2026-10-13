@@ -1,30 +1,34 @@
 ---
-title: "Semaglutid ve tirzepatid: iki haftalık enjeksiyon peptidi, iki ayrı tasarım"
-description: "İkisi de haftada bir uygulanan reçeteli ilaçlar, ama biri tek, diğeri iki reseptörü hedefliyor. Yapıları ve klinik sonuçları nasıl ayrışıyor?"
+title: "Semaglutid ve tirzepatid: iki haftalık ilaç, iki ayrı tasarım"
+description: "Biri yalnızca GLP-1 reseptörünü, diğeri GIP ve GLP-1 reseptörlerini uyarıyor. Yapıları FDA etiketlerinde, sonuçları karşılaştırmalı çalışmalarda nasıl görünüyor?"
 category: "Metabolizma"
 tags: ["semaglutid", "tirzepatid", "GLP-1", "GIP", "klinik araştırma"]
 date: 2026-10-10
-references:
-  - "Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity (STEP 1). N Engl J Med. 2021;384:989–1002."
-  - "Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity (SURMOUNT-1). N Engl J Med. 2022;387:205–216."
-  - "Frías JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus semaglutide once weekly in patients with type 2 diabetes (SURPASS-2). N Engl J Med. 2021;385:503–515."
+sources: ["33567185", "35658024", "34170647", "40353578"]
+docs:
+  - title: "DailyMed: Wegovy (semaglutid) etiketi"
+    url: "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5e548d0-cc79-4c34-a3f5-e20a5b8b6564"
+  - title: "DailyMed: Zepbound (tirzepatid) etiketi"
+    url: "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b"
 ---
-Semaglutid ve tirzepatid benzer görünen iki peptit ilaçtır. İkisi de haftalık uygulanır, ikisi de GLP-1 reseptörüne etki eder ve ikisi de reçeteyle kullanılan ilaçlardır. Yapılarına bakınca ise iki farklı mühendislik felsefesi görürüz.
+Semaglutid ve tirzepatid haftada bir deri altına uygulanan, reçeteyle kullanılan ilaçlardır. Yapıları FDA etiketlerinde ayrıntılı tarif edilmiştir.
 
-## Yapısal fark
+## Yapı
 
-Semaglutid, insan GLP-1'inin yüzde 94 benzeri bir analoğudur. 8. konumdaki amino asidin değiştirilmesi DPP-4 enziminin onu kesmesini engeller; bir bağlayıcı üzerinden eklenen C18 yağ asidi diasidi albümine tutunmayı sağlar. Sonuç yaklaşık bir haftalık yarı ömürdür.
+Wegovy etiketine göre semaglutid, insan GLP-1'ine yüzde 94 dizi benzerliği olan bir analogdur. Peptit omurgası maya fermantasyonuyla üretilir. Uzun etki süresinin ana nedeni albümine bağlanmadır: 26. konumdaki lizine hidrofilik bir bağlayıcıyla C18 yağ asidi diasidi eklenmiştir. 8. konumdaki değişiklik DPP-4 enziminin yıkımına karşı koruma sağlar. Molekül ağırlığı 4113,58 g/mol, formülü C187H291N45O59'dur.
 
-Tirzepatid ise 39 amino asitlik bir peptittir ve doğal GIP dizisinden yola çıkılarak tasarlanmıştır. Yine bir yağ asidi zinciri taşır (C20 diasit), ama GLP-1 reseptörünü de tanıyacak biçimde ayarlanmıştır. Yani semaglutid tek reseptörlü bir GLP-1 analoğu, tirzepatid ise GIP ve GLP-1 reseptörlerini birlikte uyaran ikili bir agonisttir.
+Zepbound etiketine göre tirzepatid GIP dizisine dayanır; 2. ve 13. konumlarda aminoizobütirik asit (Aib) ve C terminalinde amid taşır. 20. konumdaki lizine bir bağlayıcıyla 1,20-eikosandioik asit (C20 yağ asidi diasidi) eklenmiştir ve bu zincir albümine bağlanarak yarı ömrü uzatır. Molekül ağırlığı 4813,53 Da, formülü C225H348N48O68'dir. Etiketlere göre semaglutid GLP-1 reseptörünü, tirzepatid ise hem GIP hem GLP-1 reseptörünü etkinleştirir.
 
-## Klinik sonuçlar
+## Klinik çalışmalar
 
-Obezite çalışmalarında vücut ağırlığındaki ortalama değişim şöyleydi: STEP 1'de (68 hafta) semaglutid ile yaklaşık yüzde 15 azalma, plazebo ile yaklaşık yüzde 2. SURMOUNT-1'de (72 hafta) tirzepatidin en yüksek dozunda yaklaşık yüzde 21 azalma, plazebo ile yaklaşık yüzde 3.
+STEP 1'de 1961 yetişkin 68 hafta boyunca haftalık 2,4 mg semaglutid ya da plazebo aldı. Ortalama kilo değişimi yüzde 14,9 azalma ile yüzde 2,4 azalma oldu; en sık yan etkiler bulantı ve ishaldi, mide-bağırsak nedenli tedavi bırakma oranı semaglutid kolunda yüzde 4,5, plazebo kolunda yüzde 0,8'di [@33567185].
 
-Bu rakamlar farklı çalışmalardan geldiği için doğrudan karşılaştırılamaz; katılımcı profili, süre ve doz basamakları farklıdır. Doğrudan karşılaştırma, tip 2 diyabetlilerde yapılan SURPASS-2'de görüldü: tirzepatid, semaglutid 1 mg'a göre HbA1c'de ve kilo kaybında daha belirgin düşüş sağladı.
+SURMOUNT-1'de 2539 yetişkin 72 hafta boyunca tirzepatid (5, 10 ya da 15 mg) veya plazebo aldı. Ortalama kilo değişimi sırasıyla yüzde 15,0, 19,5 ve 20,9 azalma, plazebo grubunda yüzde 3,1 azalma oldu. En sık yan etkiler mide ve bağırsak kaynaklıydı ve ağırlıklı olarak doz artırımı sırasında görüldü [@35658024].
 
-## Yan etkiler
+İki ilacı doğrudan karşılaştıran iki çalışma var. Tip 2 diyabetlilerde yapılan SURPASS-2'de (40 hafta, 1879 hasta) tirzepatidin her dozu, semaglutid 1 mg'a göre HbA1c düşüşünde ve kilo kaybında üstün bulundu; HbA1c değişimi 5, 10 ve 15 mg tirzepatid için 2,01, 2,24 ve 2,30 puan, semaglutid için 1,86 puan düşüş oldu [@34170647]. Diyabeti olmayan obez yetişkinlerde yapılan SURMOUNT-5'te (72 hafta, 751 kişi, açık etiketli) en yüksek tolere edilen doz karşılaştırıldı: ortalama kilo değişimi tirzepatidle yüzde 20,2, semaglutidle yüzde 13,7 azalma oldu; bel çevresi sırasıyla 18,4 ve 13,0 cm azaldı [@40353578].
 
-İkisinde de en sık bildirilenler bulantı, kusma, ishal ve kabızlıktır. Doza bağlıdır ve çoğunlukla ilk haftalarda belirgindir. Her iki ilaç için de, kemirgenlerde görülen tiroid C hücre tümörü bulgusu nedeniyle kutulu uyarı vardır; bu bulgunun insanlardaki karşılığı kesinleşmemiştir.
+## Güvenlik uyarıları
 
-Burada anlatılan her şey çalışma verisidir. İlaçların kimlere uygun olduğu, dozu ve izlemi bir hekimin kararıdır.
+Her iki etiketin de en üstünde kutulu uyarı olarak tiroid C hücre tümörü riski bulunur: kemirgenlerde doza ve süreye bağlı tümörler görülmüş, insanlardaki karşılığı bilinmemektedir. Medüller tiroid karsinomu öyküsü ya da MEN 2 sendromu olanlarda kullanımı kontrendikedir. Etiketlerin uyarılar bölümünde ayrıca mide-bağırsak yan etkileri, safra kesesi hastalığı ve pankreatit sayılır.
+
+Bu yazı ilaçların biyolojisi ve çalışma sonuçlarını anlatır. Kullanım kararı bir hekimin alanındadır.

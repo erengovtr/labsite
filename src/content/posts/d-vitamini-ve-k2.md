@@ -1,28 +1,25 @@
 ---
-title: "D vitamini ve K2: kalsiyumun hem kapısı hem adresi"
-description: "D vitamini kalsiyumu bağırsaktan alır, K2 vitamini ise onun nereye bağlanacağını belirleyen proteinleri etkinleştirir."
+title: "D vitamini ve K2: birlikte kullanım fikrinin kanıtı ne durumda?"
+description: "D vitamini kalsiyum dengesini düzenler, K vitamini kalsiyum bağlayan proteinleri etkinleştirir. Birlikte takviyenin yararı ise 2026 yılında bile tartışmalı."
 category: "Vitamin ve Mineraller"
 tags: ["d3-k2", "D vitamini", "K2 vitamini", "kemik"]
 date: 2026-09-26
-references:
-  - "van Ballegooijen AJ, Pilz S, Tomaschitz A, Grübler MR, Verheyen N. The synergistic interplay between vitamins D and K for bone and cardiovascular health: a narrative review. Int J Endocrinol. 2017;2017:7454376."
-  - "Schurgers LJ, Teunissen KJF, Hamulyák K, et al. Vitamin K-containing dietary supplements: comparison of synthetic vitamin K1 and natto-derived menaquinone-7. Blood. 2007;109:3279–3283."
-  - "Holick MF. Vitamin D deficiency. N Engl J Med. 2007;357:266–281."
+sources: ["20089499", "29749440", "17158229", "23062766", "35625785", "39064799", "42453673"]
 ---
-Kemik sağlığı anlatılırken genellikle kalsiyum öne çıkar. Ama kalsiyumun vücutta yolunu bulabilmesi için iki vitamine daha ihtiyaç vardır.
+Kalsiyum dengesi birkaç hormon ve vitamin tarafından birlikte yönetilir. Peacock'un derlemesine göre kalsiyum homeostazı, paratiroid hormonu, 1,25-dihidroksivitamin D ve serum iyonize kalsiyumun kendisi tarafından düzenlenir; bu üçlü bağırsakta, böbrekte ve kemikte kalsiyum taşınmasını ayarlar. Aynı derleme, kalsiyum takviyesinin kronik böbrek hastalığında yumuşak doku kireçlenmesini ve kalp-damar hastalığını artırabileceğine dair kanıtların arttığını da belirtir [@20089499].
 
-## D vitamini: emilimi artıran
+## K vitamininin rolü
 
-Cilt, güneş ışığıyla D3 vitamini (kolekalsiferol) üretir. Karaciğer ve böbrekte etkin hormon kalsitriole dönüşür; kalsitriol bağırsaktan kalsiyum ve fosfat emilimini artırır. Yağda çözünen bir vitamin olduğu için yağlı besinlerle daha iyi emilir. Eksikliği çocuklarda raşitizme, yetişkinlerde osteomalasiye yol açar.
+Wen ve arkadaşlarının derlemesine göre bugüne kadar 17 farklı K vitamini bağımlı protein tanımlanmıştır. Bunlar γ-karboksilasyon sonrası işlev kazanır. Karboksillenmiş osteokalsin kemik matrisine kalsiyum yerleşmesine yardım eder; karboksillenmiş matriks Gla proteini (MGP) damarları korur ve damar duvarında kireçlenmeyi engelleyebilir. K vitamini eksikliğinde ya da K antagonisti kullanımında damar endotelinde ve damar düz kasında kireçlenme görülür [@29749440].
 
-## K2 vitamini: adresi gösteren
+Schurgers ve arkadaşları sağlıklı gönüllülerde K1 ile uzun zincirli menakinon-7'yi (MK-7) karşılaştırdı. İkisi de iyi emildi, ama MK-7'nin yarı ömrü çok uzundu ve uzun süre alındığında kandaki düzeyi 7-8 kat birikti; MK-7 osteokalsinin karboksilasyonunu daha tam sağladı. Yazarlar ayrıca günde 50 μg ve üzeri MK-7 içeren preparatların oral antikoagülan tedavisiyle klinik olarak anlamlı biçimde etkileşebileceği konusunda hematologları uyardı [@17158229]. 60 kişilik randomize bir çalışmada 12 hafta MK-7 almak, dolaşımdaki karboksillenmemiş MGP (dp-ucMGP) düzeyini doza bağlı biçimde düşürdü; diğer MGP türleri ve kalp-damar risk faktörleri değişmedi [@23062766].
 
-Kalsiyum kana girince nereye gideceğini kendisi seçmez. İki protein bu işi yönetir: osteokalsin kalsiyumu kemiğe bağlar, matriks Gla proteini (MGP) ise damar duvarında kalsiyum birikmesini engeller. İkisi de ancak K vitamini bağımlı bir enzim (γ-glutamil karboksilaz) tarafından karboksillendiğinde işlevseldir.
+## Kemik ve kırık verileri
 
-K vitaminin iki ana türü vardır: bitkilerde K1, bakterilerde ve fermente gıdalarda K2 (menakinonlar; MK-4, MK-7 gibi). Schurgers ve arkadaşlarının çalışması, MK-7'nin K1'e göre kanda çok daha uzun süre kaldığını ve karboksilasyonu daha etkili destekleyebildiğini gösterdi.
+20 randomize çalışmayı toplayan bir meta-analizde (en az 6 ay, ağızdan K vitamini) vertebra kırıkları için olasılık oranı 0,42, klinik kırıklar için 0,44 bulundu; femur BMD'de anlamlı bir iyileşme saptanmadı ve yazarlar K vitamininin osteoporoz tedavisi olarak değerinin belirlenmesi için daha fazla çalışma gerektiğini belirtti [@35625785].
 
-## Birlikte kullanılmasının gerekçesi
+## Birlikte kullanım
 
-D vitamini kalsiyum emilimini artırırken, K2'nin bu kalsiyumun doğru dokuya yönlenmesine yardım ettiği düşünülür. Bu fikir biyolojik olarak makul ve gözlemsel verilerle uyumlu. Ancak müdahale çalışmalarında kırık riskine veya damar kalsifikasyonuna net etki gösterilebilmiş değil.
+Rusu ve arkadaşlarının 31 çalışmayı inceleyen derlemesi, menopoz sonrası kadınlarda D ve K'nin birlikte alınmasının kalp-damar ve kemik sağlığını olumlu etkileyebildiğini bildirir [@39064799]. Buna karşılık 2026'da yayımlanan 200 kişilik randomize bir çalışmanın post-hoc analizinde, başlangıçtaki K vitamini durumunun D vitamini takviyesinin kemik ve kalp-damar göstergeleri üzerindeki etkisini değiştirmediği bulundu; yazarlar bu sonuçların, osteoporoz hastalarında K ve D birlikte tedavisini rutin olarak önermeyen güncel kılavuzlarla uyumlu olduğunu belirtti ve daha fazla çalışma çağrısı yaptı [@42453673].
 
-Varfarin gibi K vitamini antagonisti ilaç kullanan kişiler için K vitamini alımı ilaç etkisini değiştirebilir; bu nedenle bir hekimin bilgisi dahilinde olması gerekir.
+Kısacası, iki vitaminin biyolojik olarak birbirini tamamlama gerekçesi güçlü; klinik yarar ise henüz net değil.

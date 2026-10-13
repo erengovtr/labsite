@@ -1,28 +1,21 @@
 ---
-title: "Berberin: AMPK yolunu etkileyen sarı alkaloid"
-description: "Berberin hücre enerji sensörünü nasıl etkinleştiriyor, glukoz ve kolesterol çalışmalarında ne gösterdi ve neden emilimi bu kadar düşük?"
+title: "Berberin: AMPK'yi etkinleştiren, ama neredeyse hiç emilmeyen alkaloid"
+description: "Berberin mitokondri solunumunu hafifçe baskılayarak AMPK'yi etkinleştiriyor. Diyabet ve lipit çalışmalarının sonuçları olumlu, ama emilimi yüzde 1'in altında."
 category: "Küçük Moleküller"
 tags: ["berberin", "AMPK", "alkaloid", "glukoz metabolizması"]
 date: 2026-09-15
-references:
-  - "Yin J, Xing H, Ye J. Efficacy of berberine in patients with type 2 diabetes mellitus. Metabolism. 2008;57:712–717."
-  - "Turner N, Li JY, Gosby A, et al. Berberine and its more biologically available derivative, dihydroberberine, inhibit mitochondrial respiratory complex I. Diabetes. 2008;57:1414–1418."
-  - "Kong W, Wei J, Abidi P, et al. Berberine is a novel cholesterol-lowering drug working through a unique mechanism distinct from statins. Nat Med. 2004;10:1344–1351."
+sources: ["18285556", "15531889", "18442638", "34956436", "40740996", "38888754"]
 ---
-Berberin, kök boyası ve geleneksel tıp bitkilerinde (Berberis, Coptis, Hydrastis) bulunan sarı renkli bir izokinolin alkaloididir. Çin ve Hint tıbbında yüzyıllardır sindirim sistemi şikâyetleri için kullanılır. Modern araştırmada ise özellikle glukoz ve lipid metabolizması çerçevesinde incelenir.
+Berberin, Çin bitkisel ilaçlarında kullanılan Coptis ve benzeri bitkilerden elde edilen bir alkaloiddir. Cui ve arkadaşlarının derlemesi onu geniş bir farmakolojik etki yelpazesi olan bir benzilizokinolin alkaloidi olarak tarif eder, ancak zayıf çözünürlük, düşük geçirgenlik, P-glikoprotein ile geri atılım ve bağırsak-karaciğer metabolizmasının berberinin biyoyararlanımını yüzde 1'in altına düşürdüğünü, bunun da klinik kullanımı sınırladığını vurgular [@38888754].
 
-## Hücredeki mekanizma
+## Mekanizma
 
-Turner ve arkadaşları berberinin mitokondriyal solunum zincirinin kompleks I'ini hafifçe baskıladığını gösterdi. Bu baskı ATP üretimini biraz düşürür ve hücredeki AMP/ATP oranını yükseltir. AMP yükselince AMPK enzimi etkinleşir; bu enzim hücrenin enerji sensörü gibi çalışır, glukoz alımını artırır, yağ asidi sentezini yavaşlatır ve karaciğerde glukoz üretimini azaltır. Metforminin hücresel etkisinde de benzer bir yol tarif edildiği için iki molekül sık karşılaştırılır.
+Turner ve arkadaşları, berberinin kas hücrelerinde ve izole kas mitokondrilerinde solunumu doza bağlı olarak baskıladığını ve bunu mitokondriyal solunum zincirinin kompleks I'i üzerinden yaptığını gösterdi; bu, metformin ve rosiglitazonda gözlenene benzer bir etkiydi. AMPK etkinleşmesi LKB1 ya da CAMKKβ'ye bağlı değildi. Ayrıca yazarlar, yüksek yağlı beslenen kemirgenlerde berberinin dihidroberberin adlı türevinin, muhtemelen artmış oral biyoyararlanım sayesinde, adipozite ve insülin direncini azaltmada daha etkili olduğunu bildirdi [@18285556].
 
-Kolesterol tarafında ise Kong ve arkadaşları, berberinin LDL reseptörü mRNA'sını stabilize ederek karaciğerin LDL'yi daha fazla alabilmesini sağladığını bildirdi. Mekanizma statinlerden farklıdır.
+Kolesterol tarafında Kong ve arkadaşları, 32 hiperkolesterolemik hastada 3 ay ağızdan berberinin serum kolesterolünü yüzde 29, trigliseritleri yüzde 35 ve LDL kolesterolü yüzde 25 azalttığını bildirdi. Hamsterlerde ve insan hepatoma hücrelerinde berberinin, mRNA'yı stabilize eden bir post-transkripsiyonel mekanizmayla LDL reseptörü ifadesini artırdığını da gösterdiler; yazarlar bu mekanizmanın statinlerden farklı olduğunu vurguladı [@15531889]. Bu çalışmada kontrol grubu yoktu.
 
 ## İnsan çalışmaları
 
-Yin ve arkadaşlarının tip 2 diyabetli hastalarla yaptığı üç aylık çalışmada açlık glukozu ve HbA1c'de düşüş görüldü; etki, metformin ile benzer büyüklükte bildirildi. Sonraki çalışmaların bir kısmı da benzer yönde sonuç verdi, ancak çalışma kalitesi ve örneklem büyüklükleri heterojen.
+Yin ve arkadaşlarının pilot çalışmasının A kısmında yeni tanı almış 36 tip 2 diyabetli yetişkin üç ay boyunca berberin ya da metformin aldı; kan şekerini düşürücü etki metformine benzerdi. B kısmında 48 kötü kontrollü hasta berberin ek tedavisi aldı; HbA1c 8,1'den 7,3 yüzdeye indi, insülin direnci indeksi yüzde 44,7 azaldı. Hastaların yüzde 34,5'inde geçici mide-bağırsak yan etkileri görüldü, karaciğer veya böbrek hasarı bulunmadı [@18442638].
 
-## Düşük biyoyararlanım
-
-Berberinin en büyük sorunu ağızdan alındığında kana çok az geçmesidir; yüzde 1'in altında emildiği bildirilir. Bağırsak duvarındaki P-glikoprotein pompası onu geri atar, karaciğerde de hızla metabolize olur. Dihidroberberin gibi türevler bu soruna çözüm olarak araştırılıyor.
-
-Berberin bazı CYP enzimlerini ve P-gp'yi etkilediği için eş zamanlı kullanılan ilaçların kan düzeyini değiştirebilir. Başlıca yan etkiler ishal, kabızlık ve karın ağrısı gibi sindirim şikâyetleridir.
+Guo ve arkadaşlarının 46 randomize çalışmayı toplayan meta-analizi berberinin HbA1c'yi, açlık ve tokluk kan şekerini, insülin direnci göstergelerini ve trigliserit ile LDL'yi anlamlı biçimde düşürdüğünü bildirdi ve özellikle ek tedavi olarak güçlü kanıt bulunduğunu yazdı [@34956436]. 2025 tarihli metabolik sendrom bileşenleri meta-analizinde berberin trigliserit, açlık glukozu ve bel çevresini azalttı, HDL ve kan basıncında anlamlı etkisi yoktu; plazeboya göre güvenlik farkı bulunmadı. Yazarlar daha yüksek kaliteli, iyi tasarlanmış çalışmalara ihtiyaç olduğunu belirtti [@40740996].

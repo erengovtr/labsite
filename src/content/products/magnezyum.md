@@ -1,19 +1,19 @@
 ---
 name: "Magnezyum Kompleksi"
-tagline: "Yüzlerce enzimin kofaktörü olan mineralin farklı tuz formları bir arada."
+tagline: "Yüzlerce enzim tepkimesinde yer alan mineral."
 category: "Mineral"
-status: "Besin bileşeni"
+status: "Besin takviyesi bileşeni"
 tag: "magnezyum"
 group: "Takviye"
 order: 13
+checked: "2026-10-13"
+sources: ["25540137", "14596323"]
 facts:
-  - { label: "Rol", value: "ATP–Mg kompleksi, 300’den fazla enzim reaksiyonu" }
-  - { label: "Yaygın formlar", value: "Sitrat, glisinat, malat, oksit" }
-  - { label: "Emilim", value: "Formlara göre değişir; oksit düşüktür" }
-  - { label: "Atılım", value: "Büyük ölçüde böbrek" }
+  - { label: "Biyolojik rol", value: "600'den fazla enzimatik reaksiyon [@25540137]" }
+  - { label: "Hücre içi bolluk", value: "Potasyumdan sonra ikinci en bol katyon [@25540137]" }
+  - { label: "Tuz formu ve emilim", value: "46 kişilik RCT: sitrat ve amino asit şelatı, oksitten daha iyi emildi [@14596323]" }
+  - { label: "Hipomagnezemiye yol açan ilaçlar", value: "Diüretikler, EGFR inhibitörleri, kalsinörin inhibitörleri, PPI'lar [@25540137]" }
 ---
-Hücrede ATP aslında serbest olarak değil magnezyuma bağlı olarak kullanılır; bu yüzden enerji metabolizmasındaki hemen her kinaz reaksiyonu magnezyum gerektirir. Aynı mineral sinir ileti sistemi ve kas kasılmasında da rol oynar.
+Magnezyum, hücre içindeki en bol ikinci katyondur ve 600'den fazla enzimatik reaksiyonda yer alır [@25540137]. Bir randomize çalışmada organik tuz formları (sitrat, amino asit şelatı) magnezyum oksitten daha iyi emildi [@14596323].
 
-Tuz formu emilimi belirgin biçimde etkiler. Organik tuzlar (sitrat, glisinat, malat) genellikle oksitten daha iyi emilir. Kompleks formüllerin amacı farklı formların emilim ve tolerans profilini birleştirmektir.
-
-Böbrek yetmezliği olanlarda magnezyum birikebilir; bu kişilerde takviye kullanımı hekimle değerlendirilir.
+Magnezyum ve çinko birlikte aşağıdaki yazıda ele alınıyor.

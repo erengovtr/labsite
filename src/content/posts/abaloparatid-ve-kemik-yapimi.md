@@ -1,25 +1,26 @@
 ---
-title: "Abaloparatid ve kemik yapımı: PTH reseptörüne aralıklı dokunmak"
-description: "Kemiği yıkımdan çok yapım yönüne çeviren anabolik bir osteoporoz ilacı nasıl çalışıyor ve ACTIVE çalışması ne gösterdi?"
+title: "Abaloparatid: PTH reseptörünü kemik yapımı yönünde uyaran bir peptit"
+description: "PTHrP(1-34) analoğu abaloparatid osteoporozda kırık riskini azaltan, anabolik bir ilaç. Reseptöre bağlanma biçimi ve ACTIVE çalışmaları ne gösteriyor?"
 category: "Hormonal Eksenler"
 tags: ["abaloparatid", "kemik", "PTH", "osteoporoz"]
 date: 2026-10-06
-references:
-  - "Miller PD, Hattersley G, Riis BJ, et al. Effect of abaloparatide vs placebo on new vertebral fractures in postmenopausal women with osteoporosis (ACTIVE). JAMA. 2016;316(7):722–733."
-  - "Hattersley G, Dean T, Corbin BA, Bahar H, Gardella TJ. Binding selectivity of abaloparatide for PTH-type-1-receptor conformations and effects on downstream signaling. Endocrinology. 2016;157:141–149."
+sources: ["26562265", "27533157", "29800372"]
+docs:
+  - title: "DailyMed: Tymlos (abaloparatid) etiketi"
+    url: "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8"
 ---
-Kemik sürekli yenilenen bir dokudur: osteoklastlar eski kemiği yıkar, osteoblastlar yenisini yapar. Osteoporozda bu denge yıkım lehine bozulur. Çoğu ilaç yıkımı yavaşlatır. Abaloparatid ise yapım tarafını güçlendirmeye çalışan az sayıdaki anabolik ajandan biridir.
+Tymlos etiketine göre abaloparatid, 34 amino asitlik sentetik bir peptittir ve insan paratiroid hormonuyla ilişkili peptidin (PTHrP 1-34) analogudur. İnsan PTH(1-34) ile yüzde 41, PTHrP(1-34) ile yüzde 76 dizi benzerliği vardır; dizisinde 29. konumda aminoizobütirik asit (Aib) bulunur ve molekül ağırlığı 3961 dalton'dur. PTH1 reseptörünün agonistidir ve hücrede cAMP yolunu etkinleştirir; etikete göre günde bir kez uygulama osteoblast aktivitesini uyararak trabeküler ve kortikal kemik yüzeylerinde yeni kemik oluşumunu artırır.
 
-## Paradoks: aynı hormon, ters etki
+## Neden "kısa süreli" sinyal önemli?
 
-Paratiroid hormonu (PTH), sürekli yüksek düzeyde olduğunda kemik yıkımını artırır. Ama kısa süreli ve aralıklı yükseldiğinde kemik yapımı baskın çıkar. Abaloparatid, PTH ilişkili peptidin (PTHrP) ilk 34 amino asidine dayanan bir analogdur. PTH1 reseptörünün RG adı verilen konformasyonuna seçici bağlandığı ve bu sayede daha kısa süreli bir sinyal verdiği gösterilmiştir.
+Hattersley ve arkadaşlarının makalesine göre aralıklı PTH etkisi kemik yapımını, sürekli etkisi ise net kemik yıkımını ve kalsiyum artışını destekler. PTH reseptöründe iki yüksek afiniteli konformasyon (R0 ve RG) vardır; R0'a verimli bağlanma uzun süreli sinyal ve uzun süreli kalsiyum yanıtı doğururken RG'ye seçici bağlanma daha geçici yanıtlar verir. Hücre deneylerinde abaloparatid, PTH(1-34)'e göre RG konformasyonuna daha seçici bağlandı ve sonuçta daha geçici cAMP yanıtı verdi. Yazarlar bunu, abaloparatidin anabolik etkisini açıklayabilecek makul bir mekanizma olarak sundu [@26562265].
 
 ## ACTIVE çalışması
 
-Menopoz sonrası osteoporozlu kadınlarda yapılan 18 aylık çalışmada, yeni omurga kırıkları plazebo koluna göre yaklaşık yüzde 86 daha az görüldü. Kalça kemiği mineral yoğunluğunda da artış bildirildi. Çalışma, abaloparatidin kemik kırıklarını azaltabildiğini gösteren temel veridir.
+ACTIVE, 28 merkezde yapılan faz 3, çift kör bir çalışmadır. 2463 menopoz sonrası kadın 18 ay boyunca günlük deri altı plazebo, abaloparatid ya da açık etiketli teriparatid aldı. Yeni morfometrik omurga kırıkları plazeboya göre aktif tedavi gruplarında daha az görüldü, omurga dışı kırık oranı abaloparatidle plazeboya göre daha düşüktü ve kemik yoğunluğu artışları plazeboya göre daha büyüktü. Hiperkalsemi abaloparatid grubunda yüzde 3,4, teriparatid grubunda yüzde 6,4 oranında görüldü [@27533157].
 
-## Yan etkiler
+ACTIVExtend çalışmasında ACTIVE'i tamamlayan kadınlara 24 ay boyunca alendronat verildi. Başlangıçtan 43. aya kadar toplam sürede yeni radyografik omurga kırığı, önce abaloparatid sonra alendronat alan grupta yüzde 0,9, önce plazebo sonra alendronat alan grupta yüzde 5,6 görüldü; bu yüzde 84'lük bir göreli risk azalması demektir. Yan etkiler gruplar arasında benzerdi [@29800372].
 
-En sık bildirilenler baş dönmesi, bulantı, baş ağrısı ve çarpıntıdır. İdrarda kalsiyum artışı ve ortostatik hipotansiyon da görülebilir. Hayvan çalışmalarında osteosarkom riski görüldüğü için uzun süreli kullanımı sınırlı tutulur.
+## Etiketteki uyarılar
 
-Bir reçeteli ilaçtır ve kullanım kararı bir hekimin alanındadır. Burada yalnızca biyolojisini anlatıyoruz.
+Etiketin uyarılar bölümü aşırı duyarlılık tepkilerini, osteosarkom riski taşıyanlarda (açık epifiz, Paget hastalığı, iskelet radyoterapisi öyküsü gibi) kullanımdan kaçınılmasını, ortostatik hipotansiyonu, hiperkalsemiyi, hiperkalsiüri ve böbrek taşı riskini sayar. En sık yan etkiler hiperkalsiüri, baş dönmesi, bulantı, baş ağrısı, çarpıntı ve yorgunluktur.

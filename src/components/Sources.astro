@@ -1,0 +1,34 @@
+---
+import lit from '../data/literature.json';
+const { sources = [], docs = [], heading = 'Kaynaklar' } = Astro.props;
+const db = lit as Record<string, any>;
+const authors = (a: string[]) => (a.length > 3 ? a.slice(0, 3).join(', ') + ' ve ark.' : a.join(', '));
+const items = sources.map((id: string) => {
+  const r = db[id];
+  if (!r) throw new Error(`literature.json içinde ${id} numaralı PMID yok. tools/lit.py fetch ${id} çalıştırın.`);
+  return r;
+});
+---
+{(items.length > 0 || docs.length > 0) && (
+  <section class="refs" id="kaynaklar">
+    <h2>{heading}</h2>
+    <p class="muted" style="font-size:14px;margin:-4px 0 14px">Bu sayfa, aşağıdaki makalelerin PubMed özetleri ve belirtilen resmî belgeler okunarak hazırlandı; makalelerin tam metinleri incelenmedi.</p>
+    {items.length > 0 && (
+      <ol>
+        {items.map((r: any) => (
+          <li id={`k-${r.pmid}`}>
+            {authors(r.authors).replace(/\.$/, '')}. {r.title}. <i>{r.journal}</i>. {r.year}{r.volume ? `;${r.volume}` : ''}{r.issue ? `(${r.issue})` : ''}{r.pages ? `:${r.pages}` : ''}.{' '}
+            <a href={`https://pubmed.ncbi.nlm.nih.gov/${r.pmid}/`} rel="noopener">PubMed {r.pmid}</a>
+            {r.doi && <> · <a href={`https://doi.org/${r.doi}`} rel="noopener">DOI</a></>}
+          </li>
+        ))}
+      </ol>
+    )}
+    {docs.length > 0 && (
+      <>
+        <h3>Resmî belgeler ve kayıtlar</h3>
+        <ul>{docs.map((d: any) => <li><a href={d.url} rel="noopener">{d.title}</a></li>)}</ul>
+      </>
+    )}
+  </section>
+)}

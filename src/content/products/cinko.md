@@ -1,17 +1,20 @@
 ---
 name: "Çinko+"
-tagline: "Çinko parmak proteinlerinden bağışıklık hücrelerine kadar geniş bir görev alanı olan iz element."
+tagline: "Bağışıklık, gen düzenlenmesi ve enzimlerde rol alan iz element."
 category: "Mineral"
-status: "Besin bileşeni"
+status: "Besin takviyesi bileşeni"
 tag: "cinko"
 group: "Takviye"
 order: 17
+checked: "2026-10-13"
+sources: ["18385818", "38367035", "36432604"]
 facts:
-  - { label: "Rol", value: "300’den fazla enzimin kofaktörü, çinko parmak proteinleri" }
-  - { label: "Yaygın formlar", value: "Glukonat, pikolinat, bisglisinat" }
-  - { label: "Etkileşim", value: "Yüksek doz bakır emilimini azaltır" }
-  - { label: "Kaynak", value: "Kırmızı et, kabuklu deniz ürünleri, baklagiller" }
+  - { label: "Depolama", value: "Vücutta önemli miktarda depolanamaz [@38367035]" }
+  - { label: "Dolaşımda", value: "Yüzde 70'i albümine bağlı [@38367035]" }
+  - { label: "Eksikliğin etkileri", value: "Bağışıklık bozukluğu, büyüme geriliği, yağsız kütle kaybı (deneysel modelde) [@18385818]" }
+  - { label: "Fazlalığın etkisi", value: "Bakır emiliminin engellenmesi, kansızlık [@36432604]" }
+  - { label: "İlaç etkileşimi", value: "Siprofloksasin, doksisiklin, risedronat emilimini azaltabilir [@38367035]" }
 ---
-Çinko hücre içinde serbest olarak çok az bulunur; çoğu proteinlere bağlıdır. Çinko parmak adı verilen yapılar gen ifadesini düzenleyen yüzlerce transkripsiyon faktörünün çekirdeğini oluşturur. Bağışıklık hücrelerinin gelişimi ve yara iyileşmesi de çinko durumuna duyarlıdır.
+Çinko, çok sayıda enzim ve transkripsiyon faktörünün çalışması için gereken bir iz elementtir; deneysel eksikliği ağır bağışıklık bozukluklarına yol açar [@18385818]. Fazla alım ise bakır emilimini bozarak kansızlığa neden olabilir [@36432604].
 
-Uzun süreli yüksek miktarlar bakır emilimini azaltır ve bakır eksikliğine bağlı kansızlığa yol açabilir. Bu denge, çinko takviyesine bakışta en temel güvenlik konularından biridir.
+Ayrıntılar aşağıdaki yazıda.

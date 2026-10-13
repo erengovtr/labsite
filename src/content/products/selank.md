@@ -1,18 +1,23 @@
 ---
 name: "Selank"
-tagline: "Tuftsin molekülünden türetilmiş, Rusya kökenli sentetik heptapeptit."
+tagline: "Tuftsin analoğu, yedi amino asitlik peptit."
 category: "Peptit · Sinir sistemi"
-status: "Araştırma bileşiği"
+status: "Araştırma bileşiği: ABD'de onaylı ilaç değil"
 tag: "selank"
 group: "Araştırma bileşiği"
 order: 6
+checked: "2026-10-13"
+sources: ["30255741", "18454096", "36322304"]
+docs:
+  - title: "ClinicalTrials.gov: Selank çalışmaları"
+    url: "https://clinicaltrials.gov/search?intr=selank"
 facts:
-  - { label: "Sınıf", value: "Sentetik heptapeptit, tuftsin analoğu" }
-  - { label: "Dizi", value: "Thr–Lys–Pro–Arg–Pro–Gly–Pro" }
-  - { label: "Köken", value: "Rusya Bilimler Akademisi, Moleküler Genetik Enstitüsü" }
-  - { label: "Durum", value: "AB ve ABD’de onaysız; Rusya’da burun spreyi olarak kayıtlı" }
-  - { label: "Kanıt", value: "Hayvan çalışmaları, küçük klinik denemeler" }
+  - { label: "Dizi", value: "Thr–Lys–Pro–Arg–Pro–Gly–Pro [@30255741]" }
+  - { label: "Köken", value: "Tuftsin analoğu [@36322304]" }
+  - { label: "Moleküler hedef", value: "GABA reseptörlerinde allosterik modülasyon (deneysel) [@30255741]" }
+  - { label: "İnsan çalışması", value: "62 hastalık randomize karşılaştırma [@18454096]" }
+  - { label: "Düzenleyici durum", value: "13 Ekim 2026 itibarıyla Drugs@FDA'da kaydı yok; 2 çalışma kayıtlı" }
 ---
-Selank, bağışıklık peptiti tuftsinin (Thr-Lys-Pro-Arg) kararlılığı artırılmış bir türevidir. Tuftsine eklenen Pro-Gly-Pro dizisi, peptidin enzimlerle parçalanmasını yavaşlatır.
+Selank, tuftsin analoğu yedi amino asitlik bir peptittir [@30255741]. Moleküler deneylerde GABA bağlanmasını allosterik olarak etkilediği gösterilmiştir [@30255741]. İnsanda yapılmış küçük karşılaştırmalı çalışmalar vardır [@18454096], ancak literatür çok sınırlı kalmıştır.
 
-Hayvan çalışmaları anksiyete benzeri davranışlarda azalma, enkefalin yıkımını sağlayan enzimlerin inhibisyonu ve beyin kaynaklı nörotrofik faktör (BDNF) ifadesinde değişim bildirmiştir. İnsan verisi ise esas olarak Rusça yayımlanmış, küçük ve çoğu zaman kör olmayan denemelerden oluşur; bu nedenle bağımsız tekrar ve büyük çalışma eksikliği literatürün en belirgin sorunudur.
+Ayrıntılı değerlendirme aşağıdaki yazıda.

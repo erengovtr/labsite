@@ -1,22 +1,32 @@
 ---
-title: "Selank: Rusya'da geliştirilen bir tuftsin türevi"
-description: "Doğal bağışıklık peptidi tuftsinin kararlı bir türevi olan Selank hakkında bilinenler ve literatürün neden sınırlı kaldığı."
+title: "Selank: bir tuftsin analoğunun Rusça literatürü"
+description: "Yedi amino asitlik Selank hakkındaki bilgilerin çoğu kemirgen deneylerinden ve Rusça yayımlanmış küçük klinik çalışmalardan geliyor."
 category: "Peptit Bilimi"
 tags: ["selank", "tuftsin", "sinir sistemi"]
 date: 2026-10-08
-references:
-  - "Kolomin T, Shadrina M, Slominsky P, Limborska S, Myasoedov N. A new generation of drugs: synthetic peptides based on natural regulatory peptides. Neurosci Med. 2013;4:223–252."
+sources: ["30255741", "18454096", "26356395", "31625062", "36322304"]
+docs:
+  - title: "ClinicalTrials.gov: Selank çalışmaları"
+    url: "https://clinicaltrials.gov/search?intr=selank"
+  - title: "Drugs@FDA: onaylı ilaç veri tabanı"
+    url: "https://www.accessdata.fda.gov/scripts/cder/daf/"
 ---
-Tuftsin, immünoglobulin G'nin bir parçasından türeyen dört amino asitlik (Thr-Lys-Pro-Arg) bir peptittir ve bağışıklık hücrelerini uyardığı bilinir. Sorun şu ki kanda saniyeler içinde yıkılır. Rusya Bilimler Akademisi Moleküler Genetik Enstitüsü'nde bu sorunu çözmek için tuftsinin ucuna Pro-Gly-Pro dizisi eklendi ve ortaya Selank çıktı: yedi amino asitlik, çok daha dayanıklı bir peptit.
+Selank, Thr-Lys-Pro-Arg-Pro-Gly-Pro dizisine sahip yedi amino asitlik bir peptittir [@30255741]. Birkaç hayvan çalışmasında "tuftsin analoğu" olarak adlandırılır; tuftsin, bağışıklık sisteminde bulunan Thr-Lys-Pro-Arg dizili bir peptittir [@31625062][@36322304]. Selank üzerine yayımlanmış literatürün büyük bölümü Rusya kökenli gruplardan gelir ve önemli bir kısmı Rusça dergilerde basılmıştır.
 
-## Ne yaptığı düşünülüyor?
+## Moleküler düzey
 
-Hayvan çalışmalarında Selank'ın anksiyete benzeri davranışları azalttığı, enkefalinleri yıkan enzimleri inhibe ettiği ve bazı genlerin, özellikle GABAerjik iletimle ve beyin kaynaklı nörotrofik faktörle (BDNF) ilgili olanların ifadesini değiştirdiği bildirildi. Bağışıklık sisteminde sitokin dengesine etkisi de çalışıldı.
+Vyunova ve arkadaşlarının radyoligand deneylerinde Selank'ın GABA bağlanmasını pozitif allosterik modülatör olarak etkilediği, benzodiazepinlerle birlikte etkisinin toplamsal olmadığı ve diazepam ile olanzapinin modülatör etkisini engelleyebildiği gösterildi. Yazarlar, Selank'ın kaygı giderici etkisinin bir mekanizmasının GABA reseptörlerinin alt tipe seçici allosterik modülasyonuyla ilişkili olabileceği hipotezini ileri sürdü [@30255741].
 
-Rusya'da bazı anksiyete ve nevrasteni durumlarında burun spreyi formunda kayıtlıdır. Bu, ülke ölçeğinde bir onay olduğundan dünya genelinde kabul görmüş bir kanıt anlamına gelmez.
+## Hayvan çalışmaları
 
-## Literatür neden sınırlı?
+Sıçanlarda 30 hafta etanol verilen bir modelde Selank, etanole bağlı bellek ve dikkat bozukluğunu önledi ve etanolün hipokampus ve frontal korteksteki BDNF artışını önledi; yazarlar bu sonucun etkide BDNF yolunun payı olduğunu düşündürdüğünü yazdı [@31625062]. Morfin yoksunluğu modelinde tek doz Selank, yoksunluk belirtilerini yüzde 39,6 azalttı; diazepam ise yüzde 49,3 azalttı [@36322304].
 
-İnsan verisinin çoğu Rusça yayımlanmış, küçük örneklemli ve çoğu zaman kör olmayan çalışmalardan oluşuyor. Bağımsız bir grup tarafından yapılmış büyük, plazebo kontrollü bir çalışma yok. Etki mekanizması da büyük ölçüde hayvan ve hücre verisine dayanıyor. AB'de ve ABD'de onaylı bir ilaç değildir.
+## İnsan çalışmaları
 
-Bu tablo, "işe yaramaz" demek anlamına gelmiyor; yalnızca kanıtın henüz güçlü bir sonuç çıkarmaya yetmediğini gösteriyor.
+İki randomize karşılaştırma bulduk. 2008 tarihli çalışmada yaygın anksiyete bozukluğu ve nörasteni olan 62 hasta, Selank (30 kişi) ve medazepam (32 kişi) ile tedavi edildi; kaygı giderici etkiler benzerdi, Selank ayrıca antiastenik ve psikostimülan etki gösterdi [@18454096]. 2015 tarihli çalışmada 70 hasta, tek başına fenazepam ya da fenazepama Selank eklenen tedaviyle karşılaştırıldı; Selank eklenen grupta fenazepamın etkisi daha erken ortaya çıktı ve dikkat, bellek bozulması gibi yan etkiler azaldı [@26356395].
+
+İki çalışma da küçük örneklemlidir; ikisinin de özetinde kör olduğuna dair bilgi ya da bağımsız bir tekrar yoktur. Bu nedenle insanda etkinliği hakkında kesin bir sonuca varmak için kanıt yeterli değildir.
+
+## Düzenleyici durum
+
+13 Ekim 2026'da Drugs@FDA'da Selank için bir kayıt bulunmuyordu; ClinicalTrials.gov'da 2 çalışma kayıtlı. ABD'de onaylı bir ilaç olmadığı anlaşılıyor. Başka ülkelerdeki durumu bu sayfadaki kaynaklardan doğrulayamadık.

@@ -1,20 +1,20 @@
 ---
 name: "KPV + Glutatyon"
-tagline: "α-MSH’nin C ucundan türeyen tripeptit ile hücrenin ana antioksidanı olan tripeptitin bir arada anlatıldığı sayfa."
+tagline: "İki ayrı tripeptit: α-MSH kökenli KPV ve hücrenin ana antioksidanı glutatyon."
 category: "Peptit · İltihap ve redoks"
-status: "Araştırma bileşiği"
+status: "Araştırma bileşiği (KPV için insan çalışması bulunamadı)"
 tag: "kpv-glutatyon"
 group: "Araştırma bileşiği"
 order: 7
+checked: "2026-10-13"
+sources: ["18092346", "18061177", "22995213", "24791752"]
 facts:
-  - { label: "KPV", value: "Lys–Pro–Val, α-MSH 11–13 parçası" }
-  - { label: "Glutatyon", value: "γ-Glu–Cys–Gly" }
-  - { label: "KPV kanıtı", value: "Hücre ve hayvan modelleri" }
-  - { label: "Glutatyon", value: "Endojen antioksidan; plazma düzeyi sınırlı kararlılıkta" }
-  - { label: "Durum", value: "Araştırma bileşiği" }
+  - { label: "KPV", value: "Lys–Pro–Val, α-MSH 11-13 [@18092346]" }
+  - { label: "KPV kanıtı", value: "Hücre kültürü ve fare kolit modelleri [@18061177]" }
+  - { label: "Glutatyon", value: "Memeli dokularında en bol proteinsiz tiyol [@22995213]" }
+  - { label: "Glutatyon kanıtı", value: "54 kişilik 6 aylık randomize çalışma: kan düzeyi arttı [@24791752]" }
+  - { label: "İnsanda KPV çalışması", value: "13 Ekim 2026'da ClinicalTrials.gov'da kayıt yok" }
 ---
-KPV, melanosit uyarıcı hormon α-MSH’nin son üç amino asididir ve molekülün iltihap karşıtı etkisinin büyük kısmını taşıdığı düşünülür. Kolit modellerinde bağırsak epitelindeki PepT1 taşıyıcısı üzerinden hücreye girdiği ve NF-κB yolunu baskıladığı gösterilmiştir.
+Bu iki molekülün birbirleriyle ilişkisini gösteren bir kaynak bulamadık; bilgiler ayrı ayrı geçerlidir. KPV'nin iltihap karşıtı etkisi hücre ve fare düzeyinde gösterilmiş, glutatyon ise iyi tanımlanmış bir hücre içi antioksidandır. Ağızdan alınan glutatyonun insan kan düzeyini artırdığı bir randomize çalışmada görülmüştür.
 
-Glutatyon ise sistein, glutamat ve glisinden oluşan, hücrelerin yüksek (milimolar) derişimde taşıdığı tiyol antioksidandır. Hücre içindeki indirgenmiş/yükseltgenmiş glutatyon oranı, redoks durumunun temel göstergelerinden biridir.
-
-İkisinin birlikte ele alınması bir biyolojik bağdan çok bir ürün birleşimidir; bu sayfadaki bilgiler iki molekül için ayrı ayrı geçerlidir.
+Ayrıntılar aşağıdaki yazıda.

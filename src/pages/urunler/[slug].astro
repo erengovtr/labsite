@@ -5,7 +5,9 @@ import PostCard from '../../components/PostCard.astro';
 import ProductCard from '../../components/ProductCard.astro';
 import ProductMedia from '../../components/ProductMedia.astro';
 import Disclaimer from '../../components/Disclaimer.astro';
+import Sources from '../../components/Sources.astro';
 import { postHasTag } from '../../lib/tags';
+import { citeHtml } from '../../lib/cite';
 export async function getStaticPaths() {
   const products = await getCollection('products');
   return products.map((product) => ({ params: { slug: product.id }, props: { product } }));
@@ -28,7 +30,7 @@ const others = same.slice(0, 3);
         <span class="status" data-reveal style="--d:.22s">{d.status}</span>
         {d.facts.length > 0 && (
           <dl class="facts" data-reveal style="--d:.3s">
-            {d.facts.map((f) => <div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}
+            {d.facts.map((f) => <div><dt>{f.label}</dt><dd set:html={citeHtml(f.value, d.sources)} /></div>)}
           </dl>
         )}
       </div>
@@ -38,7 +40,8 @@ const others = same.slice(0, 3);
     <section class="pbody">
       <div class="prose" data-reveal><Content /></div>
     </section>
-    <div style="max-width:var(--prose);margin:8px 0 0" data-reveal><Disclaimer /></div>
+    <div style="max-width:var(--prose);margin:8px 0 0"><Sources sources={d.sources} docs={d.docs} />{d.checked && <p class="muted" style="font-size:13.5px;margin-top:14px">Bu sayfadaki bilgiler kaynaklarıyla en son {d.checked} tarihinde kontrol edildi.</p>}</div>
+    <div style="max-width:var(--prose);margin:28px 0 0" data-reveal><Disclaimer /></div>
 
     {posts.length > 0 && (
       <section class="related">

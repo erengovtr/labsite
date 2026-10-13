@@ -1,20 +1,21 @@
 ---
 name: "GHK-Cu"
-tagline: "Bakır(II) iyonunu bağlayan, insan plazmasında doğal olarak bulunan tripeptit kompleksi."
+tagline: "Glisin-histidin-lizin tripeptidinin bakır kompleksi."
 category: "Peptit · Doku biyolojisi"
-status: "Araştırma bileşiği"
+status: "Araştırma bileşiği: onaylı ilaç değil"
 tag: "ghk-cu"
 group: "Araştırma bileşiği"
 order: 4
+checked: "2026-10-13"
+sources: ["4349963", "26236730", "35083444", "7340824", "16847171", "41966639"]
 facts:
-  - { label: "Sınıf", value: "Tripeptit–bakır kompleksi" }
+  - { label: "Sınıf", value: "Tripeptit, bakır(II) kompleksi" }
   - { label: "Dizi", value: "Gly–His–Lys" }
-  - { label: "Doğal bulunuş", value: "Plazma, tükürük, idrar" }
-  - { label: "İlk tanım", value: "1973, insan plazması" }
-  - { label: "Kanıt", value: "Çoğunlukla hücre ve hayvan çalışmaları" }
+  - { label: "İlk tanımlama", value: "1973, insan serumu [@4349963]" }
+  - { label: "Bulunduğu yerler", value: "Plazma, tükürük, idrar; yaşla azalır [@26236730]" }
+  - { label: "Serum düzeyi", value: "Ortalama 200 ng/ml (20 yaş), 80 ng/ml (60 yaş) [@35083444]" }
+  - { label: "İnsan verisi", value: "Küçük randomize çalışmalar [@16847171]; spor hekimliği derlemesinde onaysız peptitler arasında [@41966639]" }
 ---
-GHK, glisin, histidin ve lizinden oluşan üç amino asitlik bir dizidir. Histidin halkası ve lizinin amino grubu bakır(II) iyonunu sıkıca tutar; ortaya çıkan GHK-Cu kompleksi 1970'lerden beri doku onarımı araştırmalarının ilgi alanındadır.
+GHK, insan serumunda bulunan üç amino asitlik bir peptittir [@4349963]. Lau ve Sarkar'ın çalışmasında bakır(II) için albümin ile rekabet edebildiği ve bakırın kandan dokulara taşınmasında rol oynayabileceği tartışıldı [@7340824]. Hücre kültürü ve hayvan modellerinde kolajen sentezi ve yara iyileşmesine ilişkin çok sayıda bulgu bildirilmiş, insan verisi ise küçük ve sınırlı kalmıştır [@26236730][@16847171].
 
-Fibroblast kültürlerinde kolajen ve glikozaminoglikan sentezinde artış, hayvan yara modellerinde ise daha hızlı epitel yenilenmesi bildirilmiştir. Çalışmaların büyük kısmı birkaç grubun elinden çıkmıştır ve insan verisi küçük, kısa süreli kozmetik denemelerle sınırlıdır.
-
-Peptit–metal kompleksleri için kimlik doğrulaması hem dizinin hem de bakır içeriğinin ölçülmesini gerektirir.
+Ayrıntılı literatür değerlendirmesi aşağıdaki yazıda yer alıyor.

@@ -1,27 +1,21 @@
 ---
-title: "Magnezyum ve çinko: yüzlerce enzimin görünmeyen ortakları"
-description: "İki mineral de hücrede sayısız tepkimenin kofaktörü. Formların emilimi neden farklı ve fazlası ne zaman sorun olur?"
+title: "Magnezyum ve çinko: eksiklik, fazlalık ve emilim"
+description: "Magnezyum 600'den fazla enzim tepkimesinde, çinko bağışıklık ve gen düzenlenmesinde rol alıyor. Magnezyum tuz formlarının emilimi ve çinkonun bakırla ilişkisi ne durumda?"
 category: "Vitamin ve Mineraller"
 tags: ["magnezyum", "çinko", "mineral", "enzim"]
 date: 2026-09-30
-references:
-  - "de Baaij JHF, Hoenderop JGJ, Bindels RJM. Magnesium in man: implications for health and disease. Physiol Rev. 2015;95:1–46."
-  - "Prasad AS. Zinc in human health: effect of zinc on immune cells. Mol Med. 2008;14:353–357."
+sources: ["25540137", "14596323", "18385818", "38367035", "36432604"]
 ---
-Hücreniz bir saniyede binlerce tepkime yürütür ve bunların çoğu, adını pek duymadığımız iki mineralin eşliğinde gerçekleşir.
+## Magnezyum
 
-## Magnezyum: ATP'nin asıl hali
+de Baaij ve arkadaşlarının derlemesine göre magnezyum, potasyumdan sonra hücre içindeki en bol ikinci katyondur ve enerji metabolizması ve protein sentezi dahil 600'den fazla enzimatik reaksiyonda yer alır. Beyin, kalp ve iskelet kaslarında özellikle önemli bir fizyolojik rol oynar. Serum magnezyum değerleri hastalarda genellikle ölçülmez; derleme, magnezyum bulunabilirliğinin birçok klinik durumda bozulduğunu belirtir ve hipomagnezeminin diüretikler, EGFR inhibitörleri, kalsinörin inhibitörleri ve proton pompası inhibitörleri gibi bazı ilaçların sonucu olabileceğini yazar [@25540137].
 
-Hücrede ATP serbest halde değil, magnezyuma bağlı (Mg-ATP) olarak kullanılır. Bu nedenle ATP harcayan hemen her enzim magnezyuma ihtiyaç duyar; 300'den fazla enzimin kofaktörü olduğu belirtilir. Sinir ileti sistemi ve kas kasılmasında da magnezyum kalsiyumun karşıt oyuncusu olarak çalışır: kasılmayı kalsiyum başlatır, magnezyum gevşemeyi kolaylaştırır.
+Tuz formu önemlidir. Walker ve arkadaşlarının randomize, çift kör, plazebo kontrollü çalışmasında 46 sağlıklı kişi 60 gün boyunca üç farklı magnezyum bileşiği (amino asit şelatı, sitrat ve oksit) aldı. Organik formların (sitrat ve amino asit şelatı) 60. günde magnezyum oksitten daha fazla emildiği, sitratın ise serum magnezyum düzeyini en çok yükselttiği görüldü; magnezyum oksit ise plazeboya göre fark yaratmadı [@14596323]. Bu çalışma tek bir küçük çalışmadır ve yalnızca üç form karşılaştırmıştır; tüm formlar için genelleme yapılamaz.
 
-Bağırsaktan emilim formlara göre değişir. Sitrat, glisinat ve malat gibi organik tuzlar genellikle oksitten daha iyi emilir. Fazlası böbrekten atılır; bu nedenle böbrek yetmezliği olanlarda birikme riski vardır. Yüksek miktarlar ishale yol açabilir.
+## Çinko
 
-## Çinko: gen ifadesinin yapı taşı
+Prasad'ın derlemesine göre çinkonun insanlar için gerekliliği yaklaşık 40 yıl önce, Ortadoğu'da anlaşıldı. Çinko eksikliği olan hastalarda ağır bağışıklık bozuklukları görülüyordu. Deneysel bir insan çinko eksikliği modelinde serum testosteron düzeyinde düşüş, oligospermi, T yardımcı hücrelerini etkileyen bağışıklık bozuklukları, nörosensoryel sorunlar ve yağsız kütlede azalma belgelendi. Hücre kültürü çalışmaları çinko bağımlı birçok enzimin ve transkripsiyon faktörünün çinko eksikliğinde olumsuz etkilendiğini gösterdi; çinko ayrıca antioksidan ve iltihap karşıtı etkilere sahiptir [@18385818].
 
-Çinko hücre içinde serbest olarak çok az bulunur, neredeyse tamamı proteinlere bağlıdır. Çinko parmak adı verilen yapılar, gen ifadesini düzenleyen yüzlerce transkripsiyon faktörünün çekirdeğini oluşturur. Bağışıklık hücrelerinin gelişimi, yara iyileşmesi ve tat alma duyusu çinko durumuna duyarlıdır.
+Stiles ve arkadaşlarının 2024 derlemesi, çinkonun vücutta önemli miktarlarda depolanamadığını ve düzenli alım gerektiğini belirtir. Çinko emilimini aminoasitlerin ve sitratın artırdığı, fitatların, kazeinin ve kalsiyumun azalttığı düşünülür. Dolaşımda çinkonun yüzde 70'i albümine bağlıdır ve vücuttaki çinkonun çoğu iskelet kası ve kemiktedir. Fazla çinko alımı bakır ve demir emilimini engelleyerek bakır eksikliğine ve kansızlığa yol açabilir. Aynı derleme, ağızdan çinko takviyesinin siprofloksasin, doksisiklin ve risedronat gibi bazı ilaçların emilimini azaltabileceğini de belirtir [@38367035].
 
-Uzun süreli yüksek alımın en bilinen sorunu bakır eksikliğidir: çinko, bağırsakta metallotionein üretimini artırır ve bu protein bakırı bağlayarak emilimini azaltır. Bu yüzden çinko takviyelerine bakarken, bakırla dengeyi de gözetmek gerekir.
-
-## Ortak nokta
-
-İkisinde de "eksik" ile "fazla" arasındaki aralık dar değil ama gerçek. Eksikliği ölçmek için kan düzeyi tek başına yeterli olmayabilir, çünkü magnezyumun büyük kısmı hücre ve kemik içindedir. Takviye ihtiyacını bir sağlık uzmanıyla değerlendirmek bu yüzden önerilir.
+Jeng ve Chen'in derlemesi de aynı noktayı doğrular: çinko eksikliğinin tek başına kansızlığa yol açmadığı görünür, fakat fazla çinko alımı bakır alımını bozarak kansızlığa neden olabilir; fazla alım nadirdir [@36432604].

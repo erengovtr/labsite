@@ -1,34 +1,29 @@
 ---
-title: "Kreatin ve fosfokreatin: hücrenin hızlı enerji tamponu"
-description: "Kreatin vücutta nasıl yapılır, kasta ATP'yi nasıl korur ve monohidrat dışındaki formlar neden bu kadar tartışılıyor?"
+title: "Kreatin ve fosfokreatin: hücrenin ATP tamponu"
+description: "Kreatin kas ve beyinde enerji tamponu olarak çalışıyor. Güvenlik verisi, böbrek ölçümleri ve monohidrat ile hidroklorür karşılaştırması ne diyor?"
 category: "Metabolizma"
 tags: ["kreatin", "ATP", "fosfokreatin", "enerji metabolizması"]
 date: 2026-09-08
 compound: "Kreatin monohidrat"
-references:
-  - "Wyss M, Kaddurah-Daouk R. Creatine and creatinine metabolism. Physiol Rev. 2000;80(3):1107–1213."
-  - "Brosnan JT, Brosnan ME. Creatine: endogenous metabolite, dietary, and therapeutic supplement. Annu Rev Nutr. 2007;27:241–261."
+sources: ["17430086", "10893433", "28615996", "41199218", "39545789"]
+docs:
+  - title: "PubChem: kreatin (CID 586)"
+    url: "https://pubchem.ncbi.nlm.nih.gov/compound/586"
+  - title: "PubChem: kreatin monohidrat (CID 80116)"
+    url: "https://pubchem.ncbi.nlm.nih.gov/compound/80116"
 ---
-Kasınız 100 metrelik bir koşuda yalnızca birkaç saniyelik ATP depolar. Gerisi, o ilk saniyelerden sonra devreye giren başka bir sistemden gelir: fosfokreatin.
+Brosnan ve Brosnan'ın derlemesine göre kreatin ve fosfokreatin, hücre içinde yalnızca bir ATP tamponu olarak çalışmaz; aynı zamanda mitokondride üretilen yüksek enerjili fosfatları sitoplazmadaki kullanım yerlerine taşıyan bir enerji mekiğidir. Kreatin ve fosfokreatin kendiliğinden kreatinine dönüşerek kaybolduğu için sürekli yenilenmesi gerekir; bu yenilenme besinlerden alım ve vücutta sentez yoluyla olur. Vejetaryenler besinlerinden neredeyse hiç kreatin almaz ve sentez, glisin, arjinin ve metiyonin metabolizmasından önemli miktarda pay ister. Kreatin sentezi ya da taşınmasındaki doğuştan bozukluğu olan çocuklar ağır nörolojik belirtilerle başvurur ve beyin kreatininde belirgin bir azalma gösterir; yazarlar kreatinin beyin işlevindeki rolünün hafife alındığını belirtir [@17430086].
 
-## Nereden gelir?
+## Kreatin kinaz sistemi
 
-Vücut kreatini iki adımda üretir. Böbrekte AGAT enzimi arjinin ve glisinden guanidinoasetat yapar, karaciğerde GAMT enzimi bunu metiyoninden aldığı bir metil grubuyla kreatine dönüştürür. Ayrıca et ve balıktan da alınır. Vücuttaki kreatinin yaklaşık yüzde 95'i iskelet kasındadır; hücreye girişi SLC6A8 taşıyıcısıyla olur.
+Wyss ve Kaddurah-Daouk'un kapsamlı derlemesi, kreatin biyosentezi ve yıkımının yollarını, enzimlerin ve metabolitlerin dokulara dağılımını anlatır. Kreatin kinaz (CK) sisteminin düzenlenmesindeki bozuklukların kas, beyin, kalp ve böbrek hastalıkları ile kanserde gözlendiğini, kreatinin ve siklokreatin gibi analoglarının ise hücre ve doku modellerinde koruyucu etkiler gösterdiğini yazar. Aynı derleme, ağızdan kreatin alımının sporda ergojenik yardımcı olarak kullanıldığını ve bazı verilere göre kreatin ile kreatininin gıda mutajenleri ve üremik toksinlere öncül olabileceğini de belirtir [@10893433].
 
-## Tampon sistemi
+## Takviye kullanımının güvenlik verileri
 
-Kreatin kinaz enzimi, fosfokreatinden ADP'ye bir fosfat grubu aktarır ve ATP'yi hemen yeniden üretir:
+Uluslararası Spor Beslenmesi Derneği'nin 2017 tarihli güncel pozisyon belgesi, kreatin takviyesinin kas içi kreatin derişimini tutarlı biçimde artırdığını ve yüksek şiddetli egzersiz performansındaki iyileşmelerle ilişkili olduğunu bildirir. Belgede nörodejeneratif hastalıklar, diyabet, osteoartrit, yaşlanma gibi birçok klinik uygulama alanı da sıralanır. Belge, sağlıklı kişilerde ve çeşitli hasta gruplarında, bebeklerden yaşlılara kadar kısa ve uzun süreli kullanımın güvenli ve iyi tolere edildiği sonucuna varır [@28615996]. Bu bir derleme ve pozisyon belgesidir; tek tek çalışmaların kalitesi değişkendir.
 
-`PCr + ADP + H⁺ ⇌ Cr + ATP`
+Böbrek kaygıları ise serum kreatinin düzeyinin yükselmesinden doğar. 2025 tarihli bir sistematik derleme ve meta-analizde 21 çalışma incelendi. Kreatin takviyesi serum kreatininde küçük ama istatistiksel olarak anlamlı bir artışla ilişkiliydi; glomerüler filtrasyon hızında anlamlı değişim yoktu. Yazarlar bunu böbrek hasarından çok metabolik dönüşüme bağlı, geçici ve hafif bir artış olarak yorumladı [@41199218].
 
-Bu mekanizma üç şey yapar. Yoğun kasılmanın ilk saniyelerinde ATP düzeyini sabit tutar, mitokondride üretilen enerjiyi ATP'nin kullanıldığı yere fosfokreatin olarak taşır ve tepkime protonları tükettiği için hücre içi pH düşüşünü bir miktar yavaşlatır.
+## Monohidrat mı, hidroklorür mü?
 
-## Yıkım
-
-Kreatin ve fosfokreatin enzim olmadan, günde yaklaşık yüzde 1,5 ile 2 oranında kreatinine dönüşür. Kreatinin böbrekten atılır; kan kreatinin düzeyi bu yüzden böbrek fonksiyonunun bir göstergesi olarak ölçülür.
-
-## Farklı formlar
-
-Monohidrat en çok çalışılan referans formdur. Hidroklorür gibi tuzların daha iyi çözündüğü doğrudur, ancak bu özelliğin biyolojik bir üstünlüğe dönüştüğünü gösteren karşılaştırmalı çalışma azdır; çünkü sınırlayıcı basamak çözünürlük değil, hücreye taşınma ve doku doygunluğudur. Etil ester gibi diğer türevlerin ise sulu ortamda kararsız olduğu bildirilmiştir.
-
-Burada kreatinin biyokimyasını anlattık. Kime ne kadar uygun olduğu ise bir sağlık uzmanının değerlendireceği bir konu.
+PubChem'e göre kreatin C4H9N3O2 formülüne ve 131,13 g/mol molekül ağırlığına sahiptir; monohidratı C4H11N3O3, 149,15 g/mol'dür. 18-25 yaş arası 40 katılımcıyla 8 hafta süren randomize bir çalışmada kreatin hidroklorür ve kreatin monohidrat direnç antrenmanıyla birlikte karşılaştırıldı. Güç, kas enine kesit alanı ve bazı hormon göstergelerinde her iki takviye grubu plazeboya göre anlamlı iyileşme gösterdi; yazarlar hidroklorürün monohidrata göre bir üstünlüğünün olmadığı sonucuna vardı [@39545789]. Çalışma küçüktür ve tek başına belirleyici değildir.

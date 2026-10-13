@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import PostCard from '../../components/PostCard.astro';
 import Disclaimer from '../../components/Disclaimer.astro';
+import Sources from '../../components/Sources.astro';
 import ProductCard from '../../components/ProductCard.astro';
 import { slugOf, fmtDate, readingTime } from '../../lib/site';
 import { tagSlug } from '../../lib/tags';
@@ -32,12 +33,7 @@ const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: d.t
     <div class="article-layout">
       <article>
         <div class="prose" id="prose"><Content /></div>
-        {d.references.length > 0 && (
-          <section class="refs" id="kaynaklar">
-            <h2>Kaynaklar</h2>
-            <ol>{d.references.map((r) => <li>{r}</li>)}</ol>
-          </section>
-        )}
+        <Sources sources={d.sources} docs={d.docs} />
         <div class="tagline-chips" style="margin-top:28px">{d.tags.map((t) => <a class="tag" href={`/etiket/${tagSlug(t)}/`}>#{t}</a>)}</div>
         {relProducts.length > 0 && <div style="margin-top:32px"><p class="eyebrow" style="margin-bottom:14px">Ürün sayfası</p><div class="pgrid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">{relProducts.map((pr) => <ProductCard product={pr} />)}</div></div>}
         <div style="margin-top:36px"><Disclaimer /></div>
@@ -45,7 +41,7 @@ const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: d.t
       <aside class="toc" aria-label="İçindekiler">
         <h4>Bu yazıda</h4>
         {toc.map((h) => <a href={`#${h.slug}`}>{h.text}</a>)}
-        {d.references.length > 0 && <a href="#kaynaklar">Kaynaklar</a>}
+        {(d.sources.length > 0 || d.docs.length > 0) && <a href="#kaynaklar">Kaynaklar</a>}
       </aside>
     </div>
     {related.length > 0 && (

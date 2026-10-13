@@ -1,23 +1,24 @@
 ---
-title: "Minoksidil: tansiyon ilacından saç dökülmesi tedavisine"
-description: "Başlangıçta kan basıncı için geliştirilen minoksidilin saç folikülünde nasıl çalıştığı hâlâ tam bilinmiyor; bildiğimiz kadarını özetliyoruz."
+title: "Minoksidil: saç folikülünde ne yaptığı hâlâ tam bilinmiyor"
+description: "Tansiyon ilacından saç dökülmesi tedavisine uzanan minoksidilin etki mekanizması belirsiz. Topikal ve düşük doz oral kullanımın kanıtı ne durumda?"
 category: "Küçük Moleküller"
 tags: ["minoksidil", "saç dökülmesi", "folikül", "potasyum kanalı"]
 date: 2026-10-01
-references:
-  - "Messenger AG, Rundegren J. Minoxidil: mechanisms of action on hair growth. Br J Dermatol. 2004;150:186–194."
-  - "Randolph M, Tosti A. Oral minoxidil treatment for hair loss: a review of efficacy and safety. J Am Acad Dermatol. 2021;84:737–746."
+sources: ["14996087", "12196747", "32622136", "38598226"]
+docs:
+  - title: "DailyMed: erkekler için minoksidil %5 topikal çözelti etiketi"
+    url: "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00c83180-0e13-4a07-9ce8-a9cae19a79a3"
 ---
-Minoksidil bir tesadüfün ürünüdür. 1960'larda yüksek tansiyon için geliştirilen bu vazodilatör ilaç, hastalarda beklenmedik bir yan etkiye yol açtı: vücutta ve yüzde tüylenme. Bu gözlem, ilacın 1980'lerde saç dökülmesi için topikal bir çözelti olarak yeniden geliştirilmesine yol açtı.
+Messenger ve Rundegren'in derlemesi bir itirafla başlar: minoksidilin saç büyümesini uyardığını 30 yılı aşkın süredir biliyoruz ama folikül üzerindeki etki mekanizmamız çok sınırlı [@14996087].
 
-## Folikülde ne oluyor?
+## Bilinenler
 
-Minoksidil kendi başına aktif değil. Saç folikülündeki sülfotransferaz enzimi (SULT1A1) onu minoksidil sülfata çevirir ve asıl etkiyi bu form gösterir. İlacın en iyi bilinen özelliği ATP duyarlı potasyum kanallarını açmasıdır. Ama saçta bunun tek mekanizma olup olmadığı belli değil; damarlanma artışı, prostaglandin yollarının etkilenmesi ve büyüme faktörü ifadesinde değişim de öne sürülen açıklamalar.
+Hayvan çalışmalarında topikal minoksidil, telojen evresini kısaltarak dinlenen foliküllerin erken anajene girmesine yol açar ve insanda da muhtemelen benzer biçimde etki eder. Anajeni uzatabilir ve folikül boyutunu artırabilir. Ağızdan alındığında minoksidil, sülfatlı metaboliti minoksidil sülfat aracılığıyla damar düz kasında sarkolemmal KATP kanallarını açarak tansiyonu düşürür. Saç büyümesi etkisinin de potasyum kanallarının açılmasına bağlı olduğuna dair bazı kanıtlar vardır, ancak bunu kanıtlamak zor olmuştur ve saç folikülünde KATP kanallarının ifade edildiği henüz net olarak gösterilmemiştir. Hücre kültürlerinde hücre çoğalmasının uyarılması, kolajen sentezinin baskılanması, damar endotel büyüme faktörü ve prostaglandin sentezinin artması gibi etkiler tanımlanmıştır; derlemeye göre bunların hücre kültüründen folikül biyolojisine aktarımı belirsizdir [@14996087].
 
-Gözlenen sonuç, saç döngüsünde büyüme (anajen) evresinin uzaması ve foliküllerin boyutlarının büyümesidir. Dökülme nedenini ortadan kaldırmaz, bu yüzden etkisi kullanım sürdükçe devam eder.
+## Topikal kullanımın kanıtı
 
-## Kanıt ve sınırlar
+Olsen ve arkadaşlarının 393 erkekle yaptığı 48 haftalık, çift kör, plazebo kontrollü çalışmada yüzde 5'lik minoksidil çözeltisi, yüzde 2'lik çözelti ve plazeboya göre saç sayısında ve hasta ile araştırıcı değerlendirmelerinde üstün bulundu. Yüzde 5'lik çözeltide kaşıntı ve yerel tahriş daha sık görüldü, sistemik etki görülmedi [@12196747]. FDA kayıtlı erkekler için yüzde 5 minoksidil çözeltisi etiketi "başın tepesindeki saçı yeniden çıkarmak" için kullanımı tarif eder; erkeklere özgüdür, yanıcıdır ve saç dökülmesinin ani, parça parça ya da nedeni bilinmeyen olduğu kişilerde kullanılmaması gerekir. Etiket sonucun kişiden kişiye değiştiğini ve ürünün her erkekte işe yaramadığını da yazar.
 
-Topikal formu androjenetik alopesi için onaylıdır ve yıllardır en çok çalışılan tedavilerden biridir. Düşük dozda ağızdan kullanımına ilişkin çalışmalar son yıllarda arttı; bir derleme, etkinlik açısından umut verici sonuçlar bildirirken perikardiyal efüzyon gibi nadir kardiyovasküler olaylara da dikkat çekiyor. Oral kullanım onaylı bir endikasyon değildir.
+## Ağızdan kullanım
 
-Topikal kullanımda sık görülen yan etkiler deri tahrişi, kaşıntı ve istenmeyen bölgelerde tüylenmedir. Bunların hepsi, kullanım kararının bir hekimle değerlendirilmesi gerektiğini gösterir.
+Randolph ve Tosti'nin derlemesi, saç dökülmesi için ağızdan minoksidil kullanan 17 çalışmayı (toplam 634 hasta) topladı; çalışmaların çoğu androjenetik alopesi üzerineydi. Yazarlar tedaviyi topikal formülasyonlara uyum sağlayamayan sağlıklı hastalarda etkili ve iyi tolere edilen bir alternatif olarak değerlendirdi, ama farklı dozları standart ölçümlerle karşılaştıran daha büyük randomize çalışmalara ihtiyaç olduğunu belirtti [@32622136]. 2024'te yayımlanan randomize çalışmada 90 erkek 24 hafta boyunca günlük ağızdan düşük doz minoksidil ya da günde iki kez topikal yüzde 5 minoksidil aldı; ağızdan kullanım topikal kullanıma üstünlük göstermedi. Ağızdan kullanım grubunda en sık yan etkiler tüylenme artışı (yüzde 49) ve baş ağrısıydı (yüzde 14) [@38598226]. Ağızdan kullanım saç dökülmesi için FDA onaylı bir endikasyon değildir.

@@ -1,26 +1,26 @@
 ---
-title: "Metilen mavisi: yüz yıllık boya, hâlâ ilginç bir redoks molekülü"
-description: "Sıtma ilacından metemoglobinemi tedavisine ve mitokondri araştırmalarına uzanan hikâye ile bilinmesi gereken etkileşim riski."
+title: "Metilen mavisi: onaylı bir ilaç, ilginç bir redoks molekülü"
+description: "Metemoglobinemi tedavisinde birinci basamak olan metilen mavisinin hücredeki elektron taşıyıcı etkisi ve ciddi bir ilaç etkileşimi."
 category: "Küçük Moleküller"
 tags: ["metilen-mavisi", "redoks", "mitokondri", "MAO"]
 date: 2026-10-03
-references:
-  - "Wen Y, Li W, Poteet EC, et al. Alternative mitochondrial electron transfer as a novel strategy for neuroprotection. J Biol Chem. 2011;286:16504–16515."
-  - "Ginimuge PR, Jyothi SD. Methylene blue: revisited. J Anaesthesiol Clin Pharmacol. 2010;26:517–520."
-  - "Oz M, Lorke DE, Hasan M, Petroianu GA. Cellular and molecular actions of methylene blue in the nervous system. Med Res Rev. 2011;31:93–117."
+sources: ["19760660", "21454572", "20142303"]
+docs:
+  - title: "DailyMed: ProvayBlue (metilen mavisi) etiketi"
+    url: "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4f6848e5-35ed-4046-b13c-3032b5ba3232"
 ---
-Metilen mavisi, kökeni tekstil boyalarına uzanan bir moleküldür. 1891'de Paul Ehrlich onu sıtmalı hastalarda denedi ve bu, insanlarda kullanılan ilk sentetik ilaçlardan biri oldu. Ardından sıtma tedavisinde daha iyi ilaçlar geldi, ama metilen mavisi başka alanlarda yerini korudu.
+Metilen mavisi, 19. yüzyılda Ehrlich tarafından biyolojiye tanıtılan bir boyadır. Oz ve arkadaşlarının derlemesine göre bugün metemoglobineminin birinci basamak tedavisidir, ifosfamide bağlı ensefalopatinin tedavisinde sık kullanılır ve cerrahide tanı aracı olarak yer alır [@19760660].
 
-## Asıl görevi: metemoglobinemi
+## Etiketteki kullanımı
 
-Hemoglobindeki demir, normalde indirgenmiş (Fe²⁺) halde oksijen taşır. Bazı ilaçlar ve toksinler onu Fe³⁺ haline yükseltgeyip metemoglobine çevirir; bu form oksijen taşıyamaz. Metilen mavisi hücrede NADPH'ten elektron alıp metemoglobini yeniden indirger. Edinsel metemoglobineminin tedavisinde onaylı olması bu yüzdendir.
+ProvayBlue etiketinde metilen mavisi, edinsel metemoglobinemisi olan çocuk ve yetişkinlerin tedavisi için onaylı bir "oksidasyon-indirgenme ajanı" olarak tanımlanır. Etikete göre suda çözünen bir tiyazin boyasıdır; metemoglobinin hemoglobine nonenzimatik redoks dönüşümünü sağlar. Önce NADPH redüktaz aracılığıyla lökometilen mavisine (LMB) çevrilir, metemoglobindeki ferrik demiri normal hemoglobindeki ferröz hale indirgeyen de bu LMB'dir.
 
-## Mitokondri ve beyin araştırmaları
+## Hücre ve hayvan çalışmaları
 
-Molekülün asıl çekiciliği redoks döngüsünü iki yönde yapabilmesindedir. Hem indirgenmiş (lökometilen mavisi) hem yükseltgenmiş halde bulunabilir. Wen ve arkadaşlarının çalışması, NADH'tan elektronu alıp doğrudan sitokrom c'ye aktarabildiğini göstermiştir. Bu, elektron taşıma zincirinin kompleks I ve III'ü kısmen atlanarak çalışmasına izin verir. Zincirin bozulduğu nörodejeneratif hastalık modellerinde bu özelliğin koruyucu olabileceği düşünülerek çalışmalar yapılmaktadır.
+Wen ve arkadaşlarının makalesinde metilen mavisi, NADH'tan elektron alıp sitokrom c'ye aktaran alternatif bir elektron taşıyıcısı olarak tanımlandı; bu yolla kompleks I ve III'teki blokajı atlıyordu. Kültürdeki nöronlarda oksijen tüketimini artırdı ve anaerobik glikolizi azalttı. Parkinson hastalığının rotenon modelinde dopamin kaybını ve nöron kaybını belirgin biçimde azalttı; geçici fokal serebral iskemi modelinde de reperfüzyon hasarını azalttı. Yazarlar bunun, mitokondri işlev bozukluğuyla giden hastalıklar için yeni bir nöroprotektif strateji olabileceğini ileri sürdü [@21454572]. Bunlar hücre kültürü ve kemirgen verileridir.
 
-Bu çalışmaların çoğu hücre ve hayvan düzeyindedir; insanlardaki sonuçlar sınırlı ve karışıktır.
+Oz ve arkadaşları, metilen mavisinin en önemli farmakolojik etkisinin cGMP yolu üzerinden olduğunun düşünüldüğünü, ancak çok sayıda hücresel ve moleküler hedefi bulunduğunu ve etkilerinin düzlemsel yapısı, redoks kimyası, iyonik yükleri ve ışık spektrumuyla belirlendiğini belirtir. Alzheimer hastalığı ve bellek üzerine olumlu etkiler önerildiğini de aktarırlar [@19760660].
 
-## Bilinmesi gereken risk
+## Ciddi etkileşim
 
-Metilen mavisi monoamin oksidaz A'yı (MAO-A) inhibe eder. Serotonin geri alımını engelleyen antidepresanlar gibi serotonerjik ilaçlarla bir arada kullanıldığında, serotonin sendromu denen ciddi bir tablo gelişebilir. Bu etkileşim klinik uyarıların başında yer alır. G6PD eksikliği olanlarda da hemoliz riski vardır.
+Metilen mavisi monoamin oksidaz A'yı (MAO-A) inhibe eder. Gillman'ın derlemesine göre bildirilen 14 merkezi sinir sistemi toksisitesi olgusunun 13'ü Hunter ölçütlerini karşılayan serotonin toksisitesiydi; bu, metilen mavisinin MAO inhibitörü özelliğinin serotonin geri alım inhibitörleriyle etkileşmesiyle ortaya çıkıyordu [@20142303]. ProvayBlue etiketinin en üstünde bu nedenle kutulu uyarı bulunur: serotonerjik ilaçlar (SSRI, SNRI, MAOI) ve opioidlerle birlikte kullanımda ciddi ya da ölümcül serotonin sendromu görülebilir. Etiket ayrıca G6PD eksikliği olanlarda hemolitik anemi riski nedeniyle kullanımı kontrendike sayar.

@@ -1,16 +1,20 @@
 ---
 import Base from '../layouts/Base.astro';
 import { glossary } from '../data/glossary';
+import lit from '../data/literature.json';
 const items = [...glossary].sort((a, b) => a.term.localeCompare(b.term, 'tr'));
 ---
 <Base title="Sözlük" description="Peptit biyolojisi, farmakoloji ve analitik kimya terimleri sözlüğü.">
   <div class="wrap">
-    <div class="page-head"><span class="eyebrow">Sözlük</span><h1>Araştırma dilinin sözlüğü</h1><p>Yazılarda geçen temel terimlerin kısa ve tarafsız tanımları.</p></div>
+    <div class="page-head"><span class="eyebrow">Sözlük</span><h1>Araştırma dilinin sözlüğü</h1><p>Yazılarda geçen terimlerin tanımları. Her tanım, altında bağlantısı verilen kaynakta yazılanlara dayanır.</p></div>
     <input class="gloss-search" id="gq" type="search" placeholder="Terim ara…" />
     <div class="gloss-list" id="gl">
       {items.map((g) => (
         <div class="gloss-item" data-t={(g.term + ' ' + (g.en ?? '') + ' ' + g.def).toLocaleLowerCase('tr')}>
           <h3>{g.term}{g.en && <small>{g.en}</small>}</h3><p>{g.def}</p>
+          <p class="gsrc">Kaynak: {g.src.startsWith('http')
+            ? <a href={g.src} rel="noopener">{g.srcLabel}</a>
+            : (() => { const r = (lit as any)[g.src]; if (!r) throw new Error('Sözlük kaynağı yok: ' + g.src); return <a href={`https://pubmed.ncbi.nlm.nih.gov/${g.src}/`} rel="noopener">{r.authors[0]} {r.authors.length > 1 ? 've ark.' : ''} ({r.year}), PubMed {g.src}</a>; })()}</p>
         </div>
       ))}
     </div>

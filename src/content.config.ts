@@ -15,7 +15,10 @@ const posts = defineCollection({
     readingMinutes: z.number().optional(),
     featured: z.boolean().default(false),
     compound: z.string().optional(),
-    references: z.array(z.string()).default([]),
+    // Kaynaklar: PubMed numaraları (künye src/data/literature.json içinde, tools/lit.py ile çekilir)
+    sources: z.array(z.string()).default([]),
+    // Makale olmayan resmî belgeler: ilaç etiketleri, çalışma kayıtları vb.
+    docs: z.array(z.object({ title: z.string(), url: z.string().url() })).default([]),
   }),
 });
 
@@ -30,6 +33,9 @@ const products = defineCollection({
     tag: z.string(),                      // yazılarla eşleşecek etiket slug'ı, ör. "retatrutide"
     order: z.number().default(100),
     facts: z.array(z.object({ label: z.string(), value: z.string() })).default([]),
+    sources: z.array(z.string()).default([]),
+    docs: z.array(z.object({ title: z.string(), url: z.string().url() })).default([]),
+    checked: z.string().optional(),       // bilgilerin kaynaklarla son kontrol tarihi (YYYY-AA-GG)
   }),
 });
 

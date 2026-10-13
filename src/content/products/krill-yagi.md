@@ -1,17 +1,19 @@
 ---
 name: "Krill Yağı (Omega 3-6-9, EPA/DHA)"
-tagline: "Antarktik krilden elde edilen, EPA ve DHA’yı fosfolipit formunda taşıyan yağ."
+tagline: "EPA ve DHA kaynağı olarak pazarlanan krill yağı."
 category: "Yağ asidi"
-status: "Besin bileşeni"
+status: "Besin takviyesi bileşeni"
 tag: "krill-yagi"
 group: "Takviye"
 order: 15
+checked: "2026-10-13"
+sources: ["25149823", "21042875", "25218856"]
 facts:
-  - { label: "Ana bileşenler", value: "EPA ve DHA (omega-3)" }
-  - { label: "Form", value: "Fosfolipit, balık yağından farklı olarak trigliserit değil" }
-  - { label: "Ek bileşen", value: "Astaksantin" }
-  - { label: "Dikkat", value: "Kabuklu deniz ürünü alerjisi" }
+  - { label: "Ana bileşenler", value: "EPA ve DHA (omega-3) [@25149823]" }
+  - { label: "Krill ve balık yağı", value: "113 kişilik RCT: plazma EPA/DHA artışı benzer [@21042875]" }
+  - { label: "Fosfolipit formu", value: "İnsan verisiyle trigliseritten üstünlüğü kanıtlanmadı [@25218856]" }
+  - { label: "Etki mekanizması", value: "İltihabı kısmen baskılar, rezolvin vb. aracıların öncülü [@25149823]" }
 ---
-Balık yağındaki omega-3 yağ asitleri çoğunlukla trigliserit halindedir. Krilde ise EPA ve DHA büyük oranda fosfolipite bağlıdır. Bu yapının emilimi etkileyip etkilemediği tartışmalıdır; bazı çalışmalar plazma EPA düzeylerinde avantaj bildirirken diğerleri anlamlı fark bulamamıştır.
+EPA ve DHA, iltihap sürecinin birçok basamağını kısmen baskılayabilen omega-3 yağ asitleridir [@25149823]. Krilde bu yağ asitlerinin büyük bölümü fosfolipitlere bağlıdır; ancak 113 kişilik randomize çalışmada krill yağı ile balık yağı plazma EPA ve DHA artışı bakımından benzer bulunmuştur [@21042875] ve derlemeler fosfolipit formunun üstünlüğü konusunda insan verisiyle sonuca varamamıştır [@25218856].
 
-Ürünlerde görülen kırmızı renk, güçlü bir karotenoid olan astaksantinden gelir. Omega-6 ve omega-9 ise çoğu zaman diyetle zaten yeterli alınan yağ asitleridir.
+Ayrıntılar aşağıdaki yazıda.

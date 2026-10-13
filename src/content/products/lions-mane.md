@@ -1,17 +1,20 @@
 ---
-name: "Lion’s Mane Mantarı"
-tagline: "Beyin hücre büyüme faktörlerine olan etkisiyle araştırılan şifalı mantar Hericium erinaceus."
+name: "Lion's Mane Mantarı"
+tagline: "Hericium erinaceus: NGF sentezini uyaran bileşikleriyle araştırılan yenilebilir mantar."
 category: "Bitkisel · Sinir sistemi"
-status: "Besin bileşeni"
+status: "Besin takviyesi bileşeni"
 tag: "lions-mane"
 group: "Takviye"
 order: 19
+checked: "2026-10-13"
+sources: ["24266378", "37233262", "18844328", "38004235"]
 facts:
   - { label: "Tür", value: "Hericium erinaceus" }
-  - { label: "Aktif bileşikler", value: "Hericenonlar (meyve gövdesi), erinasinler (miselyum)" }
-  - { label: "Kanıt", value: "Hücre ve hayvan modelleri; küçük insan çalışmaları" }
-  - { label: "Not", value: "Hasat kısmına göre içerik değişir" }
+  - { label: "Aktif bileşikler (kültürde)", value: "Hericenonlar ve erinasinler: NGF sentezini uyarır [@24266378]" }
+  - { label: "Hücre kültürü", value: "Nörotrofik, ancak oksidatif strese karşı nöroprotektif değil [@24266378]" }
+  - { label: "İnsan çalışması", value: "30 kişilik RCT: 16 haftada bilişsel puan artışı, bırakınca geriledi [@18844328]" }
+  - { label: "Sağlıklı gençler", value: "41 kişilik pilot RCT: karışık, küçük etkiler [@38004235]" }
 ---
-Lion’s mane, hücre kültürlerinde sinir büyüme faktörünün (NGF) sentezini uyaran hericenon ve erinasin bileşiklerini içerir. Hayvan modellerinde hipokampüste nörogenez ile ilgili belirteçlerde artış bildirilmiştir.
+Lion's mane özütü kültürdeki nöron benzeri hücrelerde NGF sentezini ve nöron uzantılarını artırmıştır [@24266378]. İnsanda yalnızca küçük çalışmalar vardır; derlemeler daha büyük klinik çalışmalara ihtiyaç olduğunu vurgular [@37233262].
 
-İnsan verisi çok sınırlıdır. Hafif bilişsel bozukluğu olan yaşlılarla yapılan küçük bir çift kör çalışmada 16 haftada bilişsel puanlarda iyileşme görülmüş, tedavi bırakıldığında bu iyileşme geri gitmiştir. Daha büyük ve bağımsız çalışmalara ihtiyaç vardır.
+Ayrıntılar aşağıdaki yazıda.

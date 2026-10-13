@@ -1,27 +1,28 @@
 ---
-title: "SARM'lar: androjen reseptörüne seçici davranma fikri"
-description: "Testosteronun kas ve kemikte çalışıp prostatta çalışmamasını sağlamak mümkün mü? SARM araştırmalarının mantığı ve elde edilen klinik sonuçlar."
+title: "SARM'lar: androjen reseptörüne seçici davranma fikri ve enobosarm"
+description: "Steroid olmayan androjen reseptörü modülatörleri kasta etkili, prostatta etkisiz olmayı vaat ediyordu. Klinik çalışmalar ve güvenlik raporları ne gösterdi?"
 category: "Hormonal Eksenler"
-tags: ["SARM", "androjen reseptörü", "enobosarm", "HPG ekseni"]
+tags: ["SARM", "androjen reseptörü", "enobosarm"]
 date: 2026-09-17
-references:
-  - "Dalton JT, Barnette KG, Bohl CE, et al. The selective androgen receptor modulator GTx-024 (enobosarm) improves lean body mass and physical function in healthy elderly men and postmenopausal women: results of a double-blind, placebo-controlled phase II trial. J Cachexia Sarcopenia Muscle. 2011;2(3):153–161."
-  - "Narayanan R, Coss CC, Dalton JT. Development of selective androgen receptor modulators (SARMs). Mol Cell Endocrinol. 2018;465:134–142."
+sources: ["28624515", "22031847", "23499390", "27138015", "34368386", "39755947"]
+docs:
+  - title: "ClinicalTrials.gov: enobosarm çalışmaları"
+    url: "https://clinicaltrials.gov/search?intr=enobosarm"
+  - title: "Drugs@FDA: onaylı ilaç veri tabanı"
+    url: "https://www.accessdata.fda.gov/scripts/cder/daf/"
 ---
-Testosteron kas ve kemik kütlesini artırır, ama aynı zamanda prostatı büyütür, deride ve saç diplerinde etki yapar, karaciğeri yorar ve üreme ekseninin kendi üretimini kapatmasına yol açar. Seçici androjen reseptör modülatörleri (SARM'lar) bu paketi bölmeye çalışan bir ilaç sınıfıdır: istenen dokularda etkili, diğerlerinde sessiz bir androjen.
+Androjen reseptörü (AR) vücutta hemen her dokuda bulunur. Narayanan ve arkadaşlarına göre bu yaygınlık, ayrıca steroidal androjenlerin metabolize olması ve başka reseptörlerle çapraz etkileşmesi, testosteron gibi bileşiklerin geniş tedavi kullanımını sınırlayan nedenlerdir. Seçici androjen reseptör modülatörleri (SARM'lar) bu soruna bir çözüm olarak ortaya çıktı: reseptörü dokuya seçici biçimde etkinleştirerek androjenlerin yararlı etkilerini hedef dokuda sağlamayı, istenmeyen etkileri azaltmayı amaçlar. İki on yılı aşkın süredir bu sınıf için kas erimesi, meme kanseri ve osteoporoz gibi hastalıklar önerildi [@28624515].
 
-## Seçicilik nasıl mümkün olabilir?
+## Enobosarm çalışmaları
 
-Androjen reseptörü bir nükleer reseptördür. Testosteron ya da DHT bağlanınca reseptör çekirdeğe geçer, DNA'ya tutunur ve çevresine bir grup yardımcı protein (koaktivatör ve korepresör) toplar. Bu yardımcı proteinlerin bileşimi her dokuda farklıdır. Reseptörün şeklini testosteronun yaptığından biraz farklı değiştiren bir molekül, farklı dokularda farklı proteinleri çağırabilir ve sonuç da doku doku değişir.
+En çok çalışılan SARM, steroid olmayan enobosarmdır (GTx-024). Dalton ve arkadaşlarının 2011 tarihli makalesinde, kas ve kemikte doku seçici anabolik etki gösterirken kadınlarda saç büyümesiyle ilgili ve erkeklerde prostat etkisi doğuran androjenik dokuları koruduğu öne sürülür. 60 yaşın üzerindeki 120 sağlıklı erkek ve menopoz sonrası kadınla yapılan 12 haftalık, çift kör, plazebo kontrollü faz 2 çalışmasında toplam yağsız kütle doza bağlı arttı (3 mg ile plazebo karşılaştırmasında P < 0,001). Fiziksel işlevde ve insülin direncinde de anlamlı iyileşme bildirildi; yan etki sıklığı gruplar arasında benzerdi [@22031847].
 
-İkinci bir fikir yapıyla ilgilidir. Çoğu SARM steroid değildir; 5α-redüktaz tarafından DHT'ye ya da aromataz tarafından östrojene çevrilmezler. Böylece prostat ve östrojen etkilerinin azalacağı umulur.
+Dobs ve arkadaşlarının kanserli hastalarda yaptığı faz 2 çalışmasında 159 hasta günde 1 mg, 3 mg enobosarm ya da plazebo aldı. Yaklaşık 113 günde 100 kişilik değerlendirilebilir grupta yağsız kütle her iki enobosarm grubunda başlangıca göre anlamlı arttı (1 mg grubunda ortanca 1,5 kg, 3 mg grubunda 1,0 kg); plazebo grubunda değişim anlamlı değildi [@23499390]. Fiziksel işlev ve yağsız kütleyi birlikte birincil hedef alan iki büyük faz 3 çalışması (POWER 1 ve 2) akciğer kanseri hastalarında tasarlandı [@27138015]. Bu faz 3 çalışmalarının birincil sonuçlarının yayımlanmış bir makalesini bulamadık; o yüzden sonuçlarını burada özetlemiyoruz.
 
-## Klinik tablo
+## Güvenlik raporları
 
-En çok çalışılan örnek enobosarmdır (GTx-024). Sağlıklı yaşlı gönüllülerle yapılan 12 haftalık faz 2 çalışmasında yağsız kütle arttı. Ancak kanser kaşeksisi hastalarında yapılan daha büyük faz 3 çalışmaları, fiziksel işlev açısından beklenen sonucu veremedi. Bu iki sonuç birlikte, kas kütlesinin artmasının otomatik olarak işlevin artması anlamına gelmediğini gösteriyor.
+Enobosarmın bir faz 2 çalışmasında yan etkiler plazeboya benzer bulunmuştu [@22031847]. Piyasada kontrolsüz kullanılan SARM'larla ilgili tablo ise farklıdır. Bir olgu raporunda enobosarm (ostarin) ile anabolik steroidlere benzer, belirgin bir kolestatik karaciğer hasarı bildirilmiştir; yazarlar kullanım arttıkça bunun daha sık görülebileceğini öne sürer [@34368386].
 
-Seçicilik de mutlak değil. Androjen reseptörünü uyaran bir molekül, hipotalamus ve hipofiz üzerinden negatif geri bildirim yaratır. Çalışmalarda total testosteron, LH ve FSH düzeylerinde düşüş bildirildi. HDL kolesterolde azalma ve bazı bileşiklerde karaciğer enzimlerinde değişim de kaydedildi.
+Sporcular arasında SARM kötüye kullanımını inceleyen 2025 tarihli sistematik derlemede 2003-2022 arası 72 makale incelendi. Derleme, SARM kullanımının kas kütlesiyle birlikte kemik yeniden yapılanması, testosteron baskılanması, böbrek, karaciğer ve prostat büyümesi gibi etkilerle ilişkili olduğunu, olgu raporlarında karaciğer hasarı, miyokardit ve tendon rüptürü bildirildiğini ve ürünlerin çoğunun başka maddelerle bulaşık çıktığını belirtir. Sporcuların klinik çalışmalardakinden çok daha yüksek dozlar kullandığı da kaydedilir. Aynı derlemeye göre SARM'ların FDA tarafından onaylı bir kullanımı yoktur [@39755947].
 
-## Düzenleyici durum
-
-Hiçbir SARM onaylı ilaç değildir. WADA bu sınıfı yasaklı listeye almıştır ve çeşitli denetim kurumları, bu maddelerin takviye olarak satılmasına karşı uyarılarda bulunmuştur. Uzun dönem güvenlik verisi yok denecek kadar azdır.
+13 Ekim 2026'daki kontrolümüzde Drugs@FDA'da enobosarm için bir kayıt bulunmuyordu; ClinicalTrials.gov'da ise 17 çalışma kayıtlı.

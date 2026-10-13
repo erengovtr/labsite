@@ -1,29 +1,21 @@
 ---
-title: "Peptitler nasıl bozulur ve liyofilizasyon neden işe yarar?"
-description: "Hidroliz, deamidasyon ve oksidasyon gibi bozunma yolları ile peptidi kuru toz hale getirmenin kimyasal mantığı."
+title: "Peptitler neden kararsızdır? Deamidasyon ve liyofilizasyon"
+description: "Asparajin içeren bir model peptit 37 °C'de günler içinde bozulur. Kuru toz formu bu tepkimeleri yavaşlatır, ama tamamen durdurmaz."
 category: "Analitik Kalite"
-tags: ["kararlılık", "liyofilizasyon", "deamidasyon", "oksidasyon"]
+tags: ["kararlılık", "liyofilizasyon", "deamidasyon", "analitik kalite"]
 date: 2026-09-12
-references:
-  - "Manning MC, Chou DK, Murphy BM, Payne RW, Katayama DS. Stability of protein pharmaceuticals: an update. Pharm Res. 2010;27(4):544–575."
-  - "Wang W. Lyophilization and development of solid protein pharmaceuticals. Int J Pharm. 2000;203(1–2):1–60."
+sources: ["3805008", "20143256", "10967427", "34110145"]
 ---
-Bir peptidin etiketinde yazan miktar, laboratuvara ulaştığında hâlâ aynı olmayabilir. Çünkü peptitler su ortamında çeşitli kimyasal tepkimelere girer. Aşağıda bu tepkimelerin neler olduğunu ve kuru tozun neden tercih edildiğini anlatıyoruz.
+Bir peptidin etiketindeki miktar, bilimsel olarak o miktarın hâlâ aynı kimyasal bileşikten oluştuğu anlamına gelmez. Peptitler, özellikle sulu ortamda, kendiliğinden kimyasal değişikliklere uğrar. Lian ve arkadaşlarına göre sentetik peptitler, başlangıç maddelerinden, üretim sürecinden ve saklama koşullarından kaynaklanan birçok karmaşık yapısal değişikliğe maruz kalır [@34110145].
 
-## Başlıca bozunma yolları
+## Deamidasyon: en iyi tanımlanmış örnek
 
-Hidroliz, peptit bağının suyla kırılmasıdır; özellikle aspartik asit içeren Asp-Pro ve Asp-Gly bağları hassastır. Deamidasyonda asparajin (özellikle Asn-Gly dizisinde) amid grubunu kaybeder ve aspartik asite dönüşür. Bu, kütlede sadece 1 dalton'luk bir fark yaratır ama bazı peptitlerin etkinliğini bozar.
+Geiger ve Clarke'ın klasik çalışması bu tepkimeleri model peptitlerde ölçtü. L-Val-L-Tyr-L-Pro-L-Asn-Gly-L-Ala dizili altı amino asitlik peptit, 37 °C ve pH 7,4'te asparajin kalıntısını kaybederek deamidasyona uğradı; bu tepkimenin yarı ömrü yalnızca 1,4 gündü. Ara ürün olan aspartil süksinimid sonra hidrolize olarak hem normal aspartil hem izoaspartil peptit karışımı verdi ve süksinimid ayrıca rasemize olarak L ve D formlarının karışmasına yol açtı. Asparajinin aspartik asitle değiştirilmesi süksinimid oluşumunu 34 kat yavaşlattı; glisin kalıntısının leusin ya da prolinle değiştirilmesi bozunmayı 33 ila 50 kat yavaşlattı. Yazarlar bu iki amino asidin proteinlerin kendiliğinden bozunması için "sıcak noktalar" olabileceğini yazdı [@3805008].
 
-Metiyonin, sistein, triptofan ve histidin gibi amino asitler oksijene duyarlıdır; metiyonin kolayca sülfoksit olur ve kütle 16 dalton artar. Rasemizasyon L amino asitlerin D formuna dönmesidir. Hidrofobik diziler zamanla birbirine yapışıp topaklanabilir ve cam ya da plastik yüzeylere tutunarak kayba yol açabilir.
+Bu çalışma model peptitler üzerindedir. Sonuç, deamidasyon hızının yalnızca amino asidin kendisine değil komşu kalıntıya da güçlü biçimde bağlı olduğunu göstermesi bakımından önemlidir.
 
-Bunların çoğu için ortak gerçek şu: su, sıcaklık, pH ve oksijen varlığında hız artar.
+## Kuru toz neden tercih edilir?
 
-## Kuru toz neden daha dayanıklı?
+Wang'ın derlemesine göre proteinlerin sınırlı fiziksel ve kimyasal kararlılığı yüzünden, makul bir raf ömrü için çoğu zaman katı forma getirilmeleri gerekir ve bunun için en yaygın yöntem liyofilizasyondur (dondurarak kurutma). Aynı derleme liyofilizasyonun kendisinin dondurma ve kurutma stresleri doğurduğunu, bunların proteinleri farklı derecelerde denatüre edebildiğini, koruyucu yardımcı maddelerle (kriyo ve liyoprotektanlar) bu hasarın azaltılabildiğini ve başarılı bir liyofilizasyondan sonra bile katı haldeki proteinin uzun vadeli saklama kararlılığının sınırlı kalabildiğini belirtir [@10967427]. Manning ve arkadaşlarının güncelleme derlemesi de kimyasal ve fiziksel kararsızlığı, sulu çözeltide ve kuru halde stabilizasyonu ve ikisi arasındaki ilişkiyi tartışır [@20143256].
 
-Liyofilizasyonda çözelti önce dondurulur, ardından vakum altında buzun doğrudan buhara geçmesi sağlanır. Elde edilen gözenekli kekte su neredeyse kalmamıştır; moleküler hareket büyük ölçüde durur ve suya bağımlı tepkimeler yavaşlar. Formülasyonlarda manitol ve trehaloz gibi dolgu ve koruyucu maddeler bulunur.
-
-Kalıntı nem miktarı bu yüzden kritiktir. CoA'larda Karl Fischer yöntemiyle su içeriğinin ayrıca bildirilmesinin nedeni budur.
-
-## Analizde nasıl görünür?
-
-Bozunma ürünleri HPLC'de ana pikin önünde ya da arkasında küçük pikler olarak belirir. Kütle spektrometrisinde deamidasyon +1 Da, oksidasyon +16 Da'luk kaymalarla fark edilir. Karşı iyon (TFA ya da asetat) ise hem toz kütlesini hem de hücre çalışmalarındaki biyolojik arka planı etkileyebilir. Bir numuneyi yorumlarken geçmişini bilmek bu nedenle önemlidir.
+Bu iki derleme proteinler için yazılmıştır; sonuçları kısa peptitlere aktarırken dikkatli olmak gerekir.

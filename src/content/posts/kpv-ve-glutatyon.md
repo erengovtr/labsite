@@ -1,26 +1,26 @@
 ---
-title: "KPV ve glutatyon: iki tripeptit, iki ayrı iş"
-description: "α-MSH'nin son üç amino asidi KPV ile hücrenin ana antioksidanı glutatyon aynı ürün adında anılıyor. Peki bilim ikisi hakkında ne söylüyor?"
+title: "KPV ve glutatyon: iki tripeptit, iki ayrı literatür"
+description: "KPV fare kolit modellerinde iltihabı azalttı. Glutatyon hücrenin en bol tiyolu. Birbirleriyle ilişkileri ise yok: ayrı ayrı ne biliniyor?"
 category: "Peptit Bilimi"
 tags: ["kpv-glutatyon", "KPV", "glutatyon", "α-MSH"]
 date: 2026-10-07
-references:
-  - "Dalmasso G, Charrier-Hisamuddin L, Nguyen HTT, et al. PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation. Gastroenterology. 2008;134:166–178."
-  - "Kannengiesser K, Maaser C, Heidemann J, et al. Melanocortin-derived tripeptide KPV has anti-inflammatory potential in murine models of inflammatory bowel disease. Inflamm Bowel Dis. 2008;14:324–331."
-  - "Lu SC. Glutathione synthesis. Biochim Biophys Acta. 2013;1830:3143–3153."
+sources: ["18061177", "18092346", "22995213", "24791752"]
+docs:
+  - title: "ClinicalTrials.gov: KPV çalışmaları (kayıt yok)"
+    url: "https://clinicaltrials.gov/search?intr=KPV"
 ---
-İki tripeptit aynı üründe buluşunca, ikisinin birlikte bir şey yaptığı izlenimi doğabilir. Oysa bilimsel olarak bu iki molekülün birbiriyle bir ilişkisi yok; sadece ikisi de üç amino asitten oluşuyor.
+Aynı ürün adında anılan iki molekülün birbiriyle biyolojik bir ilişkisi bulunduğunu gösteren bir kaynak bulamadık. İkisi de üç amino asitten oluşur; geri kalan her şey ayrı ayrı incelenmiştir.
 
 ## KPV
 
-Lizin-prolin-valin dizisi, melanosit uyarıcı hormon α-MSH'nin son üç amino asididir (11–13). α-MSH'nin iltihap karşıtı etkisinin büyük kısmını bu kuyruk bölümünün taşıdığı gösterilmiştir. Kolit modellerinde KPV'nin bağırsak epitel hücrelerindeki PepT1 taşıyıcısı üzerinden içeri girdiği ve NF-κB yolunu baskılayarak iltihap sinyallerini azalttığı görüldü. Etki hem hücre kültürlerinde hem de farelerde gözlendi.
+KPV, Lys-Pro-Val tripeptididir ve α-MSH hormonunun 11-13 numaralı amino asitlerine karşılık gelir [@18092346][@18061177]. Kannengiesser ve arkadaşları, KPV'nin iki farklı fare kolit modelinde iyileşmeyi hızlandırdığını, vücut ağırlığı kaybını azalttığını ve kolon dokusundaki iltihap hücresi birikimini ve miyeloperoksidaz aktivitesini düşürdüğünü bildirdi. Etkinin en azından kısmen MC1R reseptöründen bağımsız göründüğünü de ekledi [@18092346].
 
-Bunların hepsi hayvan ve hücre verisidir. KPV'nin insanlardaki etkisini sınayan kontrollü klinik çalışma henüz yok.
+Dalmasso ve arkadaşları mekanizmaya baktı: nanomolar derişimlerde KPV, hücre kültüründe NF-κB ve MAP kinaz iltihap yollarını baskıladı ve sitokin salgısını azalttı. Bu etki, bağırsak epitel ve bağışıklık hücrelerinde bulunan PepT1 taşıyıcısı üzerinden hücreye girmesine bağlıydı. İçme suyuna katılan KPV fare kolit modellerinde iltihap göstergelerini düşürdü [@18061177].
+
+İki çalışma da hücre kültürü ve farelerde yapıldı. İnsanda KPV ile yapılmış bir klinik çalışma bulamadık; ClinicalTrials.gov'da 13 Ekim 2026'da KPV için kayıtlı çalışma yoktu.
 
 ## Glutatyon
 
-Glutatyon (γ-Glu-Cys-Gly), hücrelerin milimolar düzeyde taşıdığı tiyol antioksidandır. Sistein, glutamat ve glisinden iki ATP'ye bağımlı adımla sentezlenir. Peroksitleri etkisizleştirir, ilaç ve toksin atılımına yardım eder ve hücrenin redoks durumunu belirler. İndirgenmiş (GSH) ve yükseltgenmiş (GSSG) glutatyon oranı, hücre sağlığının temel göstergelerinden biridir.
+Lu'nun derlemesine göre glutatyon (GSH), memeli dokularında en bol bulunan proteinsiz tiyoldür; oksidatif strese karşı savunma yapar, redoks sinyalini belirler, ksenobiyotiklerin detoksifikasyonunda rol alır ve hücre çoğalması, apoptoz, bağışıklık işlevi ve fibrojenezi düzenler. Sentezi sitozolde olur ve hız belirleyici basamak sistein bulunabilirliği ile glutamat sistein ligaz enzimidir [@22995213].
 
-Dışarıdan alınan glutatyonun hücre içi düzeyi ne ölçüde değiştirdiği tartışmalıdır; çünkü molekül bağırsakta peptidazlarla parçalanır ve hücreler onu doğrudan almaz, bileşenlerinden yeniden yapar.
-
-Birlikte anıldıklarında doğru okuma şudur: iki ayrı molekül, iki ayrı literatür.
+Dışarıdan alınan glutatyonun vücut depolarını artırıp artırmadığı tartışmalı bir sorudu. Richie ve arkadaşlarının 54 sigara içmeyen yetişkinle yaptığı 6 aylık, çift kör, plazebo kontrollü çalışmasında, ağızdan alınan glutatyon doza ve zamana bağlı olarak kan, alyuvar, plazma ve lenfosit glutatyon düzeylerini artırdı (yüksek dozda yaklaşık yüzde 30-35, yanak hücrelerinde yüzde 260). Bir aylık arınma döneminden sonra düzeyler başlangıca döndü; yüksek dozda doğal öldürücü hücre aktivitesi de plazeboya göre arttı [@24791752]. Yani insanlarda ağızdan alım, kan düzeylerinde ölçülebilir bir artışa yol açmıştır; bunun klinik anlamı bu çalışmayla gösterilmemiştir.
