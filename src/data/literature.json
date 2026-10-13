@@ -4169,6 +4169,26 @@
    "Review"
   ]
  },
+ "19953542": {
+  "pmid": "19953542",
+  "title": "De novo sequencing of peptides by MS/MS",
+  "authors": [
+   "Seidler J",
+   "Zinn N",
+   "Boehm ME",
+   "Lehmann WD"
+  ],
+  "journal": "Proteomics",
+  "year": "2010",
+  "volume": "10",
+  "issue": "4",
+  "pages": "634-49",
+  "doi": "10.1002/pmic.200900459",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "20089499": {
   "pmid": "20089499",
   "title": "Calcium metabolism in health and disease",
@@ -5278,6 +5298,25 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "21809624": {
+  "pmid": "21809624",
+  "title": "[Effects of introduction of short peptides before carotid artery occlusion on behaviour and caspase-3 activity in the brain of old rats]",
+  "authors": [
+   "Mendzheritskiĭ AM",
+   "Karantysh GV",
+   "Ivonina KO"
+  ],
+  "journal": "Adv Gerontol",
+  "year": "2011",
+  "volume": "24",
+  "issue": "1",
+  "pages": "74-9",
+  "doi": "",
+  "types": [
+   "Comparative Study",
+   "Journal Article"
+  ]
+ },
  "21816786": {
   "pmid": "21816786",
   "title": "Mechanism of action of a peroxisome proliferator-activated receptor (PPAR)-delta agonist on lipoprotein metabolism in dyslipidemic subjects with central obesity",
@@ -5316,6 +5355,29 @@
   "types": [
    "Journal Article",
    "Meta-Analysis"
+  ]
+ },
+ "21978084": {
+  "pmid": "21978084",
+  "title": "Pinealon increases cell viability by suppression of free radical levels and activating proliferative processes",
+  "authors": [
+   "Khavinson V",
+   "Ribakova Y",
+   "Kulebiakin K",
+   "Vladychenskaya E",
+   "Kozina L",
+   "Arutjunyan A",
+   "Boldyrev A"
+  ],
+  "journal": "Rejuvenation Res",
+  "year": "2011",
+  "volume": "14",
+  "issue": "5",
+  "pages": "535-41",
+  "doi": "10.1089/rej.2011.1172",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "21986303": {
@@ -5492,6 +5554,26 @@
    "Multicenter Study",
    "Randomized Controlled Trial",
    "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "22117547": {
+  "pmid": "22117547",
+  "title": "Penetration of short fluorescence-labeled peptides into the nucleus in HeLa cells and in vitro specific interaction of the peptides with deoxyribooligonucleotides and DNA",
+  "authors": [
+   "Fedoreyeva LI",
+   "Kireev II",
+   "Khavinson VKh",
+   "Vanyushin BF"
+  ],
+  "journal": "Biochemistry (Mosc)",
+  "year": "2011",
+  "volume": "76",
+  "issue": "11",
+  "pages": "1210-9",
+  "doi": "10.1134/S0006297911110022",
+  "types": [
+   "Journal Article",
    "Research Support, Non-U.S. Gov't"
   ]
  },
@@ -5741,6 +5823,27 @@
   "volume": "75",
   "issue": "2",
   "pages": "10-3",
+  "doi": "",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "22567179": {
+  "pmid": "22567179",
+  "title": "Pinealon protects the rat offspring from prenatal hyperhomocysteinemia",
+  "authors": [
+   "Arutjunyan A",
+   "Kozina L",
+   "Stvolinskiy S",
+   "Bulygina Y",
+   "Mashkina A",
+   "Khavinson V"
+  ],
+  "journal": "Int J Clin Exp Med",
+  "year": "2012",
+  "volume": "5",
+  "issue": "2",
+  "pages": "179-85",
   "doi": "",
   "types": [
    "Journal Article"
@@ -6934,6 +7037,28 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "24328107": {
+  "pmid": "24328107",
+  "title": "Site-specific characterization of (D)-amino acid containing peptide epimers by ion mobility spectrometry",
+  "authors": [
+   "Jia C",
+   "Lietz CB",
+   "Yu Q",
+   "Li L"
+  ],
+  "journal": "Anal Chem",
+  "year": "2014",
+  "volume": "86",
+  "issue": "6",
+  "pages": "2972-81",
+  "doi": "10.1021/ac4033824",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, Non-P.H.S."
+  ]
+ },
  "24334249": {
   "pmid": "24334249",
   "title": "Eruptive naevi and darkening of pre-existing naevi 24 h after a single mono-dose injection of melanotan II",
@@ -7348,6 +7473,29 @@
    "Journal Article"
   ]
  },
+ "24845350": {
+  "pmid": "24845350",
+  "title": "A quantitative tool to distinguish isobaric leucine and isoleucine residues for mass spectrometry-based de novo monoclonal antibody sequencing",
+  "authors": [
+   "Poston CN",
+   "Higgs RE",
+   "You J",
+   "Gelfanova V",
+   "Hale JE",
+   "Knierman MD",
+   "Siegel R",
+   "Gutierrez JA"
+  ],
+  "journal": "J Am Soc Mass Spectrom",
+  "year": "2014",
+  "volume": "25",
+  "issue": "7",
+  "pages": "1228-36",
+  "doi": "10.1007/s13361-014-0892-1",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "24912386": {
   "pmid": "24912386",
   "title": "Expert consensus document. The International Scientific Association for Probiotics and Prebiotics consensus statement on the scope and appropriate use of the term probiotic",
@@ -7466,6 +7614,25 @@
    "Journal Article",
    "Randomized Controlled Trial",
    "Research Support, N.I.H., Extramural"
+  ]
+ },
+ "25051764": {
+  "pmid": "25051764",
+  "title": "[Regulation of content of cytokines in blood serum and of caspase-3 activity in brains of old rats in model of sharp hypoxic hypoxia with Cortexin and Pinealon]",
+  "authors": [
+   "Mendzheritskiĭ AM",
+   "Karantysh GV",
+   "Ryzhak GA",
+   "Dem'ianenko SV"
+  ],
+  "journal": "Adv Gerontol",
+  "year": "2014",
+  "volume": "27",
+  "issue": "1",
+  "pages": "94-7",
+  "doi": "",
+  "types": [
+   "Journal Article"
   ]
  },
  "25080852": {
@@ -8123,6 +8290,25 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "25667941": {
+  "pmid": "25667941",
+  "title": "Lessons in de novo peptide sequencing by tandem mass spectrometry",
+  "authors": [
+   "Medzihradszky KF",
+   "Chalkley RJ"
+  ],
+  "journal": "Mass Spectrom Rev",
+  "year": "2015",
+  "volume": "34",
+  "issue": "1",
+  "pages": "43-63",
+  "doi": "10.1002/mas.21406",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Review"
+  ]
+ },
  "25678113": {
   "pmid": "25678113",
   "title": "Localized delivery of mechano-growth factor E-domain peptide via polymeric microstructures improves cardiac function following myocardial infarction",
@@ -8624,6 +8810,27 @@
   "types": [
    "Journal Article",
    "Randomized Controlled Trial"
+  ]
+ },
+ "26390612": {
+  "pmid": "26390612",
+  "title": "[EFFECT OF SYNTHETIC PEPTIDES ON AGING OF PATIENTS WITH CHRONIC POLYMORBIDITY AND ORGANIC BRAIN SYNDROME OF THE CENTRAL NERVOUS SYSTEM IN REMISSION]",
+  "authors": [
+   "Meshchaninov VN",
+   "Tkachenko EL",
+   "Zharkov SV",
+   "Gavrilov IV",
+   "Katyreva IuE"
+  ],
+  "journal": "Adv Gerontol",
+  "year": "2015",
+  "volume": "28",
+  "issue": "1",
+  "pages": "62-7",
+  "doi": "",
+  "types": [
+   "English Abstract",
+   "Journal Article"
   ]
  },
  "26391406": {
@@ -10145,6 +10352,25 @@
    "Randomized Controlled Trial"
   ]
  },
+ "28509493": {
+  "pmid": "28509493",
+  "title": "[Pinealon and Cortexin influence on behavior and neurochemical processes in 18-month aged rats within hypoxia and hypothermia]",
+  "authors": [
+   "Mendzheritsky AM",
+   "Karantysh GV",
+   "Ryzhak GA",
+   "Prokofiev VN"
+  ],
+  "journal": "Adv Gerontol",
+  "year": "2015",
+  "volume": "28",
+  "issue": "3",
+  "pages": "532-539",
+  "doi": "",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "28538729": {
   "pmid": "28538729",
   "title": "Cryo-EM structure of the activated GLP-1 receptor in complex with a G protein",
@@ -10585,6 +10811,26 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "28853087": {
+  "pmid": "28853087",
+  "title": "Tripeptides Restore the Number of Neuronal Spines under Conditions of In Vitro Modeled Alzheimer's Disease",
+  "authors": [
+   "Kraskovskaya NA",
+   "Kukanova EO",
+   "Lin'kova NS",
+   "Popugaeva EA",
+   "Khavinson VK"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2017",
+  "volume": "163",
+  "issue": "4",
+  "pages": "550-553",
+  "doi": "10.1007/s10517-017-3847-2",
+  "types": [
+   "Journal Article"
   ]
  },
  "28955242": {
@@ -13581,6 +13827,26 @@
    "Systematic Review"
   ]
  },
+ "32463663": {
+  "pmid": "32463663",
+  "title": "Simple Addition of Glycine in Trifluoroacetic Acid-Containing Mobile Phases Enhances the Sensitivity of Electrospray Ionization Mass Spectrometry for Biopharmaceutical Characterization",
+  "authors": [
+   "Mao Y",
+   "Kleinberg A",
+   "Zhao Y",
+   "Raidas S",
+   "Li N"
+  ],
+  "journal": "Anal Chem",
+  "year": "2020",
+  "volume": "92",
+  "issue": "13",
+  "pages": "8691-8696",
+  "doi": "10.1021/acs.analchem.0c01319",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "32469183": {
   "pmid": "32469183",
   "title": "Oral Relugolix for Androgen-Deprivation Therapy in Advanced Prostate Cancer",
@@ -14418,6 +14684,26 @@
    "Review"
   ]
  },
+ "33396470": {
+  "pmid": "33396470",
+  "title": "EDR Peptide: Possible Mechanism of Gene Expression and Protein Synthesis Regulation Involved in the Pathogenesis of Alzheimer's Disease",
+  "authors": [
+   "Khavinson V",
+   "Linkova N",
+   "Kozhevnikova E",
+   "Trofimova S"
+  ],
+  "journal": "Molecules",
+  "year": "2020",
+  "volume": "26",
+  "issue": "1",
+  "pages": "159",
+  "doi": "10.3390/molecules26010159",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "33418449": {
   "pmid": "33418449",
   "title": "Semax, synthetic ACTH(4-10) analogue, attenuates behavioural and neurochemical alterations following early-life fluvoxamine exposure in white rats",
@@ -14730,6 +15016,24 @@
    "Journal Article"
   ]
  },
+ "33683075": {
+  "pmid": "33683075",
+  "title": "Afamelanotide: An Orphan Drug with Potential for Broad Dermatologic Applications",
+  "authors": [
+   "Wu J",
+   "Cotliar R"
+  ],
+  "journal": "J Drugs Dermatol",
+  "year": "2021",
+  "volume": "20",
+  "issue": "3",
+  "pages": "290-294",
+  "doi": "10.36849/JDD.5526",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "33724446": {
   "pmid": "33724446",
   "title": "Zinc supplementation for improving pregnancy and infant outcome",
@@ -14931,6 +15235,29 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "34071923": {
+  "pmid": "34071923",
+  "title": "Neuroprotective Effects of Tripeptides-Epigenetic Regulators in Mouse Model of Alzheimer's Disease",
+  "authors": [
+   "Khavinson V",
+   "Ilina A",
+   "Kraskovskaya N",
+   "Linkova N",
+   "Kolchina N",
+   "Mironova E",
+   "Erofeev A",
+   "Petukhov M"
+  ],
+  "journal": "Pharmaceuticals (Basel)",
+  "year": "2021",
+  "volume": "14",
+  "issue": "6",
+  "pages": "515",
+  "doi": "10.3390/ph14060515",
+  "types": [
+   "Journal Article"
   ]
  },
  "34110145": {
@@ -16031,6 +16358,26 @@
   "types": [
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "35220308": {
+  "pmid": "35220308",
+  "title": "Long-Acting Growth Hormone Preparations and Their Use in Children with Growth Hormone Deficiency",
+  "authors": [
+   "Pampanini V",
+   "Deodati A",
+   "Inzaghi E",
+   "Cianfarani S"
+  ],
+  "journal": "Horm Res Paediatr",
+  "year": "2023",
+  "volume": "96",
+  "issue": "6",
+  "pages": "553-559",
+  "doi": "10.1159/000523791",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "35233331": {
@@ -19271,6 +19618,25 @@
    "Journal Article"
   ]
  },
+ "38053515": {
+  "pmid": "38053515",
+  "title": "Health-related quality of life in pre-pubertal children with pediatric growth hormone deficiency: 12-month results from a phase 3 clinical trial of once-weekly somatrogon versus once-daily somatropin",
+  "authors": [
+   "Loftus J",
+   "Quitmann J",
+   "Valluri SR"
+  ],
+  "journal": "Curr Med Res Opin",
+  "year": "2024",
+  "volume": "40",
+  "issue": "2",
+  "pages": "175-184",
+  "doi": "10.1080/03007995.2023.2290623",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "38059982": {
   "pmid": "38059982",
   "title": "Selective androgen receptor modulator use and related adverse events including drug-induced liver injury: Analysis of suspected cases",
@@ -19323,6 +19689,25 @@
    "Multicenter Study",
    "Randomized Controlled Trial",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "38112103": {
+  "pmid": "38112103",
+  "title": "Somatrogon injection for the treatment of pediatric growth hormone deficiency with comparison to other LAGH products",
+  "authors": [
+   "Velazquez EP",
+   "Miller BS",
+   "Yuen KCJ"
+  ],
+  "journal": "Expert Rev Endocrinol Metab",
+  "year": "2024",
+  "volume": "19",
+  "issue": "1",
+  "pages": "1-10",
+  "doi": "10.1080/17446651.2023.2290495",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "38140277": {
@@ -20148,6 +20533,25 @@
    "Journal Article"
   ]
  },
+ "38945136": {
+  "pmid": "38945136",
+  "title": "Childhood growth hormone treatment: challenges, opportunities, and considerations",
+  "authors": [
+   "Tidblad A",
+   "Sävendahl L"
+  ],
+  "journal": "Lancet Child Adolesc Health",
+  "year": "2024",
+  "volume": "8",
+  "issue": "8",
+  "pages": "600-610",
+  "doi": "10.1016/S2352-4642(24)00127-5",
+  "types": [
+   "Journal Article",
+   "Review",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "38958228": {
   "pmid": "38958228",
   "title": "Robust growth hormone responses to GH-releasing peptide 2 in adolescents",
@@ -20215,6 +20619,27 @@
    "Review",
    "Research Support, N.I.H., Extramural",
    "Research Support, U.S. Gov't, Non-P.H.S."
+  ]
+ },
+ "38992930": {
+  "pmid": "38992930",
+  "title": "Detection of the GH analog somatrogon in sports drug testing: Immunological approaches and LC-HRMS/MS",
+  "authors": [
+   "Walpurgis K",
+   "Thomas A",
+   "Sato M",
+   "Okano M",
+   "Geyer H",
+   "Thevis M"
+  ],
+  "journal": "Drug Test Anal",
+  "year": "2025",
+  "volume": "17",
+  "issue": "5",
+  "pages": "634-646",
+  "doi": "10.1002/dta.3766",
+  "types": [
+   "Journal Article"
   ]
  },
  "38996787": {
@@ -21847,6 +22272,26 @@
    "Systematic Review"
   ]
  },
+ "40049670": {
+  "pmid": "40049670",
+  "title": "Somatrogon in pediatric growth hormone deficiency: a comprehensive review of clinical trials and real-world considerations",
+  "authors": [
+   "Maniatis AK",
+   "Wajnrajch MP",
+   "Thomas M",
+   "Chung SB",
+   "Lee J"
+  ],
+  "journal": "Ann Pediatr Endocrinol Metab",
+  "year": "2025",
+  "volume": "30",
+  "issue": "1",
+  "pages": "11-16",
+  "doi": "10.6065/apem.2448258.129",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "40082741": {
   "pmid": "40082741",
   "title": "German Cohort Observational Study to Investigate the Short- and Long-Term Safety and Clinical Effectiveness of Afamelanotide 16 mg (SCENESSE) in Patients With Erythropoietic Protoporphyria (EPP)",
@@ -23028,6 +23473,25 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "41136006": {
+  "pmid": "41136006",
+  "title": "Back to basic: Using ammonium hydroxide to improve peptide epimer/isomer liquid chromatography separations",
+  "authors": [
+   "Dhaubhadel U",
+   "Patel A",
+   "Armstrong DW"
+  ],
+  "journal": "Anal Chim Acta",
+  "year": "2025",
+  "volume": "1378",
+  "issue": "",
+  "pages": "344707",
+  "doi": "10.1016/j.aca.2025.344707",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "41156531": {
   "pmid": "41156531",
   "title": "Marine-Based Omega-3 Fatty Acids and Metabolic Syndrome: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
@@ -23410,6 +23874,24 @@
    "Systematic Review"
   ]
  },
+ "41489668": {
+  "pmid": "41489668",
+  "title": "[Hormones and skin pigmentation: fundamentals and clinical relevance]",
+  "authors": [
+   "Böhm M"
+  ],
+  "journal": "Dermatologie (Heidelb)",
+  "year": "2026",
+  "volume": "77",
+  "issue": "1",
+  "pages": "9-17",
+  "doi": "10.1007/s00105-025-05636-4",
+  "types": [
+   "English Abstract",
+   "Journal Article",
+   "Review"
+  ]
+ },
  "41490200": {
   "pmid": "41490200",
   "title": "Therapeutic Peptides in Orthopaedics: Applications, Challenges, and Future Directions",
@@ -23479,6 +23961,29 @@
    "Clinical Trial, Phase II",
    "Randomized Controlled Trial",
    "Multicenter Study"
+  ]
+ },
+ "41539984": {
+  "pmid": "41539984",
+  "title": "Identification and Quantification of Structurally Related Peptide Impurity in Linaclotide by Liquid Chromatography-High Resolution Mass Spectrometry",
+  "authors": [
+   "Cheng J",
+   "Zhang T",
+   "Cui X",
+   "Wu P",
+   "Li M",
+   "Hu W",
+   "Dai X",
+   "Feng X"
+  ],
+  "journal": "Rapid Commun Mass Spectrom",
+  "year": "2026",
+  "volume": "40",
+  "issue": "7",
+  "pages": "e70030",
+  "doi": "10.1002/rcm.70030",
+  "types": [
+   "Journal Article"
   ]
  },
  "41540253": {
@@ -23866,6 +24371,27 @@
    "Systematic Review",
    "Meta-Analysis",
    "Comparative Study"
+  ]
+ },
+ "41837704": {
+  "pmid": "41837704",
+  "title": "Once-Weekly Somatrogon in Pediatric Growth Hormone Deficiency: Real-World Efficacy, Safety, and Quality-of-Life Findings",
+  "authors": [
+   "Şen Küçük K",
+   "Güneş S",
+   "Dinçer M",
+   "Öztürk S",
+   "Ünüvar T",
+   "Anık A"
+  ],
+  "journal": "J Clin Res Pediatr Endocrinol",
+  "year": "2026",
+  "volume": "18",
+  "issue": "2",
+  "pages": "323-332",
+  "doi": "10.4274/jcrpe.galenos.2026.2025-11-4",
+  "types": [
+   "Journal Article"
   ]
  },
  "41879875": {
@@ -24938,6 +25464,23 @@
   "types": [
    "Comparative Study",
    "Journal Article"
+  ]
+ },
+ "6353575": {
+  "pmid": "6353575",
+  "title": "High-performance liquid chromatography of biopolymers",
+  "authors": [
+   "Regnier FE"
+  ],
+  "journal": "Science",
+  "year": "1983",
+  "volume": "222",
+  "issue": "4621",
+  "pages": "245-52",
+  "doi": "10.1126/science.6353575",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "6358816": {
