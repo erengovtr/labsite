@@ -4201,6 +4201,35 @@
    "Letter"
   ]
  },
+ "19623253": {
+  "pmid": "19623253",
+  "title": "Humanin: a novel central regulator of peripheral insulin action",
+  "authors": [
+   "Muzumdar RH",
+   "Huffman DM",
+   "Atzmon G",
+   "Buettner C",
+   "Cobb LJ",
+   "Fishman S",
+   "Budagov T",
+   "Cui L",
+   "Einstein FH",
+   "Poduval A",
+   "Hwang D",
+   "Barzilai N",
+   "Cohen P"
+  ],
+  "journal": "PLoS One",
+  "year": "2009",
+  "volume": "4",
+  "issue": "7",
+  "pages": "e6334",
+  "doi": "10.1371/journal.pone.0006334",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ]
+ },
  "19633950": {
   "pmid": "19633950",
   "title": "Semax and Pro-Gly-Pro activate the transcription of neurotrophins and their receptor genes after cerebral ischemia",
@@ -6645,6 +6674,26 @@
    "Review"
   ]
  },
+ "23303050": {
+  "pmid": "23303050",
+  "title": "Thyrotropin-releasing hormone receptor type 1 (TRH-R1), not TRH-R2, primarily mediates taltirelin actions in the CNS of mice",
+  "authors": [
+   "Thirunarayanan N",
+   "Nir EA",
+   "Raaka BM",
+   "Gershengorn MC"
+  ],
+  "journal": "Neuropsychopharmacology",
+  "year": "2013",
+  "volume": "38",
+  "issue": "6",
+  "pages": "950-6",
+  "doi": "10.1038/npp.2012.256",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Intramural"
+  ]
+ },
  "23327199": {
   "pmid": "23327199",
   "title": "The efficacy of thymosin alpha 1 for severe sepsis (ETASS): a multicenter, single-blind, randomized and controlled trial",
@@ -8633,6 +8682,34 @@
   "doi": "10.1007/s11095-015-1652-z",
   "types": [
    "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "25738459": {
+  "pmid": "25738459",
+  "title": "The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance",
+  "authors": [
+   "Lee C",
+   "Zeng J",
+   "Drew BG",
+   "Sallam T",
+   "Martin-Montalvo A",
+   "Wan J",
+   "Kim SJ",
+   "Mehta H",
+   "Hevener AL",
+   "de Cabo R",
+   "Cohen P"
+  ],
+  "journal": "Cell Metab",
+  "year": "2015",
+  "volume": "21",
+  "issue": "3",
+  "pages": "443-54",
+  "doi": "10.1016/j.cmet.2015.02.009",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
    "Research Support, Non-U.S. Gov't"
   ]
  },
@@ -11418,6 +11495,34 @@
    "Research Support, N.I.H., Extramural"
   ]
  },
+ "29187525": {
+  "pmid": "29187525",
+  "title": "Humanin is an endogenous activator of chaperone-mediated autophagy",
+  "authors": [
+   "Gong Z",
+   "Tasset I",
+   "Diaz A",
+   "Anguiano J",
+   "Tas E",
+   "Cui L",
+   "Kuliawat R",
+   "Liu H",
+   "Kühn B",
+   "Cuervo AM",
+   "Muzumdar R"
+  ],
+  "journal": "J Cell Biol",
+  "year": "2018",
+  "volume": "217",
+  "issue": "2",
+  "pages": "635-647",
+  "doi": "10.1083/jcb.201606095",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "29222993": {
   "pmid": "29222993",
   "title": "Supplementation of gamma-aminobutyric acid (GABA) affects temporal, but not spatial visual attention",
@@ -11437,6 +11542,29 @@
   "types": [
    "Journal Article",
    "Randomized Controlled Trial"
+  ]
+ },
+ "29242099": {
+  "pmid": "29242099",
+  "title": "Downregulation of circulating MOTS-c levels in patients with coronary endothelial dysfunction",
+  "authors": [
+   "Qin Q",
+   "Delrio S",
+   "Wan J",
+   "Jay Widmer R",
+   "Cohen P",
+   "Lerman LO",
+   "Lerman A"
+  ],
+  "journal": "Int J Cardiol",
+  "year": "2018",
+  "volume": "254",
+  "issue": "",
+  "pages": "23-27",
+  "doi": "10.1016/j.ijcard.2017.12.001",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "29337906": {
@@ -11710,6 +11838,31 @@
    "Journal Article",
    "Research Support, Non-U.S. Gov't",
    "Systematic Review"
+  ]
+ },
+ "29691953": {
+  "pmid": "29691953",
+  "title": "Circulating MOTS-c levels are decreased in obese male children and adolescents and associated with insulin resistance",
+  "authors": [
+   "Du C",
+   "Zhang C",
+   "Wu W",
+   "Liang Y",
+   "Wang A",
+   "Wu S",
+   "Zhao Y",
+   "Hou L",
+   "Ning Q",
+   "Luo X"
+  ],
+  "journal": "Pediatr Diabetes",
+  "year": "2018",
+  "volume": "",
+  "issue": "",
+  "pages": "10.1111/pedi.12685",
+  "doi": "10.1111/pedi.12685",
+  "types": [
+   "Journal Article"
   ]
  },
  "29703997": {
@@ -12370,6 +12523,42 @@
    "Journal Article"
   ]
  },
+ "30242290": {
+  "pmid": "30242290",
+  "title": "Humanin Prevents Age-Related Cognitive Decline in Mice and is Associated with Improved Cognitive Age in Humans",
+  "authors": [
+   "Yen K",
+   "Wan J",
+   "Mehta HH",
+   "Miller B",
+   "Christensen A",
+   "Levine ME",
+   "Salomon MP",
+   "Brandhorst S",
+   "Xiao J",
+   "Kim SJ",
+   "Navarrete G",
+   "Campo D",
+   "Harry GJ",
+   "Longo V",
+   "Pike CJ",
+   "Mack WJ",
+   "Hodis HN",
+   "Crimmins EM",
+   "Cohen P"
+  ],
+  "journal": "Sci Rep",
+  "year": "2018",
+  "volume": "8",
+  "issue": "1",
+  "pages": "14212",
+  "doi": "10.1038/s41598-018-32616-7",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, U.S. Gov't, Non-P.H.S."
+  ]
+ },
  "30255741": {
   "pmid": "30255741",
   "title": "Peptide-based Anxiolytics: The Molecular Aspects of Heptapeptide Selank Biological Activity",
@@ -12665,6 +12854,31 @@
   "types": [
    "Journal Article",
    "Validation Study"
+  ]
+ },
+ "30582721": {
+  "pmid": "30582721",
+  "title": "Mitochondrial-derived peptide humanin as therapeutic target in cancer and degenerative diseases",
+  "authors": [
+   "Zuccato CF",
+   "Asad AS",
+   "Nicola Candia AJ",
+   "Gottardo MF",
+   "Moreno Ayala MA",
+   "Theas MS",
+   "Seilicovich A",
+   "Candolfi M"
+  ],
+  "journal": "Expert Opin Ther Targets",
+  "year": "2019",
+  "volume": "23",
+  "issue": "2",
+  "pages": "117-126",
+  "doi": "10.1080/14728222.2019.1559300",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Review"
   ]
  },
  "30587933": {
@@ -13254,6 +13468,26 @@
    "Multicenter Study",
    "Randomized Controlled Trial",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "31378979": {
+  "pmid": "31378979",
+  "title": "MOTS-c: A Mitochondrial-Encoded Regulator of the Nucleus",
+  "authors": [
+   "Benayoun BA",
+   "Lee C"
+  ],
+  "journal": "Bioessays",
+  "year": "2019",
+  "volume": "41",
+  "issue": "9",
+  "pages": "e1900046",
+  "doi": "10.1002/bies.201900046",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't",
+   "Review"
   ]
  },
  "31405892": {
@@ -14418,6 +14652,47 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "32575074": {
+  "pmid": "32575074",
+  "title": "The mitochondrial derived peptide humanin is a regulator of lifespan and healthspan",
+  "authors": [
+   "Yen K",
+   "Mehta HH",
+   "Kim SJ",
+   "Lue Y",
+   "Hoang J",
+   "Guerrero N",
+   "Port J",
+   "Bi Q",
+   "Navarrete G",
+   "Brandhorst S",
+   "Lewis KN",
+   "Wan J",
+   "Swerdloff R",
+   "Mattison JA",
+   "Buffenstein R",
+   "Breton CV",
+   "Wang C",
+   "Longo V",
+   "Atzmon G",
+   "Wallace D",
+   "Barzilai N",
+   "Cohen P"
+  ],
+  "journal": "Aging (Albany NY)",
+  "year": "2020",
+  "volume": "12",
+  "issue": "12",
+  "pages": "11185-11199",
+  "doi": "10.18632/aging.103534",
+  "types": [
+   "Journal Article",
+   "Observational Study",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, N.I.H., Intramural",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "32581767": {
   "pmid": "32581767",
   "title": "Prevention of Early Alzheimer's Disease by Erinacine A-Enriched Hericium erinaceus Mycelia Pilot Double-Blind Placebo-Controlled Study",
@@ -14544,6 +14819,31 @@
    "Journal Article",
    "Randomized Controlled Trial",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "32690176": {
+  "pmid": "32690176",
+  "title": "The effect of berberine supplementation on obesity parameters, inflammation and liver function enzymes: A systematic review and meta-analysis of randomized controlled trials",
+  "authors": [
+   "Asbaghi O",
+   "Ghanbari N",
+   "Shekari M",
+   "Reiner Ž",
+   "Amirani E",
+   "Hallajzadeh J",
+   "Mirsafaei L",
+   "Asemi Z"
+  ],
+  "journal": "Clin Nutr ESPEN",
+  "year": "2020",
+  "volume": "38",
+  "issue": "",
+  "pages": "43-49",
+  "doi": "10.1016/j.clnesp.2020.04.010",
+  "types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Systematic Review"
   ]
  },
  "32702243": {
@@ -15271,6 +15571,35 @@
    "Journal Article",
    "Meta-Analysis",
    "Systematic Review"
+  ]
+ },
+ "33473109": {
+  "pmid": "33473109",
+  "title": "MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis",
+  "authors": [
+   "Reynolds JC",
+   "Lai RW",
+   "Woodhead JST",
+   "Joly JH",
+   "Mitchell CJ",
+   "Cameron-Smith D",
+   "Lu R",
+   "Cohen P",
+   "Graham NA",
+   "Benayoun BA",
+   "Merry TL",
+   "Lee C"
+  ],
+  "journal": "Nat Commun",
+  "year": "2021",
+  "volume": "12",
+  "issue": "1",
+  "pages": "470",
+  "doi": "10.1038/s41467-020-20790-0",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "33482052": {
@@ -16220,6 +16549,32 @@
    "Review"
   ]
  },
+ "34419510": {
+  "pmid": "34419510",
+  "title": "Plasma mitochondrial derived peptides MOTS-c and SHLP2 positively associate with android and liver fat in people without diabetes",
+  "authors": [
+   "Sequeira IR",
+   "Woodhead JST",
+   "Chan A",
+   "D'Souza RF",
+   "Wan J",
+   "Hollingsworth KG",
+   "Plank LD",
+   "Cohen P",
+   "Poppitt SD",
+   "Merry TL"
+  ],
+  "journal": "Biochim Biophys Acta Gen Subj",
+  "year": "2021",
+  "volume": "1865",
+  "issue": "11",
+  "pages": "129991",
+  "doi": "10.1016/j.bbagen.2021.129991",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "34432056": {
   "pmid": "34432056",
   "title": "B vitamins and prevention of cognitive decline and incident dementia: a systematic review and meta-analysis",
@@ -16305,6 +16660,57 @@
   "doi": "10.3390/molecules26175173",
   "types": [
    "Journal Article"
+  ]
+ },
+ "34509605": {
+  "pmid": "34509605",
+  "title": "Efficacy and safety of berberine in preventing recurrence of colorectal adenomas: A systematic review and meta-analysis",
+  "authors": [
+   "Fang S",
+   "Guo S",
+   "Du S",
+   "Cao Z",
+   "Yang Y",
+   "Su X",
+   "Wei W"
+  ],
+  "journal": "J Ethnopharmacol",
+  "year": "2022",
+  "volume": "282",
+  "issue": "",
+  "pages": "114617",
+  "doi": "10.1016/j.jep.2021.114617",
+  "types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Systematic Review"
+  ]
+ },
+ "34525397": {
+  "pmid": "34525397",
+  "title": "Circulating humanin is lower in coronary artery disease and is a prognostic biomarker for major cardiac events in humans",
+  "authors": [
+   "Cai H",
+   "Cao P",
+   "Sun W",
+   "Shao W",
+   "Li R",
+   "Wang L",
+   "Zou L",
+   "Forno E",
+   "Muzumdar R",
+   "Gong Z",
+   "Zheng Y"
+  ],
+  "journal": "Biochim Biophys Acta Gen Subj",
+  "year": "2022",
+  "volume": "1866",
+  "issue": "1",
+  "pages": "130010",
+  "doi": "10.1016/j.bbagen.2021.130010",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "34528723": {
@@ -16612,6 +17018,30 @@
    "Journal Article",
    "Multicenter Study",
    "Randomized Controlled Trial"
+  ]
+ },
+ "34798268": {
+  "pmid": "34798268",
+  "title": "The mitochondrial-derived peptide MOTS-c relieves hyperglycemia and insulin resistance in gestational diabetes mellitus",
+  "authors": [
+   "Yin Y",
+   "Pan Y",
+   "He J",
+   "Zhong H",
+   "Wu Y",
+   "Ji C",
+   "Liu L",
+   "Cui X"
+  ],
+  "journal": "Pharmacol Res",
+  "year": "2022",
+  "volume": "175",
+  "issue": "",
+  "pages": "105987",
+  "doi": "10.1016/j.phrs.2021.105987",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "34834147": {
@@ -18007,6 +18437,27 @@
    "Journal Article"
   ]
  },
+ "36233287": {
+  "pmid": "36233287",
+  "title": "MOTS-c, the Most Recent Mitochondrial Derived Peptide in Human Aging and Age-Related Diseases",
+  "authors": [
+   "Mohtashami Z",
+   "Singh MK",
+   "Salimiaghdam N",
+   "Ozgul M",
+   "Kenney MC"
+  ],
+  "journal": "Int J Mol Sci",
+  "year": "2022",
+  "volume": "23",
+  "issue": "19",
+  "pages": "11991",
+  "doi": "10.3390/ijms231911991",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "36237547": {
   "pmid": "36237547",
   "title": "Efficacy and safety of methylene blue in patients with vasodilatory shock: A systematic review and meta-analysis",
@@ -18529,6 +18980,26 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "36761202": {
+  "pmid": "36761202",
+  "title": "MOTS-c: A promising mitochondrial-derived peptide for therapeutic exploitation",
+  "authors": [
+   "Zheng Y",
+   "Wei Z",
+   "Wang T"
+  ],
+  "journal": "Front Endocrinol (Lausanne)",
+  "year": "2023",
+  "volume": "14",
+  "issue": "",
+  "pages": "1120533",
+  "doi": "10.3389/fendo.2023.1120533",
+  "types": [
+   "Journal Article",
+   "Review",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "36776367": {
   "pmid": "36776367",
   "title": "Safety and efficacy of the pan-FGFR inhibitor erdafitinib in advanced urothelial carcinoma and other solid tumors: A systematic review and meta-analysis",
@@ -18828,6 +19299,29 @@
    "Review",
    "Journal Article",
    "Research Support, N.I.H., Extramural"
+  ]
+ },
+ "37106758": {
+  "pmid": "37106758",
+  "title": "Humanin and Its Pathophysiological Roles in Aging: A Systematic Review",
+  "authors": [
+   "Coradduzza D",
+   "Congiargiu A",
+   "Chen Z",
+   "Cruciani S",
+   "Zinellu A",
+   "Carru C",
+   "Medici S"
+  ],
+  "journal": "Biology (Basel)",
+  "year": "2023",
+  "volume": "12",
+  "issue": "4",
+  "pages": "558",
+  "doi": "10.3390/biology12040558",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "37130601": {
@@ -20304,6 +20798,33 @@
    "Journal Article"
   ]
  },
+ "38170165": {
+  "pmid": "38170165",
+  "title": "Mitochondrial-derived microprotein MOTS-c attenuates immobilization-induced skeletal muscle atrophy by suppressing lipid infiltration",
+  "authors": [
+   "Kumagai H",
+   "Kim SJ",
+   "Miller B",
+   "Natsume T",
+   "Wan J",
+   "Kumagai ME",
+   "Ramirez R",
+   "Lee SH",
+   "Sato A",
+   "Mehta HH",
+   "Yen K",
+   "Cohen P"
+  ],
+  "journal": "Am J Physiol Endocrinol Metab",
+  "year": "2024",
+  "volume": "326",
+  "issue": "3",
+  "pages": "E207-E214",
+  "doi": "10.1152/ajpendo.00285.2023",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "38198662": {
   "pmid": "38198662",
   "title": "The effect of pre-exercise oral hyperhydration on endurance exercise performance, heart rate, and thermoregulation: a meta-analytical review",
@@ -21754,6 +22275,31 @@
    "Journal Article"
   ]
  },
+ "39321430": {
+  "pmid": "39321430",
+  "title": "Mitochondrial-Derived Peptide MOTS-c Suppresses Ovarian Cancer Progression by Attenuating USP7-Mediated LARS1 Deubiquitination",
+  "authors": [
+   "Yin Y",
+   "Li Y",
+   "Ma B",
+   "Ren C",
+   "Zhao S",
+   "Li J",
+   "Gong Y",
+   "Yang H",
+   "Li J"
+  ],
+  "journal": "Adv Sci (Weinh)",
+  "year": "2024",
+  "volume": "11",
+  "issue": "43",
+  "pages": "e2405620",
+  "doi": "10.1002/advs.202405620",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "39325560": {
   "pmid": "39325560",
   "title": "Effect of BPC-157 on Symptoms in Patients with Interstitial Cystitis: A Pilot Study",
@@ -22226,6 +22772,56 @@
    "Systematic Review",
    "Research Support, U.S. Gov't, Non-P.H.S.",
    "Research Support, N.I.H., Extramural"
+  ]
+ },
+ "39559755": {
+  "pmid": "39559755",
+  "title": "MOTS-c modulates skeletal muscle function by directly binding and activating CK2",
+  "authors": [
+   "Kumagai H",
+   "Kim SJ",
+   "Miller B",
+   "Zempo H",
+   "Tanisawa K",
+   "Natsume T",
+   "Lee SH",
+   "Wan J",
+   "Leelaprachakul N",
+   "Kumagai ME",
+   "Ramirez R",
+   "Mehta HH",
+   "Cao K",
+   "Oh TJ",
+   "Wohlschlegel JA",
+   "Sha J",
+   "Nishida Y",
+   "Fuku N",
+   "Dobashi S",
+   "Miyamoto-Mikami E",
+   "Takaragawa M",
+   "Fuku M",
+   "Yoshihara T",
+   "Naito H",
+   "Kawakami R",
+   "Torii S",
+   "Midorikawa T",
+   "Oka K",
+   "Hara M",
+   "Iwasaka C",
+   "Yamada Y",
+   "Higaki Y",
+   "Tanaka K",
+   "Yen K",
+   "Cohen P"
+  ],
+  "journal": "iScience",
+  "year": "2024",
+  "volume": "27",
+  "issue": "11",
+  "pages": "111212",
+  "doi": "10.1016/j.isci.2024.111212",
+  "types": [
+   "Journal Article"
   ]
  },
  "39610283": {
@@ -24543,6 +25139,36 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "41520850": {
+  "pmid": "41520850",
+  "title": "MOTS-c improves intrinsic muscle mitochondrial bioenergetic health and efficiency in a PGC-1α/AMPK-dependent manner",
+  "authors": [
+   "Gudiksen A",
+   "Hansen CC",
+   "van der Stede T",
+   "Daugaard AH",
+   "Schmidt JH",
+   "Ringholm S",
+   "Merimi M",
+   "Al-Obaidi FR",
+   "Kristoffersen AT",
+   "Zole E",
+   "Regenberg B",
+   "Kjøbsted R",
+   "Wojtaszewski J",
+   "Hellsten Y",
+   "Pilegaard H"
+  ],
+  "journal": "Free Radic Biol Med",
+  "year": "2026",
+  "volume": "246",
+  "issue": "",
+  "pages": "682-696",
+  "doi": "10.1016/j.freeradbiomed.2026.01.002",
+  "types": [
+   "Journal Article"
   ]
  },
  "41527408": {
