@@ -19,7 +19,7 @@ facts:
   - { label: "Sepsis (faz 3, n=1106)", value: "28 günlük ölüm: %23,4 (timozin) ve %24,1 (plasebo), HR 0,99 (%95 GA 0,77-1,27) [@39814420]" }
   - { label: "Sepsis (önceki RCT, n=361)", value: "28 günlük ölüm: %26,0 ve %35,0, RR 0,74 (%95 GA 0,54-1,02), sınırda anlamlılık [@23327199]" }
   - { label: "COVID-19 (pilot RCT, n=49)", value: "Klinik iyileşmede anlamlı fark yok; düşük akımlı oksijen grubunda CD4+ T hücresi artışı [@36056913]" }
-  - { label: "Düzenleyici durum", value: "13 Ekim 2026'da openFDA drugsfda ve DailyMed'de thymalfasin kaydı bulunmadı; diğer ülkelerdeki ruhsat durumu doğrulanmadı" }
+  - { label: "Düzenleyici durum", value: "Onaylı ilaç değil" }
 ---
 Timozin alfa-1 (Tα1), timus dokusundan izole edilmiş ve timektomili farelerde bağışıklık işlevini geri getiren bileşen olarak tanımlanmış bir peptittir; birden fazla bağışıklık hücresi alt grubunu etkilediği, özellikle dendritik hücrelerde Toll benzeri reseptörler üzerinden sinyal verdiği bildirilmiştir [@27450734]. Sentetik formu thymalfasin adıyla çalışılmıştır. Deney modellerinde interferon ve kemoterapiyle birleşimin etkisi gösterilmiş, ilk insan çalışmaları akciğer kanseri, melanom ve hepatit üzerinde yapılmıştır [@17600290].
 

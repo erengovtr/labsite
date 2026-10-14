@@ -20,7 +20,7 @@ facts:
   - { label: "Antenatal TRH", value: "ACTOBAT: 1.234 kadın; RDS ve ventilasyon gereksinimi TRH grubunda yüksek [@7707809]" }
   - { label: "Analog", value: "Taltirelin hidrat: spinoserebellar dejenerasyonda 149 hastalık randomize çalışma [@39428104]" }
 ---
-Tirotropin salgılatıcı hormon (TRH), hipotalamusta üretilen ve tirotrop hücrelerden TSH salgısını uyaran bir peptittir; tiroid hormonlarının geri bildirim düzenlemesinde yer alır. Tiroid dışında enerji metabolizması ve prolaktin salgısıyla da ilişkilidir; hızla yıkıldığı ve çok sayıda hedefi olduğu için biyobelirteç ve ilaç adayı olarak sınırlıdır [@29935915]. Protirelin adıyla Drugs@FDA'da iki kayıt vardır (Thypinone, Thyrel TRH); ikisi de 13 Ekim 2026 itibarıyla kesilmiş ürün olarak listelenmektedir.
+Tirotropin salgılatıcı hormon (TRH), hipotalamusta üretilen ve tirotrop hücrelerden TSH salgısını uyaran bir peptittir; tiroid hormonlarının geri bildirim düzenlemesinde yer alır. Tiroid dışında enerji metabolizması ve prolaktin salgısıyla da ilişkilidir; hızla yıkıldığı ve çok sayıda hedefi olduğu için biyobelirteç ve ilaç adayı olarak sınırlıdır [@29935915].
 
 Tanı amaçlı TRH uyarı testi, günümüzde az kullanılmaktadır [@29935915]; yine de Sheehan sendromlu 72 hastada, serbest T4 normal ya da düşük-normal olan 10 hastada (yüzde 13,8) santral hipotiroidinin TRH testiyle saptandığı bildirilmiştir [@17614773].
 

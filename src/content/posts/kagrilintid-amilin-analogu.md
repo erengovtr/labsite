@@ -70,7 +70,7 @@ Tüm çalışmalarda en sık yan etkiler mide-bağırsak kaynaklıydı: bulantı
 
 ## Düzenleyici durum
 
-13 Ekim 2026'da openFDA drugsfda API'sinde kagrilintid için genel ad ve etken madde adıyla yaptığımız aramalar sonuç vermedi; yani Drugs@FDA kaydında bu etken madde için bir onay bulunmuyordu. ClinicalTrials.gov'da kagrilintid içeren 44 çalışma listeleniyor; faz 3 filtresiyle 22 çalışma dönüyor. Bu sayılar kayıt sistemlerinin o günkü sorgusudur ve değişir. Kagrilintid ya da CagriSema için başka bir düzenleyici kurumdaki (örneğin EMA) durumu bu yazı için doğrulayamadık; bu nedenle onay iddiasında bulunmuyoruz. Bileşiği bir araştırma maddesi olarak değerlendirmek, güncel durum için kayıt sistemlerine bakmak gerekir.
+ClinicalTrials.gov'da kagrilintid içeren 44 çalışma listeleniyor; faz 3 filtresiyle 22 çalışma dönüyor. Bileşiği bir araştırma maddesi olarak değerlendirmek, güncel durum için kayıt sistemlerine bakmak gerekir.
 
 ## Sınırlar ve bilinmeyenler
 

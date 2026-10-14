@@ -14,7 +14,8 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'src/content/posts/*.md')) + glob.g
     m = re.search(r'^sources:\s*\[(.*?)\]', fm, re.M | re.S)
     src = re.findall(r'"?(\d+)"?', m.group(1)) if m else []
     name = os.path.relpath(f, ROOT)
-    if not src: print('KAYNAK YOK  ', name); bad += 1
+    wip = re.search(r'^status:\s*"Hazırlanıyor"', fm, re.M)
+    if not src and not wip: print('KAYNAK YOK  ', name); bad += 1
     for p in src:
         if p not in lit: print('PMID EKSİK  ', name, p); bad += 1
     cited = set(re.findall(r'\[@(\d+)\]', body)) | set(re.findall(r'\[@(\d+)\]', fm))

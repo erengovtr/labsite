@@ -2,7 +2,7 @@
 name: "NAD+"
 tagline: "Redoks tepkimelerinde ve sirtuin, PARP, CD38 gibi enzimlerde kofaktör olan nükleotid."
 category: "Koenzim · Hücre enerjisi ve yaşlanma"
-status: "Endojen koenzim; Drugs@FDA/openFDA drugsfda'da NAD+ için ilaç kaydı bulunmadı"
+status: "Endojen koenzim; onaylı ilaç değil"
 tag: "nad"
 group: "Araştırma bileşiği"
 order: 412

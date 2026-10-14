@@ -2,7 +2,7 @@
 name: "Kozmetik peptitler"
 tagline: "Matrixyl (pal-KTTKS), Argireline (asetil heksapeptit), Snap-8 ve Syn-Ake gibi cilt bakım ürünlerinde kullanılan kısa peptitlerin literatür özeti."
 category: "Peptit · Kozmetik"
-status: "Araştırma bileşiği: onaylı ilaç değil (drugsfda'da bu etken maddeler için kayıt bulunamadı)"
+status: "Araştırma bileşiği: onaylı ilaç değil"
 tag: "kozmetik-peptitler"
 group: "Araştırma bileşiği"
 order: 708
@@ -22,4 +22,4 @@ Matrixyl olarak anılan palmitoil-KTTKS (pal-KTTKS), kolajenin proteolizinden do
 
 Argireline'ın SNAP-25'in N-ucundan türetilmiş sentetik bir peptit olduğu ve SNARE kompleksi oluşumunu bozarak nörotransmitter salınımını etkilediği ileri sürülür [@23417317]. 60 Çinli gönüllüde göz çevresi kırışıklıkları için 4 hafta uygulanan Argireline'da öznel etkinlik yüzde 48,9, plasebo grubunda yüzde 0 bulunmuş, silikon replika ölçümlerinde pürüzlülük azalmıştır; örneklem küçük ve süre kısadır [@23417317]. Yaşlandırılmış farelerde tip I kolajen lifleri artmıştır [@23464592]. Hücre kültüründe antiproliferatif etki doksorubisinden 18 ila 10.000 kat yüksek derişimlerde görülmüştür [@24644551]. Mekanizmanın cilde uygulanınca nöromüsküler kavşağa ulaşıp ulaşmadığı belirsizdir: bir derleme asetil heksapeptit-8'in düşük cilt geçirgenliğine ve kas kasılmasını durdurma mekanizmasının tam anlaşılmadığına dikkat çeker [@40565185]. İnsan kadavra derisinde dozun yalnızca yaklaşık yüzde 0,22'si stratum korneumda kalmış, dermiste peptit bulunamamıştır [@24754410]. Argireline ile asetil heksapeptit-8 eşleşmesi bu özetlerin hepsinde açıkça yazılı değildir; eşleşmeyi varsayıyoruz.
 
-Doğrulayamadıklarımız: "Snap-8" adıyla PubMed kaydı bulunamadı. Asetil oktapeptit-3 yalnızca diğer bileşenlerle birlikte mikroiğne yamalarında test edilmiştir [@39082657]; bu bileşiğin Snap-8 ile aynı olduğunu okuduğumuz kayıtlarda doğrulayamadık. "Syn-Ake" adıyla da kayıt yok; "dipeptide diaminobutyroyl benzylamide diacetate" ifadesi yalnızca asetil heksapeptit-8 ile karışık bir serumda geçer, ürünün etkisi bileşenlere ayrılamaz ve ticari adla eşleşmesi doğrulanamamıştır [@41668671]. Matrixyl 3000 (palmitoil tripeptit-1 ve tetrapeptit-7) için okunabilir bir çalışma bulunamadı. Bu üç üye için etkinlik iddiaları bu sitede doğrulanmış değildir; güvenlik verisi de yok.
+"Syn-Ake" adıyla da kayıt yok; "dipeptide diaminobutyroyl benzylamide diacetate" ifadesi yalnızca asetil heksapeptit-8 ile karışık bir serumda geçer, ürünün etkisi bileşenlere ayrılamaz ve ticari adla eşleşmesi doğrulanamamıştır [@41668671]. Bu üç üye için etkinlik iddiaları bu sitede doğrulanmış değildir; güvenlik verisi de yok.

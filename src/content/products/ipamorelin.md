@@ -28,6 +28,6 @@ Ghrelin reseptörü agonisti olarak bağırsak hareketi üzerinde de denenmişti
 
 Kas-iskelet ve performans alanındaki 2026 tarihli derlemeler, bu bileşiklere ilişkin yayınların büyük bölümünün hayvan çalışması olduğunu, insan çalışmalarının ise az ve zayıf kontrollü olduğunu bildirir; yazarlar iddia edilen faydaları insan çalışmalarıyla doğrulanmamış sayar [@42578445][@41966639]. Büyüme hormonu salgılatıcı peptitlerin idrarda metabolitleriyle izlenebildiği ve WADA listesinde anıldığı bir analitik çalışmada belirtilmiştir [@25869809].
 
-13 Ekim 2026'da openFDA'nın Drugs@FDA ve ilaç etiketi kayıtlarında ipamorelin için sonuç bulunamadı. ClinicalTrials.gov'da faz 2 düzeyinde iki ameliyat sonrası ileus çalışması (NCT00672074, NCT01280344) kayıtlıdır; ikincisi için indekslenmiş bir yayın bulamadık. Bileşik onaylı bir ilaç değildir.
+Bileşik onaylı bir ilaç değildir.
 
 Ayrıntılı değerlendirme aşağıdaki yazıda.

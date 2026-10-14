@@ -11,7 +11,7 @@ sources: ["40141333", "12937682", "40908429", "9701766", "16634527", "12964022",
 docs:
   - title: "openFDA drugsfda: onaylı ilaç kayıtları"
     url: "https://open.fda.gov/apis/drug/drugsfda/"
-  - title: "ClinicalTrials.gov: epitalon araması (13 Ekim 2026'da kayıt yok)"
+  - title: "ClinicalTrials.gov: epitalon"
     url: "https://clinicaltrials.gov/search?term=epitalon"
 facts:
   - { label: "Dizi", value: "Ala-Glu-Asp-Gly (AEDG), tetrapeptit [@40141333]" }
@@ -19,7 +19,7 @@ facts:
   - { label: "Telomeraz (hücre kültürü)", value: "Telomeraz negatif insan fetal fibroblastlarında telomeraz aktivitesi ve telomer uzaması [@12937682]; 2025 çalışmasında normal hücrelerde hTERT artışı, kanser hücrelerinde ALT aktivasyonu [@40908429]" }
   - { label: "Ömür (kemirgen)", value: "Standart ışık rejiminde sıçan ömrünü değiştirmedi; doğal ve sürekli ışıkta maksimum ömür arttı [@18856211]" }
   - { label: "İnsan verisi", value: "Retinitis pigmentosada kontrollü klinik çalışma özeti (%90 olumlu klinik etki) [@12195242]; tek bir araştırma grubundan" }
-  - { label: "Düzenleyici durum", value: "13 Ekim 2026'da openFDA drugsfda'da ve ClinicalTrials.gov'da epitalon kaydı bulunmadı" }
+  - { label: "Düzenleyici durum", value: "Onaylı ilaç değil" }
 ---
 Epitalon (Epithalon), pineal bezden elde edilen Epitalamin ekstresinin amino asit bileşimine bakılarak tasarlanan Ala-Glu-Asp-Gly tetrapeptitidir [@40141333]. Yaşlanma biyolojisindeki ilgisi büyük ölçüde telomeraz bulgularına dayanır. Telomeraz negatif insan fetal fibroblast kültüründe peptidin telomeraz katalitik alt biriminin ifadesini, enzim aktivitesini ve telomer uzamasını artırdığı bildirilmiştir [@12937682]. 2025 tarihli bir çalışmada normal insan hücrelerinde hTERT ve telomeraz üzerinden telomer uzaması, kanser hücrelerinde ise ALT (alternatif telomer uzatma) aktivasyonu gözlenmiştir [@40908429]. Hücre kültürü bulgusu, canlıda yaşlanmanın yavaşladığı anlamına gelmez; kanser hücrelerinde telomer uzamasının görülmesi de ayrıca dikkat gerektirir.
 

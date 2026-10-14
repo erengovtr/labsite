@@ -48,9 +48,9 @@ Mekanizmanın bir başka boyutu dağılımla ilgilidir. Ahnfelt-Rønne ve arkada
 
 **Ameliyat sonrası ileus, faz 2 (Beck ve ark., 2014).** Çalışma ClinicalTrials.gov'da NCT00672074 olarak kayıtlıdır. Çok merkezli, çift kör, plasebo kontrollü bu kanıt-kavramı çalışmasında, açık ya da laparoskopik ince/kalın bağırsak rezeksiyonu geçiren yetişkinler intravenöz ipamorelin (0,03 mg/kg, günde iki kez) ya da plasebo aldı; uygulama ameliyat sonrası 1. günden 7. güne ya da taburculuğa kadar sürdü. 117 hasta alındı, 114'ü güvenlik ve modifiye tedavi niyetli analiz popülasyonunu oluşturdu. Birincil etkinlik sonlanım noktası, ilk dozdan standart katı öğünü tolere etmeye kadar geçen süreydi: medyan 25,3 saat (ipamorelin) ve 32,6 saat (plasebo), fark anlamlı değildi (p = 0,15). Herhangi bir tedavi kaynaklı yan etki oranı ipamorelin grubunda yüzde 87,5, plasebo grubunda yüzde 94,8 idi. Birincil ve ikincil etkinlik analizlerinin hiçbirinde anlamlı fark çıkmadı. Yazarlar çalışmayı küçük ve altta yatan hastalıkları geniş bir yelpazeye yayılan bir örneklem olarak sınırlılık saydı [@25331030].
 
-**İkinci ileus çalışması.** ClinicalTrials.gov'da aynı endikasyon için ikinci bir faz 2 çalışması (NCT01280344; kayıtlı katılımcı sayısı 320, durum "tamamlandı", sponsor Helsinn Therapeutics) bulunuyor. PubMed aramalarımızda bu çalışmaya ait indekslenmiş bir yayın bulamadık; dolayısıyla sonucunu bu yazıda aktaramıyoruz.
+**İkinci ileus çalışması.** ClinicalTrials.gov'da aynı endikasyon için ikinci bir faz 2 çalışması (NCT01280344; kayıtlı katılımcı sayısı 320, durum "tamamlandı", sponsor Helsinn Therapeutics) bulunuyor.
 
-**Başka insan çalışması.** Yaptığımız taramalarda ipamorelinle yapılmış, GH eksenine ilişkin klinik fayda (kas, yağ, kemik, yaşlanma gibi) gösteren randomize kontrollü bir yayın bulamadık. 2026 tarihli kapsam derlemesi (Tewari ve ark.) altı yeni çıkan peptidi (ipamorelin dahil) kas-iskelet hedefleriyle inceledi ve yayınların yüzde 67'sinin hayvan modeli çalışması olduğunu, insan çalışmalarının birkaç araştırmadan ibaret olduğunu ve çoğunun sağlam kontrol ya da titiz tasarımdan yoksun olduğunu bildirdi [@42578445].
+2026 tarihli kapsam derlemesi (Tewari ve ark.) altı yeni çıkan peptidi (ipamorelin dahil) kas-iskelet hedefleriyle inceledi ve yayınların yüzde 67'sinin hayvan modeli çalışması olduğunu, insan çalışmalarının birkaç araştırmadan ibaret olduğunu ve çoğunun sağlam kontrol ya da titiz tasarımdan yoksun olduğunu bildirdi [@42578445].
 
 ## Birleşik ve kombine kullanım iddiaları
 
@@ -58,7 +58,7 @@ Sosyal medyada ve spor çevrelerinde ipamorelin sıklıkla başka bir peptitle b
 
 ## Sınıfın diğer üyeleriyle karşılaştırma
 
-İpamorelini diğer GHRP'lerden ayıran şey, ilk makalede ortaya konan tabloya göre güçten çok profildir. Sıçan hipofiz hücrelerinde GHRP-6'ya benzer güçteydi; bilinci açık domuzlarda GHRP-2 daha güçlü (ED50 0,6 nmol/kg) ancak daha düşük etkinlikteydi (Emax 56 ng/ml), ipamorelin ve GHRP-6 ise birbirine çok yakın bulundu [@9849822]. Farkı yaratan, ACTH ve kortizol yanıtıydı: GHRP-6 ve GHRP-2 bu iki hormonu artırırken ipamorelin artırmadı. Bu karşılaştırma tek bir türde (domuz) ve tek bir laboratuvarda yapıldı; insanda eş değer bir kafa kafaya karşılaştırmayı indekslenmiş literatürde bulamadık.
+İpamorelini diğer GHRP'lerden ayıran şey, ilk makalede ortaya konan tabloya göre güçten çok profildir. Sıçan hipofiz hücrelerinde GHRP-6'ya benzer güçteydi; bilinci açık domuzlarda GHRP-2 daha güçlü (ED50 0,6 nmol/kg) ancak daha düşük etkinlikteydi (Emax 56 ng/ml), ipamorelin ve GHRP-6 ise birbirine çok yakın bulundu [@9849822]. Farkı yaratan, ACTH ve kortizol yanıtıydı: GHRP-6 ve GHRP-2 bu iki hormonu artırırken ipamorelin artırmadı.
 
 Bu nokta önemlidir, çünkü "seçici" kelimesi pazarlama dilinde kolayca "yan etkisiz" anlamına kayabilir. Dominikowski ve arkadaşlarının derlemesi, GH-IGF-1 ekseninin üzerindeki bileşikleri kanıt düzeylerine ayırır: tesamorelin düzenleyici düzeyde randomize çalışma verisiyle en üst basamakta, birçok GHRH analoğu ve ghrelin taklitçisi ise faz 1/2 insan çalışmalarıyla ara basamaktadır; bu ara basamaktaki bileşikler için performans ya da vücut kompozisyonu sonlanımlarını ele alan çalışma yoktur [@42395176]. İpamorelin bu ara basamaktaki bileşiklerden biri olarak tanımlanır. Seçiciliğin ve kısa yarı ömrün (yaklaşık 2 saat) [@10496658] doğal sonucu, GH yanıtının kısa süreli ve dalga biçimli olmasıdır; bunun uzun süreli GH/IGF-1 düzeylerine ya da doku sonuçlarına nasıl yansıdığı ise insanda ölçülmemiştir.
 
@@ -66,7 +66,7 @@ Hayvan çalışmalarının ortak kısıtı da burada belirtilmeli: Boy uzaması 
 
 ## Güvenlik
 
-İpamorelin için en iyi belgelenmiş insan güvenlik bilgisi iki yerden gelir: kısa süreli farmakokinetik çalışma ve yedi güne kadar süren faz 2 ileus çalışması. İkincisinde ilaç iyi tolere edildi [@25331030]; ancak çalışma 114 hastayla, kısa sürede ve kritik olmayan bir hasta grubunda yapıldı. Uzun süreli kullanımın güvenliği, kanser riski, glikoz metabolizması ve IGF-1 düzeylerine uzun vadeli etkisi hakkında yayımlanmış kontrollü insan verisi bulamadık.
+İpamorelin için en iyi belgelenmiş insan güvenlik bilgisi iki yerden gelir: kısa süreli farmakokinetik çalışma ve yedi güne kadar süren faz 2 ileus çalışması. İkincisinde ilaç iyi tolere edildi [@25331030]; ancak çalışma 114 hastayla, kısa sürede ve kritik olmayan bir hasta grubunda yapıldı.
 
 Daha geniş çerçevede, 2026 tarihli çeşitli derlemeler GH-IGF-1 eksenini hedefleyen "araştırma bileşiği" peptitlerin kullanımına ilişkin uyarılar içerir. Dominikowski ve arkadaşları sınıf düzeyinde bildirilen yan etkileri endokrin ve metabolik bozukluklar (prolaktin ve kortizol yükselmesi, iştah değişiklikleri, glisemi bozuklukları), sıvı tutulumu, kas-eklem ağrısı ve enjeksiyon yeri reaksiyonları olarak özetler; ürün bileşimi ve içeriğin belirsizliğine ve biyolojik olarak makul ama kanıtlanmamış mitojenik kaygılara dikkat çeker. Aynı derleme ACTH/kortizol ve prolaktin yükselmesinin daha çok eski GHRP'lerin (GHRP-2, GHRP-6, hexarelin) özelliği olduğunu, ipamorelinin bu konuda belirgin biçimde daha az etkilediğini yazar [@42395176]. Bu, ilk çalışmanın domuz verisiyle uyumlu bir yorumdur, ama derlemenin kendisi de insan verisinin sınırlı olduğunu açıkça belirtir.
 
@@ -74,7 +74,7 @@ Coutinho ve arkadaşlarının spor ve vücut geliştirme odaklı eleştirel derl
 
 ## Düzenleyici durum
 
-13 Ekim 2026'da openFDA'nın Drugs@FDA ve ilaç etiketi kayıtlarında ipamorelin için sonuç bulunamadı; bileşik FDA onaylı bir ilaç olarak görünmüyor. ClinicalTrials.gov'da ipamorelinle ilgili kayıtlar arasında yukarıda anılan iki faz 2 ileus çalışması ve bir başka kayıt (NCT07717866, "Trifecta Research Study", 52 katılımcı, durum "aktif, katılım alınmıyor") vardı; son çalışmanın tasarımını ve sonuçlarını incelemedik. Güncel durum için yukarıdaki iki kayıt sistemini kontrol etmek gerekir.
+ClinicalTrials.gov'da ipamorelinle ilgili kayıtlar arasında yukarıda anılan iki faz 2 ileus çalışması ve bir başka kayıt (NCT07717866, "Trifecta Research Study", 52 katılımcı, durum "aktif, katılım alınmıyor") vardı; son çalışmanın tasarımını ve sonuçlarını incelemedik. Güncel durum için yukarıdaki iki kayıt sistemini kontrol etmek gerekir.
 
 Spor tarafında, Semenistaya ve arkadaşlarının 2015 tarihli analitik çalışması GHRP'lerin WADA Yasaklılar Listesinde yer aldığını belirtir ve GHRP-1, GHRP-2, GHRP-6, hexarelin ve ipamorelinin nazal uygulama sonrası idrardaki metabolitlerini tanımlar; ipamorelin ve hexarelin yoğun biçimde metabolize olup ana bileşik ve metabolitlerin bir seti olarak atılmış, ipamorelinin (1-4) serbest asit metabolitinin ana madde kaybolduktan sonra da tespit edilebildiği gösterilmiştir [@25869809]. Bu çalışmada her bileşik tek gönüllüye verilmiştir.
 

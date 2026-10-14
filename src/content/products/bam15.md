@@ -9,7 +9,7 @@ order: 405
 checked: "2026-10-13"
 sources: ["24634817", "32409697", "32519812", "35304976", "37793464", "37900126", "41527408", "36757801"]
 docs:
-  - title: "ClinicalTrials.gov: BAM15 araması (13 Ekim 2026: ilgili kayıt yok)"
+  - title: "ClinicalTrials.gov: BAM15"
     url: "https://clinicaltrials.gov/search?term=BAM15"
 facts:
   - { label: "Kimyasal ad", value: "N5,N6-bis(2-florofenil)-[1,2,5]oksadiazolo[3,4-b]pirazin-5,6-diamin [@41527408]" }

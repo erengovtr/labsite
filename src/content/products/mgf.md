@@ -9,7 +9,7 @@ order: 209
 checked: "2026-10-13"
 sources: ["20130113", "21354439", "15308683", "25678113", "27334712", "22186070", "42395176"]
 docs:
-  - title: "ClinicalTrials.gov: mechano growth factor araması (ilgili çalışma yok)"
+  - title: "ClinicalTrials.gov: mechano growth factor"
     url: "https://clinicaltrials.gov/search?intr=mechano%20growth%20factor"
   - title: "Drugs@FDA: onaylı ilaç veri tabanı"
     url: "https://www.accessdata.fda.gov/scripts/cder/daf/"
@@ -26,4 +26,4 @@ Sentetik E-peptit çalışmalarının çoğu hücre kültürü ve küçük hayva
 
 PEG-MGF, ticari olarak MGF'nin PEG'lenmiş biçimi diye pazarlanır. 2026 tarihli bir derleme, PEG-MGF için hakemli insan çalışması bulunmadığını, PEG'lemenin farmakokinetiği ve doku maruziyetini köklü biçimde değiştirdiğini, bu yüzden doğal IGF-1Ec veya izole E-peptit çalışmalarındaki etkilerin PEG'li yapıya aktarılamayacağını yazar; kanıtı en alt basamakta (tier D) sınıflar ve forum anlatılarındaki "yalnızca yerel etki, sistemik yan etki yok" iddialarını anekdot sayar [@42395176].
 
-13 Ekim 2026'da Drugs@FDA ve etiket kayıtlarında MGF/PEG-MGF için sonuç bulunamadı; ClinicalTrials.gov'da bu bileşikle ilgili uygun bir çalışma yoktu. Özetle bu başlıkta indekslenmiş literatür mekanizma ve hayvan düzeyindedir; insanda klinik fayda ya da güvenlik verisi yoktur.
+Özetle bu başlıkta indekslenmiş literatür mekanizma ve hayvan düzeyindedir; insanda klinik fayda ya da güvenlik verisi yoktur.

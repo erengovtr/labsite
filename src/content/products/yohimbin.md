@@ -2,7 +2,7 @@
 name: "Yohimbin"
 tagline: "Yohimbe ağacından elde edilen, α2-adrenerjik reseptör antagonisti indol alkaloidi."
 category: "Küçük molekül · Adrenerjik reseptör antagonisti"
-status: "Araştırma bileşiği: Drugs@FDA'da ruhsatlı ilaç kaydı yok"
+status: "Araştırma bileşiği: onaylı ilaç değil"
 tag: "yohimbin"
 group: "Araştırma bileşiği"
 order: 508
@@ -14,7 +14,7 @@ docs:
 facts:
   - { label: "Formül", value: "C21H26N2O3, 354,4 g/mol (PubChem)" }
   - { label: "Mekanizma", value: "Presinaptik ve postsinaptik α2-adrenerjik reseptörleri seçici olarak bloke eder [@36263866]" }
-  - { label: "Düzenleyici durum", value: "Drugs@FDA ve openFDA'da yohimbin etken maddeli ruhsatlı ilaç kaydı bulunamadı; DailyMed'de yalnızca ham madde (toz) kaydı var" }
+  - { label: "Düzenleyici durum", value: "Yohimbin etken maddeli ruhsatlı ilaç kaydı yok; DailyMed'de yalnızca ham madde (toz) kaydı var" }
   - { label: "Erektil disfonksiyon", value: "7 randomize çalışmanın meta-analizi: plazebodan üstün, OR 3,85 [@9649257]; 8 çalışmalık 2021 analizi [@35118966]" }
   - { label: "Takviye kalitesi", value: "49 markada yohimbin miktarı yok ile 12,1 mg arasında [@26391406]" }
 ---

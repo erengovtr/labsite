@@ -2,14 +2,14 @@
 name: "5-Amino-1MQ"
 tagline: "Nikotinamid N-metiltransferaz (NNMT) enzimini hedefleyen küçük molekül."
 category: "Küçük molekül · Metabolizma"
-status: "Araştırma bileşiği: onaylı ilaç değil; insan çalışması bulunamadı"
+status: "Araştırma bileşiği: onaylı ilaç değil"
 tag: "5-amino-1mq"
 group: "Araştırma bileşiği"
 order: 403
 checked: "2026-10-13"
 sources: ["29155147", "39161060", "35013352", "34368359", "42067476"]
 docs:
-  - title: "ClinicalTrials.gov: 5-amino-1MQ araması (13 Ekim 2026: kayıt dönmedi)"
+  - title: "ClinicalTrials.gov: 5-amino-1MQ"
     url: "https://clinicaltrials.gov/search?term=5-amino-1-methylquinolinium"
 facts:
   - { label: "Hedef", value: "Nikotinamid N-metiltransferaz (NNMT) [@34368359]" }

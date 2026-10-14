@@ -17,7 +17,7 @@ docs:
     url: "https://clinicaltrials.gov/study/NCT02463032"
 facts:
   - { label: "Formül", value: "C19H14F3N3O3, 389,3 g/mol (PubChem); GTx-024, MK-2866 ve ostarin adlarıyla da anılır" }
-  - { label: "Düzenleyici durum", value: "Drugs@FDA ve openFDA etiket sorgularında kayıt bulunamadı; ruhsatlı ilaç yok" }
+  - { label: "Düzenleyici durum", value: "Onaylı ilaç değil; ruhsatlı ilaç yok" }
   - { label: "Yaşlılarda faz 2", value: "120 sağlıklı yaşlı, 12 hafta; yağsız kütle plazebodan fazla arttı [@22031847]" }
   - { label: "Kanser kaşeksisi faz 2", value: "159 hasta güvenlik, 100 hasta etkinlik analizinde [@23499390]" }
   - { label: "Meme kanseri faz 2", value: "136 kişi randomize; 24. haftada klinik yarar yüzde 32 ve 29 [@38342115]" }
@@ -29,4 +29,4 @@ Kanser kaşeksisi alanında, en az yüzde 2 kilo kaybı olan 159 hastayla yapıl
 
 Meme kanserinde, AR pozitif ER+/HER2- hastalarda 9 mg ve 18 mg'ı karşılaştıran açık etiketli faz 2 çalışmasında 24. haftada klinik yarar 50 hastanın 16'sında (yüzde 32) ve 52 hastanın 15'inde (yüzde 29) görüldü. Derece 3-4 ilaca bağlı olaylar arasında en sık transaminaz yüksekliği, hiperkalsemi ve yorgunluk vardı; kontrol kolu yoktur [@38342115]. Aynı alandaki iki faz 3 çalışma ClinicalTrials.gov'da "iş kararı" gerekçesiyle sonlandırılmış görünür (NCT04869943, NCT05065411).
 
-Çalışma dışı kullanımda iki ayrı olgu raporu enobosarm içeren ürünlerden sonra hepatoselüler ve kolestatik karaciğer hasarını bildirmiştir [@35655632][@34368386]. İnternetten SARM adıyla satılan 44 üründen yalnızca 23'ünde bir SARM bulunmuş, etiketle içerik çoğu üründe uyuşmamıştır [@29183075]. GLP-1 ilaçlarına bağlı yağsız kütle kaybını önleme fikri derleme düzeyinde tartışılmaktadır; elimizdeki kaynak bir literatür derlemesidir, kontrollü bir sonuç sunmaz [@40739991].
+Çalışma dışı kullanımda iki ayrı olgu raporu enobosarm içeren ürünlerden sonra hepatoselüler ve kolestatik karaciğer hasarını bildirmiştir [@35655632][@34368386]. İnternetten SARM adıyla satılan 44 üründen yalnızca 23'ünde bir SARM bulunmuş, etiketle içerik çoğu üründe uyuşmamıştır [@29183075]. GLP-1 ilaçlarına bağlı yağsız kütle kaybını önleme fikri derleme düzeyinde tartışılmaktadır; mevcut kaynak bir literatür derlemesidir, kontrollü bir sonuç sunmaz [@40739991].

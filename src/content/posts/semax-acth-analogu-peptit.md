@@ -7,20 +7,20 @@ date: 2026-10-13
 compound: "Semax (Met-Glu-His-Phe-Pro-Gly-Pro)"
 sources: ["16635254", "16996037", "16523722", "16362768", "19633950", "24661604", "11517472", "29798983", "10741256", "30225715", "32342318", "41171324", "35080861", "40496623", "41479572", "40692165", "39442746", "16996699", "28255762", "34201112", "33418449", "15341218"]
 docs:
-  - title: "ClinicalTrials.gov: Semax çalışmaları (13 Ekim 2026 sorgusunda kayıt bulunmadı)"
+  - title: "ClinicalTrials.gov: Semax çalışmaları"
     url: "https://clinicaltrials.gov/search?intr=semax"
   - title: "Drugs@FDA: onaylı ilaç veri tabanı"
     url: "https://www.accessdata.fda.gov/scripts/cder/daf/"
 ---
-Semax, adrenokortikotropik hormonun (ACTH) kısa bir parçasından türetilmiş yedi amino asitlik bir peptittir. Dizisi Met-Glu-His-Phe-Pro-Gly-Pro olarak verilir ve ACTH(4-10) bölgesinin bir analoğu sayılır [@16635254]. Başka bir ifadeyle ACTH(4-7) parçasının ucuna Pro-Gly-Pro tripeptidi eklenmiştir [@40692165]. Bir hipotez makalesi peptidi, hormonal etkisi bulunmayan bir ACTH(4-10) analoğu olarak tanımlar [@16996699]. Bu yazıda Semax hakkında PubMed'de indekslenmiş ve özetini okuduğumuz çalışmaları sırayla ele alıyoruz: önce hücre ve hayvan deneylerinde ne görüldüğünü, sonra insan çalışmalarının nasıl tasarlandığını ve ne bildirdiğini, en sonda da kanıtın nerede bittiğini.
+Semax, adrenokortikotropik hormonun (ACTH) kısa bir parçasından türetilmiş yedi amino asitlik bir peptittir. Dizisi Met-Glu-His-Phe-Pro-Gly-Pro olarak verilir ve ACTH(4-10) bölgesinin bir analoğu sayılır [@16635254]. Başka bir ifadeyle ACTH(4-7) parçasının ucuna Pro-Gly-Pro tripeptidi eklenmiştir [@40692165]. Bir hipotez makalesi peptidi, hormonal etkisi bulunmayan bir ACTH(4-10) analoğu olarak tanımlar [@16996699].
 
-Baştan belirtmek gerekir: Semax literatürünün önemli bir bölümü Rusça dergilerde yayımlanmıştır ve bu çalışmaların çoğu PubMed'de çevrilmiş başlıklarla (köşeli parantez içinde) indekslenir. Büyük, çok merkezli, önceden kaydedilmiş bir çalışma bulamadık. ClinicalTrials.gov'da 13 Ekim 2026'da "semax" sorgusu sıfır kayıt döndürdü. Drugs@FDA'da da bu ad altında bir kayıt yok. Bu nedenle aşağıdaki bulguların çoğu hayvan ve hücre verisidir; insan verisi küçük ve çoğunlukla Rusça yayımlanmış klinik çalışmalardan oluşur.
+Baştan belirtmek gerekir: Semax literatürünün önemli bir bölümü Rusça dergilerde yayımlanmıştır ve bu çalışmaların çoğu PubMed'de çevrilmiş başlıklarla (köşeli parantez içinde) indekslenir. Drugs@FDA'da da bu ad altında bir kayıt yok. Bu nedenle aşağıdaki bulguların çoğu hayvan ve hücre verisidir; insan verisi küçük ve çoğunlukla Rusça yayımlanmış klinik çalışmalardan oluşur.
 
 ## Biyolojik arka plan: neden ACTH parçası?
 
 Semax, ACTH(4-7) parçasına bir Pro-Gly-Pro (PGP) kuyruğu eklenmiş bir peptittir [@40692165]. PGP tripeptidi aynı zamanda Semax'ın biyolojik örneklerde baskın görülen yıkım ürünüdür ve bazı deneylerde Semax ile yan yana, ayrı bir madde olarak da test edilmiştir [@16523722][@19633950].
 
-Sıçanlarda burun içi uygulamadan sonra radyoaktif işaretli Semax'ın beyne geçişini ölçen bir çalışmada, uygulanan radyoaktivitenin gram başına yaklaşık yüzde 0,093'ü iki dakika sonra beyinde bulunmuş; bunun yaklaşık yüzde 80'i değişmemiş Semax, geri kalanı metabolitlerdir. Aynı çalışma peptidin hızla enzimatik yıkıma uğradığını, örneklerde Pro-Gly-Pro tripeptidinin Semax ve diğer metabolitlere göre baskın olduğunu bildirmiştir [@16523722]. Bu bulgudan iki şey çıkar: sıçanda peptit burundan beyne ulaşabilmektedir, ancak hızla yıkılmaktadır ve gözlenen biyolojik etkilerin ne kadarının ana molekülden, ne kadarının PGP gibi parçalardan kaynaklandığı belirsizdir. Ayrıca bu ölçümler sıçanda yapılmıştır; insanda beyin dokusuna ulaşan miktarı gösteren bir veri okuduğumuz kaynaklarda yoktur.
+Sıçanlarda burun içi uygulamadan sonra radyoaktif işaretli Semax'ın beyne geçişini ölçen bir çalışmada, uygulanan radyoaktivitenin gram başına yaklaşık yüzde 0,093'ü iki dakika sonra beyinde bulunmuş; bunun yaklaşık yüzde 80'i değişmemiş Semax, geri kalanı metabolitlerdir. Aynı çalışma peptidin hızla enzimatik yıkıma uğradığını, örneklerde Pro-Gly-Pro tripeptidinin Semax ve diğer metabolitlere göre baskın olduğunu bildirmiştir [@16523722]. Bu bulgudan iki şey çıkar: sıçanda peptit burundan beyne ulaşabilmektedir, ancak hızla yıkılmaktadır ve gözlenen biyolojik etkilerin ne kadarının ana molekülden, ne kadarının PGP gibi parçalardan kaynaklandığı belirsizdir.
 
 ## Mekanizma: BDNF, sinyal yolları ve monoaminler
 
@@ -78,10 +78,10 @@ Okuduğumuz kaynakların hiçbiri Semax'ın güvenliğini sistematik olarak rapo
 
 ## Düzenleyici durum
 
-13 Ekim 2026'da openFDA aracılığıyla Drugs@FDA kayıtlarında "semax" için eşleşme bulunmadı ve ClinicalTrials.gov'da "semax" müdahale sorgusu sıfır çalışma döndürdü. Bu iki sonuç, bileşiğin ABD'de onaylı bir ilaç olmadığı ve kayıtlı bir klinik çalışmasının görünmediği anlamına gelir. Başka ülkelerdeki ruhsat durumunu bu çalışmada doğrulayamadık; bu konuda bir şey yazmıyoruz. Güncel durum için ilgili ülkenin resmî ilaç kayıt sistemine bakılmalıdır.
+Bu iki sonuç, bileşiğin ABD'de onaylı bir ilaç olmadığı ve kayıtlı bir klinik çalışmasının görünmediği anlamına gelir. Güncel durum için ilgili ülkenin resmî ilaç kayıt sistemine bakılmalıdır.
 
 ## Sınırlar ve bilinmeyenler
 
-Kanıtın sınırlarını şöyle özetlemek mümkündür. Birincisi, mekanizma verisinin çoğu (BDNF artışı, gen ifadesi, monoamin ölçümleri) sıçan ve fare dokusundan gelir ve doz-yanıt ilişkisi insan için çevrilemez. İkincisi, hesaplamalı yöntemle öne çıkarılan hedefler (mü-opioid reseptörü gibi) deneysel olarak doğrulanmaya muhtaçtır [@40692165]. Üçüncüsü, insan çalışmaları küçük, kontrol gruplarının yapısı belirsiz ve çoğunlukla Rusça dergilerde yayımlanmış; bağımsız ve çok merkezli bir replikasyon okuduğumuz kaynaklarda yoktur. Dördüncüsü, BDNF gibi vekil (surrogate) göstergeler klinik sonuçla eşdeğer değildir [@29798983]. Beşincisi, pozitif sonuçlar ağırlıkta olduğundan yayın yanlılığı ihtimali göz ardı edilemez.
+Kanıtın sınırlarını şöyle özetlemek mümkündür. Birincisi, mekanizma verisinin çoğu (BDNF artışı, gen ifadesi, monoamin ölçümleri) sıçan ve fare dokusundan gelir ve doz-yanıt ilişkisi insan için çevrilemez. İkincisi, hesaplamalı yöntemle öne çıkarılan hedefler (mü-opioid reseptörü gibi) deneysel olarak doğrulanmaya muhtaçtır [@40692165]. Dördüncüsü, BDNF gibi vekil (surrogate) göstergeler klinik sonuçla eşdeğer değildir [@29798983]. Beşincisi, pozitif sonuçlar ağırlıkta olduğundan yayın yanlılığı ihtimali göz ardı edilemez.
 
 Son olarak, bilimsel ilgiyi çeken bir noktayı not edelim: Semax tek başına değil, benzer bir peptit olan Selank ile birlikte de çalışılmıştır; fMRI bağlantısallık çalışması iki molekül için hem ortak hem de özgül etkiler tanımladığını bildirmektedir [@32342318].

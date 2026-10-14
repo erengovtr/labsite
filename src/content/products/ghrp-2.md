@@ -2,14 +2,14 @@
 name: "GHRP-2 (pralmorelin)"
 tagline: "Ghrelin reseptörünü uyaran sentetik hekzapeptit; araştırmada GH tanı testi olarak kullanıldı."
 category: "Peptit · Büyüme hormonu ekseni"
-status: "Araştırma bileşiği: FDA/openFDA kaydında onaylı ilaç olarak bulunmadı"
+status: "Araştırma bileşiği: onaylı ilaç değil"
 tag: "ghrp-2"
 group: "Araştırma bileşiği"
 order: 204
 checked: "2026-10-13"
 sources: ["15646370", "15230633", "9285939", "17609397", "18493103", "38958228", "15699539", "20878896"]
 docs:
-  - title: "ClinicalTrials.gov: GHRP-2 / pralmorelin araması"
+  - title: "ClinicalTrials.gov: GHRP-2 / pralmorelin"
     url: "https://clinicaltrials.gov/search?intr=pralmorelin"
   - title: "Drugs@FDA: onaylı ilaç veri tabanı"
     url: "https://www.accessdata.fda.gov/scripts/cder/daf/"
@@ -28,4 +28,4 @@ En yerleşik kullanım alanı tanıdır. 77 sağlıklı kişi ve insülin tolera
 
 Ghrelin benzeri etkisi iştaha da yansır: 7 zayıf sağlıklı erkekte 270 dakikalık deri altı GHRP-2 infüzyonu sırasında ad libitum öğünde besin alımı salinle karşılaştırıldığında yüzde 35,9 arttı; GH eğri altı alanı da belirgin yükseldi [@15699539]. Kısa süreli bir çalışmadır.
 
-Kayıtlar: 13 Ekim 2026'da openFDA'nın Drugs@FDA ve etiket kayıtlarında pralmorelin ya da GHRP-2 için sonuç bulunamadı. 2004 tarihli bir derleme, bileşiğin Japonya'da hipotalamo-hipofizer işlev için tanı ajanı olarak onay beklediğini ve kısa boy için faz 2 çalışmalarında olduğunu yazar; bu durumun güncel hâlini doğrulayamadık [@15230633]. GHRP-2, WADA yasaklı GH salgılatıcılardan biri olarak anılır ve bir analitik çalışmada reçetesiz satılan bir besin takviyesi tabletinde (tablet başına yaklaşık 50 µg) saptanmıştır [@20878896]. Bu, kontrolsüz ürünlerde içerik belirsizliği riskine örnektir.
+GHRP-2, WADA yasaklı GH salgılatıcılardan biri olarak anılır ve bir analitik çalışmada reçetesiz satılan bir besin takviyesi tabletinde (tablet başına yaklaşık 50 µg) saptanmıştır [@20878896]. Bu, kontrolsüz ürünlerde içerik belirsizliği riskine örnektir.

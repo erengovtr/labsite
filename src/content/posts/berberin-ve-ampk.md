@@ -63,7 +63,7 @@ Klinik çalışmalarda en sık bildirilen sorun mide-bağırsak yan etkileridir;
 
 ## Düzenleyici durum
 
-Tek başına berberin için bir ilaç etiketi bulamadık. FDA'nın DailyMed veri tabanında "berberine" aramasında tek kayıt çıktı ve bu kayıt bir hammadde üretim kaydı (berberin hidroklorür granül) olarak görünüyor; endikasyon içeren bir ilaç etiketi değil. HTD1801 ise yukarıda anlatıldığı gibi geliştirme aşamasında bir bileşiktir; Ji ve arkadaşlarının makalesinde faz 3 çalışmaların sürdüğü yazılıdır [@40029660]. Bu yazı Türkiye veya AB'deki statüsü hakkında doğrulanmış bir belgeye dayanmadığından o konuda bir şey söylemiyor.
+HTD1801 ise yukarıda anlatıldığı gibi geliştirme aşamasında bir bileşiktir; Ji ve arkadaşlarının makalesinde faz 3 çalışmaların sürdüğü yazılıdır [@40029660]. Bu yazı Türkiye veya AB'deki statüsü hakkında doğrulanmış bir belgeye dayanmadığından o konuda bir şey söylemiyor.
 
 ## Sınırlar ve bilinmeyenler
 

@@ -23,4 +23,4 @@ Daha yeni sistematik derleme, gliserol dahil çeşitli ozmotik ajanlarla yapıla
 
 Yan etkiler bir derlemede nadir olarak tanımlanır; çok küçük bir kişi grubunda bulantı, mide-bağırsak rahatsızlığı, baş dönmesi ve baş ağrısı bildirilmiştir [@19941615].
 
-Sınırlar: çalışmaların çoğu küçük, kısa süreli ve genç erkeklerle yapılmıştır; protokoller çok farklıdır. Gliserolün spor kuruluşlarındaki düzenleyici durumunu bu sayfadaki kaynaklardan doğrulayamadık; yarışmacı sporcular güncel resmî listeyi ayrıca incelemelidir.
+Sınırlar: çalışmaların çoğu küçük, kısa süreli ve genç erkeklerle yapılmıştır; protokoller çok farklıdır.

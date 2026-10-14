@@ -2,7 +2,7 @@
 name: "AICAR"
 tagline: "AMPK'yi uyaran nükleozit; hücre içinde ZMP'ye dönüşür (asadesin)."
 category: "Küçük molekül · Enerji metabolizması"
-status: "Araştırma bileşiği: onaylı ilaç değil (Drugs@FDA'da acadesine kaydı yok); WADA yasaklı"
+status: "Araştırma bileşiği: onaylı ilaç değil; WADA yasaklı"
 tag: "aicar"
 group: "Araştırma bileşiği"
 order: 404
@@ -24,6 +24,6 @@ AICAR (acadesine), hücrede ZMP'ye fosforile olarak AMPK'yi uyaran bir adenozin 
 
 Klinik geliştirme yönünde en büyük çalışma RED-CABG'dir: koroner baypas cerrahisi geçiren 3080 kişi randomize edilmiş, birincil sonlanım (ölüm, inme ya da ağır sol ventrikül disfonksiyonu) acadesine grubunda %5,1, plasebo grubunda %5,0 bulunmuştur (OR 1,01); çalışma futilite analizi nedeniyle planlanan 7500 kişiye ulaşmadan durdurulmuştur [@22782417]. Kronik lenfositik lösemide 24 kişilik faz I/II çalışma, 210 mg/kg tek dozun maksimum tolere edilen doz olduğunu ve hiperüriseminin sık, renal bozulmanın ise bildirilen yan etkiler arasında olduğunu göstermiştir [@23228986].
 
-AICAR vücutta doğal olarak da üretilir. Dünya Anti-Doping Ajansı tarafından doping maddesi olarak yasaklanmıştır ve idrarda nicel tayini için LC-MS/MS yöntemleri geliştirilmiştir [@38873554]. Drugs@FDA/openFDA drugsfda aramasında acadesine için kayıt bulunmadı.
+AICAR vücutta doğal olarak da üretilir. Dünya Anti-Doping Ajansı tarafından doping maddesi olarak yasaklanmıştır ve idrarda nicel tayini için LC-MS/MS yöntemleri geliştirilmiştir [@38873554].
 
 Özetle insan verisi kısa süreli metabolik deneylerden ve başarısız sonuçlanan cerrahi çalışmasından oluşur; kronik kullanımın metabolik ya da performans yararı gösterilmemiştir.

@@ -46,7 +46,7 @@ Bu çalışmada okuyucunun iki şeye dikkat etmesi gerekir. Birincisi, plasebo g
 
 ## Kalp-damar kanıtı: formüle göre ayrışan sonuçlar
 
-Omega-3 tartışmasının asıl ağırlığı kalp-damar sonuçlarındadır ve burada krill yağı çok az yer tutar; kalp-damar olaylarını doğrudan sınayan, krill yağıyla yapılmış büyük bir sonlanım çalışması okuduğumuz kaynaklar arasında yoktur. Tartışma balık yağı türevleri ve saflaştırılmış EPA üzerinden yürümüştür.
+Tartışma balık yağı türevleri ve saflaştırılmış EPA üzerinden yürümüştür.
 
 ### Primer korunma çalışmaları
 
@@ -60,7 +60,7 @@ REDUCE-IT çalışmasında statin kullanan, açlık trigliseriti 135-499 mg/dL v
 
 STRENGTH çalışması aynı soruyu karboksilik asit formundaki EPA+DHA karışımıyla sordu. Statin kullanan, trigliserit yüksek ve HDL düşük, yüksek riskli 13.078 hasta günde 4 g omega-3 karboksilik asit ya da mısır yağına randomize edildi. Planlanan 1600 olayın 1384'üne ulaşıldığında çalışma, klinik yarar olasılığının düşük olduğunu gösteren ara analiz nedeniyle erken durduruldu. Birincil sonlanım omega-3 grubunda yüzde 12,0, mısır yağı grubunda yüzde 12,2 görüldü (risk oranı 0,99; 0,90-1,09; p = 0,84); mide-bağırsak yan etkileri yüzde 24,7'ye karşı yüzde 14,7 ile omega-3 grubunda daha sıktı [@33190147].
 
-İki çalışma neden zıt sonuç verdi? Bunun net bir yanıtı yok. Mason ve arkadaşlarının derlemesi, icosapent etil çalışmalarının, benzer trigliserit düşüşlerine rağmen karışık EPA/DHA formülasyonlarına göre kalp-damar olaylarında ve plak gerilemesinde fayda gösterdiğini, EPA ile DHA'nın doku dağılımı, oksidatif stres, iltihap, zar yapısı ve endotel işlevi üzerindeki ayrı etkilerinin bu ayrışmaya katkıda bulunabileceğini yazar [@35739003]. Bu bir açıklama önerisidir; kanıtlanmış bir neden değil. STRENGTH'te karşılaştırıcının mısır yağı olduğunu not etmek gerekir; karşılaştırıcı seçiminin sonuca etkisi bu yazıda okuduğumuz kaynaklardan değerlendirilemediği için bu konuda bir yargıya varmıyoruz. Önemli olan, "omega-3 kalbi korur" ya da "korumaz" cümlelerinin ikisinin de aşırı basitleştirme olduğudur: sonuç; formüle, saflığa, hasta grubuna ve kullanılan plaseboya göre değişen bir tablo çiziyor.
+İki çalışma neden zıt sonuç verdi? Bunun net bir yanıtı yok. Mason ve arkadaşlarının derlemesi, icosapent etil çalışmalarının, benzer trigliserit düşüşlerine rağmen karışık EPA/DHA formülasyonlarına göre kalp-damar olaylarında ve plak gerilemesinde fayda gösterdiğini, EPA ile DHA'nın doku dağılımı, oksidatif stres, iltihap, zar yapısı ve endotel işlevi üzerindeki ayrı etkilerinin bu ayrışmaya katkıda bulunabileceğini yazar [@35739003]. Bu bir açıklama önerisidir; kanıtlanmış bir neden değil. Önemli olan, "omega-3 kalbi korur" ya da "korumaz" cümlelerinin ikisinin de aşırı basitleştirme olduğudur: sonuç; formüle, saflığa, hasta grubuna ve kullanılan plaseboya göre değişen bir tablo çiziyor.
 
 ### Meta-analizler
 
@@ -76,7 +76,7 @@ Düzenleyici etiketlerde de bu bulgu yer alır. FDA'nın Vascepa etiketinde (bö
 
 ## Düzenleyici durum
 
-"Omega-3" adı altında farklı hukuki statüde ürünler bulunur ve bunlar birbirine karıştırılmamalıdır. FDA'nın DailyMed veri tabanında kayıtlı etiketlere göre reçeteli Lovaza (omega-3-asit etil esterleri; her kapsül en az 900 mg omega-3 etil esteri, yaklaşık 465 mg EPA ve 375 mg DHA içerir) diyete ek olarak ağır (≥ 500 mg/dL) hipertrigliseridemili yetişkinlerde trigliseriti düşürmek için endikedir. Vascepa (icosapent etil, yani EPA etil esteri) aynı ağır hipertrigliserideminin yanında, en yüksek tolere edilen statin tedavisine ek olarak, trigliseriti 150 mg/dL ve üzerinde olan ve yerleşik kalp-damar hastalığı ya da diyabet ve en az iki ek risk etkeni olan yetişkinlerde kalp krizi, inme, koroner revaskülarizasyon ve kararsız anjina riskini azaltmak için endikedir. Etiketteki sınırlama notu, Vascepa'nın ağır hipertrigliserideminde pankreatit riskine etkisinin belirlenmediğini söyler. Aynı DailyMed veri tabanında "krill" adıyla kayıtlı bir reçeteli ilaç etiketi bulamadık; krill yağı ürünleri bu sorgulamada ilaç olarak görünmedi. Bu, bir hükmün kanıtı değil, yalnızca yaptığımız sorgunun sonucudur. Türkiye ya da AB düzenlemeleri için doğrulanmış bir belgeye bu yazıda dayanmadığımızdan o konuda bir şey yazmıyoruz.
+"Omega-3" adı altında farklı hukuki statüde ürünler bulunur ve bunlar birbirine karıştırılmamalıdır. FDA'nın DailyMed veri tabanında kayıtlı etiketlere göre reçeteli Lovaza (omega-3-asit etil esterleri; her kapsül en az 900 mg omega-3 etil esteri, yaklaşık 465 mg EPA ve 375 mg DHA içerir) diyete ek olarak ağır (≥ 500 mg/dL) hipertrigliseridemili yetişkinlerde trigliseriti düşürmek için endikedir. Vascepa (icosapent etil, yani EPA etil esteri) aynı ağır hipertrigliserideminin yanında, en yüksek tolere edilen statin tedavisine ek olarak, trigliseriti 150 mg/dL ve üzerinde olan ve yerleşik kalp-damar hastalığı ya da diyabet ve en az iki ek risk etkeni olan yetişkinlerde kalp krizi, inme, koroner revaskülarizasyon ve kararsız anjina riskini azaltmak için endikedir. Etiketteki sınırlama notu, Vascepa'nın ağır hipertrigliserideminde pankreatit riskine etkisinin belirlenmediğini söyler.
 
 ## Krill yağının diğer klinik alanları
 
@@ -90,7 +90,7 @@ Açık ve arkadaşlarının çalışmasında majör depresif bozukluğu olan 57 
 
 ## Sınırlar ve bilinmeyenler
 
-Bu yazıyı hazırlarken karşılaştığımız asıl sorun, krill yağı hakkında konuşulan hemen her şeyin ya küçük ve kısa çalışmalara ya da biyobelirteç sonuçlarına dayanmasıdır. Plazma EPA ve DHA düzeyinin 1,5 kat daha çok artması, daha iyi klinik sonuç demek değildir. Krill yağıyla yapılmış, kalp-damar olaylarını ya da ölümü sonlanım alan bir randomize çalışma, bu yazının dayandığı kaynaklar arasında yoktur; krill yağının kalp-damar yararı hakkında bu nedenle bir şey söyleyemiyoruz.
+Bu yazıyı hazırlarken karşılaştığımız asıl sorun, krill yağı hakkında konuşulan hemen her şeyin ya küçük ve kısa çalışmalara ya da biyobelirteç sonuçlarına dayanmasıdır. Plazma EPA ve DHA düzeyinin 1,5 kat daha çok artması, daha iyi klinik sonuç demek değildir.
 
 Omega-3'ün kalp-damar etkisi konusunda REDUCE-IT ile STRENGTH'in neden ayrıştığı sorusu açık. Formül farkı (saf EPA ve EPA+DHA karışımı), doz, karşılaştırıcı yağ, hasta özellikleri ve ölçülen kan düzeyleri gibi birçok açıklama öne sürülmüştür; hangisinin payı olduğu net değildir. Atriyal fibrilasyon sinyalinin mekanizması ve hangi hastalarda belirginleştiği de belirsizdir. Biyoyararlanım konusunda da yöntem sorunları sürüyor: tanımlar, analiz yöntemleri ve eşit dozlu karşılaştırmaların eksikliği 2014'te dile getirilmişti [@25218856], eşleştirilmiş dozlu daha yeni bir çalışma krill lehine bir fark gösterdi [@42144109], ama aynı sonuç lipit sonlanımlarında görülmedi [@32073633].
 

@@ -9,7 +9,7 @@ order: 302
 checked: "2026-10-13"
 sources: ["8637402", "9679884", "11018622", "11035391", "35188390", "24771717", "39302005", "23121206", "28266027", "39442746", "16412534"]
 docs:
-  - title: "Drugs@FDA: onaylı ilaç veri tabanı (13 Ekim 2026'da 'melanotan' için kayıt bulunmadı)"
+  - title: "Drugs@FDA: onaylı ilaç veri tabanı"
     url: "https://www.accessdata.fda.gov/scripts/cder/daf/"
 facts:
   - { label: "Yapı", value: "Ac-Nle4-cyclo[Asp5-His6-D-Phe7-Arg8-Trp9-Lys10]-α-MSH(4-10)-NH2 [@39442746]" }
@@ -27,4 +27,4 @@ Güvenlik tarafında verinin büyük bölümü vaka bildirimlerinden gelir: rabd
 
 Hayvan modellerinde MT-II ve Semax'ın depresyon benzeri davranışı hafiflettiği bildirilmiştir [@39442746]; bu insan verisi değildir.
 
-13 Ekim 2026'da Drugs@FDA'da "melanotan" için kayıt bulunmadı. Ayrıntılı değerlendirme aşağıdaki yazıda.
+Ayrıntılı değerlendirme aşağıdaki yazıda.

@@ -11,14 +11,14 @@ sources: ["7693845", "7561636", "8708565", "9488001", "18567600", "15254966", "1
 docs:
   - title: "Drugs@FDA: Increlex (mecasermin, doğal diziye sahip rekombinant IGF-1), BLA 021839"
     url: "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021839"
-  - title: "ClinicalTrials.gov: IGF-1 LR3 araması (sonuç yok)"
+  - title: "ClinicalTrials.gov: IGF-1 LR3"
     url: "https://clinicaltrials.gov/search?intr=IGF-1%20LR3"
 facts:
   - { label: "Sınıf", value: "IGF-1 analoğu, IGF-1R agonisti" }
   - { label: "Yapı", value: "3. konumda Glu yerine Arg ve N-ucunda ek uzantı; IGFBP'lere afinitesi belirgin düşük [@42395176]" }
   - { label: "Sıçanda klirens", value: "LR3IGF-I yaklaşık 9-10 ml/dk/kg; IGF-I gebe olmayan sıçanda 0,90 [@7693845]" }
   - { label: "Domuzda", value: "4 gün infüzyon günlük kilo artışını ve yem tüketimini azalttı [@9488001]" }
-  - { label: "İnsan verisi", value: "Hakemli insan çalışması bulunamadı [@42395176]" }
+  - { label: "İnsan verisi", value: "Hakemli insan çalışması yok [@42395176]" }
 ---
 IGF-1 LR3, IGF-1'in 3. konumunda glutamik asidin arjininle değiştirildiği ve N ucuna ek amino asitlerin eklendiği analogudur; bu değişiklikler IGF bağlayıcı proteinlere (IGFBP) afiniteyi belirgin biçimde azaltır [@42395176]. Sıçanda bu düşük afinitenin analogun daha hızlı temizlenmesine yol açtığı, buna karşın bazı etkilerde yine de daha güçlü kaldığı bildirilmiştir [@8708565]; sonuçlar ise türe ve modele göre değişir.
 
@@ -26,4 +26,4 @@ Sıçanlarda radyoişaretli LR3IGF-I, IGF-I'den daha hızlı temizlendi (metabol
 
 Doku modellerinde LR3 çoğunlukla bir araç olarak kullanılır. Distrofik mdx farelerinde 4 hafta boyunca sürekli infüzyonla verilen analog, kasların kasılma kaynaklı hasara duyarlılığını azalttı [@18567600]. L6 miyojenik hücrelerinde IGFBP-3, IGF-I ve LR3 uyarımlı çoğalmayı baskıladı; LR3 ile uyarılan farklılaşma ise baskılanmadı [@15254966]. Laktasyondaki farelerde LR3 memede Akt fosforilasyonunu artırdı ve süt üretimini sınırlı biçimde yükseltti [@18577570]. Alzheimer modeli 5XFAD farelerinde yedi ay burun içi LR3 vücut kompozisyonunu iyileştirdi ve amiloid plaklarını yeniden şekillendirdi, ancak bilişsel işlevi korumadı [@39610283].
 
-İnsan verisi: PubMed ve ClinicalTrials.gov aramalarımızda IGF-1 LR3 ile yapılmış hakemli bir insan çalışması bulamadık. 2026 tarihli bir derleme bileşiği, hakemli insan çalışması bulunmayan "tier D" bileşikler arasında sayar ve kanıtın hayvan çıkarımına dayandığını belirtir [@42395176]. Doğal diziye sahip rekombinant IGF-1'in (mecasermin) Drugs@FDA'da Increlex olarak kaydı vardır; LR3 için böyle bir kayıt bulunamadı. Sistemik IGF-1 sinyali mitojenik etkiler de taşır; bu analogun uzun dönem riskleri insanda araştırılmamıştır.
+2026 tarihli bir derleme bileşiği, hakemli insan çalışması bulunmayan "tier D" bileşikler arasında sayar ve kanıtın hayvan çıkarımına dayandığını belirtir [@42395176]. Sistemik IGF-1 sinyali mitojenik etkiler de taşır; bu analogun uzun dönem riskleri insanda araştırılmamıştır.

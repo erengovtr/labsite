@@ -15,7 +15,7 @@ facts:
   - { label: "Hormonlar", value: "23 RCT, 1706 kişi: kortizolde azalma, erkeklerde testosteronda artış [@41740946]" }
   - { label: "Karaciğer", value: "Kolestatik veya karışık tipte ilaca bağlı karaciğer hasarı olguları [@31991029][@37756041]" }
 ---
-Ashwagandha (Withania somnifera), Ayurveda'da yaygın kullanılan bir bitkidir ve kök ekstreleri takviye olarak satılır [@31991029]. Aşağıdaki çalışmalar çeşitli ekstreleri kapsar; taradığımız PubMed kayıtlarında KSM-66 adıyla markalanmış ekstreye özgü ayrı bir doğrulanmış kayıt bulamadık, dolayısıyla bulgular genel olarak "ashwagandha kök ekstresi" için okunmalıdır.
+Ashwagandha (Withania somnifera), Ayurveda'da yaygın kullanılan bir bitkidir ve kök ekstreleri takviye olarak satılır [@31991029].
 
 Dokuz randomize çalışmanın (558 kişi) meta-analizinde ashwagandha formülasyonları plaseboya göre algılanan stres ölçeğinde (ortalama fark −4,72), Hamilton anksiyete ölçeğinde (−2,19) ve serum kortizolünde düşüş gösterdi; dört çalışma hafif ya da orta şiddette yan etki bildirdi [@39348746]. Uyku üzerine beş çalışmanın (400 kişi) meta-analizi küçük ama anlamlı bir etki buldu (standardize ortalama fark −0,59), heterojenlik yüksekti (I² yüzde 62) ve uzun dönem güvenlik verisi sınırlı kaldı [@34559859]. Bu meta-analizler küçük, çoğu kısa süreli ve genellikle sponsorlu çalışmaları birleştirir; yayın yanlılığı ihtimali dışlanamaz.
 

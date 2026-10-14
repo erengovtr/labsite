@@ -18,8 +18,8 @@ facts:
   - { label: "Hedef", value: "FGFR3 seçici inhibitör; FGFR1, 2 ve 4 inhibisyonuna bağlı toksisiteden kaçınmak üzere tasarlandı [@39258897]" }
   - { label: "Hayvan verisi", value: "Akondroplazi ve hipokondroplazi fare modellerinde kemik uzunluğu arttı [@40178985]" }
   - { label: "İnsan verisi", value: "Ürotelyal karsinomda üç olgu bildirimi [@41084837]" }
-  - { label: "Kayıtlı çalışma", value: "ClinicalTrials.gov: faz 1/2 SURF301 (NCT05544552) ve faz 2 BEACH301 (NCT06842355, çocuklarda akondroplazi; 13 Ekim 2026'da \"recruiting\")" }
-  - { label: "FDA kaydı", value: "openFDA drugsfda'da kayıt bulunamadı (13 Ekim 2026)" }
+  - { label: "Kayıtlı çalışma", value: "ClinicalTrials.gov: faz 1/2 SURF301 (NCT05544552) ve faz 2 BEACH301 (NCT06842355, çocuklarda akondroplazi; kayıt durumu \"recruiting\")" }
+  - { label: "FDA kaydı", value: "Onaylı ilaç değil" }
 ---
 TYRA-300, kimyasal keşif makalesinde FGFR3'e seçici ilk oral inhibitör olarak tanıtılmıştır. Tasarım amacı, FGFR1, 2 ve 4 inhibisyonuna bağlı toksisiteyi ve FGFR3 gatekeeper direnç mutasyonlarını aşmaktır; makalede karşılaştırma noktası olarak pan-FGFR inhibitörü erdafitinib gösterilir [@39258897]. Bileşik sonradan dabogratinib adıyla da anılmaktadır [@41084837].
 
@@ -29,4 +29,4 @@ Onkoloji tarafında hücre hatlarında FGFR3 füzyonu, mutasyonu veya gatekeeper
 
 Bir derleme, TYRA-300'ü LOXO-435 ile birlikte klinik geliştirmedeki FGFR3 seçici inhibitörler arasında sayar ve pan-FGFR inhibitörlerinin FGFR1/4 inhibisyonuna bağlı toksisite ile direnç mutasyonlarıyla sınırlandığını belirtir [@41125482]. İsoform seçiciliğin klinikte bu sorunları gerçekten azaltıp azaltmadığı henüz gösterilmemiştir.
 
-Düzenleyici durum: 13 Ekim 2026'da openFDA drugsfda içinde TYRA-300 veya dabogratinib için kayıt bulunamadı; ClinicalTrials.gov'da ürotelyal kanser ve çocuklarda akondroplazi çalışmaları kayıtlıdır. Akondroplazi için indekslenmiş yayınlar şu an hayvan verisinden ve tasarım makalelerinden ibarettir; insan etkinlik ve güvenlik verisi bu kaynaklarda yoktur.
+Akondroplazi için indekslenmiş yayınlar şu an hayvan verisinden ve tasarım makalelerinden ibarettir; insan etkinlik ve güvenlik verisi bu kaynaklarda yoktur.

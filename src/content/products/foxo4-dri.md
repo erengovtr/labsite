@@ -9,7 +9,7 @@ order: 411
 checked: "2026-10-13"
 sources: ["28340339", "40593617", "31959736", "39025385", "33996787", "39994346", "41625068", "36515093"]
 docs:
-  - title: "ClinicalTrials.gov: FOXO4-DRI araması (13 Ekim 2026: kayıt dönmedi)"
+  - title: "ClinicalTrials.gov: FOXO4-DRI"
     url: "https://clinicaltrials.gov/search?term=FOXO4-DRI"
 facts:
   - { label: "Hedef", value: "FOXO4-p53 etkileşimi; senesan hücrede p53'ün çekirdekten dışlanması ve apoptoz [@28340339]" }
@@ -24,4 +24,4 @@ Sonraki çalışmaların çoğu hücre kültürü ve fare modellerindedir. Yaşl
 
 Güvenlik açısından önemli bir uyarı vardır. Born ve arkadaşları, pulmoner arter hipertansiyonu hastalarının akciğerlerinde senesans belirteçleri yüksek bulmuş; farelerde senesan hücrelerin ABT263 veya FOXO4-DRI ile temizlenmesinin pulmoner hemodinamiyi ve akciğer endotel hücre kaybını kötüleştirdiğini bildirmiştir. Yazarlar senolitik girişimlerin pulmoner damarlar üzerindeki etkisinin dikkate alınması gerektiğini vurgular [@36515093].
 
-Genel olarak kanıt sınırlıdır: çalışmaların çoğu küçük gruplu hayvan ve hücre deneyleridir, çoğunlukla "senesan hücre temizliği" kavramı kısa sürelerde ve seçilmiş modellerde sınanmıştır. Fare deneylerinde ölçülen sonuçlar (testosteron salgısı, sperm kalitesi, damar işlevi) farklı gruplardan gelen ve çoğunlukla tek bir dokuya odaklanan çalışmalardır; senesan hücrelerin vücutta hangi oranda hedeflendiği ve sağlıklı hücrelerin ne ölçüde etkilendiği insanda bilinmemektedir. İnsanda etkinlik, doz-yanıt ya da güvenlik verisi bulunamadı ve ClinicalTrials.gov'da FOXO4-DRI için kayıt dönmedi.
+Genel olarak kanıt sınırlıdır: çalışmaların çoğu küçük gruplu hayvan ve hücre deneyleridir, çoğunlukla "senesan hücre temizliği" kavramı kısa sürelerde ve seçilmiş modellerde sınanmıştır. Fare deneylerinde ölçülen sonuçlar (testosteron salgısı, sperm kalitesi, damar işlevi) farklı gruplardan gelen ve çoğunlukla tek bir dokuya odaklanan çalışmalardır; senesan hücrelerin vücutta hangi oranda hedeflendiği ve sağlıklı hücrelerin ne ölçüde etkilendiği insanda bilinmemektedir.

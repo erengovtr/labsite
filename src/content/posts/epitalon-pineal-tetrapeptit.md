@@ -9,7 +9,7 @@ sources: ["40141333", "12374906", "9701766", "15452611", "14523363", "12937682",
 docs:
   - title: "openFDA drugsfda: onaylı ilaç kayıtları"
     url: "https://open.fda.gov/apis/drug/drugsfda/"
-  - title: "ClinicalTrials.gov: epitalon araması"
+  - title: "ClinicalTrials.gov: epitalon"
     url: "https://clinicaltrials.gov/search?term=epitalon"
 ---
 Epitalon, Epithalon ya da Epithalone adlarıyla da geçen dört amino asitlik bir peptittir: Ala-Glu-Asp-Gly, kısaca AEDG. Dizi, sığır pineal bezinden elde edilen bir ekstre olan Epitalamin'in amino asit bileşimine bakılarak sentezlenmiştir; peptidin pineal bez polipeptit karışımında bulunduğu ise sonradan ileri sürülmüştür [@40141333]. Son yirmi beş yılda in vitro, in vivo ve in silico yöntemlerle çok sayıda çalışmaya konu olmuştur; 2025 tarihli bir derleme, ilgili fizikokimyasal ve yapısal çalışmaların hâlâ sınırlı olduğunu, etki mekanizmasının belirsizliğini koruduğunu da açıkça yazar [@40141333]. Bu yazı bulguların nereden geldiğini, hangi düzeyde olduğunu ve ne kadar bağımsız doğrulandığını ayırmaya çalışıyor.
@@ -28,9 +28,9 @@ Ekstre ile peptit arasındaki ayrım önemlidir. Anisimov ve arkadaşlarının 1
 
 Epitalon'un ün kazandığı iddia telomerazdır. Khavinson ve arkadaşlarının 2003 tarihli çalışmasında telomeraz negatif insan fetal fibroblast kültürüne peptit eklendiğinde telomerazın katalitik alt biriminin ifadesi, enzim aktivitesi ve telomer uzaması görüldü; yazarlar bunun somatik hücrelerde telomeraz geninin yeniden etkinleşmesine bağlı olabileceğini ve hücre topluluğunun, hatta organizmanın yaşam süresini uzatma olasılığına işaret ettiğini öne sürdü [@12937682]. Bir yıl sonraki çalışmada 24 haftalık fetüsten alınan akciğer fibroblastları 34. pasajda çoğalma yetisini kaybetti; peptit eklenen hücrelerde telomerler erken pasaj uzunluğuna yaklaştı ve hücreler kontrolden 10 bölünme fazla yaparak 44. pasaja ulaştı. Yazarlar bunu Hayflick sınırının aşılması olarak yorumladı [@15455129].
 
-2025'te Al-Dulaimi ve arkadaşları iki meme kanseri hücre hattı (21NT, BT474) ile normal epitel ve fibroblast hücrelerinde epitalon'u denedi. Normal hücrelerde hTERT ve telomeraz artışı üzerinden doza bağlı telomer uzaması, kanser hücrelerinde ise ALT (alternatif telomer uzatma) mekanizması üzerinden telomer uzaması bildirildi; normal hücrelerde ALT artışı yalnızca küçüktü [@40908429]. Bu bulgu eski sonuçlarla uyumludur, ama iki noktayı vurgulamak gerekir. Birincisi, telomer uzamasının kanser hücrelerinde de görülmesi, kanser biyolojisi açısından ayrıca tartışılması gereken bir sonuçtur; yazarlar ALT artışının kanser hücrelerine özgü olduğunu savunsa da bu, insan güvenliği hakkında bir şey söylemez. İkincisi, makale için sonradan bir düzeltme (erratum) yayımlanmıştır [@41240216]; düzeltme kaydında özet bulunmadığı için hangi bölümü etkilediğini söyleyemiyoruz.
+2025'te Al-Dulaimi ve arkadaşları iki meme kanseri hücre hattı (21NT, BT474) ile normal epitel ve fibroblast hücrelerinde epitalon'u denedi. Normal hücrelerde hTERT ve telomeraz artışı üzerinden doza bağlı telomer uzaması, kanser hücrelerinde ise ALT (alternatif telomer uzatma) mekanizması üzerinden telomer uzaması bildirildi; normal hücrelerde ALT artışı yalnızca küçüktü [@40908429]. Bu bulgu eski sonuçlarla uyumludur, ama iki noktayı vurgulamak gerekir. Birincisi, telomer uzamasının kanser hücrelerinde de görülmesi, kanser biyolojisi açısından ayrıca tartışılması gereken bir sonuçtur; yazarlar ALT artışının kanser hücrelerine özgü olduğunu savunsa da bu, insan güvenliği hakkında bir şey söylemez. İkincisi, makale için sonradan bir düzeltme (erratum) yayımlanmıştır [@41240216].
 
-Hücre kültüründe telomer uzaması, canlıda yaşlanmanın yavaşladığı anlamına gelmez. Epitalon'un insan telomer uzunluğuna etkisini ölçen bir çalışma bu aramalarda bulunamadı.
+Hücre kültüründe telomer uzaması, canlıda yaşlanmanın yavaşladığı anlamına gelmez.
 
 ## Başka mekanizma önerileri
 
@@ -66,7 +66,7 @@ Kültür çalışmalarında da koşullar kritik. Yue ve arkadaşlarının fare o
 
 Epitalon'un kendisi için insan verisi çok azdır. Bulabildiğimiz kontrollü klinik çalışma özeti, retinitis pigmentosa (kalıtsal pigmentli retina dejenerasyonu) çalışmasıdır: Campbell sıçanlarında epitalon retinanın biyoelektriksel ve fonksiyonel aktivitesini artırmış, dejeneratif retina lezyonlu hastalarda ise "olguların yüzde 90'ında olumlu klinik etki" bildirilmiştir [@12195242]. Özet hasta sayısını, kontrol grubunun nasıl kurulduğunu, ölçülen sonlanım noktalarını ve istatistiksel analizi vermiyor; bu nedenle etki büyüklüğü hakkında bir şey söylenemez. ClinicalTrials.gov'da "epitalon" için kayıt bulunmuyor.
 
-Bu aramada randomize, plasebo kontrollü, bağımsız bir grubun yürüttüğü Epitalon çalışmasına rastlanmadı. 2026 tarihli, yaşlanmada terapötik peptitleri ele alan bir derleme, onaysız peptitler için ön klinik veriler ve sınırlı klinik kanıt olduğunu, uzun süreli güvenlik verisinin ve sistematik doğrulamanın eksik olduğunu belirtir; derlemede epitalon telomer biyolojisi başlığı altında yer alır [@42021992].
+2026 tarihli, yaşlanmada terapötik peptitleri ele alan bir derleme, onaysız peptitler için ön klinik veriler ve sınırlı klinik kanıt olduğunu, uzun süreli güvenlik verisinin ve sistematik doğrulamanın eksik olduğunu belirtir; derlemede epitalon telomer biyolojisi başlığı altında yer alır [@42021992].
 
 ## Güvenlik
 
@@ -74,10 +74,10 @@ Bu aramada randomize, plasebo kontrollü, bağımsız bir grubun yürüttüğü 
 
 ## Düzenleyici durum
 
-13 Ekim 2026'da openFDA drugsfda veri tabanında epitalon ya da eş anlamlıları için kayıt bulunmadı ve ClinicalTrials.gov'da epitalon araması boş döndü. Bileşik onaylı bir ilaç değildir; yaşlanma peptitlerini ele alan derlemede de onaysız peptit olarak sayılır [@42021992]. Farklı ülkelerdeki kayıt durumunu doğrulayamadık.
+Bileşik onaylı bir ilaç değildir; yaşlanma peptitlerini ele alan derlemede de onaysız peptit olarak sayılır [@42021992].
 
 ## Sınırlar ve bilinmeyenler
 
 Telomeraz bulgusu hücre kültüründedir ve insanda telomer uzunluğuna etkisi ölçülmemiştir. Hayvan ömrü çalışmaları aynı araştırma çevresinden gelir ve etki, standart koşullarda ömrü uzatmaktan çok stresli ışık rejimlerinde telafi niteliğindedir. İnsan verisi Epitalamin ekstresine ve tek bir retina çalışması özetine dayanır. Mekanizma önerileri (telomeraz, histon bağlanması, interferon gama promotörü, melatonin) birbirinden bağımsız ve hâlâ tek bir kanıtlanmış hedefe oturmamıştır. Kanser biyolojisiyle ilgili çelişkili sinyaller çözülmemiştir. Epitalon'a bağlanan "yaşlanmayı yavaşlatma" iddiası, bu literatür temelinde bir hipotezdir; test edilmiş bir insan sonucu değildir.
 
-Soruları çözebilecek veri türleri belli: telomeraz ve telomer sonuçlarının bağımsız laboratuvarlarda ve birden fazla hücre tipinde yinelenmesi; peptidin tek başına, ekstreden ayrı olarak ömür ve tümör sonlanım noktalarında sıçan ve fare gruplarında, örneklem büyüklüğü ve körleme belirtilerek test edilmesi; insanda telomer uzunluğu gibi ölçülebilir belirteçlerin plasebo kontrollü bir çalışmada izlenmesi. Bu aramalarda insanda telomer ya da başka bir sonlanım noktasını ölçen kontrollü bir epitalon çalışması bulunmadı. O zamana kadar epitalon, mekanizması öne sürülmüş ama insanda sınanmamış bir araştırma bileşiği olarak kalır.
+Soruları çözebilecek veri türleri belli: telomeraz ve telomer sonuçlarının bağımsız laboratuvarlarda ve birden fazla hücre tipinde yinelenmesi; peptidin tek başına, ekstreden ayrı olarak ömür ve tümör sonlanım noktalarında sıçan ve fare gruplarında, örneklem büyüklüğü ve körleme belirtilerek test edilmesi; insanda telomer uzunluğu gibi ölçülebilir belirteçlerin plasebo kontrollü bir çalışmada izlenmesi. O zamana kadar epitalon, mekanizması öne sürülmüş ama insanda sınanmamış bir araştırma bileşiği olarak kalır.

@@ -9,12 +9,12 @@ sources: ["25738459", "31378979", "32776825", "36670507", "33473109", "35656563"
 docs:
   - title: "ClinicalTrials.gov: NCT07505745, MOTS-c ve insülin duyarlılığı, prediyabet (faz 2a)"
     url: "https://clinicaltrials.gov/study/NCT07505745"
-  - title: "ClinicalTrials.gov: MOTS-c araması"
+  - title: "ClinicalTrials.gov: MOTS-c"
     url: "https://clinicaltrials.gov/search?term=MOTS-c"
   - title: "openFDA drugsfda: onaylı ilaç kayıtları"
     url: "https://open.fda.gov/apis/drug/drugsfda/"
 ---
-Bir hücrenin mitokondri DNA'sı yalnızca birkaç düzine gen taşır; yine de bu genomun içinde kısa açık okuma çerçevelerinden kodlanan küçük peptitler bulunduğu son yıllarda gösterildi. Bunların ilk örneği humanin, ikincisi MOTS-c (mitochondrial open reading frame of the 12S rRNA-c) idi. MOTS-c, 12S rRNA geninin içinde yer alan bir açık okuma çerçevesinden kodlanan 16 amino asitlik bir peptittir [@25738459]. Bu yazı MOTS-c için yayımlanmış kanıtı mekanizma, hayvan, genetik ve insan başlıkları altında toplar ve her birinin ne kadar sağlam olduğunu tartar. Kısa özet: hayvan verisi dikkat çekicidir, insan verisi ise ölçüm ve ilişki düzeyindedir; peptidi insana veren, sonucu yayımlanmış bir müdahale çalışması bu aramalarda bulunamadı.
+Bir hücrenin mitokondri DNA'sı yalnızca birkaç düzine gen taşır; yine de bu genomun içinde kısa açık okuma çerçevelerinden kodlanan küçük peptitler bulunduğu son yıllarda gösterildi. Bunların ilk örneği humanin, ikincisi MOTS-c (mitochondrial open reading frame of the 12S rRNA-c) idi. MOTS-c, 12S rRNA geninin içinde yer alan bir açık okuma çerçevesinden kodlanan 16 amino asitlik bir peptittir [@25738459]. Bu yazı MOTS-c için yayımlanmış kanıtı mekanizma, hayvan, genetik ve insan başlıkları altında toplar ve her birinin ne kadar sağlam olduğunu tartar.
 
 ## Keşif ve mitokondri-çekirdek iletişimi
 
@@ -58,19 +58,19 @@ Bu tablo, dolaşımdaki düzeyin hastalıkla tek yönlü bir ilişkisi olmadığ
 
 ## Ölçüm sorunu
 
-Dolaşım düzeylerini karşılaştırırken bir ayrıntı gözden kaçmamalı: çocuk ve ergen çalışmasında düzeyler yüzlerce ng/ml (472,61 ve 561,64 ng/ml) olarak bildirilirken [@29691953], erişkinlerdeki metabolik sendrom çalışmasında yaklaşık 315 pg/ml'dir [@34419510]. Bu iki değer arasında iki ila üç büyüklük basamağı fark vardır. Fark yaş ve hastalık durumundan çok, büyük olasılıkla ELISA kitlerinin ve ölçüm yöntemlerinin farklılığından kaynaklanır; ancak özetler hangi kitlerin kullanıldığını ve doğrulamanın nasıl yapıldığını söylemez. Bu nedenle farklı çalışmaların mutlak değerleri birbiriyle karşılaştırılamaz ve her çalışma yalnızca kendi içindeki karşılaştırmalar (hasta ve kontrol) açısından değerlendirilebilir. Koroner endotel çalışması da aort kökünden alınan plazmada ELISA kullanmıştır [@29242099]; kullanılan yöntemin diğerleriyle uyumu bilinmiyor. Dolaşımdaki düzeyleri doğrulanmış bir referans yöntemle ölçen bir çalışma bu aramalarda görünmedi.
+Dolaşım düzeylerini karşılaştırırken bir ayrıntı gözden kaçmamalı: çocuk ve ergen çalışmasında düzeyler yüzlerce ng/ml (472,61 ve 561,64 ng/ml) olarak bildirilirken [@29691953], erişkinlerdeki metabolik sendrom çalışmasında yaklaşık 315 pg/ml'dir [@34419510]. Bu iki değer arasında iki ila üç büyüklük basamağı fark vardır. Fark yaş ve hastalık durumundan çok, büyük olasılıkla ELISA kitlerinin ve ölçüm yöntemlerinin farklılığından kaynaklanır; ancak özetler hangi kitlerin kullanıldığını ve doğrulamanın nasıl yapıldığını söylemez. Bu nedenle farklı çalışmaların mutlak değerleri birbiriyle karşılaştırılamaz ve her çalışma yalnızca kendi içindeki karşılaştırmalar (hasta ve kontrol) açısından değerlendirilebilir. Koroner endotel çalışması da aort kökünden alınan plazmada ELISA kullanmıştır [@29242099]; kullanılan yöntemin diğerleriyle uyumu bilinmiyor.
 
 Bu belirsizlik, düşük bir ölçümün "eksiklik" olduğu ve düzeltilmesi gerektiği şeklindeki bir çıkarımın da bilimsel temelini zayıflatır: referans aralığı ve eşik değer tanımlı değildir.
 
 ## Güvenlik ve müdahale çalışmaları
 
-MOTS-c'yi insana veren, sonuçları yayımlanmış bir çalışma bu aramalarda bulunamadı. ClinicalTrials.gov'da MOTS-c araması çoğunlukla peptidin düzeyini ölçen çalışmalar listeler; müdahale olarak MOTS-c'yi veren bir kayıt, Hudson Biotech'in prediyabetli ve fazla kilolu/obez yetişkinlerde 12 hafta boyunca MOTS-c'nin plaseboya karşı insülin duyarlılığına etkisini inceleyen faz 2a çalışmasıdır (NCT07505745; 120 kişilik planlanan, 1:1 randomize, 16. haftaya kadar güvenlik izlemi; alım sürüyor, sonuç yok). Zheng ve arkadaşlarının derlemesi MOTS-c'nin klinikte uygulanması için etkin bir yöntem geliştirilmediğini söyler [@36761202]. Sporda kullanılan onaysız peptitleri ele alan bir derleme, MOTS-c'yi, sağlam insan güvenlik verisinin kıt olduğu ve ciddi zarar potansiyeli bulunan "gri piyasa" peptitleri arasında sayar [@41966639]. Yumurtalık kanseri modelinde sistemik toksisite olmadan tümör baskılandığı bildirilmiştir [@39321430]; bir fare modelindeki bu gözlem insan güvenliği için yeterli değildir. Hücre kültüründe ve hayvanlarda kullanılan peptit miktarlarının insan dolaşımındaki doğal düzeylerle ilişkisi bu özetlerden çıkarılamaz.
+Zheng ve arkadaşlarının derlemesi MOTS-c'nin klinikte uygulanması için etkin bir yöntem geliştirilmediğini söyler [@36761202]. Sporda kullanılan onaysız peptitleri ele alan bir derleme, MOTS-c'yi, sağlam insan güvenlik verisinin kıt olduğu ve ciddi zarar potansiyeli bulunan "gri piyasa" peptitleri arasında sayar [@41966639]. Yumurtalık kanseri modelinde sistemik toksisite olmadan tümör baskılandığı bildirilmiştir [@39321430]; bir fare modelindeki bu gözlem insan güvenliği için yeterli değildir. Hücre kültüründe ve hayvanlarda kullanılan peptit miktarlarının insan dolaşımındaki doğal düzeylerle ilişkisi bu özetlerden çıkarılamaz.
 
 Kayıtlı faz 2a çalışması bu açığı kısmen kapatabilir. Kayıt özetine göre çalışma 12 hafta boyunca MOTS-c'nin plaseboya karşı insülin duyarlılığına etkisini değerlendiriyor, katılımcılar standart yaşam tarzı danışmanlığı alıyor ve güvenlik 16. haftaya kadar izleniyor [kayıt özeti: NCT07505745]. Kayıt özetinden insülin duyarlılığının hangi yöntemle ölçüleceği, birincil sonlanım noktasının ne olduğu ve çalışmanın bağımsız bir izleme kurulu olup olmadığı anlaşılmıyor; bu ayrıntılar, çalışmanın sonuçları yayımlandığında yorumun belirleyicisi olacak. Faz 2a tasarımı ise zaten etkinliğin kesin kanıtı için değil, ilk sinyal ve güvenlik için kurulur; 12 haftalık bir insülin duyarlılığı değişimi, uzun süreli klinik sonuçlar hakkında bilgi vermez.
 
 ## Düzenleyici durum
 
-13 Ekim 2026'da openFDA drugsfda veri tabanında MOTS-c için kayıt bulunmadı. Bileşik onaylı bir ilaç olarak değerlendirilemez. Sporda yasak olup olmadığı konusunda bir resmî listeyi doğrudan kontrol etmedik; bu konuda bir yargı vermiyoruz.
+Bileşik onaylı bir ilaç olarak değerlendirilemez.
 
 ## Sınırlar ve bilinmeyenler
 

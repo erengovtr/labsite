@@ -13,7 +13,7 @@ docs:
     url: "https://open.fda.gov/apis/drug/drugsfda/"
 facts:
   - { label: "Klinik kullanım", value: "Parasetamol zehirlenmesinde standart tedavi; mukolitik olarak benimsendi; WHO temel ilaçlar listesinde [@34171332]" }
-  - { label: "FDA kayıtları", value: "openFDA drugsfda'da asetilsistein için intravenöz enjeksiyon ve inhalasyon/oral çözelti formlarında reçeteli kayıtlar var (13 Ekim 2026)" }
+  - { label: "FDA kayıtları", value: "openFDA drugsfda'da asetilsistein için intravenöz enjeksiyon ve inhalasyon/oral çözelti formlarında reçeteli kayıtlar var" }
   - { label: "Şizofreni (ek tedavi)", value: "6 RCT'lik meta-analiz: toplam psikopatolojide düşüş, heterojenlik yüksek [@29457216]" }
   - { label: "Otizm", value: "5 RCT'den meta-analiz: hiperaktivite ve irritabilitede küçük iyileşme [@32900213]" }
   - { label: "Madde isteği", value: "9 RCT, 623 kişi: plaseboya göre anlamlı fark yok [@39556483]" }

@@ -56,7 +56,7 @@ TRANSCEND-T2D-1, diyet ve egzersizle yeterince kontrol edilemeyen tip 2 diyabett
 
 ## Süren program
 
-TRIUMPH programı, faz 3 kapsamında obezite, uyku apnesi ve diz osteoartriti için dört çalışmayı kapsıyor: iki kilo yönetimi "sepet" çalışması (TRIUMPH-1 ve TRIUMPH-2), kardiyovasküler hastalığı olanlarda bir kilo yönetimi çalışması (TRIUMPH-3) ve tek başına bir osteoartrit çalışması (TRIUMPH-4); toplamda 5800'den fazla katılımcı hedeflenmiştir [@41090431]. Böbrek tarafında TRANSCEND-CKD, eGFR'si 25-75 olan, aşırı kilolu ya da obez ve kronik böbrek hastalığı olan yetişkinlerde ölçülmüş glomerüler filtrasyon hızına etkiyi 24 haftada inceleyen bir faz 2b mekanistik çalışmadır; 146 kişi randomize edilmiştir ve çalışma, devam eden kardiyo-renal sonuç çalışması TRIUMPH-Outcomes'a (NCT06383390) bilgi sağlamayı hedefler [@41160422]. 13 Ekim 2026'da ClinicalTrials.gov'da retatrutide ile ilişkili 33 çalışma kayıtlıydı: 14'ü faz 1, 4'ü faz 2, 14'ü faz 3, biri de aşama belirtilmemiş bir genişletilmiş erişim kaydıydı. Faz 3 kayıtları arasında tirzepatid ve semaglutid ile doğrudan karşılaştırmalar da yer alıyor; kayıtta bunlar henüz tamamlanmış görünmüyordu (durum: aktif, katılımcı alımı bitmiş) ve sonuçları yayımlanmamıştı.
+TRIUMPH programı, faz 3 kapsamında obezite, uyku apnesi ve diz osteoartriti için dört çalışmayı kapsıyor: iki kilo yönetimi "sepet" çalışması (TRIUMPH-1 ve TRIUMPH-2), kardiyovasküler hastalığı olanlarda bir kilo yönetimi çalışması (TRIUMPH-3) ve tek başına bir osteoartrit çalışması (TRIUMPH-4); toplamda 5800'den fazla katılımcı hedeflenmiştir [@41090431]. Böbrek tarafında TRANSCEND-CKD, eGFR'si 25-75 olan, aşırı kilolu ya da obez ve kronik böbrek hastalığı olan yetişkinlerde ölçülmüş glomerüler filtrasyon hızına etkiyi 24 haftada inceleyen bir faz 2b mekanistik çalışmadır; 146 kişi randomize edilmiştir ve çalışma, devam eden kardiyo-renal sonuç çalışması TRIUMPH-Outcomes'a (NCT06383390) bilgi sağlamayı hedefler [@41160422]. Faz 3 kayıtları arasında tirzepatid ve semaglutid ile doğrudan karşılaştırmalar da yer alıyor; kayıtta bunlar henüz tamamlanmış görünmüyordu (durum: aktif, katılımcı alımı bitmiş) ve sonuçları yayımlanmamıştı.
 
 ## Güvenlik: şimdilik ne söylenebilir?
 
@@ -66,7 +66,7 @@ Glukagon reseptörü uyarımının uzun vadeli sonuçları ayrıca ele alınmal�
 
 ## Düzenleyici durum
 
-13 Ekim 2026'da yaptığımız kontrolde openFDA Drugs@FDA verisinde retatrutide için bir kayıt bulunmuyordu. Yani bileşik onaylı bir ilaç değil, klinik araştırma aşamasındadır. ClinicalTrials.gov'daki kayıtlardan biri "Pre-approval Expanded Access" (onay öncesi genişletilmiş erişim) başlığını taşıyor; bu, araştırma ilacına belirli koşullarda kontrollü erişim için yapılmış bir kayıttır, ürünün onaylandığı anlamına gelmez. Bu kayıt sistemleri güncellenir; güncel durum için yukarıdaki iki bağlantıya bakmak gerekir.
+Yani bileşik onaylı bir ilaç değil, klinik araştırma aşamasındadır. ClinicalTrials.gov'daki kayıtlardan biri "Pre-approval Expanded Access" (onay öncesi genişletilmiş erişim) başlığını taşıyor; bu, araştırma ilacına belirli koşullarda kontrollü erişim için yapılmış bir kayıttır, ürünün onaylandığı anlamına gelmez. Bu kayıt sistemleri güncellenir; güncel durum için yukarıdaki iki bağlantıya bakmak gerekir.
 
 ## Sınırlar ve bilinmeyenler
 

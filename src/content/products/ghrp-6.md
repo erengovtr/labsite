@@ -2,14 +2,14 @@
 name: "GHRP-6"
 tagline: "İlk geliştirilen büyüme hormonu salgılatıcı peptitlerden biri; ghrelin reseptörü agonisti hekzapeptit."
 category: "Peptit · Büyüme hormonu ekseni"
-status: "Araştırma bileşiği: FDA/openFDA kaydında onaylı ilaç olarak bulunmadı"
+status: "Araştırma bileşiği: onaylı ilaç değil"
 tag: "ghrp-6"
 group: "Araştırma bileşiği"
 order: 205
 checked: "2026-10-13"
 sources: ["7883854", "7581965", "23099431", "11751604", "16417467", "9893708", "25869809", "42395176"]
 docs:
-  - title: "ClinicalTrials.gov: GHRP-6 araması"
+  - title: "ClinicalTrials.gov: GHRP-6"
     url: "https://clinicaltrials.gov/search?intr=GHRP-6"
   - title: "Drugs@FDA: onaylı ilaç veri tabanı"
     url: "https://www.accessdata.fda.gov/scripts/cder/daf/"
@@ -28,4 +28,4 @@ Ghrelin reseptörü agonisti olarak iştahı etkiler. Sıçanlarda beyin içi gh
 
 Hayvanlarda doku koruyucu etkiler de bildirilmiştir. Karaciğer iskemi/reperfüzyonuyla çoklu organ yetmezliği benzeri hasar oluşturulan sıçanlarda, karın içine verilen GHRP-6 karaciğer ve bağırsakta hasar, nötrofil infiltrasyonu ve lipid peroksidasyonu göstergelerini yüzde 50-85 azaltmış; hücre kültüründe bağırsak epitel hücrelerinin göçü 3 kat artmış, çoğalma artmamıştır [@16417467]. Bu çalışma yalnızca hayvan ve hücre verisidir; insanda doğrulanmamıştır.
 
-2026 tarihli bir derleme GHRP-6'nın iştah artırıcı etkisini ve kortizol ile prolaktinde geçici artışları sınıfın karakteristik özellikleri olarak anar; insanda vücut kompozisyonuna dair doğrudan kanıtın sınırlı olduğunu ve bu bileşik grubu için vücut kompozisyonu ya da performans amaçlı bir endikasyonda düzenleyici onay bulunmadığını belirtir [@42395176]. 13 Ekim 2026'da openFDA'nın Drugs@FDA ve etiket kayıtlarında GHRP-6 için sonuç bulunamadı. Bir analitik çalışmada GHRP-6'nın burun yoluyla uygulama sonrası idrarda 23 saate kadar, çoğunlukla değişmemiş biçimde saptandığı ve GHRP'lerin WADA listesinde yer aldığı bildirildi; bu çalışmada her bileşik tek gönüllüye verilmiştir [@25869809].
+2026 tarihli bir derleme GHRP-6'nın iştah artırıcı etkisini ve kortizol ile prolaktinde geçici artışları sınıfın karakteristik özellikleri olarak anar; insanda vücut kompozisyonuna dair doğrudan kanıtın sınırlı olduğunu ve bu bileşik grubu için vücut kompozisyonu ya da performans amaçlı bir endikasyonda düzenleyici onay bulunmadığını belirtir [@42395176]. Bir analitik çalışmada GHRP-6'nın burun yoluyla uygulama sonrası idrarda 23 saate kadar, çoğunlukla değişmemiş biçimde saptandığı ve GHRP'lerin WADA listesinde yer aldığı bildirildi; bu çalışmada her bileşik tek gönüllüye verilmiştir [@25869809].

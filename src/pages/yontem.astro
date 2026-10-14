@@ -3,28 +3,28 @@ import Base from '../layouts/Base.astro';
 import Facets from '../components/Facets.astro';
 import Disclaimer from '../components/Disclaimer.astro';
 ---
-<Base title="Yöntem ve kaynaklar" description="Bilgilerin hangi kaynaklardan, nasıl derlendiği ve içeriğin sınırları.">
+<Base title="Yöntem ve kaynaklar" description="Bilimsel Bilgi Merkezi içeriklerinin hazırlanmasında esas alınan kaynak türleri, değerlendirme ilkeleri ve kapsam sınırları.">
   <div class="band"><Facets /><div class="wrap"><div class="page-head" data-reveal><span class="eyebrow">Yöntem</span><h1>Yöntem ve kaynaklar</h1>
-    <p>Sitedeki her bilginin hangi kaynaktan geldiği, nasıl değerlendirildiği ve nerede sınırlı kaldığı bu sayfada açıklanır.</p></div></div></div>
+    <p>Yayımlanan içeriklerin hazırlanmasında esas alınan kaynak türleri, değerlendirme ilkeleri ve kapsam sınırları bu sayfada tanımlanmıştır.</p></div></div></div>
   <div class="wrap" style="max-width:calc(var(--prose) + 56px);padding-top:48px">
     <div class="prose" data-reveal>
       <h2 style="border:0;padding:0;margin-top:0">Kaynak türleri</h2>
-      <p>Yazılar ve bileşik sayfaları yayımlanmış kaynaklara bağlıdır ve sayfanın sonunda numaralı bir kaynakça olarak listelenir. Metindeki köşeli parantezli numaralar bu listeye karşılık gelir. Kullanılan kaynak türleri şunlardır:</p>
+      <p>Her yazı ve bileşik sayfası, yayımlanmış birincil ve resmî kaynaklara dayanır. Metin içindeki numaralı atıflar, sayfa sonundaki kaynakçaya karşılık gelir. Kullanılan kaynak türleri aşağıdaki gibidir.</p>
       <ul>
-        <li><strong>Hakemli literatür:</strong> PubMed'de dizinlenmiş makaleler; her kaynak için PubMed numarası ve varsa DOI bağlantısı verilir.</li>
+        <li><strong>Hakemli literatür:</strong> PubMed'de dizinlenen makaleler. Her kaynak için PubMed numarası ve mevcutsa DOI bağlantısı verilir.</li>
         <li><strong>İlaç etiketleri:</strong> ABD Ulusal Tıp Kütüphanesi'nin DailyMed kayıtları ve openFDA etiket verisi.</li>
-        <li><strong>Onay durumu:</strong> Drugs@FDA kayıtları. Bir bileşiğin onaylı olup olmadığı yazılırken kontrol tarihi de belirtilir; bu durum zamanla değişebilir.</li>
-        <li><strong>Klinik çalışma kayıtları:</strong> ClinicalTrials.gov. Sonuçları yayımlanmamış kayıtlar bu şekilde işaretlenir.</li>
+        <li><strong>Onay durumu:</strong> Drugs@FDA kayıtları. Onay durumu belirtilirken kontrol tarihi de yer alır; bu bilgi zaman içinde değişebilir.</li>
+        <li><strong>Klinik çalışma kayıtları:</strong> ClinicalTrials.gov. Sonuçları yayımlanmamış kayıtlar bu şekilde belirtilir.</li>
         <li><strong>Kimyasal özellikler:</strong> PubChem.</li>
       </ul>
       <h2>Değerlendirme ilkeleri</h2>
-      <p>Hücre kültürü, hayvan modeli ve insan çalışması ayrı ayrı anlatılır; laboratuvardaki bir bulgu insan için kanıtmış gibi sunulmaz. Örneklem büyüklüğü, çalışma tasarımı, tek bir araştırma grubuna dayanma, yazarların çıkar ilişkisi ve vekil (surrogate) sonlanım noktaları gibi sınırlılıklar metinde belirtilir. Çalışmalarda bildirilen yan etkiler ve bilinmeyenler yazının parçasıdır. Kaynakların kendi ifadesini aşan çıkarımlar metinde "bize aittir" diye işaretlenir.</p>
-      <h2>Bilinen sınırlar</h2>
-      <p>Her makalenin tam metnine erişilemez. Açık erişimli tam metni bulunan makaleler tam metinden, diğerleri PubMed özetinden okunarak değerlendirilir; yalnızca özete dayanan bulgular özetin taşıdığı ayrıntıyla sınırlıdır. Bir kaynağın özetinde yer almayan ayrıntı (örneğin finansman, körleme ya da örneklem) bilinmiyorsa, bilinmediği yazılır. Onay durumu için yalnızca ABD kayıtları taranmıştır; diğer ülkelerdeki durum ayrıca doğrulanmadıkça belirtilmez.</p>
-      <h2>İçerikte yer almayanlar</h2>
-      <p>Doz, süre, protokol, kombinasyon veya "şunu yaparsanız şu olur" türünden ifadeler yer almaz. Bir çalışmada kullanılan doz yalnızca o çalışmanın tasarımını anlatmak için geçebilir ve öneri niteliği taşımaz. Kilo verme, kas kazanımı ya da gençleşme gibi sonuç vaatleri içerilmez. Bu site ürün satmaz ve satışa yönlendirmez.</p>
-      <h2 id="duzeltme">Düzeltme politikası</h2>
-      <p>Bir bilgi kaynağıyla uyuşmuyorsa ya da daha güncel bir kaynak varsa <a href="/iletisim/">bize yazın</a>. Kaynak kontrol edilir ve sayfa düzeltilir. Önemli düzeltmeler yazının güncelleme tarihine yansıtılır.</p>
+      <p>Hücre kültürü, hayvan modeli ve insan çalışmaları ayrı başlıklar altında ele alınır; laboratuvar bulguları insan için kanıt olarak sunulmaz. Örneklem büyüklüğü, çalışma tasarımı, tek bir araştırma grubuna dayanma, çıkar ilişkisi ve vekil sonlanım noktaları gibi sınırlılıklar ilgili çalışmanın yanında belirtilir. Çalışmalarda bildirilen advers olaylar ve belirsizlikler içeriğin parçasıdır. Kaynakların kendi ifadesini aşan çıkarımlar ayrıca işaretlenir.</p>
+      <h2>Erişim ve doğrulama</h2>
+      <p>Açık erişimli tam metni bulunan makaleler tam metin üzerinden, diğerleri PubMed özeti üzerinden değerlendirilir. Yalnızca özete dayanan bulgular, özetin içerdiği ayrıntıyla sınırlıdır; özette yer almayan bilgiler (finansman, körleme, örneklem gibi) bilinmiyorsa bu açıkça belirtilir. Onay durumu için ABD kayıtları esas alınmıştır; diğer ülkelerdeki durum, ayrıca doğrulanmadıkça belirtilmez.</p>
+      <h2>Kapsam dışı içerik</h2>
+      <p>Doz, süre, protokol, kombinasyon veya kullanım önerisi içeren ifadelere yer verilmez. Bir çalışmada kullanılan doz yalnızca o çalışmanın tasarımını tanımlamak için aktarılır ve öneri niteliği taşımaz. Kilo kaybı, kas kazanımı veya yaşlanmanın yavaşlaması gibi sonuç vaatleri içerilmez. Site ürün satmaz ve satışa yönlendirmez.</p>
+      <h2 id="duzeltme">Güncelleme ve düzeltme</h2>
+      <p>Bir bilginin kaynakla uyuşmadığı ya da daha güncel bir kaynağın bulunduğu durumlarda <a href="/iletisim/">iletişim</a> sayfası üzerinden başvuru yapılabilir. Başvuru kaynak kontrolünden geçirilir ve gerekli görülürse sayfa düzeltilir. Önemli düzeltmeler ilgili sayfanın güncelleme tarihine yansıtılır.</p>
     </div>
     <div style="margin:36px 0 72px"><Disclaimer /></div>
   </div>

@@ -27,7 +27,7 @@ Bu üç çalışma aynı yönü gösteriyor, ama aynı sınırlarla birlikte gel
 
 ### Erinasin A beyne ulaşıyor mu?
 
-Bu soru, mekanizma iddiasının en kritik noktasıdır, çünkü NGF salgısını kültürde uyaran bir bileşik ağızdan alındığında beyne ulaşmıyorsa fare ve insan sonuçlarını açıklamak güçleşir. Tsai ve arkadaşları Sprague-Dawley sıçanlarda erinasin A'nın mutlak oral biyoyararlanımını yüzde 24,39 olarak tahmin etti; bileşik oral dozdan 1 saat sonra beyinde saptandı ve 8. saatte doruk yaptı. Beyin/kan bağlanmamış fraksiyon oranının 1'e yakın olması pasif difüzyonu düşündürüyordu ve atılım esas olarak dışkıyla oluyordu [@34361662]. Yani erinasin A için sıçanda kan-beyin bariyerini geçtiğine dair doğrudan veri var. İnsanda böyle bir ölçüm bu yazının dayandığı kaynaklarda yok. Hericenonlar için de bu yazıda okuduğumuz bir biyoyararlanım çalışması bulunmuyor.
+Bu soru, mekanizma iddiasının en kritik noktasıdır, çünkü NGF salgısını kültürde uyaran bir bileşik ağızdan alındığında beyne ulaşmıyorsa fare ve insan sonuçlarını açıklamak güçleşir. Tsai ve arkadaşları Sprague-Dawley sıçanlarda erinasin A'nın mutlak oral biyoyararlanımını yüzde 24,39 olarak tahmin etti; bileşik oral dozdan 1 saat sonra beyinde saptandı ve 8. saatte doruk yaptı. Beyin/kan bağlanmamış fraksiyon oranının 1'e yakın olması pasif difüzyonu düşündürüyordu ve atılım esas olarak dışkıyla oluyordu [@34361662]. Yani erinasin A için sıçanda kan-beyin bariyerini geçtiğine dair doğrudan veri var. İnsanda böyle bir ölçüm bu yazının dayandığı kaynaklarda yok.
 
 ## İnsan çalışmaları: tek tek
 
@@ -67,12 +67,12 @@ Klinik çalışmalarda ciddi bir güvenlik sinyali bildirilmedi: Mori'nin çalı
 
 ## Düzenleyici durum
 
-Lion's mane, kültürel ve mutfaktaki kullanımıyla yenilebilen bir mantar olarak bilinir; Surendran ve arkadaşlarının belirttiğine göre mutfakta genellikle yalnızca meyve gövdesi tüketilir ve taze meyve gövdesi çok büyük miktarlarda (300 g'a kadar) yenebilir [@40276537]. Bu, takviye ürünlerinin ve özütlerin düzenleyici statüsü hakkında bir şey söylemez. FDA'nın DailyMed veri tabanında "hericium" aramasında kayıtlı bir ilaç etiketi bulamadık; bu bir ilaç olarak onaylı olmadığı anlamına gelir ama ülkelere göre gıda takviyesi ya da yeni gıda statüsü hakkında bir sonuç çıkarmak için yeterli bir doğrulama değildir. Türkiye ve AB düzenlemeleri için bu yazıda bir belgeye dayanmıyoruz.
+Lion's mane, kültürel ve mutfaktaki kullanımıyla yenilebilen bir mantar olarak bilinir; Surendran ve arkadaşlarının belirttiğine göre mutfakta genellikle yalnızca meyve gövdesi tüketilir ve taze meyve gövdesi çok büyük miktarlarda (300 g'a kadar) yenebilir [@40276537]. Bu, takviye ürünlerinin ve özütlerin düzenleyici statüsü hakkında bir şey söylemez. Türkiye ve AB düzenlemeleri için bu yazıda bir belgeye dayanmıyoruz.
 
 ## Sınırlar ve bilinmeyenler
 
 İnsan verisinin ortak noktası küçük örneklem ve kısa süredir: 15'er kişilik gruplar, 18-41 kişilik akut denemeler, 49 haftalık ama 41 kişilik bir pilot. Bunların birkaçında ürünün üreticisi çalışmaya katkıda bulunmuş, birkaçında ise bu bilgi özetlerde yer almıyor. Kullanılan preparatlar (kuru toz, miselyum kapsülü, sulu özüt, 10:1 özüt) birbirinden farklı olduğundan çalışmaları birleştirmek zordur. Ölçütler de heterojendir: Hasegawa ölçeği, MMSE, CASI, IADL, Stroop, N-Back ve ruh hali anketleri aynı sonucu ölçmez.
 
-Mekanizma tarafında en büyük boşluk, insanda NGF ya da başka bir nörotrofik faktörün gerçekten arttığını gösteren doğrudan ölçümün bu yazının kaynakları arasında bulunmamasıdır. Erinasin A'nın sıçanda beyne ulaştığı gösterildi [@34361662]; insanda ve hericenonlar için buna eşdeğer bir veri yok. Dolayısıyla "kültürde NGF uyarır, hayvanda hafızayı korur, insanda küçük çalışmalarda bazı ölçeklerde iyileşme görülür" şeklindeki zincir, her halkasında kopma olasılığı taşıyan bir çıkarımdır, kanıtlanmış bir nedensellik değildir.
+Mekanizma tarafında en büyük boşluk, insanda NGF ya da başka bir nörotrofik faktörün gerçekten arttığını gösteren doğrudan ölçümün bu yazının kaynakları arasında bulunmamasıdır. Erinasin A'nın sıçanda beyne ulaştığı gösterildi [@34361662]; insanda ve hericenonlar için buna eşdeğer bir veri yok.
 
 Gelecekteki çalışmalardan beklenen şeyler belli: önceden kaydedilmiş birincil sonlanımı olan, yüzlerce kişilik, bağımsız fonlu, standardize preparatlı çalışmalar; insan beyninde ya da kanda erinasin ve NGF düzeylerini ölçen mekanizma çalışmaları; ve uzun süreli güvenlik verisi. Bunlar olmadan lion's mane için söylenebilecek en dürüst cümle, ilginç ama kanıtlanmamış bir aday olduğudur. Bu yazı herhangi bir kullanım önerisi içermez; çalışmalarda anılan miktarlar yalnızca o çalışmanın tasarımını anlatmak içindir.

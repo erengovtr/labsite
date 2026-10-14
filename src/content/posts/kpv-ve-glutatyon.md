@@ -7,12 +7,12 @@ date: 2026-10-07
 updated: 2026-10-13
 sources: ["18612139", "18092346", "18061177", "15102092", "12895656", "27458604", "28143741", "23940690", "14988435", "22995213", "21795440", "35975308", "2221062", "24791752", "41897500", "20524875", "30895708", "39444151", "27499402", "32960827", "23631796", "25458463", "19230029", "26230671", "28436395", "23240940", "28789631"]
 docs:
-  - title: "ClinicalTrials.gov: KPV çalışmaları (kayıt yok)"
+  - title: "ClinicalTrials.gov: KPV çalışmaları"
     url: "https://clinicaltrials.gov/search?intr=KPV"
   - title: "Drugs@FDA: onaylı ilaç veri tabanı"
     url: "https://www.accessdata.fda.gov/scripts/cder/daf/"
 ---
-Aynı ürün adında yan yana anılan iki molekülün birbiriyle biyolojik bir ilişkisi olduğunu gösteren bir kaynak bulamadık. İkisi de üç amino asitten oluşur ve ikisi de "iltihap" ya da "antioksidan" gibi geniş sözcüklerle anılır; fark burada bitiyor. KPV bir hormonun parçası olarak laboratuvarda incelenmiş küçük bir peptit, glutatyon ise her hücrede sentezlenen temel bir metabolit. Bu yazı ikisinin literatürünü ayrı ayrı, yayımlanmış deney ve çalışmalar üzerinden anlatıyor. Çalışmalardaki doz ve süre bilgileri tasarımı tarif etmek içindir, kullanım önerisi değildir.
+İkisi de üç amino asitten oluşur ve ikisi de "iltihap" ya da "antioksidan" gibi geniş sözcüklerle anılır; fark burada bitiyor. KPV bir hormonun parçası olarak laboratuvarda incelenmiş küçük bir peptit, glutatyon ise her hücrede sentezlenen temel bir metabolit. Bu yazı ikisinin literatürünü ayrı ayrı, yayımlanmış deney ve çalışmalar üzerinden anlatıyor. Çalışmalardaki doz ve süre bilgileri tasarımı tarif etmek içindir, kullanım önerisi değildir.
 
 ## KPV: bir hormonun C ucu
 
@@ -38,7 +38,7 @@ Bağırsak dışından bir örnek: Schaible ve arkadaşları, kontrollü kortika
 
 ### İnsanda ne var?
 
-İnsanda KPV ile yapılmış bir klinik çalışma bulamadık; ClinicalTrials.gov'da 13 Ekim 2026'da KPV için kayıtlı çalışma yoktu. Brzoska ve arkadaşlarının 2008'de "gelecekte" tedavi için uygun olabilir dediği (düşük üretim maliyeti ve fizikokimyasal özellikler nedeniyle) peptit, aradan geçen sürede bulabildiğimiz bir insan çalışmasına dönüşmemiş. Yani KPV için bugün söylenebilecek tek şey, hücre kültürü ve farelerde tutarlı bir antienflamatuvar sinyal olduğu, mekanizmanın (PepT1, MC1R'dan bağımsız bir hedef) bir hipotez olduğu ve güvenlik, farmakokinetik ve etkinliğin insanda bilinmediğidir.
+Yani KPV için bugün söylenebilecek tek şey, hücre kültürü ve farelerde tutarlı bir antienflamatuvar sinyal olduğu, mekanizmanın (PepT1, MC1R'dan bağımsız bir hedef) bir hipotez olduğu ve güvenlik, farmakokinetik ve etkinliğin insanda bilinmediğidir.
 
 ## Glutatyon: hücrenin en bol tiyolü
 
@@ -68,10 +68,10 @@ Glutatyonun farklı uygulama yollarıyla yapılmış kontrollü çalışmaların
 
 ## Düzenleyici durum
 
-Drugs@FDA'da 13 Ekim 2026'da glutatyon (glutatyon disülfid) yalnızca göz içi irigasyon solüsyonu BSS Plus'ın bileşenleri arasında yer alıyordu; tek başına glutatyon için onaylı bir ilaç kaydı bulamadık. DailyMed'de "glutathione" araması 57 kayıt döndürdü; bakabildiğimiz ilk sayfadaki kayıtların çoğu, glutatyonun diğer bileşenlerle birlikte geçtiği homeopatik karışımlar ve sıvı preparatlardı. KPV için ne Drugs@FDA'da ne de ClinicalTrials.gov'da bir kayıt var.
+KPV için ne Drugs@FDA'da ne de ClinicalTrials.gov'da bir kayıt var.
 
 ## Sınırlar ve bilinmeyenler
 
 KPV literatürü hücre kültürü ve kısa süreli fare modellerinden oluşuyor; insan verisi yok. Temel mekanizma açık değil: PepT1 ile hücreye giriş ve reseptörden kısmen bağımsız bir yol öne sürülüyor, ama MC1R'ın rolü tartışmalı. Etkinin insan bağırsağında, ağızdan alındığında ne ölçüde görüleceğini bilmiyoruz; sıçanlarda bile bunun için nanopartikül sistemleri tasarlanıyor.
 
-Glutatyonun biyolojisi ise sağlam: hücrenin en önemli tiyolü ve yaşlanmada sentezinin azaldığına dair veri var. Fakat "hücrede önemli" olmak ile "dışarıdan alınınca yarar sağlamak" aynı şey değil. Ağızdan alınan GSH kan düzeylerini artırabiliyor (en azından bir kontrollü çalışmada), ama klinik sonlanımlarda sonuçlar küçük, kısa süreli, çoğu zaman plaseboya üstünlük göstermeyen çalışmalara dayanıyor. Damar içi kullanım için güvenlik verisi sınırlı, cilt açma gibi amaçlarla uzun süreli kullanımı çalışan bir veri yok. İki molekülün birbirine eklenmesini destekleyen hiçbir deney bulamadık.
+Glutatyonun biyolojisi ise sağlam: hücrenin en önemli tiyolü ve yaşlanmada sentezinin azaldığına dair veri var. Fakat "hücrede önemli" olmak ile "dışarıdan alınınca yarar sağlamak" aynı şey değil. Ağızdan alınan GSH kan düzeylerini artırabiliyor (en azından bir kontrollü çalışmada), ama klinik sonlanımlarda sonuçlar küçük, kısa süreli, çoğu zaman plaseboya üstünlük göstermeyen çalışmalara dayanıyor. Damar içi kullanım için güvenlik verisi sınırlı, cilt açma gibi amaçlarla uzun süreli kullanımı çalışan bir veri yok.

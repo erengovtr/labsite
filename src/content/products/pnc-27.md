@@ -9,7 +9,7 @@ order: 410
 checked: "2026-10-13"
 sources: ["35625682", "20182728", "32878773", "31337857", "28667027", "40750238", "38927351", "38802154"]
 docs:
-  - title: "ClinicalTrials.gov: PNC-27 araması (13 Ekim 2026: kayıt dönmedi)"
+  - title: "ClinicalTrials.gov: PNC-27"
     url: "https://clinicaltrials.gov/search?term=PNC-27"
 facts:
   - { label: "Yapı", value: "32 kalıntı; HDM-2 bağlanma bölgesi + hücre-penetre edici lider dizi [@35625682]" }
@@ -24,4 +24,4 @@ Hücre kültürü verisi geniştir: akut miyeloid lösemi hatlarında membran HD
 
 Farklı bir laboratuvarın Leukemia çalışmasında PNC-27, hem insan hem fare AML modellerinde lösemi blastlarını ve lösemi kök hücrelerini öldürmüş, normal hematopoietik kök hücre etkinliğini korumuştur. Ancak bu çalışma ölüm mekanizması olarak por oluşumunu değil, membran HDM2'nin E-kaderin ile etkileşiminin artması, E-kaderin ubikitinasyonu ve yıkımı sonucu membran hasarını önerir [@31337857]. Yani mekanizma yazarlar arasında tam örtüşmemektedir.
 
-Kanıtın büyük bölümü aynı araştırma grubunun hücre kültürü çalışmalarından gelir. Grubun kendi derlemesi hayvan modellerinde (pankreas tümörü, AML) hedef dışı etki görülmediğini belirtir [@38927351]; bunlar nude fare deneyleridir. İnsan çalışması, güvenlik ya da farmakokinetik verisi bulunamadı ve ClinicalTrials.gov'da PNC-27 için kayıt dönmedi. Dolayısıyla bileşiğin insanda etkili ya da güvenli olduğu söylenemez.
+Kanıtın büyük bölümü aynı araştırma grubunun hücre kültürü çalışmalarından gelir. Grubun kendi derlemesi hayvan modellerinde (pankreas tümörü, AML) hedef dışı etki görülmediğini belirtir [@38927351]; bunlar nude fare deneyleridir. Dolayısıyla bileşiğin insanda etkili ya da güvenli olduğu söylenemez.

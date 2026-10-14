@@ -2,14 +2,14 @@
 name: "Tesofensin"
 tagline: "Noradrenalin, dopamin ve serotonin geri alımını engelleyen oral bileşik."
 category: "Küçük molekül · Metabolizma"
-status: "Araştırma bileşiği: onaylı ilaç değil (Drugs@FDA kaydı yok)"
+status: "Araştırma bileşiği: onaylı ilaç değil"
 tag: "tesofensin"
 group: "Araştırma bileşiği"
 order: 402
 checked: "2026-10-13"
 sources: ["18950853", "23561987", "23849924", "18356831", "20200509", "19777399", "21720440", "35294397"]
 docs:
-  - title: "ClinicalTrials.gov: tesofensine çalışmaları (13 kayıt, tamamı faz 1-2)"
+  - title: "ClinicalTrials.gov: tesofensine çalışmaları"
     url: "https://clinicaltrials.gov/search?intr=tesofensine"
 facts:
   - { label: "Sınıf", value: "Üçlü monoamin geri alım inhibitörü [@19777399]" }
@@ -26,4 +26,4 @@ Bu yayının güvenilirliği tartışmalıdır: Lancet 2013'te makale için bir 
 
 Mekanizma verisi kemirgenlerden gelir: diyetle obez sıçanlarda iştah baskılanması alfa-1 adrenoseptör ve dopamin D1 yolaklarıyla ilişkilendirilmiştir [@20200509]. Tesofensin ile metoprolol kombinasyonunun (Tesomet) hipotalamik obezitede 21 kişilik randomize çalışmasında plaseboya göre ek %6,3 kilo kaybı bildirilmiştir; ancak örneklem küçüktür ve baş ağrısı, ağız kuruluğu ve uyku bozukluğu sık görülmüştür [@35294397].
 
-Drugs@FDA/openFDA drugsfda aramasında kayıt bulunmadı; ClinicalTrials.gov'daki 13 kaydın tümü faz 1-2'dir, ikisi geri çekilmiştir (withdrawn). Faz 3 verisi yoktur.
+Faz 3 verisi yoktur.

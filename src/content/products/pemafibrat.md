@@ -2,7 +2,7 @@
 name: "Pemafibrat (Pemafibrate)"
 tagline: "Trigliseridi düşüren seçici PPARα modülatörü (SPPARMα); PROMINENT çalışmasında kardiyovasküler olayları azaltmadı."
 category: "Küçük molekül · Lipit metabolizması"
-status: "Araştırma bileşiği: Drugs@FDA'da kayıt bulunamadı"
+status: "Araştırma bileşiği: onaylı ilaç değil"
 tag: "pemafibrat"
 group: "Araştırma bileşiği"
 order: 510

@@ -15,7 +15,7 @@ facts:
   - { label: "Yapı", value: "CKGGRAKDC-GG-(D)(KLAKLAK)2, ligand-yönlendirmeli peptidomimetik [@22072637]" }
   - { label: "Hedef", value: "Beyaz yağ damar endotelindeki prohibitin [@15133506]" }
   - { label: "Maymun çalışması", value: "Kilo kaybı ve insülin direncinde iyileşme; böbrek proksimal tübül işlevinde geri dönüşlü değişiklik [@22072637]" }
-  - { label: "Klinik kayıt", value: "Faz 1, 4 katılımcı (gerçekleşen), 'PI isteğiyle sonlandırıldı'; sonuç yayını bulunamadı" }
+  - { label: "Klinik kayıt", value: "Faz 1, 4 katılımcı (gerçekleşen), 'PI isteğiyle sonlandırıldı'; sonuç yayını yok" }
 ---
 Adipotid'in dayanağı, 2004'te Nature Medicine'de bildirilen bir bulguya uzanır: in vivo faj gösterimiyle beyaz yağ damarlarına yönelen bir peptit motifi (CKGGRAKDC) saptanmış, bu motifin prohibitine bağlandığı ve prohibitinin yağ dokusu damarı için bir belirteç olduğu gösterilmiştir. Bu motife proapoptotik bir peptit bağlandığında farelerde beyaz yağ dokusu yok edilmiş, obezite saptanabilir yan etki olmadan geri dönmüştür; yazarlar prohibitinin insan beyaz yağ damarlarında da bulunduğunu belirtmiştir [@15133506].
 
@@ -23,7 +23,7 @@ Moleküle adipotid adı veren çalışma 2011'de obez maymunlarda yapılmıştı
 
 İnsana ilişkin dolaylı veri, kanser hastalarında yapılan bir peptit kütüphanesi taramasından gelir: prohibitin/annexin A2 ligand-reseptör çiftinin normal dokuda beyaz yağ dokusuna özgü dağıldığı gösterilmiştir [@22049339]. Bu çalışma ilacı değil, hedefin varlığını destekler. Derlemeler prohibitine yönelik nanopartikül yaklaşımlarının farelerde anti-obez etkiler için makromolekül taşıyabildiğini aktarır [@26261854][@25376864].
 
-ClinicalTrials.gov'da "prohibitin targeting peptide 1" adlı bir faz 1 çalışma (NCT01262664) listelenir: metastatik prostat kanseri ve obezitesi olan hastalarda tek kür; kayıtta 4 gerçekleşen katılımcı vardır ve çalışma "araştırmacının isteğiyle" sonlandırılmıştır. Bu kaydın adipotid ile aynı molekül olduğunu okuduğumuz kaynaklardan doğrulayamadık; ayrıca sonuç yayını bulamadık.
+ClinicalTrials.gov'da "prohibitin targeting peptide 1" adlı bir faz 1 çalışma (NCT01262664) listelenir: metastatik prostat kanseri ve obezitesi olan hastalarda tek kür; kayıtta 4 gerçekleşen katılımcı vardır ve çalışma "araştırmacının isteğiyle" sonlandırılmıştır.
 
 Hedef molekül olan prohibitin yağ dokusuna özgü olmayan, birçok hücrede bulunan çok işlevli bir zar proteinidir; Kolonin ve arkadaşları bunu yağ dokusu damarında bir belirteç olarak tanımlamıştır, ancak hedefin seçiciliği ve böbrek bulgusu nedeniyle insan güvenliği açık bir soru olarak kalmaktadır [@15133506][@22072637].
 

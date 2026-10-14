@@ -2,14 +2,14 @@
 name: "Hexarelin"
 tagline: "GHRP-6'dan türeyen, GH salgılatıcı etkisine kalp dokusu üzerinde araştırılan etkileri eklenen hekzapeptit."
 category: "Peptit · Büyüme hormonu ekseni"
-status: "Araştırma bileşiği: FDA/openFDA ve ClinicalTrials.gov'da onaylı ilaç ya da kayıtlı çalışma bulunmadı"
+status: "Araştırma bileşiği: onaylı ilaç değil"
 tag: "hexarelin"
 group: "Araştırma bileşiği"
 order: 206
 checked: "2026-10-13"
 sources: ["7673411", "8766941", "10341859", "11888836", "9285939", "12144941", "29756411", "25278975", "25869809", "42395176"]
 docs:
-  - title: "ClinicalTrials.gov: hexarelin araması"
+  - title: "ClinicalTrials.gov: hexarelin"
     url: "https://clinicaltrials.gov/search?intr=hexarelin"
   - title: "Drugs@FDA: onaylı ilaç veri tabanı"
     url: "https://www.accessdata.fda.gov/scripts/cder/daf/"
@@ -28,4 +28,4 @@ Tekrarlayan uygulamada duyarsızlaşma tartışması vardır. Yedi prepubertal k
 
 Kalp çalışmaları ilgi çekici ama sınırlıdır. Koroner arter hastalığı nedeniyle bypass ameliyatı geçiren 24 erkekte tek doz hexarelin, GHRH, rhGH ve plaseboya karşı karşılaştırıldı; yalnızca hexarelin 10 dakikada sol ventrikül ejeksiyon fraksiyonu, kardiyak indeks ve debiyi artırdı, etki 90 dakikaya kadar sürdü ve sistemik vasküler direnç değişmedi [@12144941]. Akut miyokard infarktüsü oluşturulan farelerde 21 günlük hexarelin sol ventrikül işlevini korudu, interstisyel kolajeni ve inflamasyon belirteçlerini azalttı [@29756411]. Fare verisi insana aktarılamaz.
 
-13 Ekim 2026'da openFDA'nın Drugs@FDA ve etiket kayıtlarında ve ClinicalTrials.gov müdahale aramasında hexarelin için kayıt bulunamadı. 2026 tarihli bir derleme hexarelinin insanda anabolik ya da vücut kompozisyonu etkilerinin çoğunlukla GH ve IGF-1 artışından çıkarıldığını, bu amaçla tasarlanmış kontrollü çalışma bulunmadığını yazar [@42395176]. GHRP'ler WADA listesinde anılır; hexarelinin idrarda ana madde ve metabolitleriyle saptanabildiği gösterilmiştir [@25869809].
+2026 tarihli bir derleme hexarelinin insanda anabolik ya da vücut kompozisyonu etkilerinin çoğunlukla GH ve IGF-1 artışından çıkarıldığını, bu amaçla tasarlanmış kontrollü çalışma bulunmadığını yazar [@42395176]. GHRP'ler WADA listesinde anılır; hexarelinin idrarda ana madde ve metabolitleriyle saptanabildiği gösterilmiştir [@25869809].

@@ -2,7 +2,7 @@
 name: "Kagrilintid (cagrilintide)"
 tagline: "Amilin reseptörlerini uyaran, haftalık uygulama için tasarlanmış uzun etkili amilin analoğu."
 category: "Peptit · Metabolizma"
-status: "Araştırma bileşiği: Drugs@FDA kaydı bulunmuyor (13 Ekim 2026 kontrolü)"
+status: "Araştırma bileşiği: onaylı ilaç değil"
 tag: "kagrilintid"
 group: "Araştırma bileşiği"
 order: 400
