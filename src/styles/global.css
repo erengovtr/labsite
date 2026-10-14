@@ -348,3 +348,16 @@ sup.cite a { text-decoration: none; font-weight: 600; padding: 0 1px; }
 .gsrc a { color: var(--green); }
 .refs h3 { font: 600 13px var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); margin: 22px 0 8px; }
 .refs ul { padding-left: 1.2em; }
+
+/* Ürün görselleri beyaz zeminli orijinal fotoğraflar: kutu içinde, gölgesiz */
+.pc-media, .pstage { background: #fff; }
+.pc-media { padding: 0; }
+.pc-media img { width: 100%; max-width: none; height: 100%; max-height: none; object-fit: contain; filter: none; }
+.pstage img { filter: none; }
+.pstage-in { inset: 0; }
+.pstage-in .pmedia img { object-fit: contain; filter: none; }
+.marquee .pc-media { padding: 0; }
+.hero-shelf::after { display: none; }
+.shelf-item { background: #fff; border: 1px solid var(--line); border-radius: 22px; overflow: hidden; box-shadow: 0 28px 44px -28px rgba(29,42,39,.45); margin: 0 -1.5%; align-self: center; }
+.shelf-item.s0 { transform-origin: bottom; }
+.card-thumb { background: #fff; border-radius: 8px; }
