@@ -42,6 +42,30 @@
    "Journal Article"
   ]
  },
+ "10358912": {
+  "pmid": "10358912",
+  "title": "[Investigation of mechanisms of neuro-protective effect of semax in acute period of ischemic stroke]",
+  "authors": [
+   "Miasoedova NF",
+   "Skvortsova VI",
+   "Nasonov EL",
+   "Zhuravleva EIu",
+   "Grivennikov IA",
+   "Arsen'eva EL",
+   "Sukhanov II"
+  ],
+  "journal": "Zh Nevrol Psikhiatr Im S S Korsakova",
+  "year": "1999",
+  "volume": "99",
+  "issue": "5",
+  "pages": "15-9",
+  "doi": "",
+  "types": [
+   "Comparative Study",
+   "English Abstract",
+   "Journal Article"
+  ]
+ },
  "10373343": {
   "pmid": "10373343",
   "title": "Ipamorelin, a new growth-hormone-releasing peptide, induces longitudinal bone growth in rats",
@@ -62,6 +86,32 @@
   "doi": "10.1054/ghir.1999.9998",
   "types": [
    "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "10404019": {
+  "pmid": "10404019",
+  "title": "Oral administration of the growth hormone secretagogue MK-677 increases markers of bone turnover in healthy and functionally impaired elderly adults. The MK-677 Study Group",
+  "authors": [
+   "Murphy MG",
+   "Bach MA",
+   "Plotkin D",
+   "Bolognese J",
+   "Ng J",
+   "Krupa D",
+   "Cerchio K",
+   "Gertz BJ"
+  ],
+  "journal": "J Bone Miner Res",
+  "year": "1999",
+  "volume": "14",
+  "issue": "7",
+  "pages": "1182-8",
+  "doi": "10.1359/jbmr.1999.14.7.1182",
+  "types": [
+   "Clinical Trial",
+   "Journal Article",
+   "Randomized Controlled Trial",
    "Research Support, Non-U.S. Gov't"
   ]
  },
@@ -103,6 +153,27 @@
   "issue": "6762",
   "pages": "656-60",
   "doi": "10.1038/45230",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "10629165": {
+  "pmid": "10629165",
+  "title": "Methylprednisolone does not inhibit the release of growth hormone after intravenous injection of a novel growth hormone secretagogue in rats",
+  "authors": [
+   "Malmlöf K",
+   "Johansen PB",
+   "Haahr PM",
+   "Wilken M",
+   "Oxlund H"
+  ],
+  "journal": "Growth Horm IGF Res",
+  "year": "1999",
+  "volume": "9",
+  "issue": "6",
+  "pages": "445-50",
+  "doi": "10.1054/ghir.1999.0128",
   "types": [
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
@@ -175,6 +246,51 @@
    "Controlled Clinical Trial",
    "English Abstract",
    "Journal Article"
+  ]
+ },
+ "10750566": {
+  "pmid": "10750566",
+  "title": "Vitamin K2 (menatetrenone) effectively prevents fractures and sustains lumbar bone mineral density in osteoporosis",
+  "authors": [
+   "Shiraki M",
+   "Shiraki Y",
+   "Aoki C",
+   "Miura M"
+  ],
+  "journal": "J Bone Miner Res",
+  "year": "2000",
+  "volume": "15",
+  "issue": "3",
+  "pages": "515-21",
+  "doi": "10.1359/jbmr.2000.15.3.515",
+  "types": [
+   "Clinical Trial",
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
+ "10828840": {
+  "pmid": "10828840",
+  "title": "The GH secretagogues ipamorelin and GH-releasing peptide-6 increase bone mineral content in adult female rats",
+  "authors": [
+   "Svensson J",
+   "Lall S",
+   "Dickson SL",
+   "Bengtsson BA",
+   "Rømer J",
+   "Ahnfelt-Rønne I",
+   "Ohlsson C",
+   "Jansson JO"
+  ],
+  "journal": "J Endocrinol",
+  "year": "2000",
+  "volume": "165",
+  "issue": "3",
+  "pages": "569-77",
+  "doi": "10.1677/joe.0.1650569",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "10893433": {
@@ -339,6 +455,25 @@
   "pages": "274-8",
   "doi": "10.1159/000053183",
   "types": [
+   "Journal Article"
+  ]
+ },
+ "11176716": {
+  "pmid": "11176716",
+  "title": "The effect of copper tripeptide and tretinoin on growth factor production in a serum-free fibroblast model",
+  "authors": [
+   "McCormack MC",
+   "Nowak KC",
+   "Koch RJ"
+  ],
+  "journal": "Arch Facial Plast Surg",
+  "year": "2001",
+  "volume": "3",
+  "issue": "1",
+  "pages": "28-32",
+  "doi": "",
+  "types": [
+   "Comparative Study",
    "Journal Article"
   ]
  },
@@ -524,6 +659,28 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "11594942": {
+  "pmid": "11594942",
+  "title": "A randomized, placebo-controlled, clinical trial of high-dose supplementation with vitamins C and E, beta carotene, and zinc for age-related macular degeneration and vision loss: AREDS report no. 8",
+  "authors": [
+   "Age-Related Eye Disease Study Research Group"
+  ],
+  "journal": "Arch Ophthalmol",
+  "year": "2001",
+  "volume": "119",
+  "issue": "10",
+  "pages": "1417-36",
+  "doi": "10.1001/archopht.119.10.1417",
+  "types": [
+   "Clinical Trial",
+   "Comparative Study",
+   "Journal Article",
+   "Multicenter Study",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, P.H.S."
+  ]
+ },
  "11673763": {
   "pmid": "11673763",
   "title": "Increase of fat oxidation and weight loss in obese mice caused by chronic treatment with human growth hormone or a modified C-terminal fragment",
@@ -589,6 +746,29 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "11735244": {
+  "pmid": "11735244",
+  "title": "The growth hormone secretagogue ipamorelin counteracts glucocorticoid-induced decrease in bone formation of adult rats",
+  "authors": [
+   "Andersen NB",
+   "Malmlöf K",
+   "Johansen PB",
+   "Andreassen TT",
+   "Ørtoft G",
+   "Oxlund H"
+  ],
+  "journal": "Growth Horm IGF Res",
+  "year": "2001",
+  "volume": "11",
+  "issue": "5",
+  "pages": "266-72",
+  "doi": "10.1054/ghir.2001.0239",
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "11751604": {
   "pmid": "11751604",
   "title": "Acute central ghrelin and GH secretagogues induce feeding and activate brain appetite centers",
@@ -633,6 +813,33 @@
    "Randomized Controlled Trial",
    "Research Support, Non-U.S. Gov't",
    "Research Support, U.S. Gov't, P.H.S."
+  ]
+ },
+ "12057549": {
+  "pmid": "12057549",
+  "title": "Do women with pre-eclampsia, and their babies, benefit from magnesium sulphate? The Magpie Trial: a randomised placebo-controlled trial",
+  "authors": [
+   "Altman D",
+   "Carroli G",
+   "Duley L",
+   "Farrell B",
+   "Moodley J",
+   "Neilson J",
+   "Smith D",
+   "Magpie Trial Collaboration Group"
+  ],
+  "journal": "Lancet",
+  "year": "2002",
+  "volume": "359",
+  "issue": "9321",
+  "pages": "1877-90",
+  "doi": "10.1016/s0140-6736(02)08778-0",
+  "types": [
+   "Clinical Trial",
+   "Journal Article",
+   "Multicenter Study",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "12076318": {
@@ -705,6 +912,26 @@
    "Journal Article"
   ]
  },
+ "12168778": {
+  "pmid": "12168778",
+  "title": "Influence of chronic treatment with the growth hormone secretagogue Ipamorelin, in young female rats: somatotroph response in vitro",
+  "authors": [
+   "Jiménez-Reina L",
+   "Cañete R",
+   "de la Torre MJ",
+   "Bernal G"
+  ],
+  "journal": "Histol Histopathol",
+  "year": "2002",
+  "volume": "17",
+  "issue": "3",
+  "pages": "707-14",
+  "doi": "10.14670/HH-17.707",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "12195242": {
   "pmid": "12195242",
   "title": "Pineal-regulating tetrapeptide epitalon improves eye retina condition in retinitis pigmentosa",
@@ -773,6 +1000,27 @@
    "Journal Article"
   ]
  },
+ "12361873": {
+  "pmid": "12361873",
+  "title": "Co-treatment with melanotan-II, a potent melanocortin, does not protect against cisplatin ototoxicity",
+  "authors": [
+   "Wolters FL",
+   "de Vocht TF",
+   "Klis SF",
+   "Hamers FP",
+   "Smoorenburg GF"
+  ],
+  "journal": "Hear Res",
+  "year": "2002",
+  "volume": "172",
+  "issue": "1-2",
+  "pages": "110-7",
+  "doi": "10.1016/s0378-5955(02)00551-8",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "12374520": {
   "pmid": "12374520",
   "title": "Glucosamine sulfate use and delay of progression of knee osteoarthritis: a 3-year, randomized, placebo-controlled, double-blind study",
@@ -814,6 +1062,24 @@
    "Review"
   ]
  },
+ "12415547": {
+  "pmid": "12415547",
+  "title": "Determination of melanotan-II in rat plasma by liquid chromatography/tandem mass spectrometry: determination of pharmacokinetic parameters in rat following intravenous administration",
+  "authors": [
+   "Mock S",
+   "Shen X",
+   "Tamvakopoulos C"
+  ],
+  "journal": "Rapid Commun Mass Spectrom",
+  "year": "2002",
+  "volume": "16",
+  "issue": "22",
+  "pages": "2142-7",
+  "doi": "10.1002/rcm.847",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "12432865": {
   "pmid": "12432865",
   "title": "Effects of Selank on behavioral reactions and activities of plasma enkephalin-degrading enzymes in mice with different phenotypes of emotional and stress reactions",
@@ -833,6 +1099,26 @@
    "Journal Article"
   ]
  },
+ "12459874": {
+  "pmid": "12459874",
+  "title": "Therapy of peptic ulcer with semax peptide",
+  "authors": [
+   "Ivanikov IO",
+   "Brekhova ME",
+   "Samonina GE",
+   "Myasoedov NF",
+   "Ashmarin IP"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2002",
+  "volume": "134",
+  "issue": "1",
+  "pages": "73-4",
+  "doi": "10.1023/a:1020621124776",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "12500171": {
   "pmid": "12500171",
   "title": "Epitalon influences pineal secretion in stress-exposed rats in the daytime",
@@ -848,6 +1134,26 @@
   "issue": "5-6",
   "pages": "452-4",
   "doi": "",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "12530470": {
+  "pmid": "12530470",
+  "title": "The involvement of P-glycoprotein in berberine absorption",
+  "authors": [
+   "Pan GY",
+   "Wang GJ",
+   "Liu XD",
+   "Fawcett JP",
+   "Xie YY"
+  ],
+  "journal": "Pharmacol Toxicol",
+  "year": "2002",
+  "volume": "91",
+  "issue": "4",
+  "pages": "193-7",
+  "doi": "10.1034/j.1600-0773.2002.t01-1-910403.x",
   "types": [
    "Journal Article"
   ]
@@ -872,6 +1178,25 @@
   "doi": "10.1023/a:1021924702103",
   "types": [
    "Journal Article"
+  ]
+ },
+ "12535159": {
+  "pmid": "12535159",
+  "title": "The melanocortin agonist Melanotan-II reduces the orexigenic and adipogenic effects of neuropeptide Y (NPY) but does not affect the NPY-driven suppressive effects on the gonadotropic and somatotropic axes in the male rat",
+  "authors": [
+   "Raposinho PD",
+   "White RB",
+   "Aubert ML"
+  ],
+  "journal": "J Neuroendocrinol",
+  "year": "2003",
+  "volume": "15",
+  "issue": "2",
+  "pages": "173-81",
+  "doi": "10.1046/j.1365-2826.2003.00962.x",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "12577695": {
@@ -1115,6 +1440,31 @@
    "Randomized Controlled Trial"
   ]
  },
+ "14531843": {
+  "pmid": "14531843",
+  "title": "Extensive structure-activity studies of lactam derivatives of MT-II and SHU-9119: their activity and selectivity at human melanocortin receptors 3, 4, and 5",
+  "authors": [
+   "Grieco P",
+   "Balse-Srinivasan P",
+   "Han G",
+   "Weinberg D",
+   "MacNeil T",
+   "Van der Ploeg LH",
+   "Hruby VJ"
+  ],
+  "journal": "J Pept Res",
+  "year": "2003",
+  "volume": "62",
+  "issue": "5",
+  "pages": "199-206",
+  "doi": "10.1034/j.1399-3011.2003.00087.x",
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, P.H.S."
+  ]
+ },
  "14552529": {
   "pmid": "14552529",
   "title": "The optimizing action of the synthetic peptide Selank on a conditioned active avoidance reflex in rats",
@@ -1190,6 +1540,30 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "14648529": {
+  "pmid": "14648529",
+  "title": "The effect of topical tripeptide-copper complex on healing of ischemic open wounds",
+  "authors": [
+   "Canapp SO",
+   "Farese JP",
+   "Schultz GS",
+   "Gowda S",
+   "Ishak AM",
+   "Swaim SF",
+   "Vangilder J",
+   "Lee-Ambrose L",
+   "Martin FG"
+  ],
+  "journal": "Vet Surg",
+  "year": "2003",
+  "volume": "32",
+  "issue": "6",
+  "pages": "515-23",
+  "doi": "10.1111/j.1532-950x.2003.00515.x",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "14693691": {
   "pmid": "14693691",
   "title": "Epac: A new cAMP-binding protein in support of glucagon-like peptide-1 receptor-mediated signal transduction in the pancreatic beta-cell",
@@ -1207,6 +1581,31 @@
    "Research Support, Non-U.S. Gov't",
    "Research Support, U.S. Gov't, P.H.S.",
    "Review"
+  ]
+ },
+ "14759425": {
+  "pmid": "14759425",
+  "title": "Methylene blue reduces mortality and morbidity in vasoplegic patients after cardiac surgery",
+  "authors": [
+   "Levin RL",
+   "Degrange MA",
+   "Bruno GF",
+   "Del Mazo CD",
+   "Taborda DJ",
+   "Griotti JJ",
+   "Boullon FJ"
+  ],
+  "journal": "Ann Thorac Surg",
+  "year": "2004",
+  "volume": "77",
+  "issue": "2",
+  "pages": "496-9",
+  "doi": "10.1016/S0003-4975(03)01510-8",
+  "types": [
+   "Clinical Trial",
+   "Journal Article",
+   "Multicenter Study",
+   "Randomized Controlled Trial"
   ]
  },
  "1495150": {
@@ -1516,6 +1915,26 @@
    "Research Support, U.S. Gov't, P.H.S."
   ]
  },
+ "15208005": {
+  "pmid": "15208005",
+  "title": "The Omega-3 Index: a new risk factor for death from coronary heart disease?",
+  "authors": [
+   "Harris WS",
+   "Von Schacky C"
+  ],
+  "journal": "Prev Med",
+  "year": "2004",
+  "volume": "39",
+  "issue": "1",
+  "pages": "212-20",
+  "doi": "10.1016/j.ypmed.2004.02.030",
+  "types": [
+   "Clinical Trial",
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "15230633": {
   "pmid": "15230633",
   "title": "Pralmorelin: GHRP 2, GPA 748, growth hormone-releasing peptide 2, KP-102 D, KP-102 LN, KP-102D, KP-102LN",
@@ -1686,6 +2105,27 @@
    "Journal Article"
   ]
  },
+ "15508574": {
+  "pmid": "15508574",
+  "title": "A new property of the synthetic anxiolytic Selank and its derivatives",
+  "authors": [
+   "Pavlov TS",
+   "Samonina GE",
+   "Andreeva LA",
+   "Myasoedov NF",
+   "Ashmarin IP"
+  ],
+  "journal": "Dokl Biol Sci",
+  "year": "2004",
+  "volume": "397",
+  "issue": "",
+  "pages": "281-3",
+  "doi": "10.1023/b:dobs.0000039692.94366.2c",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "15525346": {
   "pmid": "15525346",
   "title": "An NCAM-derived FGF-receptor agonist, the FGL-peptide, induces neurite outgrowth and neuronal survival in primary rat neurons",
@@ -1745,6 +2185,28 @@
    "Journal Article",
    "Research Support, Non-U.S. Gov't",
    "Research Support, U.S. Gov't, Non-P.H.S.",
+   "Research Support, U.S. Gov't, P.H.S."
+  ]
+ },
+ "15565145": {
+  "pmid": "15565145",
+  "title": "Thymosin beta4 activates integrin-linked kinase and promotes cardiac cell migration, survival and cardiac repair",
+  "authors": [
+   "Bock-Marquette I",
+   "Saxena A",
+   "White MD",
+   "Dimaio JM",
+   "Srivastava D"
+  ],
+  "journal": "Nature",
+  "year": "2004",
+  "volume": "432",
+  "issue": "7016",
+  "pages": "466-72",
+  "doi": "10.1038/nature03000",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
    "Research Support, U.S. Gov't, P.H.S."
   ]
  },
@@ -1873,6 +2335,26 @@
    "Research Support, U.S. Gov't, P.H.S."
   ]
  },
+ "15792140": {
+  "pmid": "15792140",
+  "title": "[Semax in prevention of disease progress and development of exacerbations in patients with cerebrovascular insufficiency]",
+  "authors": [
+   "Gusev EI",
+   "Skvortsova VI",
+   "Chukanova EI"
+  ],
+  "journal": "Zh Nevrol Psikhiatr Im S S Korsakova",
+  "year": "2005",
+  "volume": "105",
+  "issue": "2",
+  "pages": "35-40",
+  "doi": "",
+  "types": [
+   "Comparative Study",
+   "Evaluation Study",
+   "Journal Article"
+  ]
+ },
  "15814848": {
   "pmid": "15814848",
   "title": "Development of growth hormone secretagogues",
@@ -1912,6 +2394,24 @@
   "pages": "3052-8",
   "doi": "10.1210/en.2004-1286",
   "types": [
+   "Journal Article"
+  ]
+ },
+ "15834043": {
+  "pmid": "15834043",
+  "title": "Copper deficiency myeloneuropathy and pancytopenia secondary to overuse of zinc supplementation",
+  "authors": [
+   "Rowin J",
+   "Lewis SL"
+  ],
+  "journal": "J Neurol Neurosurg Psychiatry",
+  "year": "2005",
+  "volume": "76",
+  "issue": "5",
+  "pages": "750-1",
+  "doi": "10.1136/jnnp.2004.046987",
+  "types": [
+   "Case Reports",
    "Journal Article"
   ]
  },
@@ -2023,6 +2523,48 @@
    "Journal Article"
   ]
  },
+ "15967265": {
+  "pmid": "15967265",
+  "title": "The use of telemetry technology to test the proerectile effect of melanotan-II (MT-II) in conscious rats",
+  "authors": [
+   "Giuliano F",
+   "Rössler AS",
+   "Clément P",
+   "Droupy S",
+   "Alexandre L",
+   "Bernabé J"
+  ],
+  "journal": "Eur Urol",
+  "year": "2005",
+  "volume": "48",
+  "issue": "1",
+  "pages": "145-51; discussion 151-2",
+  "doi": "10.1016/j.eururo.2005.02.023",
+  "types": [
+   "Comparative Study",
+   "Journal Article"
+  ]
+ },
+ "16027870": {
+  "pmid": "16027870",
+  "title": "C-terminal Pro-Gly-Pro tripeptide in contrast to full-length neuropeptide semax exhibits no neuroprotective effect in experimental cerebral ischemia",
+  "authors": [
+   "Fadyukova OE",
+   "Kadi A",
+   "Bai O",
+   "Andzhusheva GM",
+   "Koshelev VB"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2005",
+  "volume": "139",
+  "issue": "4",
+  "pages": "421-3",
+  "doi": "10.1007/s10517-005-0311-5",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "16099219": {
   "pmid": "16099219",
   "title": "Thymosin beta4: actin-sequestering protein moonlights to repair injured tissues",
@@ -2115,6 +2657,26 @@
    "Comparative Study",
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "16293341": {
+  "pmid": "16293341",
+  "title": "Effect of MELANOTAN, [Nle(4), D-Phe(7)]-alpha-MSH, on melanin synthesis in humans with MC1R variant alleles",
+  "authors": [
+   "Fitzgerald LM",
+   "Fryer JL",
+   "Dwyer T",
+   "Humphrey SM"
+  ],
+  "journal": "Peptides",
+  "year": "2006",
+  "volume": "27",
+  "issue": "2",
+  "pages": "388-94",
+  "doi": "10.1016/j.peptides.2004.12.038",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
   ]
  },
  "16352683": {
@@ -2235,6 +2797,72 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "16481635": {
+  "pmid": "16481635",
+  "title": "Calcium plus vitamin D supplementation and the risk of fractures",
+  "authors": [
+   "Jackson RD",
+   "LaCroix AZ",
+   "Gass M",
+   "Wallace RB",
+   "Robbins J",
+   "Lewis CE",
+   "Bassford T",
+   "Beresford SA",
+   "Black HR",
+   "Blanchette P",
+   "Bonds DE",
+   "Brunner RL",
+   "Brzyski RG",
+   "Caan B",
+   "Cauley JA",
+   "Chlebowski RT",
+   "Cummings SR",
+   "Granek I",
+   "Hays J",
+   "Heiss G",
+   "Hendrix SL",
+   "Howard BV",
+   "Hsia J",
+   "Hubbell FA",
+   "Johnson KC",
+   "Judd H",
+   "Kotchen JM",
+   "Kuller LH",
+   "Langer RD",
+   "Lasser NL",
+   "Limacher MC",
+   "Ludlam S",
+   "Manson JE",
+   "Margolis KL",
+   "McGowan J",
+   "Ockene JK",
+   "O'Sullivan MJ",
+   "Phillips L",
+   "Prentice RL",
+   "Sarto GE",
+   "Stefanick ML",
+   "Van Horn L",
+   "Wactawski-Wende J",
+   "Whitlock E",
+   "Anderson GL",
+   "Assaf AR",
+   "Barad D",
+   "Women's Health Initiative Investigators"
+  ],
+  "journal": "N Engl J Med",
+  "year": "2006",
+  "volume": "354",
+  "issue": "7",
+  "pages": "669-83",
+  "doi": "10.1056/NEJMoa055218",
+  "types": [
+   "Journal Article",
+   "Multicenter Study",
+   "Randomized Controlled Trial",
+   "Research Support, N.I.H., Extramural"
+  ]
+ },
  "16495392": {
   "pmid": "16495392",
   "title": "Glucosamine, chondroitin sulfate, and the two in combination for painful knee osteoarthritis",
@@ -2276,6 +2904,36 @@
    "Multicenter Study",
    "Randomized Controlled Trial",
    "Research Support, N.I.H., Extramural"
+  ]
+ },
+ "16511605": {
+  "pmid": "16511605",
+  "title": "Loss of constitutive activity of the growth hormone secretagogue receptor in familial short stature",
+  "authors": [
+   "Pantel J",
+   "Legendre M",
+   "Cabrol S",
+   "Hilal L",
+   "Hajaji Y",
+   "Morisset S",
+   "Nivot S",
+   "Vie-Luton MP",
+   "Grouselle D",
+   "de Kerdanet M",
+   "Kadiri A",
+   "Epelbaum J",
+   "Le Bouc Y",
+   "Amselem S"
+  ],
+  "journal": "J Clin Invest",
+  "year": "2006",
+  "volume": "116",
+  "issue": "3",
+  "pages": "760-8",
+  "doi": "10.1172/JCI25303",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "16523722": {
@@ -2558,6 +3216,25 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "17049946": {
+  "pmid": "17049946",
+  "title": "A therapeutic approach for diabetic wound healing using biotinylated GHK incorporated collagen matrices",
+  "authors": [
+   "Arul V",
+   "Kartha R",
+   "Jayakumar R"
+  ],
+  "journal": "Life Sci",
+  "year": "2007",
+  "volume": "80",
+  "issue": "4",
+  "pages": "275-84",
+  "doi": "10.1016/j.lfs.2006.09.018",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "17063395": {
   "pmid": "17063395",
   "title": "Selective Androgen Receptor Modulator (SARM) treatment prevents bone loss and reduces body fat in ovariectomized rats",
@@ -2576,6 +3253,49 @@
   "issue": "2",
   "pages": "328-35",
   "doi": "10.1007/s11095-006-9152-9",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "17083573": {
+  "pmid": "17083573",
+  "title": "Evaluation of the effects of topical tripeptide-copper complex and zinc oxide on open-wound healing in rabbits",
+  "authors": [
+   "Cangul IT",
+   "Gul NY",
+   "Topal A",
+   "Yilmaz R"
+  ],
+  "journal": "Vet Dermatol",
+  "year": "2006",
+  "volume": "17",
+  "issue": "6",
+  "pages": "417-23",
+  "doi": "10.1111/j.1365-3164.2006.00551.x",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
+ "17108969": {
+  "pmid": "17108969",
+  "title": "Thymosin beta4 induces adult epicardial progenitor mobilization and neovascularization",
+  "authors": [
+   "Smart N",
+   "Risebro CA",
+   "Melville AA",
+   "Moses K",
+   "Schwartz RJ",
+   "Chien KR",
+   "Riley PR"
+  ],
+  "journal": "Nature",
+  "year": "2007",
+  "volume": "445",
+  "issue": "7124",
+  "pages": "177-82",
+  "doi": "10.1038/nature05383",
   "types": [
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
@@ -2818,6 +3538,27 @@
    "Review"
   ]
  },
+ "17600280": {
+  "pmid": "17600280",
+  "title": "Thymosin beta4 is cardioprotective after myocardial infarction",
+  "authors": [
+   "Srivastava D",
+   "Saxena A",
+   "Michael Dimaio J",
+   "Bock-Marquette I"
+  ],
+  "journal": "Ann N Y Acad Sci",
+  "year": "2007",
+  "volume": "1112",
+  "issue": "",
+  "pages": "161-70",
+  "doi": "10.1196/annals.1415.048",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "17600290": {
   "pmid": "17600290",
   "title": "Thymosin alpha 1: from bench to bedside",
@@ -2868,6 +3609,27 @@
    "Journal Article",
    "Research Support, Non-U.S. Gov't",
    "Validation Study"
+  ]
+ },
+ "17610239": {
+  "pmid": "17610239",
+  "title": "A liquid chromatographic/tandem mass spectroscopic method for quantification of the cyclic peptide melanotan-II. Plasma and brain tissue concentrations following administration in mice",
+  "authors": [
+   "Hatziieremia S",
+   "Kostomitsopoulos N",
+   "Balafas V",
+   "Tamvakopoulos C"
+  ],
+  "journal": "Rapid Commun Mass Spectrom",
+  "year": "2007",
+  "volume": "21",
+  "issue": "15",
+  "pages": "2431-8",
+  "doi": "10.1002/rcm.3106",
+  "types": [
+   "Evaluation Study",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "17614773": {
@@ -3309,6 +4071,28 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "18379501": {
+  "pmid": "18379501",
+  "title": "[The study of chronic partial denervation and quality of life in patients with motor neuron disease treated with semax]",
+  "authors": [
+   "Serdiuk AV",
+   "Levitskiĭ GN",
+   "Miasoedov NF",
+   "Skvortsova VI"
+  ],
+  "journal": "Zh Nevrol Psikhiatr Im S S Korsakova",
+  "year": "2007",
+  "volume": "107",
+  "issue": "4",
+  "pages": "29-39",
+  "doi": "",
+  "types": [
+   "Comparative Study",
+   "English Abstract",
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
  "18385818": {
   "pmid": "18385818",
   "title": "Zinc in human health: effect of zinc on immune cells",
@@ -3326,6 +4110,30 @@
    "Research Support, N.I.H., Extramural",
    "Research Support, Non-U.S. Gov't",
    "Review"
+  ]
+ },
+ "18431004": {
+  "pmid": "18431004",
+  "title": "Effects of behaviorally active ACTH (4-10) analogue - Semax on rat basal forebrain cholinergic neurons",
+  "authors": [
+   "Grivennikov IA",
+   "Dolotov OV",
+   "Zolotarev YA",
+   "Andreeva LA",
+   "Myasoedov NF",
+   "Leacher L",
+   "Black IB",
+   "Dreyfus CF"
+  ],
+  "journal": "Restor Neurol Neurosci",
+  "year": "2008",
+  "volume": "26",
+  "issue": "1",
+  "pages": "35-43",
+  "doi": "",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "18442638": {
@@ -3443,6 +4251,27 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "18540640": {
+  "pmid": "18540640",
+  "title": "Comprehensive comparison of collision induced dissociation and electron transfer dissociation",
+  "authors": [
+   "Molina H",
+   "Matthiesen R",
+   "Kandasamy K",
+   "Pandey A"
+  ],
+  "journal": "Anal Chem",
+  "year": "2008",
+  "volume": "80",
+  "issue": "13",
+  "pages": "4825-35",
+  "doi": "10.1021/ac8007785",
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ]
+ },
  "18567600": {
   "pmid": "18567600",
   "title": "Insulin-like growth factor-I analogue protects muscles of dystrophic mdx mice from contraction-mediated damage",
@@ -3512,6 +4341,23 @@
    "Journal Article"
   ]
  },
+ "18598586": {
+  "pmid": "18598586",
+  "title": "Update on the assessment of magnesium status",
+  "authors": [
+   "Arnaud MJ"
+  ],
+  "journal": "Br J Nutr",
+  "year": "2008",
+  "volume": "99 Suppl 3",
+  "issue": "",
+  "pages": "S24-36",
+  "doi": "10.1017/S000711450800682X",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "18604941": {
   "pmid": "18604941",
   "title": "HPLC analysis and purification of peptides",
@@ -3556,6 +4402,42 @@
    "Journal Article",
    "Research Support, Non-U.S. Gov't",
    "Review"
+  ]
+ },
+ "18644225": {
+  "pmid": "18644225",
+  "title": "The human tri-peptide GHK and tissue remodeling",
+  "authors": [
+   "Pickart L"
+  ],
+  "journal": "J Biomater Sci Polym Ed",
+  "year": "2008",
+  "volume": "19",
+  "issue": "8",
+  "pages": "969-88",
+  "doi": "10.1163/156856208784909435",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ "18661785": {
+  "pmid": "18661785",
+  "title": "[Effects of heptapeptide selank on genetically-based and situation-provoked symptoms of depression in behavior in WAG/Rij and Wistar rats, and in BALB/c mice]",
+  "authors": [
+   "Sarkisova KIu",
+   "Kozlovskiĭ II",
+   "Kozlovskaia MM"
+  ],
+  "journal": "Zh Vyssh Nerv Deiat Im I P Pavlova",
+  "year": "2008",
+  "volume": "58",
+  "issue": "2",
+  "pages": "226-37",
+  "doi": "",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "18674809": {
@@ -3663,6 +4545,20 @@
    "Clinical Trial",
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "18727417": {
+  "pmid": "18727417",
+  "title": "[Compensatory and antiamnestic effects of heptapeptide Selank in monkeys]",
+  "authors": [],
+  "journal": "Zh Evol Biokhim Fiziol",
+  "year": "2008",
+  "volume": "44",
+  "issue": "3",
+  "pages": "284-90",
+  "doi": "",
+  "types": [
+   "Journal Article"
   ]
  },
  "18772237": {
@@ -3940,6 +4836,29 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "19093364": {
+  "pmid": "19093364",
+  "title": "[Effects of heptapeptide selank on the content of monoamines and their metabolites in the brain of BALB/C and C57Bl/6 mice: a comparative study]",
+  "authors": [
+   "Narkevich VB",
+   "Kudrin VS",
+   "Klodt PM",
+   "Pokrovskiĭ AA",
+   "Kozlovskaia MM",
+   "Maĭskiĭ AI",
+   "Raevskiĭ KS"
+  ],
+  "journal": "Eksp Klin Farmakol",
+  "year": "2008",
+  "volume": "71",
+  "issue": "5",
+  "pages": "8-12",
+  "doi": "",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "19108572": {
   "pmid": "19108572",
   "title": "Myostatin inhibition by a follistatin-derived peptide ameliorates the pathophysiology of muscular dystrophy model mice",
@@ -4069,6 +4988,31 @@
   "types": [
    "Journal Article",
    "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "19231263": {
+  "pmid": "19231263",
+  "title": "Growth hormone and growth hormone secretagogue effects on nitrogen balance and urea synthesis in steroid treated rats",
+  "authors": [
+   "Aagaard NK",
+   "Grøfte T",
+   "Greisen J",
+   "Malmlöf K",
+   "Johansen PB",
+   "Grønbaek H",
+   "Ørskov H",
+   "Tygstrup N",
+   "Vilstrup H"
+  ],
+  "journal": "Growth Horm IGF Res",
+  "year": "2009",
+  "volume": "19",
+  "issue": "5",
+  "pages": "426-31",
+  "doi": "10.1016/j.ghir.2009.01.001",
+  "types": [
+   "Journal Article",
    "Research Support, Non-U.S. Gov't"
   ]
  },
@@ -4291,6 +5235,50 @@
    "Review"
   ]
  },
+ "19803361": {
+  "pmid": "19803361",
+  "title": "[Comparison of the effects of selank and tuftsin on the metabolism of serotonin in the brain of rats pretreated with PCPA]",
+  "authors": [
+   "Semenova TP",
+   "kozlovskiĭ II",
+   "Zakharova NM",
+   "Kozlovskaia MM"
+  ],
+  "journal": "Eksp Klin Farmakol",
+  "year": "2009",
+  "volume": "72",
+  "issue": "4",
+  "pages": "6-8",
+  "doi": "",
+  "types": [
+   "Comparative Study",
+   "Journal Article"
+  ]
+ },
+ "19854375": {
+  "pmid": "19854375",
+  "title": "Krill oil supplementation increases plasma concentrations of eicosapentaenoic and docosahexaenoic acids in overweight and obese men and women",
+  "authors": [
+   "Maki KC",
+   "Reeves MS",
+   "Farmer M",
+   "Griinari M",
+   "Berge K",
+   "Vik H",
+   "Hubacher R",
+   "Rains TM"
+  ],
+  "journal": "Nutr Res",
+  "year": "2009",
+  "volume": "29",
+  "issue": "9",
+  "pages": "609-15",
+  "doi": "10.1016/j.nutres.2009.09.004",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
  "1987298": {
   "pmid": "1987298",
   "title": "Localization of minoxidil sulfotransferase in rat liver and the outer root sheath of anagen pelage and vibrissa follicles",
@@ -4391,6 +5379,23 @@
    "Multicenter Study",
    "Randomized Controlled Trial",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "19937719": {
+  "pmid": "19937719",
+  "title": "Amino acid analysis",
+  "authors": [
+   "Rutherfurd SM",
+   "Gilani GS"
+  ],
+  "journal": "Curr Protoc Protein Sci",
+  "year": "2009",
+  "volume": "Chapter 11",
+  "issue": "",
+  "pages": "11.9.1-11.9.37",
+  "doi": "10.1002/0471140864.ps1109s58",
+  "types": [
+   "Journal Article"
   ]
  },
  "19941615": {
@@ -4890,6 +5895,30 @@
    "Review"
   ]
  },
+ "20536469": {
+  "pmid": "20536469",
+  "title": "Treatment of chronic nonhealing neurotrophic corneal epithelial defects with thymosin beta4",
+  "authors": [
+   "Dunn SP",
+   "Heidemann DG",
+   "Chow CY",
+   "Crockford D",
+   "Turjman N",
+   "Angel J",
+   "Allan CB",
+   "Sosne G"
+  ],
+  "journal": "Ann N Y Acad Sci",
+  "year": "2010",
+  "volume": "1194",
+  "issue": "",
+  "pages": "199-206",
+  "doi": "10.1111/j.1749-6632.2010.05471.x",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "20536470": {
   "pmid": "20536470",
   "title": "The effect of thymosin treatment of venous ulcers",
@@ -4975,6 +6004,30 @@
   "types": [
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "20671013": {
+  "pmid": "20671013",
+  "title": "Effect of calcium supplements on risk of myocardial infarction and cardiovascular events: meta-analysis",
+  "authors": [
+   "Bolland MJ",
+   "Avenell A",
+   "Baron JA",
+   "Grey A",
+   "MacLennan GS",
+   "Gamble GD",
+   "Reid IR"
+  ],
+  "journal": "BMJ",
+  "year": "2010",
+  "volume": "341",
+  "issue": "",
+  "pages": "c3691",
+  "doi": "10.1136/bmj.c3691",
+  "types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Review"
   ]
  },
  "20703511": {
@@ -5180,6 +6233,24 @@
    "Randomized Controlled Trial"
   ]
  },
+ "21106936": {
+  "pmid": "21106936",
+  "title": "Regenerative protein thymosin beta-4 is a novel regulator of purinergic signaling",
+  "authors": [
+   "Freeman KW",
+   "Bowman BR",
+   "Zetter BR"
+  ],
+  "journal": "FASEB J",
+  "year": "2011",
+  "volume": "25",
+  "issue": "3",
+  "pages": "907-15",
+  "doi": "10.1096/fj.10-169417",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "21148051": {
   "pmid": "21148051",
   "title": "Intravenous AICAR during hyperinsulinemia induces systemic hemodynamic changes but has no local metabolic effect",
@@ -5331,6 +6402,25 @@
    "Journal Article"
   ]
  },
+ "21453640": {
+  "pmid": "21453640",
+  "title": "[Melanotan-induced lentigines and nevi]",
+  "authors": [
+   "Thestrup-Pedersen K",
+   "Søndergaard K"
+  ],
+  "journal": "Ugeskr Laeger",
+  "year": "2011",
+  "volume": "173",
+  "issue": "13",
+  "pages": "975",
+  "doi": "",
+  "types": [
+   "Case Reports",
+   "English Abstract",
+   "Journal Article"
+  ]
+ },
  "21454572": {
   "pmid": "21454572",
   "title": "Alternative mitochondrial electron transfer as a novel strategy for neuroprotection",
@@ -5361,6 +6451,26 @@
    "Journal Article",
    "Research Support, N.I.H., Extramural",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "21501440": {
+  "pmid": "21501440",
+  "title": "Effect of preventive zinc supplementation on linear growth in children under 5 years of age in developing countries: a meta-analysis of studies for input to the lives saved tool",
+  "authors": [
+   "Imdad A",
+   "Bhutta ZA"
+  ],
+  "journal": "BMC Public Health",
+  "year": "2011",
+  "volume": "11 Suppl 3",
+  "issue": "Suppl 3",
+  "pages": "S22",
+  "doi": "10.1186/1471-2458-11-S3-S22",
+  "types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Research Support, Non-U.S. Gov't",
+   "Review"
   ]
  },
  "2151342": {
@@ -5445,6 +6555,23 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "21668043": {
+  "pmid": "21668043",
+  "title": "Tesamorelin: a review of its use in the management of HIV-associated lipodystrophy",
+  "authors": [
+   "Dhillon S"
+  ],
+  "journal": "Drugs",
+  "year": "2011",
+  "volume": "71",
+  "issue": "8",
+  "pages": "1071-91",
+  "doi": "10.2165/11202240-000000000-00000",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "21700360": {
   "pmid": "21700360",
   "title": "A randomized, single-blind trial of 5% minoxidil foam once daily versus 2% minoxidil solution twice daily in the treatment of androgenetic alopecia in women",
@@ -5490,6 +6617,26 @@
    "Multicenter Study",
    "Randomized Controlled Trial",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "21786679": {
+  "pmid": "21786679",
+  "title": "[Changes in expression of the genes for chemokines, cytokines, and their receptors in response to selank and its fragments]",
+  "authors": [
+   "Kolomin TA",
+   "Shadrina MI",
+   "Slominskiĭ PA",
+   "Limborskaia S",
+   "Miasoedov NF"
+  ],
+  "journal": "Genetika",
+  "year": "2011",
+  "volume": "47",
+  "issue": "5",
+  "pages": "711-4",
+  "doi": "",
+  "types": [
+   "Journal Article"
   ]
  },
  "21795440": {
@@ -5584,6 +6731,51 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "21854650": {
+  "pmid": "21854650",
+  "title": "Incorporation of EPA and DHA into plasma phospholipids in response to different omega-3 fatty acid formulations--a comparative bioavailability study of fish oil vs. krill oil",
+  "authors": [
+   "Schuchardt JP",
+   "Schneider I",
+   "Meyer H",
+   "Neubronner J",
+   "von Schacky C",
+   "Hahn A"
+  ],
+  "journal": "Lipids Health Dis",
+  "year": "2011",
+  "volume": "10",
+  "issue": "",
+  "pages": "145",
+  "doi": "10.1186/1476-511X-10-145",
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "21871962": {
+  "pmid": "21871962",
+  "title": "Immunoaffinity purification of peptide hormones prior to liquid chromatography-mass spectrometry in doping controls",
+  "authors": [
+   "Thomas A",
+   "Schänzer W",
+   "Delahaut P",
+   "Thevis M"
+  ],
+  "journal": "Methods",
+  "year": "2012",
+  "volume": "56",
+  "issue": "2",
+  "pages": "230-5",
+  "doi": "10.1016/j.ymeth.2011.08.009",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Review"
+  ]
+ },
  "21936588": {
   "pmid": "21936588",
   "title": "Meta-analysis of the efficacy of adjunctive NMDA receptor modulators in chronic schizophrenia",
@@ -5645,6 +6837,31 @@
   "pages": "778-88",
   "doi": "10.1016/j.bbi.2011.09.013",
   "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "22002596": {
+  "pmid": "22002596",
+  "title": "Berberine-induced haemolysis revisited: safety of Rhizoma coptidis and Cortex phellodendri in chronic haematological diseases",
+  "authors": [
+   "Linn YC",
+   "Lu J",
+   "Lim LC",
+   "Sun H",
+   "Sun J",
+   "Zhou Y",
+   "Ng HS"
+  ],
+  "journal": "Phytother Res",
+  "year": "2012",
+  "volume": "26",
+  "issue": "5",
+  "pages": "682-6",
+  "doi": "10.1002/ptr.3617",
+  "types": [
+   "Clinical Trial, Phase I",
+   "Clinical Trial, Phase II",
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
   ]
@@ -5820,6 +7037,54 @@
   "types": [
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "22158707": {
+  "pmid": "22158707",
+  "title": "Thymosin beta 4 is dispensable for murine cardiac development and function",
+  "authors": [
+   "Banerjee I",
+   "Zhang J",
+   "Moore-Morris T",
+   "Lange S",
+   "Shen T",
+   "Dalton ND",
+   "Gu Y",
+   "Peterson KL",
+   "Evans SM",
+   "Chen J"
+  ],
+  "journal": "Circ Res",
+  "year": "2012",
+  "volume": "110",
+  "issue": "3",
+  "pages": "456-64",
+  "doi": "10.1161/CIRCRESAHA.111.258616",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "22182016": {
+  "pmid": "22182016",
+  "title": "Melanotan-associated transverse melanonychia",
+  "authors": [
+   "Paurobally D",
+   "El Hayderi L",
+   "Richert B",
+   "Andre J",
+   "Nikkels AF"
+  ],
+  "journal": "J Eur Acad Dermatol Venereol",
+  "year": "2013",
+  "volume": "27",
+  "issue": "1",
+  "pages": "128-9",
+  "doi": "10.1111/j.1468-3083.2011.04399.x",
+  "types": [
+   "Case Reports",
+   "Letter"
   ]
  },
  "22186070": {
@@ -6153,6 +7418,27 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "22723298": {
+  "pmid": "22723298",
+  "title": "Essential role for thymosin β4 in regulating vascular smooth muscle cell development and vessel wall stability",
+  "authors": [
+   "Rossdeutsch A",
+   "Smart N",
+   "Dubé KN",
+   "Turner M",
+   "Riley PR"
+  ],
+  "journal": "Circ Res",
+  "year": "2012",
+  "volume": "111",
+  "issue": "4",
+  "pages": "e89-102",
+  "doi": "10.1161/CIRCRESAHA.111.259846",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "22724573": {
   "pmid": "22724573",
   "title": "Melanotan-associated melanoma in situ",
@@ -6168,6 +7454,29 @@
   "doi": "10.1111/j.1440-0960.2012.00915.x",
   "types": [
    "Journal Article"
+  ]
+ },
+ "22761160": {
+  "pmid": "22761160",
+  "title": "Food intake reductions and increases in energetic responses by hindbrain leptin and melanotan II are enhanced in mice with POMC-specific PTP1B deficiency",
+  "authors": [
+   "De Jonghe BC",
+   "Hayes MR",
+   "Zimmer DJ",
+   "Kanoski SE",
+   "Grill HJ",
+   "Bence KK"
+  ],
+  "journal": "Am J Physiol Endocrinol Metab",
+  "year": "2012",
+  "volume": "303",
+  "issue": "5",
+  "pages": "E644-51",
+  "doi": "10.1152/ajpendo.00009.2012",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "22782417": {
@@ -6731,6 +8040,27 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "23371905": {
+  "pmid": "23371905",
+  "title": "Thymosin β4 is not required for embryonic viability or vascular development",
+  "authors": [
+   "Banerjee I",
+   "Moore Morris T",
+   "Evans SM",
+   "Chen J"
+  ],
+  "journal": "Circ Res",
+  "year": "2013",
+  "volume": "112",
+  "issue": "3",
+  "pages": "e25-8",
+  "doi": "10.1161/CIRCRESAHA.111.300197",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "23417317": {
   "pmid": "23417317",
   "title": "The anti-wrinkle efficacy of argireline, a synthetic hexapeptide, in Chinese subjects: a randomized, placebo-controlled study",
@@ -6860,6 +8190,30 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "23530987": {
+  "pmid": "23530987",
+  "title": "Effect of low-dose supplements of menaquinone-7 (vitamin K2 ) on the stability of oral anticoagulant treatment: dose-response relationship in healthy volunteers",
+  "authors": [
+   "Theuwissen E",
+   "Teunissen KJ",
+   "Spronk HM",
+   "Hamulyák K",
+   "Ten Cate H",
+   "Shearer MJ",
+   "Vermeer C",
+   "Schurgers LJ"
+  ],
+  "journal": "J Thromb Haemost",
+  "year": "2013",
+  "volume": "11",
+  "issue": "6",
+  "pages": "1085-92",
+  "doi": "10.1111/jth.12203",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "23537392": {
   "pmid": "23537392",
   "title": "Melanotan II overdose associated with priapism",
@@ -6959,6 +8313,27 @@
    "Review"
   ]
  },
+ "23648958": {
+  "pmid": "23648958",
+  "title": "Melanotan and the posterior reversible encephalopathy syndrome",
+  "authors": [
+   "Kaski D",
+   "Stafford N",
+   "Mehta A",
+   "Jenkins IH",
+   "Malhotra P"
+  ],
+  "journal": "Ann Intern Med",
+  "year": "2013",
+  "volume": "158",
+  "issue": "9",
+  "pages": "707-8",
+  "doi": "10.7326/0003-4819-158-9-201305070-00020",
+  "types": [
+   "Case Reports",
+   "Letter"
+  ]
+ },
  "23684623": {
   "pmid": "23684623",
   "title": "Pharmacology, physiology, and mechanisms of incretin hormone action",
@@ -6976,6 +8351,28 @@
    "Journal Article",
    "Research Support, Non-U.S. Gov't",
    "Review"
+  ]
+ },
+ "23708692": {
+  "pmid": "23708692",
+  "title": "Impurity identification and determination for the peptide hormone angiotensin I by liquid chromatography-high-resolution tandem mass spectrometry and the metrological impact on value assignments by amino acid analysis",
+  "authors": [
+   "Stoppacher N",
+   "Josephs RD",
+   "Daireaux A",
+   "Choteau T",
+   "Westwood SW",
+   "Wielgosz RI"
+  ],
+  "journal": "Anal Bioanal Chem",
+  "year": "2013",
+  "volume": "405",
+  "issue": "25",
+  "pages": "8039-51",
+  "doi": "10.1007/s00216-013-6953-7",
+  "types": [
+   "Journal Article",
+   "Research Support, U.S. Gov't, Non-P.H.S."
   ]
  },
  "23732550": {
@@ -7022,6 +8419,26 @@
    "Meta-Analysis",
    "Research Support, Non-U.S. Gov't",
    "Systematic Review"
+  ]
+ },
+ "23821048": {
+  "pmid": "23821048",
+  "title": "Semax corrects brain dysfunction caused by prenatal introduction of valproic acid",
+  "authors": [
+   "Malyshev AV",
+   "Razumkina EV",
+   "Dubynin VA",
+   "Myasoedov NF"
+  ],
+  "journal": "Dokl Biol Sci",
+  "year": "2013",
+  "volume": "450",
+  "issue": "",
+  "pages": "126-9",
+  "doi": "10.1134/S0012496613030046",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "23849924": {
@@ -7222,6 +8639,27 @@
    "Journal Article"
   ]
  },
+ "24119980": {
+  "pmid": "24119980",
+  "title": "Effects of vitamin D supplements on bone mineral density: a systematic review and meta-analysis",
+  "authors": [
+   "Reid IR",
+   "Bolland MJ",
+   "Grey A"
+  ],
+  "journal": "Lancet",
+  "year": "2014",
+  "volume": "383",
+  "issue": "9912",
+  "pages": "146-55",
+  "doi": "10.1016/S0140-6736(13)61647-5",
+  "types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Research Support, Non-U.S. Gov't",
+   "Systematic Review"
+  ]
+ },
  "24124374": {
   "pmid": "24124374",
   "title": "Steady-state bioavailability of prescription omega-3 on a low-fat diet is significantly improved with a free fatty acid formulation compared with an ethyl ester formulation: the ECLIPSE II study",
@@ -7323,6 +8761,26 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "24304605": {
+  "pmid": "24304605",
+  "title": "Enhanced increase of omega-3 index in healthy individuals with response to 4-week n-3 fatty acid supplementation from krill oil versus fish oil",
+  "authors": [
+   "Ramprasath VR",
+   "Eyal I",
+   "Zchut S",
+   "Jones PJ"
+  ],
+  "journal": "Lipids Health Dis",
+  "year": "2013",
+  "volume": "12",
+  "issue": "",
+  "pages": "178",
+  "doi": "10.1186/1476-511X-12-178",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
  "24328107": {
   "pmid": "24328107",
   "title": "Site-specific characterization of (D)-amino acid containing peptide epimers by ion mobility spectrometry",
@@ -7407,6 +8865,29 @@
    "Journal Article",
    "Research Support, N.I.H., Extramural",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "24450168": {
+  "pmid": "24450168",
+  "title": "[Transcriptome alteration in hippocampus under the treatment of tuftsin analog Selank]",
+  "authors": [
+   "Kolomin TA",
+   "Agapova TIu",
+   "Agniullin IaV",
+   "Shram SI",
+   "Shadrina MI",
+   "Slominskiĭ PA",
+   "Limborskaia SA",
+   "Miasoedov IF"
+  ],
+  "journal": "Zh Vyssh Nerv Deiat Im I P Pavlova",
+  "year": "2013",
+  "volume": "63",
+  "issue": "3",
+  "pages": "365-74",
+  "doi": "10.7868/s0044467713030052",
+  "types": [
+   "Journal Article"
   ]
  },
  "24467746": {
@@ -7782,6 +9263,31 @@
    "Journal Article"
   ]
  },
+ "24828044": {
+  "pmid": "24828044",
+  "title": "Mfsd2a is a transporter for the essential omega-3 fatty acid docosahexaenoic acid",
+  "authors": [
+   "Nguyen LN",
+   "Ma D",
+   "Shui G",
+   "Wong P",
+   "Cazenave-Gassiot A",
+   "Zhang X",
+   "Wenk MR",
+   "Goh EL",
+   "Silver DL"
+  ],
+  "journal": "Nature",
+  "year": "2014",
+  "volume": "509",
+  "issue": "7501",
+  "pages": "503-6",
+  "doi": "10.1038/nature13241",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "24845350": {
   "pmid": "24845350",
   "title": "A quantitative tool to distinguish isobaric leucine and isoleucine residues for mass spectrometry-based de novo monoclonal antibody sequencing",
@@ -7830,6 +9336,24 @@
   "doi": "10.1038/nrgastro.2014.66",
   "types": [
    "Consensus Statement",
+   "Journal Article"
+  ]
+ },
+ "24913576": {
+  "pmid": "24913576",
+  "title": "Efficacy of peptide anxiolytic selank during modeling of withdrawal syndrome in rats with stable alcoholic motivation",
+  "authors": [
+   "Kolik LG",
+   "Nadorova AV",
+   "Kozlovskaya MM"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2014",
+  "volume": "157",
+  "issue": "1",
+  "pages": "52-5",
+  "doi": "10.1007/s10517-014-2490-4",
+  "types": [
    "Journal Article"
   ]
  },
@@ -7919,6 +9443,30 @@
   "issue": "10",
   "pages": "1091-8",
   "doi": "10.1176/appi.ajp.2014.13101407",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, N.I.H., Extramural"
+  ]
+ },
+ "25038357": {
+  "pmid": "25038357",
+  "title": "Effect of tesamorelin on visceral fat and liver fat in HIV-infected patients with abdominal fat accumulation: a randomized clinical trial",
+  "authors": [
+   "Stanley TL",
+   "Feldpausch MN",
+   "Oh J",
+   "Branch KL",
+   "Lee H",
+   "Torriani M",
+   "Grinspoon SK"
+  ],
+  "journal": "JAMA",
+  "year": "2014",
+  "volume": "312",
+  "issue": "4",
+  "pages": "380-9",
+  "doi": "10.1001/jama.2014.8334",
   "types": [
    "Journal Article",
    "Randomized Controlled Trial",
@@ -8103,6 +9651,30 @@
    "Comment"
   ]
  },
+ "25176261": {
+  "pmid": "25176261",
+  "title": "[A comparison of the anxiolytic effect and tolerability of selank and phenazepam in the treatment of anxiety disorders]",
+  "authors": [
+   "Medvedev VE",
+   "Tereshchenko ON",
+   "Israelian AIu",
+   "Chobanu IK",
+   "Kost NV",
+   "Sokolov OIu",
+   "Miasoedov NF"
+  ],
+  "journal": "Zh Nevrol Psikhiatr Im S S Korsakova",
+  "year": "2014",
+  "volume": "114",
+  "issue": "7",
+  "pages": "17-22",
+  "doi": "",
+  "types": [
+   "Clinical Trial",
+   "Comparative Study",
+   "Journal Article"
+  ]
+ },
  "25179079": {
   "pmid": "25179079",
   "title": "Metabolic modulators of the exercise response: doping control analysis of an agonist of the peroxisome proliferator-activated receptor δ (GW501516) and 5-aminoimidazole-4-carboxamide ribonucleotide (AICAR)",
@@ -8249,6 +9821,31 @@
   "doi": "10.1155/2014/151479",
   "types": [
    "Journal Article"
+  ]
+ },
+ "25310602": {
+  "pmid": "25310602",
+  "title": "Semax, an ACTH4-10 peptide analog with high affinity for copper(II) ion and protective ability against metal induced cell toxicity",
+  "authors": [
+   "Tabbì G",
+   "Magrì A",
+   "Giuffrida A",
+   "Lanza V",
+   "Pappalardo G",
+   "Naletova I",
+   "Nicoletti VG",
+   "Attanasio F",
+   "Rizzarelli E"
+  ],
+  "journal": "J Inorg Biochem",
+  "year": "2015",
+  "volume": "142",
+  "issue": "",
+  "pages": "39-46",
+  "doi": "10.1016/j.jinorgbio.2014.09.008",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "25322757": {
@@ -8685,6 +10282,28 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "25731775": {
+  "pmid": "25731775",
+  "title": "Tripeptide-copper complex GHK-Cu (II) transiently improved healing outcome in a rat model of ACL reconstruction",
+  "authors": [
+   "Fu SC",
+   "Cheuk YC",
+   "Chiu WY",
+   "Yung SH",
+   "Rolf CG",
+   "Chan KM"
+  ],
+  "journal": "J Orthop Res",
+  "year": "2015",
+  "volume": "33",
+  "issue": "7",
+  "pages": "1024-33",
+  "doi": "10.1002/jor.22831",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "25738459": {
   "pmid": "25738459",
   "title": "The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance",
@@ -8921,6 +10540,27 @@
    "Meta-Analysis",
    "Research Support, Non-U.S. Gov't",
    "Systematic Review"
+  ]
+ },
+ "26084690": {
+  "pmid": "26084690",
+  "title": "The Physiological, Biochemical, and Molecular Roles of Zinc Transporters in Zinc Homeostasis and Metabolism",
+  "authors": [
+   "Kambe T",
+   "Tsuji T",
+   "Hashimoto A",
+   "Itsumura N"
+  ],
+  "journal": "Physiol Rev",
+  "year": "2015",
+  "volume": "95",
+  "issue": "3",
+  "pages": "749-84",
+  "doi": "10.1152/physrev.00035.2014",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Review"
   ]
  },
  "26096726": {
@@ -9169,6 +10809,60 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "26308095": {
+  "pmid": "26308095",
+  "title": "Discovery of the Once-Weekly Glucagon-Like Peptide-1 (GLP-1) Analogue Semaglutide",
+  "authors": [
+   "Lau J",
+   "Bloch P",
+   "Schäffer L",
+   "Pettersson I",
+   "Spetzler J",
+   "Kofoed J",
+   "Madsen K",
+   "Knudsen LB",
+   "McGuire J",
+   "Steensgaard DB",
+   "Strauss HM",
+   "Gram DX",
+   "Knudsen SM",
+   "Nielsen FS",
+   "Thygesen P",
+   "Reedtz-Runge S",
+   "Kruse T"
+  ],
+  "journal": "J Med Chem",
+  "year": "2015",
+  "volume": "58",
+  "issue": "18",
+  "pages": "7370-80",
+  "doi": "10.1021/acs.jmedchem.5b00726",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "26328782": {
+  "pmid": "26328782",
+  "title": "Similar eicosapentaenoic acid and docosahexaenoic acid plasma levels achieved with fish oil or krill oil in a randomized double-blind four-week bioavailability study",
+  "authors": [
+   "Yurko-Mauro K",
+   "Kralovec J",
+   "Bailey-Hall E",
+   "Smeberg V",
+   "Stark JG",
+   "Salem N"
+  ],
+  "journal": "Lipids Health Dis",
+  "year": "2015",
+  "volume": "14",
+  "issue": "",
+  "pages": "99",
+  "doi": "10.1186/s12944-015-0109-z",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
  "26353786": {
   "pmid": "26353786",
   "title": "Collagen peptide supplementation in combination with resistance training improves body composition and increases muscle strength in elderly sarcopenic men: a randomised controlled trial",
@@ -9213,6 +10907,31 @@
   "types": [
    "Journal Article",
    "Randomized Controlled Trial"
+  ]
+ },
+ "26382721": {
+  "pmid": "26382721",
+  "title": "Expanded test method for peptides >2 kDa employing immunoaffinity purification and LC-HRMS/MS",
+  "authors": [
+   "Thomas A",
+   "Walpurgis K",
+   "Tretzel L",
+   "Brinkkötter P",
+   "Fichant E",
+   "Delahaut P",
+   "Schänzer W",
+   "Thevis M"
+  ],
+  "journal": "Drug Test Anal",
+  "year": "2015",
+  "volume": "7",
+  "issue": "11-12",
+  "pages": "990-8",
+  "doi": "10.1002/dta.1868",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Validation Study"
   ]
  },
  "26390612": {
@@ -9279,6 +10998,29 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "26397208": {
+  "pmid": "26397208",
+  "title": "Quality control of cationic cell-penetrating peptides",
+  "authors": [
+   "Stalmans S",
+   "Gevaert B",
+   "Verbeke F",
+   "D'Hondt M",
+   "Bracke N",
+   "Wynendaele E",
+   "De Spiegeleer B"
+  ],
+  "journal": "J Pharm Biomed Anal",
+  "year": "2016",
+  "volume": "117",
+  "issue": "",
+  "pages": "289-97",
+  "doi": "10.1016/j.jpba.2015.09.011",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "26463139": {
@@ -9388,6 +11130,30 @@
   "types": [
    "Journal Article",
    "Randomized Controlled Trial"
+  ]
+ },
+ "2675315": {
+  "pmid": "2675315",
+  "title": "Electrospray ionization for mass spectrometry of large biomolecules",
+  "authors": [
+   "Fenn JB",
+   "Mann M",
+   "Meng CK",
+   "Wong SF",
+   "Whitehouse CM"
+  ],
+  "journal": "Science",
+  "year": "1989",
+  "volume": "246",
+  "issue": "4926",
+  "pages": "64-71",
+  "doi": "10.1126/science.2675315",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, Non-P.H.S.",
+   "Research Support, U.S. Gov't, P.H.S.",
+   "Review"
   ]
  },
  "26771670": {
@@ -9571,6 +11337,34 @@
    "Journal Article"
   ]
  },
+ "26962108": {
+  "pmid": "26962108",
+  "title": "The anti-inflammatory peptide Ac-SDKP is released from thymosin-β4 by renal meprin-α and prolyl oligopeptidase",
+  "authors": [
+   "Kumar N",
+   "Nakagawa P",
+   "Janic B",
+   "Romero CA",
+   "Worou ME",
+   "Monu SR",
+   "Peterson EL",
+   "Shaw J",
+   "Valeriote F",
+   "Ongeri EM",
+   "Niyitegeka JM",
+   "Rhaleb NE",
+   "Carretero OA"
+  ],
+  "journal": "Am J Physiol Renal Physiol",
+  "year": "2016",
+  "volume": "310",
+  "issue": "10",
+  "pages": "F1026-34",
+  "doi": "10.1152/ajprenal.00562.2015",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "27085586": {
   "pmid": "27085586",
   "title": "Safety, Pharmacokinetic, and Pharmacodynamic Evaluation After Single and Multiple Ascending Doses of a Novel Selective Androgen Receptor Modulator in Healthy Subjects",
@@ -9675,6 +11469,32 @@
    "Meta-Analysis",
    "Research Support, Non-U.S. Gov't",
    "Systematic Review"
+  ]
+ },
+ "27237975": {
+  "pmid": "27237975",
+  "title": "Mitochondria related peptide MOTS-c suppresses ovariectomy-induced bone loss via AMPK activation",
+  "authors": [
+   "Ming W",
+   "Lu G",
+   "Xin S",
+   "Huanyu L",
+   "Yinghao J",
+   "Xiaoying L",
+   "Chengming X",
+   "Banjun R",
+   "Li W",
+   "Zifan L"
+  ],
+  "journal": "Biochem Biophys Res Commun",
+  "year": "2016",
+  "volume": "476",
+  "issue": "4",
+  "pages": "412-419",
+  "doi": "10.1016/j.bbrc.2016.05.135",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "27284082": {
@@ -9875,6 +11695,27 @@
    "Journal Article",
    "Meta-Analysis",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "27411820": {
+  "pmid": "27411820",
+  "title": "Semax prevents learning and memory inhibition by heavy metals",
+  "authors": [
+   "Inozemtsev AN",
+   "Bokieva SB",
+   "Karpukhina OV",
+   "Gumargalieva KZ",
+   "Kamensky AA",
+   "Myasoedov NF"
+  ],
+  "journal": "Dokl Biol Sci",
+  "year": "2016",
+  "volume": "468",
+  "issue": "1",
+  "pages": "112-4",
+  "doi": "10.1134/S0012496616030066",
+  "types": [
+   "Journal Article"
   ]
  },
  "27450734": {
@@ -10157,6 +11998,24 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "27878720": {
+  "pmid": "27878720",
+  "title": "Selank Inhibits Ethanol-Induced Hyperlocomotion and Manifestation of Behavioral Sensitization in DBA/2 Mice",
+  "authors": [
+   "Kolik LG",
+   "Nadorova AV",
+   "Seredenin SB"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2016",
+  "volume": "162",
+  "issue": "1",
+  "pages": "56-59",
+  "doi": "10.1007/s10517-016-3544-6",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "27920805": {
   "pmid": "27920805",
   "title": "Abaloparatide",
@@ -10275,6 +12134,29 @@
    "Journal Article",
    "Review",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "28138741": {
+  "pmid": "28138741",
+  "title": "Impurity determination for hepcidin by liquid chromatography-high resolution and ion mobility mass spectrometry for the value assignment of candidate primary calibrators",
+  "authors": [
+   "Bros P",
+   "Josephs RD",
+   "Stoppacher N",
+   "Cazals G",
+   "Lehmann S",
+   "Hirtz C",
+   "Wielgosz RI",
+   "Delatour V"
+  ],
+  "journal": "Anal Bioanal Chem",
+  "year": "2017",
+  "volume": "409",
+  "issue": "10",
+  "pages": "2559-2567",
+  "doi": "10.1007/s00216-017-0202-4",
+  "types": [
+   "Journal Article"
   ]
  },
  "28143741": {
@@ -10569,6 +12451,26 @@
    "Comment"
   ]
  },
+ "28361410": {
+  "pmid": "28361410",
+  "title": "Effect of Selank on Spontaneous Synaptic Activity of Rat Hippocampal CA1 Neurons",
+  "authors": [
+   "Povarov IS",
+   "Kondratenko RV",
+   "Derevyagin VI",
+   "Myasoedov NF",
+   "Skrebitsky VG"
+  ],
+  "journal": "Bull Exp Biol Med",
+  "year": "2017",
+  "volume": "162",
+  "issue": "5",
+  "pages": "640-642",
+  "doi": "10.1007/s10517-017-3676-3",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "28371906": {
   "pmid": "28371906",
   "title": "Lipid-modifying effects of krill oil in humans: systematic review and meta-analysis of randomized controlled trials",
@@ -10765,6 +12667,32 @@
   "doi": "10.1111/bcp.13316",
   "types": [
    "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
+ "28474780": {
+  "pmid": "28474780",
+  "title": "The Effect of Abaloparatide-SC on Fracture Risk Is Independent of Baseline FRAX Fracture Probability: A Post Hoc Analysis of the ACTIVE Study",
+  "authors": [
+   "McCloskey EV",
+   "Johansson H",
+   "Oden A",
+   "Harvey NC",
+   "Jiang H",
+   "Modin S",
+   "Fitzpatrick L",
+   "Kanis JA"
+  ],
+  "journal": "J Bone Miner Res",
+  "year": "2017",
+  "volume": "32",
+  "issue": "8",
+  "pages": "1625-1631",
+  "doi": "10.1002/jbmr.3163",
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Multicenter Study",
    "Randomized Controlled Trial"
   ]
  },
@@ -11087,6 +13015,29 @@
    "Systematic Review"
   ]
  },
+ "28702721": {
+  "pmid": "28702721",
+  "title": "Peptides semax and selank affect the behavior of rats with 6-OHDA induced PD-like parkinsonism",
+  "authors": [
+   "Slominsky PA",
+   "Shadrina MI",
+   "Kolomin TA",
+   "Stavrovskaya AV",
+   "Filatova EV",
+   "Andreeva LA",
+   "Illarioshkin SN",
+   "Myasoedov NF"
+  ],
+  "journal": "Dokl Biol Sci",
+  "year": "2017",
+  "volume": "474",
+  "issue": "1",
+  "pages": "106-109",
+  "doi": "10.1134/S0012496617030048",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "28720325": {
   "pmid": "28720325",
   "title": "Therapeutic peptides: Historical perspectives, current development trends, and future directions",
@@ -11123,6 +13074,53 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "28760384": {
+  "pmid": "28760384",
+  "title": "Efficacy and Safety of Relamorelin in Diabetics With Symptoms of Gastroparesis: A Randomized, Placebo-Controlled Study",
+  "authors": [
+   "Camilleri M",
+   "McCallum RW",
+   "Tack J",
+   "Spence SC",
+   "Gottesdiener K",
+   "Fiedorek FT"
+  ],
+  "journal": "Gastroenterology",
+  "year": "2017",
+  "volume": "153",
+  "issue": "5",
+  "pages": "1240-1250.e2",
+  "doi": "10.1053/j.gastro.2017.07.035",
+  "types": [
+   "Clinical Trial, Phase II",
+   "Journal Article",
+   "Multicenter Study",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, N.I.H., Extramural"
+  ]
+ },
+ "28762173": {
+  "pmid": "28762173",
+  "title": "Methylene blue and its analogues as antidepressant compounds",
+  "authors": [
+   "Delport A",
+   "Harvey BH",
+   "Petzer A",
+   "Petzer JP"
+  ],
+  "journal": "Metab Brain Dis",
+  "year": "2017",
+  "volume": "32",
+  "issue": "5",
+  "pages": "1357-1382",
+  "doi": "10.1007/s11011-017-0081-6",
+  "types": [
+   "Journal Article",
+   "Review",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "28789631": {
@@ -11278,6 +13276,25 @@
   "doi": "10.1007/s10517-017-3847-2",
   "types": [
    "Journal Article"
+  ]
+ },
+ "28905366": {
+  "pmid": "28905366",
+  "title": "The unregulated use of melanotan-II is of public health interest to Australian dermatologists",
+  "authors": [
+   "Adler NR",
+   "Dowling JP",
+   "Pan Y"
+  ],
+  "journal": "Australas J Dermatol",
+  "year": "2017",
+  "volume": "58",
+  "issue": "4",
+  "pages": "327-329",
+  "doi": "10.1111/ajd.12711",
+  "types": [
+   "Case Reports",
+   "Letter"
   ]
  },
  "28955242": {
@@ -11590,6 +13607,28 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "29307075": {
+  "pmid": "29307075",
+  "title": "Counter-ion effect on antistaphylococcal activity and cytotoxicity of selected antimicrobial peptides",
+  "authors": [
+   "Sikora K",
+   "Jaśkiewicz M",
+   "Neubauer D",
+   "Bauer M",
+   "Bartoszewska S",
+   "Barańska-Rybak W",
+   "Kamysz W"
+  ],
+  "journal": "Amino Acids",
+  "year": "2018",
+  "volume": "50",
+  "issue": "5",
+  "pages": "609-619",
+  "doi": "10.1007/s00726-017-2536-9",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "29337906": {
   "pmid": "29337906",
   "title": "Specific Collagen Peptides Improve Bone Mineral Density and Bone Markers in Postmenopausal Women-A Randomized Controlled Study",
@@ -11610,6 +13649,25 @@
    "Clinical Trial, Phase III",
    "Journal Article",
    "Randomized Controlled Trial"
+  ]
+ },
+ "29403959": {
+  "pmid": "29403959",
+  "title": "Implementation of a single quad MS detector in routine QC analysis of peptide drugs",
+  "authors": [
+   "D'Hondt M",
+   "Gevaert B",
+   "Wynendaele E",
+   "De Spiegeleer B"
+  ],
+  "journal": "J Pharm Anal",
+  "year": "2016",
+  "volume": "6",
+  "issue": "1",
+  "pages": "24-31",
+  "doi": "10.1016/j.jpha.2015.09.002",
+  "types": [
+   "Journal Article"
   ]
  },
  "29457216": {
@@ -12048,6 +14106,26 @@
    "Journal Article"
   ]
  },
+ "29787664": {
+  "pmid": "29787664",
+  "title": "[COMPARISON OF PHARMACOLOGICAL EFFECTS OF HEPTAPEPTIDE SELANK AFTER INTRANASAL AND INTRAPERITONEAL ADMINISTRATION TO BALB/c AND C57BL/6 MICE.]",
+  "authors": [
+   "Vasil'eva EV",
+   "Kondrakhin EA",
+   "Salimov RM",
+   "Kovalev GI"
+  ],
+  "journal": "Eksp Klin Farmakol",
+  "year": "2016",
+  "volume": "79",
+  "issue": "9",
+  "pages": "3-11",
+  "doi": "",
+  "types": [
+   "Comparative Study",
+   "Journal Article"
+  ]
+ },
  "29798983": {
   "pmid": "29798983",
   "title": "[The efficacy of semax in the tretament of patients at different stages of ischemic stroke]",
@@ -12148,6 +14226,28 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "29862433": {
+  "pmid": "29862433",
+  "title": "Identification and accurate quantification of structurally related peptide impurities in synthetic human C-peptide by liquid chromatography-high resolution mass spectrometry",
+  "authors": [
+   "Li M",
+   "Josephs RD",
+   "Daireaux A",
+   "Choteau T",
+   "Westwood S",
+   "Wielgosz RI",
+   "Li H"
+  ],
+  "journal": "Anal Bioanal Chem",
+  "year": "2018",
+  "volume": "410",
+  "issue": "20",
+  "pages": "5059-5070",
+  "doi": "10.1007/s00216-018-1155-y",
+  "types": [
+   "Journal Article"
   ]
  },
  "29897293": {
@@ -12253,6 +14353,27 @@
    "Clinical Trial, Phase I",
    "Journal Article",
    "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "29983246": {
+  "pmid": "29983246",
+  "title": "The Mitochondrial-Encoded Peptide MOTS-c Translocates to the Nucleus to Regulate Nuclear Gene Expression in Response to Metabolic Stress",
+  "authors": [
+   "Kim KH",
+   "Son JM",
+   "Benayoun BA",
+   "Lee C"
+  ],
+  "journal": "Cell Metab",
+  "year": "2018",
+  "volume": "28",
+  "issue": "3",
+  "pages": "516-524.e7",
+  "doi": "10.1016/j.cmet.2018.06.008",
+  "types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
    "Research Support, Non-U.S. Gov't"
   ]
  },
@@ -12666,6 +14787,25 @@
    "Journal Article"
   ]
  },
+ "30394592": {
+  "pmid": "30394592",
+  "title": "Development of a mass spectrometry based detection method for the mitochondrion-derived peptide MOTS-c in plasma samples for doping control purposes",
+  "authors": [
+   "Knoop A",
+   "Thomas A",
+   "Thevis M"
+  ],
+  "journal": "Rapid Commun Mass Spectrom",
+  "year": "2019",
+  "volume": "33",
+  "issue": "4",
+  "pages": "371-380",
+  "doi": "10.1002/rcm.8337",
+  "types": [
+   "Journal Article",
+   "Validation Study"
+  ]
+ },
  "30395700": {
   "pmid": "30395700",
   "title": "A further insight into the metabolic profile of the nuclear receptor Rev-erb agonist, SR9009",
@@ -12828,6 +14968,40 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "30473097": {
+  "pmid": "30473097",
+  "title": "LY3298176, a novel dual GIP and GLP-1 receptor agonist for the treatment of type 2 diabetes mellitus: From discovery to clinical proof of concept",
+  "authors": [
+   "Coskun T",
+   "Sloop KW",
+   "Loghin C",
+   "Alsina-Fernandez J",
+   "Urva S",
+   "Bokvist KB",
+   "Cui X",
+   "Briere DA",
+   "Cabrera O",
+   "Roell WC",
+   "Kuchibhotla U",
+   "Moyers JS",
+   "Benson CT",
+   "Gimeno RE",
+   "D'Alessio DA",
+   "Haupt A"
+  ],
+  "journal": "Mol Metab",
+  "year": "2018",
+  "volume": "18",
+  "issue": "",
+  "pages": "3-14",
+  "doi": "10.1016/j.molmet.2018.09.009",
+  "types": [
+   "Clinical Trial, Phase I",
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "30484282": {
   "pmid": "30484282",
   "title": "Polyunsaturated fatty acids for the primary and secondary prevention of cardiovascular disease",
@@ -12877,6 +15051,50 @@
   "types": [
    "Journal Article",
    "Validation Study"
+  ]
+ },
+ "30514729": {
+  "pmid": "30514729",
+  "title": "Vitamin K status, supplementation and vascular disease: a systematic review and meta-analysis",
+  "authors": [
+   "Lees JS",
+   "Chapman FA",
+   "Witham MD",
+   "Jardine AG",
+   "Mark PB"
+  ],
+  "journal": "Heart",
+  "year": "2019",
+  "volume": "105",
+  "issue": "12",
+  "pages": "938-945",
+  "doi": "10.1136/heartjnl-2018-313955",
+  "types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Research Support, Non-U.S. Gov't",
+   "Systematic Review"
+  ]
+ },
+ "30572894": {
+  "pmid": "30572894",
+  "title": "Prospective, randomized, double-blinded, placebo-controlled study on safety and tolerability of the krill powder product in overweight subjects with moderately elevated blood pressure",
+  "authors": [
+   "Sarkkinen ES",
+   "Savolainen MJ",
+   "Taurio J",
+   "Marvola T",
+   "Bruheim I"
+  ],
+  "journal": "Lipids Health Dis",
+  "year": "2018",
+  "volume": "17",
+  "issue": "1",
+  "pages": "287",
+  "doi": "10.1186/s12944-018-0935-x",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
   ]
  },
  "30582721": {
@@ -13037,6 +15255,31 @@
    "Review"
   ]
  },
+ "30764890": {
+  "pmid": "30764890",
+  "title": "Vitamins and Minerals for Migraine Prophylaxis: A Systematic Review and Meta-analysis",
+  "authors": [
+   "Okoli GN",
+   "Rabbani R",
+   "Kashani HH",
+   "Wierzbowski AK",
+   "Neilson C",
+   "Mansouri B",
+   "Zarychanski R",
+   "Abou-Setta AM"
+  ],
+  "journal": "Can J Neurol Sci",
+  "year": "2019",
+  "volume": "46",
+  "issue": "2",
+  "pages": "224-233",
+  "doi": "10.1017/cjn.2018.394",
+  "types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Systematic Review"
+  ]
+ },
  "30796078": {
   "pmid": "30796078",
   "title": "Melanotan-induced priapism: a hard-earned tan",
@@ -13055,6 +15298,29 @@
    "Case Reports",
    "Journal Article",
    "Review"
+  ]
+ },
+ "30799231": {
+  "pmid": "30799231",
+  "title": "A Single-dose, Comparative Bioavailability Study of a Formulation containing OM3 as Phospholipid and Free Fatty Acid to an Ethyl Ester Formulation in the Fasting and Fed States",
+  "authors": [
+   "Lapointe JF",
+   "Harvey L",
+   "Aziz S",
+   "Jordan H",
+   "Hegele RA",
+   "Lemieux P"
+  ],
+  "journal": "Clin Ther",
+  "year": "2019",
+  "volume": "41",
+  "issue": "3",
+  "pages": "426-444",
+  "doi": "10.1016/j.clinthera.2019.01.017",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "30825507": {
@@ -13140,6 +15406,29 @@
   "types": [
    "Journal Article",
    "Systematic Review"
+  ]
+ },
+ "30909223": {
+  "pmid": "30909223",
+  "title": "Methylene Blue Inhibits Formation of Tau Fibrils but not of Granular Tau Oligomers: A Plausible Key to Understanding Failure of a Clinical Trial for Alzheimer's Disease",
+  "authors": [
+   "Soeda Y",
+   "Saito M",
+   "Maeda S",
+   "Ishida K",
+   "Nakamura A",
+   "Kojima S",
+   "Takashima A"
+  ],
+  "journal": "J Alzheimers Dis",
+  "year": "2019",
+  "volume": "68",
+  "issue": "4",
+  "pages": "1677-1686",
+  "doi": "10.3233/JAD-181001",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "30915550": {
@@ -13234,6 +15523,28 @@
    "Validation Study"
   ]
  },
+ "30953114": {
+  "pmid": "30953114",
+  "title": "Abaloparatide for risk reduction of nonvertebral and vertebral fractures in postmenopausal women with osteoporosis: a network meta-analysis",
+  "authors": [
+   "Reginster J-",
+   "Bianic F",
+   "Campbell R",
+   "Martin M",
+   "Williams SA",
+   "Fitzpatrick LA"
+  ],
+  "journal": "Osteoporos Int",
+  "year": "2019",
+  "volume": "30",
+  "issue": "7",
+  "pages": "1465-1473",
+  "doi": "10.1007/s00198-019-04947-2",
+  "types": [
+   "Journal Article",
+   "Network Meta-Analysis"
+  ]
+ },
  "30974011": {
   "pmid": "30974011",
   "title": "Tretinoin enhances minoxidil response in androgenetic alopecia patients by upregulating follicular sulfotransferase enzymes",
@@ -13326,6 +15637,24 @@
    "Review"
   ]
  },
+ "31031702": {
+  "pmid": "31031702",
+  "title": "The Discovery and Development of Liraglutide and Semaglutide",
+  "authors": [
+   "Knudsen LB",
+   "Lau J"
+  ],
+  "journal": "Front Endocrinol (Lausanne)",
+  "year": "2019",
+  "volume": "10",
+  "issue": "",
+  "pages": "155",
+  "doi": "10.3389/fendo.2019.00155",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "31039287": {
   "pmid": "31039287",
   "title": "Probiotics for the prevention of pediatric antibiotic-associated diarrhea",
@@ -13347,6 +15676,55 @@
    "Meta-Analysis",
    "Research Support, Non-U.S. Gov't",
    "Systematic Review"
+  ]
+ },
+ "31066084": {
+  "pmid": "31066084",
+  "title": "Lipids and insulin regulate mitochondrial-derived peptide (MOTS-c) in PCOS and healthy subjects",
+  "authors": [
+   "Ramanjaneya M",
+   "Jerobin J",
+   "Bettahi I",
+   "Bensila M",
+   "Aye M",
+   "Siveen KS",
+   "Sathyapalan T",
+   "Skarulis M",
+   "Abou-Samra AB",
+   "Atkin SL"
+  ],
+  "journal": "Clin Endocrinol (Oxf)",
+  "year": "2019",
+  "volume": "91",
+  "issue": "2",
+  "pages": "278-287",
+  "doi": "10.1111/cen.14007",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "31109005": {
+  "pmid": "31109005",
+  "title": "Mitochondrial-Derived Peptide MOTS-c Increases Adipose Thermogenic Activation to Promote Cold Adaptation",
+  "authors": [
+   "Lu H",
+   "Tang S",
+   "Xue C",
+   "Liu Y",
+   "Wang J",
+   "Zhang W",
+   "Luo W",
+   "Chen J"
+  ],
+  "journal": "Int J Mol Sci",
+  "year": "2019",
+  "volume": "20",
+  "issue": "10",
+  "pages": "2456",
+  "doi": "10.3390/ijms20102456",
+  "types": [
+   "Journal Article"
   ]
  },
  "31134751": {
@@ -13946,6 +16324,29 @@
    "Journal Article"
   ]
  },
+ "31671336": {
+  "pmid": "31671336",
+  "title": "NMR reveals an undeclared constituent in custom synthetic peptides",
+  "authors": [
+   "Choules MP",
+   "Bisson J",
+   "Simmler C",
+   "McAlpine JB",
+   "Giancaspro G",
+   "Bzhelyansky A",
+   "Niemitz M",
+   "Pauli GF"
+  ],
+  "journal": "J Pharm Biomed Anal",
+  "year": "2020",
+  "volume": "178",
+  "issue": "",
+  "pages": "112915",
+  "doi": "10.1016/j.jpba.2019.112915",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "31674644": {
   "pmid": "31674644",
   "title": "Effect of Abaloparatide vs Alendronate on Fracture Risk Reduction in Postmenopausal Women With Osteoporosis",
@@ -14017,6 +16418,31 @@
    "Journal Article"
   ]
  },
+ "31758631": {
+  "pmid": "31758631",
+  "title": "Association of magnesium consumption with type 2 diabetes and glucose metabolism: A systematic review and pooled study with trial sequential analysis",
+  "authors": [
+   "Zhao B",
+   "Deng H",
+   "Li B",
+   "Chen L",
+   "Zou F",
+   "Hu L",
+   "Wei Y",
+   "Zhang W"
+  ],
+  "journal": "Diabetes Metab Res Rev",
+  "year": "2020",
+  "volume": "36",
+  "issue": "3",
+  "pages": "e3243",
+  "doi": "10.1002/dmrr.3243",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Systematic Review"
+  ]
+ },
  "31847374": {
   "pmid": "31847374",
   "title": "The Putatively Specific Synthetic REV-ERB Agonist SR9009 Inhibits IgE- and IL-33-Mediated Mast Cell Activation Independently of the Circadian Clock",
@@ -14035,6 +16461,24 @@
   "doi": "10.3390/ijms20246320",
   "types": [
    "Journal Article"
+  ]
+ },
+ "31848464": {
+  "pmid": "31848464",
+  "title": "Advances in oral peptide therapeutics",
+  "authors": [
+   "Drucker DJ"
+  ],
+  "journal": "Nat Rev Drug Discov",
+  "year": "2020",
+  "volume": "19",
+  "issue": "4",
+  "pages": "277-289",
+  "doi": "10.1038/s41573-019-0053-0",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Review"
   ]
  },
  "31953620": {
@@ -14324,6 +16768,30 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "32258965": {
+  "pmid": "32258965",
+  "title": "Abaloparatide in Postmenopausal Women With Osteoporosis and Type 2 Diabetes: A Post Hoc Analysis of the ACTIVE Study",
+  "authors": [
+   "Dhaliwal R",
+   "Hans D",
+   "Hattersley G",
+   "Mitlak B",
+   "Fitzpatrick LA",
+   "Wang Y",
+   "Schwartz AV",
+   "Miller PD",
+   "Josse RG"
+  ],
+  "journal": "JBMR Plus",
+  "year": "2020",
+  "volume": "4",
+  "issue": "4",
+  "pages": "e10346",
+  "doi": "10.1002/jbm4.10346",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "32280089": {
   "pmid": "32280089",
   "title": "Concentration-Dependent Activity of Hydromethylthionine on Clinical Decline and Brain Atrophy in a Randomized Controlled Trial in Behavioral Variant Frontotemporal Dementia",
@@ -14390,6 +16858,33 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "32301137": {
+  "pmid": "32301137",
+  "title": "Overall safety of relamorelin in adults with diabetic gastroparesis: Analysis of phase 2a and 2b trial data",
+  "authors": [
+   "Camilleri M",
+   "Lembo A",
+   "McCallum R",
+   "Tourkodimitris S",
+   "Kemps L",
+   "Miller MB",
+   "Bertelsen K",
+   "Iacob A"
+  ],
+  "journal": "Aliment Pharmacol Ther",
+  "year": "2020",
+  "volume": "51",
+  "issue": "11",
+  "pages": "1139-1148",
+  "doi": "10.1111/apt.15711",
+  "types": [
+   "Clinical Trial, Phase II",
+   "Journal Article",
+   "Multicenter Study",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "32317978": {
   "pmid": "32317978",
   "title": "Spadin Selectively Antagonizes Arachidonic Acid Activation of TREK-1 Channels",
@@ -14427,6 +16922,25 @@
   "doi": "10.1134/S001249662001007X",
   "types": [
    "Journal Article"
+  ]
+ },
+ "32342851": {
+  "pmid": "32342851",
+  "title": "Zinc Supplementation Reduces Common Cold Duration among Healthy Adults: A Systematic Review of Randomized Controlled Trials with Micronutrients Supplementation",
+  "authors": [
+   "Wang MX",
+   "Win SS",
+   "Pang J"
+  ],
+  "journal": "Am J Trop Med Hyg",
+  "year": "2020",
+  "volume": "103",
+  "issue": "1",
+  "pages": "86-99",
+  "doi": "10.4269/ajtmh.19-0718",
+  "types": [
+   "Journal Article",
+   "Systematic Review"
   ]
  },
  "32399807": {
@@ -14844,6 +17358,53 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "32665529": {
+  "pmid": "32665529",
+  "title": "Abaloparatide followed by alendronate in women ≥80 years with osteoporosis: post hoc analysis of ACTIVExtend",
+  "authors": [
+   "Greenspan SL",
+   "Fitzpatrick LA",
+   "Mitlak B",
+   "Wang Y",
+   "Harvey NC",
+   "Deal C",
+   "Cosman F",
+   "McClung M"
+  ],
+  "journal": "Menopause",
+  "year": "2020",
+  "volume": "27",
+  "issue": "10",
+  "pages": "1137-1142",
+  "doi": "10.1097/GME.0000000000001593",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "32683037": {
+  "pmid": "32683037",
+  "title": "Goldenseal (Hydrastis canadensis L.) and its active constituents: A critical review of their efficacy and toxicological issues",
+  "authors": [
+   "Mandal SK",
+   "Maji AK",
+   "Mishra SK",
+   "Ishfaq PM",
+   "Devkota HP",
+   "Silva AS",
+   "Das N"
+  ],
+  "journal": "Pharmacol Res",
+  "year": "2020",
+  "volume": "160",
+  "issue": "",
+  "pages": "105085",
+  "doi": "10.1016/j.phrs.2020.105085",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "32690176": {
   "pmid": "32690176",
   "title": "The effect of berberine supplementation on obesity parameters, inflammation and liver function enzymes: A systematic review and meta-analysis of randomized controlled trials",
@@ -14991,6 +17552,93 @@
   "doi": "10.5534/wjmh.200043",
   "types": [
    "Journal Article"
+  ]
+ },
+ "32801950": {
+  "pmid": "32801950",
+  "title": "Attenuation of Visceral and Somatic Nociception by Ghrelin Mimetics",
+  "authors": [
+   "N Mohammadi E",
+   "Louwies T",
+   "Pietra C",
+   "Northrup SR",
+   "Greenwood-Van Meerveld B"
+  ],
+  "journal": "J Exp Pharmacol",
+  "year": "2020",
+  "volume": "12",
+  "issue": "",
+  "pages": "267-274",
+  "doi": "10.2147/JEP.S249747",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "32817311": {
+  "pmid": "32817311",
+  "title": "Vitamin K Supplementation to Improve Vascular Stiffness in CKD: The K4Kidneys Randomized Controlled Trial",
+  "authors": [
+   "Witham MD",
+   "Lees JS",
+   "White M",
+   "Band M",
+   "Bell S",
+   "Chantler DJ",
+   "Ford I",
+   "Fulton RL",
+   "Kennedy G",
+   "Littleford RC",
+   "McCrea IV",
+   "McGlynn D",
+   "Panarelli M",
+   "Ralston MR",
+   "Rutherford E",
+   "Severn A",
+   "Thomson N",
+   "Traynor JP",
+   "Struthers AD",
+   "Wetherall K",
+   "Mark PB"
+  ],
+  "journal": "J Am Soc Nephrol",
+  "year": "2020",
+  "volume": "31",
+  "issue": "10",
+  "pages": "2434-2445",
+  "doi": "10.1681/ASN.2020020225",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "32860032": {
+  "pmid": "32860032",
+  "title": "Effect of icosapent ethyl on progression of coronary atherosclerosis in patients with elevated triglycerides on statin therapy: final results of the EVAPORATE trial",
+  "authors": [
+   "Budoff MJ",
+   "Bhatt DL",
+   "Kinninger A",
+   "Lakshmanan S",
+   "Muhlestein JB",
+   "Le VT",
+   "May HT",
+   "Shaikh K",
+   "Shekar C",
+   "Roy SK",
+   "Tayek J",
+   "Nelson JR"
+  ],
+  "journal": "Eur Heart J",
+  "year": "2020",
+  "volume": "41",
+  "issue": "40",
+  "pages": "3925-3932",
+  "doi": "10.1093/eurheartj/ehaa652",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "32871172": {
@@ -15143,6 +17791,53 @@
    "Systematic Review"
   ]
  },
+ "32951855": {
+  "pmid": "32951855",
+  "title": "Effect of Omega-3 Dosage on Cardiovascular Outcomes: An Updated Meta-Analysis and Meta-Regression of Interventional Trials",
+  "authors": [
+   "Bernasconi AA",
+   "Wiest MM",
+   "Lavie CJ",
+   "Milani RV",
+   "Laukkanen JA"
+  ],
+  "journal": "Mayo Clin Proc",
+  "year": "2021",
+  "volume": "96",
+  "issue": "2",
+  "pages": "304-313",
+  "doi": "10.1016/j.mayocp.2020.08.034",
+  "types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "32956536": {
+  "pmid": "32956536",
+  "title": "Magnesium for skeletal muscle cramps",
+  "authors": [
+   "Garrison SR",
+   "Korownyk CS",
+   "Kolber MR",
+   "Allan GM",
+   "Musini VM",
+   "Sekhon RK",
+   "Dugré N"
+  ],
+  "journal": "Cochrane Database Syst Rev",
+  "year": "2020",
+  "volume": "9",
+  "issue": "9",
+  "pages": "CD009402",
+  "doi": "10.1002/14651858.CD009402.pub3",
+  "types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Research Support, Non-U.S. Gov't",
+   "Systematic Review"
+  ]
+ },
  "32960827": {
   "pmid": "32960827",
   "title": "Oral Glutathione and Growth in Cystic Fibrosis: A Multicenter, Randomized, Placebo-controlled, Double-blind Trial",
@@ -15167,6 +17862,58 @@
    "Journal Article",
    "Multicenter Study",
    "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "32987920": {
+  "pmid": "32987920",
+  "title": "Quasi-Irreversible Inhibition of CYP2D6 by Berberine",
+  "authors": [
+   "Kim HG",
+   "Lee HS",
+   "Jeon JS",
+   "Choi YJ",
+   "Choi YJ",
+   "Yoo SY",
+   "Kim EY",
+   "Lee K",
+   "Park I",
+   "Na M",
+   "Park HJ",
+   "Cho SW",
+   "Kim JH",
+   "Lee JY",
+   "Kim SK"
+  ],
+  "journal": "Pharmaceutics",
+  "year": "2020",
+  "volume": "12",
+  "issue": "10",
+  "pages": "916",
+  "doi": "10.3390/pharmaceutics12100916",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "32990990": {
+  "pmid": "32990990",
+  "title": "Teriparatide Did Not Increase Adult Osteosarcoma Incidence in a 15-Year US Postmarketing Surveillance Study",
+  "authors": [
+   "Gilsenan A",
+   "Midkiff K",
+   "Harris D",
+   "Kellier-Steele N",
+   "McSorley D",
+   "Andrews EB"
+  ],
+  "journal": "J Bone Miner Res",
+  "year": "2021",
+  "volume": "36",
+  "issue": "2",
+  "pages": "244-251",
+  "doi": "10.1002/jbmr.4188",
+  "types": [
+   "Journal Article",
    "Research Support, Non-U.S. Gov't"
   ]
  },
@@ -15238,6 +17985,31 @@
   "doi": "10.3389/fnins.2020.00923",
   "types": [
    "Systematic Review",
+   "Journal Article"
+  ]
+ },
+ "33061866": {
+  "pmid": "33061866",
+  "title": "Mineral oil: safety and use as placebo in REDUCE-IT and other clinical studies",
+  "authors": [
+   "Olshansky B",
+   "Chung MK",
+   "Budoff MJ",
+   "Philip S",
+   "Jiao L",
+   "Doyle RT",
+   "Copland C",
+   "Giaquinto A",
+   "Juliano RA",
+   "Bhatt DL"
+  ],
+  "journal": "Eur Heart J Suppl",
+  "year": "2020",
+  "volume": "22",
+  "issue": "Suppl J",
+  "pages": "J34-J48",
+  "doi": "10.1093/eurheartj/suaa117",
+  "types": [
    "Journal Article"
   ]
  },
@@ -15621,6 +18393,51 @@
    "Systematic Review"
   ]
  },
+ "33468709": {
+  "pmid": "33468709",
+  "title": "A pro-diabetogenic mtDNA polymorphism in the mitochondrial-derived peptide, MOTS-c",
+  "authors": [
+   "Zempo H",
+   "Kim SJ",
+   "Fuku N",
+   "Nishida Y",
+   "Higaki Y",
+   "Wan J",
+   "Yen K",
+   "Miller B",
+   "Vicinanza R",
+   "Miyamoto-Mikami E",
+   "Kumagai H",
+   "Naito H",
+   "Xiao J",
+   "Mehta HH",
+   "Lee C",
+   "Hara M",
+   "Patel YM",
+   "Setiawan VW",
+   "Moore TM",
+   "Hevener AL",
+   "Sutoh Y",
+   "Shimizu A",
+   "Kojima K",
+   "Kinoshita K",
+   "Arai Y",
+   "Hirose N",
+   "Maeda S",
+   "Tanaka K",
+   "Cohen P"
+  ],
+  "journal": "Aging (Albany NY)",
+  "year": "2021",
+  "volume": "13",
+  "issue": "2",
+  "pages": "1692-1717",
+  "doi": "10.18632/aging.202529",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "33473109": {
   "pmid": "33473109",
   "title": "MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis",
@@ -15648,6 +18465,29 @@
    "Journal Article",
    "Research Support, N.I.H., Extramural",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "33479819": {
+  "pmid": "33479819",
+  "title": "Structurally related peptide impurity identification and accurate quantification for synthetic oxytocin by liquid chromatography-high-resolution mass spectrometry",
+  "authors": [
+   "Li M",
+   "Josephs RD",
+   "Daireaux A",
+   "Choteau T",
+   "Westwood S",
+   "Martos G",
+   "Wielgosz RI",
+   "Li H"
+  ],
+  "journal": "Anal Bioanal Chem",
+  "year": "2021",
+  "volume": "413",
+  "issue": "7",
+  "pages": "1861-1870",
+  "doi": "10.1007/s00216-021-03154-5",
+  "types": [
+   "Journal Article"
   ]
  },
  "33482052": {
@@ -15776,6 +18616,29 @@
    "Journal Article",
    "Multicenter Study",
    "Randomized Controlled Trial"
+  ]
+ },
+ "33638863": {
+  "pmid": "33638863",
+  "title": "Phase 1b Evaluation of Abaloparatide Solid Microstructured Transdermal System (Abaloparatide-sMTS) in Postmenopausal Women with Low Bone Mineral Density",
+  "authors": [
+   "Miller PD",
+   "Troy S",
+   "Weiss RJ",
+   "Annett M",
+   "Schense J",
+   "Williams SA",
+   "Mitlak B"
+  ],
+  "journal": "Clin Drug Investig",
+  "year": "2021",
+  "volume": "41",
+  "issue": "3",
+  "pages": "277-285",
+  "doi": "10.1007/s40261-021-01008-7",
+  "types": [
+   "Clinical Trial, Phase I",
+   "Journal Article"
   ]
  },
  "33639244": {
@@ -16428,6 +19291,36 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "34351816": {
+  "pmid": "34351816",
+  "title": "Acute endurance exercise stimulates circulating levels of mitochondrial-derived peptides in humans",
+  "authors": [
+   "von Walden F",
+   "Fernandez-Gonzalo R",
+   "Norrbom J",
+   "Emanuelsson EB",
+   "Figueiredo VC",
+   "Gidlund EK",
+   "Norrbrand L",
+   "Liu C",
+   "Sandström P",
+   "Hansson B",
+   "Wan J",
+   "Cohen P",
+   "Alkner B"
+  ],
+  "journal": "J Appl Physiol (1985)",
+  "year": "2021",
+  "volume": "131",
+  "issue": "3",
+  "pages": "1035-1042",
+  "doi": "10.1152/japplphysiol.00706.2019",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "34358484": {
   "pmid": "34358484",
   "title": "Infigratinib (BGJ398) in previously treated patients with advanced or metastatic cholangiocarcinoma with FGFR2 fusions or rearrangements: mature results from a multicentre, open-label, single-arm, phase 2 study",
@@ -16505,6 +19398,44 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "34365978": {
+  "pmid": "34365978",
+  "title": "Effectiveness and safety of Bifidobacterium and berberine in human hyperglycemia and their regulatory effect on the gut microbiota: a multi-center, double-blind, randomized, parallel-controlled study",
+  "authors": [
+   "Ming J",
+   "Yu X",
+   "Xu X",
+   "Wang L",
+   "Ding C",
+   "Wang Z",
+   "Xie X",
+   "Li S",
+   "Yang W",
+   "Luo S",
+   "He Q",
+   "Du Y",
+   "Tian Z",
+   "Gao X",
+   "Ma K",
+   "Fang Y",
+   "Li C",
+   "Zhao J",
+   "Wang X",
+   "Ji Q"
+  ],
+  "journal": "Genome Med",
+  "year": "2021",
+  "volume": "13",
+  "issue": "1",
+  "pages": "125",
+  "doi": "10.1186/s13073-021-00942-7",
+  "types": [
+   "Journal Article",
+   "Multicenter Study",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "34368359": {
@@ -16976,6 +19907,28 @@
    "Research Support, N.I.H., Extramural"
   ]
  },
+ "34656934": {
+  "pmid": "34656934",
+  "title": "Mass balance method for SI-traceable purity assignment of synthetic oxytocin",
+  "authors": [
+   "Wang S",
+   "Wu P",
+   "Li M",
+   "Huang T",
+   "Shi N",
+   "Feng L",
+   "Li H"
+  ],
+  "journal": "J Pharm Biomed Anal",
+  "year": "2022",
+  "volume": "207",
+  "issue": "",
+  "pages": "114401",
+  "doi": "10.1016/j.jpba.2021.114401",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "34665524": {
   "pmid": "34665524",
   "title": "Advances in the detection of growth hormone releasing hormone synthetic analogs",
@@ -17222,6 +20175,27 @@
    "Journal Article",
    "Randomized Controlled Trial",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "34992578": {
+  "pmid": "34992578",
+  "title": "Progress on the Function and Application of Thymosin β4",
+  "authors": [
+   "Xing Y",
+   "Ye Y",
+   "Zuo H",
+   "Li Y"
+  ],
+  "journal": "Front Endocrinol (Lausanne)",
+  "year": "2021",
+  "volume": "12",
+  "issue": "",
+  "pages": "767785",
+  "doi": "10.3389/fendo.2021.767785",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Review"
   ]
  },
  "35013352": {
@@ -17510,6 +20484,26 @@
    "Randomized Controlled Trial"
   ]
  },
+ "35298973": {
+  "pmid": "35298973",
+  "title": "An antibody-free, ultrafiltration-based assay for the detection of growth hormone-releasing hormones in urine at low pg/mL concentrations using nanoLC-HRMS/MS",
+  "authors": [
+   "Coppieters G",
+   "Deventer K",
+   "Polet M",
+   "Van Eenoo P",
+   "Judák P"
+  ],
+  "journal": "J Pharm Biomed Anal",
+  "year": "2022",
+  "volume": "214",
+  "issue": "",
+  "pages": "114726",
+  "doi": "10.1016/j.jpba.2022.114726",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "35304976": {
   "pmid": "35304976",
   "title": "Mitochondrial uncoupling attenuates sarcopenic obesity by enhancing skeletal muscle mitophagy and quality control",
@@ -17574,6 +20568,23 @@
   "issue": "",
   "pages": "1759720X221084848",
   "doi": "10.1177/1759720X221084848",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "35354138": {
+  "pmid": "35354138",
+  "title": "A GH Secretagogue Receptor Agonist (LUM-201) Elicits Greater GH Responses than Standard GH Secretagogues in Subjects of a Pediatric GH Deficiency Trial",
+  "authors": [
+   "Bright GM",
+   "Thorner MO"
+  ],
+  "journal": "Horm Res Paediatr",
+  "year": "2022",
+  "volume": "95",
+  "issue": "1",
+  "pages": "76-81",
+  "doi": "10.1159/000524244",
   "types": [
    "Journal Article"
   ]
@@ -18542,6 +21553,35 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "36216945": {
+  "pmid": "36216945",
+  "title": "Two-year effects of semaglutide in adults with overweight or obesity: the STEP 5 trial",
+  "authors": [
+   "Garvey WT",
+   "Batterham RL",
+   "Bhatta M",
+   "Buscemi S",
+   "Christensen LN",
+   "Frias JP",
+   "Jódar E",
+   "Kandler K",
+   "Rigas G",
+   "Wadden TA",
+   "Wharton S",
+   "STEP 5 Study Group"
+  ],
+  "journal": "Nat Med",
+  "year": "2022",
+  "volume": "28",
+  "issue": "10",
+  "pages": "2083-2091",
+  "doi": "10.1038/s41591-022-02026-4",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "3622582": {
   "pmid": "3622582",
   "title": "Effects of delta-sleep-inducing peptide on 24-hour sleep-wake behaviour in severe chronic insomnia",
@@ -18751,6 +21791,34 @@
    "Journal Article"
   ]
  },
+ "36322838": {
+  "pmid": "36322838",
+  "title": "Once-Weekly Semaglutide in Adolescents with Obesity",
+  "authors": [
+   "Weghuber D",
+   "Barrett T",
+   "Barrientos-Pérez M",
+   "Gies I",
+   "Hesse D",
+   "Jeppesen OK",
+   "Kelly AS",
+   "Mastrandrea LD",
+   "Sørrig R",
+   "Arslanian S",
+   "STEP TEENS Investigators"
+  ],
+  "journal": "N Engl J Med",
+  "year": "2022",
+  "volume": "387",
+  "issue": "24",
+  "pages": "2245-2257",
+  "doi": "10.1056/NEJMoa2208601",
+  "types": [
+   "Randomized Controlled Trial",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "36342113": {
   "pmid": "36342113",
   "title": "Triglyceride Lowering with Pemafibrate to Reduce Cardiovascular Risk",
@@ -18803,6 +21871,35 @@
    "Randomized Controlled Trial",
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "36354040": {
+  "pmid": "36354040",
+  "title": "LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist in people with type 2 diabetes: a phase 1b, multicentre, double-blind, placebo-controlled, randomised, multiple-ascending dose trial",
+  "authors": [
+   "Urva S",
+   "Coskun T",
+   "Loh MT",
+   "Du Y",
+   "Thomas MK",
+   "Gurbuz S",
+   "Haupt A",
+   "Benson CT",
+   "Hernandez-Illas M",
+   "D'Alessio DA",
+   "Milicevic Z"
+  ],
+  "journal": "Lancet",
+  "year": "2022",
+  "volume": "400",
+  "issue": "10366",
+  "pages": "1869-1881",
+  "doi": "10.1016/S0140-6736(22)02033-5",
+  "types": [
+   "Randomized Controlled Trial",
+   "Multicenter Study",
+   "Clinical Trial, Phase I",
+   "Journal Article"
   ]
  },
  "36367144": {
@@ -18865,6 +21962,25 @@
    "Review"
   ]
  },
+ "36462248": {
+  "pmid": "36462248",
+  "title": "Characterization of low-level D-amino acid isomeric impurities of Semaglutide using liquid chromatography-high resolution tandem mass spectrometry",
+  "authors": [
+   "Zhang B",
+   "Xu W",
+   "Yin C",
+   "Tang Y"
+  ],
+  "journal": "J Pharm Biomed Anal",
+  "year": "2023",
+  "volume": "224",
+  "issue": "",
+  "pages": "115164",
+  "doi": "10.1016/j.jpba.2022.115164",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "36479151": {
   "pmid": "36479151",
   "title": "Selective Androgen Receptor Modulators: An Emerging Liver Toxin",
@@ -18918,6 +22034,28 @@
   "types": [
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "36528071": {
+  "pmid": "36528071",
+  "title": "Orally administered MOTS-c analogue ameliorates dextran sulfate sodium-induced colitis by inhibiting inflammation and apoptosis",
+  "authors": [
+   "Jiang J",
+   "Chang X",
+   "Nie Y",
+   "Xu L",
+   "Yang L",
+   "Peng Y",
+   "Chang M"
+  ],
+  "journal": "Eur J Pharmacol",
+  "year": "2023",
+  "volume": "939",
+  "issue": "",
+  "pages": "175469",
+  "doi": "10.1016/j.ejphar.2022.175469",
+  "types": [
+   "Journal Article"
   ]
  },
  "36551977": {
@@ -18981,6 +22119,28 @@
   "types": [
    "Case Reports",
    "Journal Article"
+  ]
+ },
+ "36588166": {
+  "pmid": "36588166",
+  "title": "Effect of Abaloparatide on Bone Microarchitecture Assessed by Trabecular Bone Score in Women With Osteoporosis: Post Hoc Analysis of ACTIVE and ACTIVExtend",
+  "authors": [
+   "Cosman F",
+   "Hans D",
+   "Shevroja E",
+   "Wang Y",
+   "Mitlak B"
+  ],
+  "journal": "J Bone Miner Res",
+  "year": "2023",
+  "volume": "38",
+  "issue": "4",
+  "pages": "464-470",
+  "doi": "10.1002/jbmr.4764",
+  "types": [
+   "Randomized Controlled Trial",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "36613994": {
@@ -19271,6 +22431,26 @@
    "Journal Article"
   ]
  },
+ "36871316": {
+  "pmid": "36871316",
+  "title": "A Strategy for assessing peak purity of pharmaceutical peptides in reversed-phase chromatography methods using two-dimensional liquid chromatography coupled to mass spectrometry. Part II: Development of second-dimension gradient conditions",
+  "authors": [
+   "Stoll DR",
+   "Sylvester M",
+   "Euerby MR",
+   "Buckenmaier SMC",
+   "Petersson P"
+  ],
+  "journal": "J Chromatogr A",
+  "year": "2023",
+  "volume": "1693",
+  "issue": "",
+  "pages": "463873",
+  "doi": "10.1016/j.chroma.2023.463873",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "36883831": {
   "pmid": "36883831",
   "title": "Cagrilintide: A Long-Acting Amylin Analog for the Treatment of Obesity",
@@ -19287,6 +22467,33 @@
   "doi": "10.1097/CRD.0000000000000513",
   "types": [
    "Journal Article"
+  ]
+ },
+ "36905132": {
+  "pmid": "36905132",
+  "title": "Glycyl-l-histidyl-l-lysine-Cu2+ rescues cigarette smoking-induced skeletal muscle dysfunction via a sirtuin 1-dependent pathway",
+  "authors": [
+   "Deng M",
+   "Zhang Q",
+   "Yan L",
+   "Bian Y",
+   "Li R",
+   "Gao J",
+   "Wang Y",
+   "Miao J",
+   "Li J",
+   "Zhou X",
+   "Hou G"
+  ],
+  "journal": "J Cachexia Sarcopenia Muscle",
+  "year": "2023",
+  "volume": "14",
+  "issue": "3",
+  "pages": "1365-1380",
+  "doi": "10.1002/jcsm.13213",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "36915146": {
@@ -19446,6 +22653,22 @@
    "Review",
    "Journal Article",
    "Research Support, N.I.H., Extramural"
+  ]
+ },
+ "37086147": {
+  "pmid": "37086147",
+  "title": "Is retatrutide (LY3437943), a GLP-1, GIP, and glucagon receptor agonist a step forward in the treatment of diabetes and obesity?",
+  "authors": [
+   "Doggrell SA"
+  ],
+  "journal": "Expert Opin Investig Drugs",
+  "year": "2023",
+  "volume": "32",
+  "issue": "5",
+  "pages": "355-359",
+  "doi": "10.1080/13543784.2023.2206560",
+  "types": [
+   "Journal Article"
   ]
  },
  "37106758": {
@@ -19643,6 +22866,25 @@
    "Randomized Controlled Trial",
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "37252246": {
+  "pmid": "37252246",
+  "title": "Vitamin K supplementation and vascular calcification: a systematic review and meta-analysis of randomized controlled trials",
+  "authors": [
+   "Li T",
+   "Wang Y",
+   "Tu WP"
+  ],
+  "journal": "Front Nutr",
+  "year": "2023",
+  "volume": "10",
+  "issue": "",
+  "pages": "1115069",
+  "doi": "10.3389/fnut.2023.1115069",
+  "types": [
+   "Systematic Review",
+   "Journal Article"
   ]
  },
  "37284568": {
@@ -19920,6 +23162,38 @@
    "Journal Article"
   ]
  },
+ "37385275": {
+  "pmid": "37385275",
+  "title": "Tirzepatide once weekly for the treatment of obesity in people with type 2 diabetes (SURMOUNT-2): a double-blind, randomised, multicentre, placebo-controlled, phase 3 trial",
+  "authors": [
+   "Garvey WT",
+   "Frias JP",
+   "Jastreboff AM",
+   "le Roux CW",
+   "Sattar N",
+   "Aizenberg D",
+   "Mao H",
+   "Zhang S",
+   "Ahmad NN",
+   "Bunck MC",
+   "Benabbad I",
+   "Zhang XM",
+   "SURMOUNT-2 investigators"
+  ],
+  "journal": "Lancet",
+  "year": "2023",
+  "volume": "402",
+  "issue": "10402",
+  "pages": "613-626",
+  "doi": "10.1016/S0140-6736(23)01200-X",
+  "types": [
+   "Randomized Controlled Trial",
+   "Multicenter Study",
+   "Clinical Trial, Phase III",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "37385280": {
   "pmid": "37385280",
   "title": "Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group, phase 2 trial conducted in the USA",
@@ -19974,6 +23248,36 @@
   "doi": "10.1007/s00774-023-01453-8",
   "types": [
    "Journal Article"
+  ]
+ },
+ "37417725": {
+  "pmid": "37417725",
+  "title": "Efficacy and Safety of Transdermal Abaloparatide in Postmenopausal Women with Osteoporosis: A Randomized Study",
+  "authors": [
+   "Lewiecki EM",
+   "Czerwinski E",
+   "Recknor C",
+   "Strzelecka A",
+   "Valenzuela G",
+   "Lawrence M",
+   "Silverman S",
+   "Cardona J",
+   "Nattrass SM",
+   "Binkley N",
+   "Annett M",
+   "Pearman L",
+   "Mitlak B"
+  ],
+  "journal": "J Bone Miner Res",
+  "year": "2023",
+  "volume": "38",
+  "issue": "10",
+  "pages": "1404-1414",
+  "doi": "10.1002/jbmr.4877",
+  "types": [
+   "Randomized Controlled Trial",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "37432180": {
@@ -20058,6 +23362,27 @@
   "doi": "10.1016/j.biopha.2023.115129",
   "types": [
    "Journal Article"
+  ]
+ },
+ "37487817": {
+  "pmid": "37487817",
+  "title": "Perspective: Call for Re-evaluation of the Tolerable Upper Intake Level for Magnesium Supplementation in Adults",
+  "authors": [
+   "Costello R",
+   "Rosanoff A",
+   "Nielsen F",
+   "West C"
+  ],
+  "journal": "Adv Nutr",
+  "year": "2023",
+  "volume": "14",
+  "issue": "5",
+  "pages": "973-982",
+  "doi": "10.1016/j.advnut.2023.06.008",
+  "types": [
+   "Journal Article",
+   "Review",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "37490269": {
@@ -20237,6 +23562,106 @@
    "Journal Article"
   ]
  },
+ "37622681": {
+  "pmid": "37622681",
+  "title": "Semaglutide in Patients with Heart Failure with Preserved Ejection Fraction and Obesity",
+  "authors": [
+   "Kosiborod MN",
+   "Abildstrøm SZ",
+   "Borlaug BA",
+   "Butler J",
+   "Rasmussen S",
+   "Davies M",
+   "Hovingh GK",
+   "Kitzman DW",
+   "Lindegaard ML",
+   "Møller DV",
+   "Shah SJ",
+   "Treppendahl MB",
+   "Verma S",
+   "Abhayaratna W",
+   "Ahmed FZ",
+   "Chopra V",
+   "Ezekowitz J",
+   "Fu M",
+   "Ito H",
+   "Lelonek M",
+   "Melenovsky V",
+   "Merkely B",
+   "Núñez J",
+   "Perna E",
+   "Schou M",
+   "Senni M",
+   "Sharma K",
+   "Van der Meer P",
+   "von Lewinski D",
+   "Wolf D",
+   "Petrie MC",
+   "STEP-HFpEF Trial Committees and Investigators"
+  ],
+  "journal": "N Engl J Med",
+  "year": "2023",
+  "volume": "389",
+  "issue": "12",
+  "pages": "1069-1084",
+  "doi": "10.1056/NEJMoa2306963",
+  "types": [
+   "Randomized Controlled Trial",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "37673952": {
+  "pmid": "37673952",
+  "title": "Methylene blue accelerates liquid-to-gel transition of tau condensates impacting tau function and pathology",
+  "authors": [
+   "Huang Y",
+   "Wen J",
+   "Ramirez LM",
+   "Gümüşdil E",
+   "Pokhrel P",
+   "Man VH",
+   "Ye H",
+   "Han Y",
+   "Liu Y",
+   "Li P",
+   "Su Z",
+   "Wang J",
+   "Mao H",
+   "Zweckstetter M",
+   "Perrett S",
+   "Wu S",
+   "Gao M"
+  ],
+  "journal": "Nat Commun",
+  "year": "2023",
+  "volume": "14",
+  "issue": "1",
+  "pages": "5444",
+  "doi": "10.1038/s41467-023-41241-6",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "37679692": {
+  "pmid": "37679692",
+  "title": "Efficacy and safety of HIMABERB® Berberine on glycemic control in patients with prediabetes: double-blind, placebo-controlled, and randomized pilot trial",
+  "authors": [
+   "Panigrahi A",
+   "Mohanty S"
+  ],
+  "journal": "BMC Endocr Disord",
+  "year": "2023",
+  "volume": "23",
+  "issue": "1",
+  "pages": "190",
+  "doi": "10.1186/s12902-023-01442-y",
+  "types": [
+   "Randomized Controlled Trial",
+   "Journal Article"
+  ]
+ },
  "37683986": {
   "pmid": "37683986",
   "title": "Glutathione and glutathione-dependent enzymes: From biochemistry to gerontology and successful aging",
@@ -20321,6 +23746,57 @@
   "types": [
    "Systematic Review",
    "Journal Article"
+  ]
+ },
+ "37702300": {
+  "pmid": "37702300",
+  "title": "Antioxidant vitamin and mineral supplements for slowing the progression of age-related macular degeneration",
+  "authors": [
+   "Evans JR",
+   "Lawrenson JG"
+  ],
+  "journal": "Cochrane Database Syst Rev",
+  "year": "2023",
+  "volume": "9",
+  "issue": "9",
+  "pages": "CD000254",
+  "doi": "10.1002/14651858.CD000254.pub5",
+  "types": [
+   "Systematic Review",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "37721023": {
+  "pmid": "37721023",
+  "title": "2023 American Heart Association Focused Update on the Management of Patients With Cardiac Arrest or Life-Threatening Toxicity Due to Poisoning: An Update to the American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care",
+  "authors": [
+   "Lavonas EJ",
+   "Akpunonu PD",
+   "Arens AM",
+   "Babu KM",
+   "Cao D",
+   "Hoffman RS",
+   "Hoyte CO",
+   "Mazer-Amirshahi ME",
+   "Stolbach A",
+   "St-Onge M",
+   "Thompson TM",
+   "Wang GS",
+   "Hoover AV",
+   "Drennan IR",
+   "American Heart Association"
+  ],
+  "journal": "Circulation",
+  "year": "2023",
+  "volume": "148",
+  "issue": "16",
+  "pages": "e149-e184",
+  "doi": "10.1161/CIR.0000000000001161",
+  "types": [
+   "Journal Article",
+   "Practice Guideline",
+   "Review"
   ]
  },
  "37756041": {
@@ -20755,6 +24231,31 @@
    "Journal Article"
   ]
  },
+ "38026438": {
+  "pmid": "38026438",
+  "title": "Thermodynamically stable ionic liquid microemulsions pioneer pathways for topical delivery and peptide application",
+  "authors": [
+   "Liu T",
+   "Liu Y",
+   "Zhao X",
+   "Zhang L",
+   "Wang W",
+   "Bai D",
+   "Liao Y",
+   "Wang Z",
+   "Wang M",
+   "Zhang J"
+  ],
+  "journal": "Bioact Mater",
+  "year": "2024",
+  "volume": "32",
+  "issue": "",
+  "pages": "502-513",
+  "doi": "10.1016/j.bioactmat.2023.10.002",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "38031516": {
   "pmid": "38031516",
   "title": "Clinical efficacy and safety of low-dose oral minoxidil versus topical solution in the improvement of androgenetic alopecia: A randomized controlled trial",
@@ -21163,6 +24664,26 @@
    "Journal Article"
   ]
  },
+ "38399458": {
+  "pmid": "38399458",
+  "title": "2023 FDA TIDES (Peptides and Oligonucleotides) Harvest",
+  "authors": [
+   "Al Shaer D",
+   "Al Musaimi O",
+   "Albericio F",
+   "de la Torre BG"
+  ],
+  "journal": "Pharmaceuticals (Basel)",
+  "year": "2024",
+  "volume": "17",
+  "issue": "2",
+  "pages": "243",
+  "doi": "10.3390/ph17020243",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "38417175": {
   "pmid": "38417175",
   "title": "Creatine supplementation for optimization of physical function in the patient at risk of functional disability: A systematic review and meta-analysis",
@@ -21385,6 +24906,29 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "38698779": {
+  "pmid": "38698779",
+  "title": "Methylene blue in sepsis and septic shock: a systematic review and meta-analysis",
+  "authors": [
+   "Ballarin RS",
+   "Lazzarin T",
+   "Zornoff L",
+   "Azevedo PS",
+   "Pereira FWL",
+   "Tanni SE",
+   "Minicucci MF"
+  ],
+  "journal": "Front Med (Lausanne)",
+  "year": "2024",
+  "volume": "11",
+  "issue": "",
+  "pages": "1366062",
+  "doi": "10.3389/fmed.2024.1366062",
+  "types": [
+   "Systematic Review",
+   "Journal Article"
+  ]
+ },
  "38704758": {
   "pmid": "38704758",
   "title": "Complementary information concerning the suspected interindividual transmission of GW1516, a substance prohibited in sport, through intimate contact: a case report",
@@ -21407,6 +24951,30 @@
   "types": [
    "Journal Article",
    "Case Reports",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "38742535": {
+  "pmid": "38742535",
+  "title": "Bleeding Risk in Patients Receiving Omega-3 Polyunsaturated Fatty Acids: A Systematic Review and Meta-Analysis of Randomized Clinical Trials",
+  "authors": [
+   "Javaid M",
+   "Kadhim K",
+   "Bawamia B",
+   "Cartlidge T",
+   "Farag M",
+   "Alkhalil M"
+  ],
+  "journal": "J Am Heart Assoc",
+  "year": "2024",
+  "volume": "13",
+  "issue": "10",
+  "pages": "e032390",
+  "doi": "10.1161/JAHA.123.032390",
+  "types": [
+   "Systematic Review",
+   "Journal Article",
+   "Meta-Analysis",
    "Research Support, Non-U.S. Gov't"
   ]
  },
@@ -21485,6 +25053,27 @@
   "doi": "",
   "types": [
    "Journal Article"
+  ]
+ },
+ "38808957": {
+  "pmid": "38808957",
+  "title": "The 'Barbie Drug'-marketing and perceptions of melanotan on social media",
+  "authors": [
+   "Orr E",
+   "Grechin C",
+   "Kearney N",
+   "Yoo L",
+   "O'Meara C",
+   "Watchorn R"
+  ],
+  "journal": "J Eur Acad Dermatol Venereol",
+  "year": "2025",
+  "volume": "39",
+  "issue": "2",
+  "pages": "e106-e107",
+  "doi": "10.1111/jdv.20144",
+  "types": [
+   "Letter"
   ]
  },
  "38824900": {
@@ -21630,6 +25219,64 @@
    "Journal Article"
   ]
  },
+ "38873793": {
+  "pmid": "38873793",
+  "title": "Randomized Trial for Evaluation in Secondary Prevention Efficacy of Combination Therapy-Statin and Eicosapentaenoic Acid (RESPECT-EPA)",
+  "authors": [
+   "Miyauchi K",
+   "Iwata H",
+   "Nishizaki Y",
+   "Inoue T",
+   "Hirayama A",
+   "Kimura K",
+   "Ozaki Y",
+   "Murohara T",
+   "Ueshima K",
+   "Kuwabara Y",
+   "Tanaka-Mizuno S",
+   "Yanagisawa N",
+   "Sato T",
+   "Daida H",
+   "RESPECT-EPA Investigators"
+  ],
+  "journal": "Circulation",
+  "year": "2024",
+  "volume": "150",
+  "issue": "6",
+  "pages": "425-434",
+  "doi": "10.1161/CIRCULATIONAHA.123.065520",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Multicenter Study"
+  ]
+ },
+ "38879894": {
+  "pmid": "38879894",
+  "title": "The glycyl-l-histidyl-l-lysine-Cu2+ tripeptide complex attenuates lung inflammation and fibrosis in silicosis by targeting peroxiredoxin 6",
+  "authors": [
+   "Bian Y",
+   "Deng M",
+   "Liu J",
+   "Li J",
+   "Zhang Q",
+   "Wang Z",
+   "Liao L",
+   "Miao J",
+   "Li R",
+   "Zhou X",
+   "Hou G"
+  ],
+  "journal": "Redox Biol",
+  "year": "2024",
+  "volume": "75",
+  "issue": "",
+  "pages": "103237",
+  "doi": "10.1016/j.redox.2024.103237",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "38888754": {
   "pmid": "38888754",
   "title": "Research progress on pharmacological effects and bioavailability of berberine",
@@ -21759,6 +25406,31 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "38938063": {
+  "pmid": "38938063",
+  "title": "Romosozumab versus parathyroid hormone receptor agonists: which osteoanabolic to choose and when?",
+  "authors": [
+   "Anastasilakis AD",
+   "Yavropoulou MP",
+   "Palermo A",
+   "Makras P",
+   "Paccou J",
+   "Tabacco G",
+   "Naciu AM",
+   "Tsourdi E"
+  ],
+  "journal": "Eur J Endocrinol",
+  "year": "2024",
+  "volume": "191",
+  "issue": "1",
+  "pages": "R9-R21",
+  "doi": "10.1093/ejendo/lvae076",
+  "types": [
+   "Journal Article",
+   "Review",
+   "Comparative Study"
   ]
  },
  "38938724": {
@@ -22243,6 +25915,43 @@
    "Systematic Review"
   ]
  },
+ "39141022": {
+  "pmid": "39141022",
+  "title": "Effects of Berberis vulgaris, and its active constituent berberine on cytochrome P450: a review",
+  "authors": [
+   "Bathaei P",
+   "Imenshahidi M",
+   "Hosseinzadeh H"
+  ],
+  "journal": "Naunyn Schmiedebergs Arch Pharmacol",
+  "year": "2025",
+  "volume": "398",
+  "issue": "1",
+  "pages": "179-202",
+  "doi": "10.1007/s00210-024-03326-x",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ "39148422": {
+  "pmid": "39148422",
+  "title": "Trending on TikTok: An analysis of melanotan content on social media",
+  "authors": [
+   "Herlihy M",
+   "Bowe S",
+   "Ahmad K"
+  ],
+  "journal": "J Eur Acad Dermatol Venereol",
+  "year": "2025",
+  "volume": "39",
+  "issue": "2",
+  "pages": "e108-e109",
+  "doi": "10.1111/jdv.20275",
+  "types": [
+   "Letter"
+  ]
+ },
  "39157568": {
   "pmid": "39157568",
   "title": "Myopericarditis Following Use of Selective Androgen Receptor Modifier \"RAD-140\"",
@@ -22261,6 +25970,29 @@
   "types": [
    "Case Reports",
    "Journal Article"
+  ]
+ },
+ "39160573": {
+  "pmid": "39160573",
+  "title": "The correlation between mitochondrial derived peptide (MDP) and metabolic states: a systematic review and meta-analysis",
+  "authors": [
+   "Zhou Q",
+   "Yin S",
+   "Lei X",
+   "Tian Y",
+   "Lin D",
+   "Wang L",
+   "Chen Q"
+  ],
+  "journal": "Diabetol Metab Syndr",
+  "year": "2024",
+  "volume": "16",
+  "issue": "1",
+  "pages": "200",
+  "doi": "10.1186/s13098-024-01405-w",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "39161060": {
@@ -22283,6 +26015,26 @@
    "Journal Article",
    "Research Support, N.I.H., Extramural",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "39166935": {
+  "pmid": "39166935",
+  "title": "[Place of oligopeptide H-Met-Glu-His-Phe-Pro-Gly-Pro-OH in the therapy and rehabilitation of patients with ischemic stroke]",
+  "authors": [
+   "Spirin NN",
+   "Fedorov VN",
+   "Vdovichenko VP"
+  ],
+  "journal": "Zh Nevrol Psikhiatr Im S S Korsakova",
+  "year": "2024",
+  "volume": "124",
+  "issue": "8. Vyp. 2",
+  "pages": "56-63",
+  "doi": "10.17116/jnevro202412408256",
+  "types": [
+   "Journal Article",
+   "Review",
+   "English Abstract"
   ]
  },
  "39212129": {
@@ -22308,6 +26060,28 @@
    "Systematic Review"
   ]
  },
+ "39212900": {
+  "pmid": "39212900",
+  "title": "Comparison of the effects of Liraglutide, Tirzepatide, and Retatrutide on diabetic kidney disease in db/db mice",
+  "authors": [
+   "Ma J",
+   "Hu X",
+   "Zhang W",
+   "Tao M",
+   "Wang M",
+   "Lu W"
+  ],
+  "journal": "Endocrine",
+  "year": "2025",
+  "volume": "87",
+  "issue": "1",
+  "pages": "159-169",
+  "doi": "10.1007/s12020-024-03998-8",
+  "types": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
  "3923024": {
   "pmid": "3923024",
   "title": "Differentiation of male hypogonadotropic hypogonadism and constitutional delay of puberty by pulsatile administration of gonadotropin-releasing hormone",
@@ -22324,6 +26098,25 @@
   "doi": "10.1210/jcem-60-6-1196",
   "types": [
    "Journal Article"
+  ]
+ },
+ "39236662": {
+  "pmid": "39236662",
+  "title": "Berberine as adjuvant therapy for treating reduced fertility potential in women with polycystic ovary syndrome: A meta-analysis of randomized controlled trials",
+  "authors": [
+   "Ha S",
+   "Song X"
+  ],
+  "journal": "Explore (NY)",
+  "year": "2024",
+  "volume": "20",
+  "issue": "6",
+  "pages": "103040",
+  "doi": "10.1016/j.explore.2024.103040",
+  "types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Review"
   ]
  },
  "39258897": {
@@ -22401,6 +26194,23 @@
   "doi": "10.1111/cen.15135",
   "types": [
    "Systematic Review",
+   "Journal Article"
+  ]
+ },
+ "39296259": {
+  "pmid": "39296259",
+  "title": "Recommended Tool Compounds for the Melanocortin Receptor (MCR) G Protein-Coupled Receptors (GPCRs)",
+  "authors": [
+   "Weirath NA",
+   "Haskell-Luevano C"
+  ],
+  "journal": "ACS Pharmacol Transl Sci",
+  "year": "2024",
+  "volume": "7",
+  "issue": "9",
+  "pages": "2706-2724",
+  "doi": "10.1021/acsptsci.4c00129",
+  "types": [
    "Journal Article"
   ]
  },
@@ -22834,6 +26644,67 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "39515565": {
+  "pmid": "39515565",
+  "title": "The power of three: Retatrutide's role in modern obesity and diabetes therapy",
+  "authors": [
+   "Abdul-Rahman T",
+   "Roy P",
+   "Ahmed FK",
+   "Mueller-Gomez JL",
+   "Sarkar S",
+   "Garg N",
+   "Femi-Lawal VO",
+   "Wireko AA",
+   "Thaalibi HI",
+   "Hashmi MU",
+   "Dzebu AS",
+   "Banimusa SB",
+   "Sood A"
+  ],
+  "journal": "Eur J Pharmacol",
+  "year": "2024",
+  "volume": "985",
+  "issue": "",
+  "pages": "177095",
+  "doi": "10.1016/j.ejphar.2024.177095",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ "39536238": {
+  "pmid": "39536238",
+  "title": "Tirzepatide for Obesity Treatment and Diabetes Prevention",
+  "authors": [
+   "Jastreboff AM",
+   "le Roux CW",
+   "Stefanski A",
+   "Aronne LJ",
+   "Halpern B",
+   "Wharton S",
+   "Wilding JPH",
+   "Perreault L",
+   "Zhang S",
+   "Battula R",
+   "Bunck MC",
+   "Ahmad NN",
+   "Jouravskaya I",
+   "SURMOUNT-1 Investigators"
+  ],
+  "journal": "N Engl J Med",
+  "year": "2025",
+  "volume": "392",
+  "issue": "10",
+  "pages": "958-971",
+  "doi": "10.1056/NEJMoa2410819",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Clinical Trial, Phase III",
+   "Multicenter Study"
+  ]
+ },
  "39545789": {
   "pmid": "39545789",
   "title": "Supplementing With Which Form of Creatine (Hydrochloride or Monohydrate) Alongside Resistance Training Can Have More Impacts on Anabolic/Catabolic Hormones, Strength and Body Composition?",
@@ -22894,6 +26765,38 @@
    "Journal Article",
    "Multicenter Study",
    "Clinical Trial, Phase II"
+  ]
+ },
+ "39555826": {
+  "pmid": "39555826",
+  "title": "Tirzepatide for Heart Failure with Preserved Ejection Fraction and Obesity",
+  "authors": [
+   "Packer M",
+   "Zile MR",
+   "Kramer CM",
+   "Baum SJ",
+   "Litwin SE",
+   "Menon V",
+   "Ge J",
+   "Weerakkody GJ",
+   "Ou Y",
+   "Bunck MC",
+   "Hurt KC",
+   "Murakami M",
+   "Borlaug BA",
+   "SUMMIT Trial Study Group"
+  ],
+  "journal": "N Engl J Med",
+  "year": "2025",
+  "volume": "392",
+  "issue": "5",
+  "pages": "427-437",
+  "doi": "10.1056/NEJMoa2410027",
+  "types": [
+   "Clinical Trial, Phase III",
+   "Journal Article",
+   "Multicenter Study",
+   "Randomized Controlled Trial"
   ]
  },
  "39556483": {
@@ -23193,6 +27096,30 @@
    "Systematic Review"
   ]
  },
+ "39767736": {
+  "pmid": "39767736",
+  "title": "ACTH-like Peptides Compensate Rat Brain Gene Expression Profile Disrupted by Ischemia a Day After Experimental Stroke",
+  "authors": [
+   "Filippenkov IB",
+   "Shpetko YY",
+   "Stavchansky VV",
+   "Denisova AE",
+   "Gubsky LV",
+   "Andreeva LA",
+   "Myasoedov NF",
+   "Limborska SA",
+   "Dergunova LV"
+  ],
+  "journal": "Biomedicines",
+  "year": "2024",
+  "volume": "12",
+  "issue": "12",
+  "pages": "2830",
+  "doi": "10.3390/biomedicines12122830",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "39788414": {
   "pmid": "39788414",
   "title": "Epitalon-activated telomerase enhance bovine oocyte maturation rate and post-thawed embryo development",
@@ -23290,6 +27217,23 @@
    "Clinical Trial, Phase III"
   ]
  },
+ "39825110": {
+  "pmid": "39825110",
+  "title": "Cardiovascular safety of osteoanabolic agents",
+  "authors": [
+   "Takeuchi Y"
+  ],
+  "journal": "J Bone Miner Metab",
+  "year": "2025",
+  "volume": "43",
+  "issue": "1",
+  "pages": "26-32",
+  "doi": "10.1007/s00774-025-01580-4",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "39861409": {
   "pmid": "39861409",
   "title": "Enhanced Vitamin C Delivery: A Systematic Literature Review Assessing the Efficacy and Safety of Alternative Supplement Forms in Healthy Adults",
@@ -23369,6 +27313,49 @@
    "Journal Article"
   ]
  },
+ "39937639": {
+  "pmid": "39937639",
+  "title": "New approaches to the issue of pyrogens in parenteral preparations",
+  "authors": [
+   "Janů M"
+  ],
+  "journal": "Ceska Slov Farm",
+  "year": "2024",
+  "volume": "73",
+  "issue": "3",
+  "pages": "169-174",
+  "doi": "10.36290/csf.2024.026",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ "39943692": {
+  "pmid": "39943692",
+  "title": "The Pharmacokinetic Interaction Between Metformin and the Natural Product Goldenseal Is Metformin Dose-Dependent: A Three-Arm Crossover Study in Adults With Type 2 Diabetes",
+  "authors": [
+   "Nguyen JT",
+   "Arian CM",
+   "Tanna RS",
+   "Cherel MG",
+   "Layton ME",
+   "White JR",
+   "Thummel KE",
+   "Paine MF"
+  ],
+  "journal": "Clin Transl Sci",
+  "year": "2025",
+  "volume": "18",
+  "issue": "2",
+  "pages": "e70120",
+  "doi": "10.1111/cts.70120",
+  "types": [
+   "Clinical Trial, Phase I",
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, N.I.H., Extramural"
+  ]
+ },
  "39954662": {
   "pmid": "39954662",
   "title": "Cathelicidin LL-37 in periodontitis: current research advances and future prospects - A review",
@@ -23390,6 +27377,31 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "39960912": {
+  "pmid": "39960912",
+  "title": "Krill oil for knee osteoarthritis: A meta-analysis of randomized controlled trials",
+  "authors": [
+   "Meng J",
+   "Wang X",
+   "Li Y",
+   "Xiang Y",
+   "Wu Y",
+   "Xiong Y",
+   "Liu P",
+   "Gao S"
+  ],
+  "journal": "Medicine (Baltimore)",
+  "year": "2025",
+  "volume": "104",
+  "issue": "7",
+  "pages": "e41566",
+  "doi": "10.1097/MD.0000000000041566",
+  "types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Systematic Review"
   ]
  },
  "39963574": {
@@ -23504,6 +27516,26 @@
   "issue": "1",
   "pages": "299",
   "doi": "10.1038/s42003-025-07738-0",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "39999474": {
+  "pmid": "39999474",
+  "title": "Effect of abaloparatide on fracture incidence and bone mineral density in postmenopausal women with osteoporosis at highest risk for fracture",
+  "authors": [
+   "DeSapri KT",
+   "Clarke BL",
+   "Kostenuik P",
+   "Wang Y",
+   "Mitlak BH"
+  ],
+  "journal": "Menopause",
+  "year": "2025",
+  "volume": "32",
+  "issue": "5",
+  "pages": "388-395",
+  "doi": "10.1097/GME.0000000000002516",
   "types": [
    "Journal Article"
   ]
@@ -23763,6 +27795,26 @@
    "Review"
   ]
  },
+ "40143070": {
+  "pmid": "40143070",
+  "title": "2024 FDA TIDES (Peptides and Oligonucleotides) Harvest",
+  "authors": [
+   "Al Musaimi O",
+   "AlShaer D",
+   "de la Torre BG",
+   "Albericio F"
+  ],
+  "journal": "Pharmaceuticals (Basel)",
+  "year": "2025",
+  "volume": "18",
+  "issue": "3",
+  "pages": "291",
+  "doi": "10.3390/ph18030291",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "40178985": {
   "pmid": "40178985",
   "title": "TYRA-300, an FGFR3-selective inhibitor, promotes bone growth in two FGFR3-driven models of chondrodysplasia",
@@ -23839,6 +27891,31 @@
    "Journal Article"
   ]
  },
+ "40214193": {
+  "pmid": "40214193",
+  "title": "Probability of achieving bone mineral density treatment targets with abaloparatide and teriparatide",
+  "authors": [
+   "Cosman F",
+   "Mitlak BH",
+   "Wang Y",
+   "Pearman L",
+   "Moreira CA",
+   "Lewiecki EM",
+   "Cummings SR"
+  ],
+  "journal": "J Bone Miner Res",
+  "year": "2025",
+  "volume": "40",
+  "issue": "6",
+  "pages": "773-778",
+  "doi": "10.1093/jbmr/zjaf053",
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Multicenter Study",
+   "Randomized Controlled Trial"
+  ]
+ },
  "40237648": {
   "pmid": "40237648",
   "title": "Uterotonic agents for preventing postpartum haemorrhage: a network meta-analysis",
@@ -23862,6 +27939,32 @@
    "Journal Article",
    "Network Meta-Analysis",
    "Systematic Review"
+  ]
+ },
+ "40258699": {
+  "pmid": "40258699",
+  "title": "HTD1801 demonstrates promising potential for histologic improvements in metabolic dysfunction-associated steatohepatitis in both a preclinical and phase 2 study",
+  "authors": [
+   "Wong VW",
+   "Neff GW",
+   "Di Bisceglie AM",
+   "Bai R",
+   "Cheng J",
+   "Yu M",
+   "Liberman A",
+   "Liu L",
+   "Gunn N"
+  ],
+  "journal": "Clin Mol Hepatol",
+  "year": "2025",
+  "volume": "31",
+  "issue": "3",
+  "pages": "1071-1083",
+  "doi": "10.3350/cmh.2025.0145",
+  "types": [
+   "Journal Article",
+   "Clinical Trial, Phase II",
+   "Randomized Controlled Trial"
   ]
  },
  "40265319": {
@@ -23934,6 +28037,60 @@
   "doi": "10.1002/bmc.70090",
   "types": [
    "Journal Article"
+  ]
+ },
+ "40291085": {
+  "pmid": "40291085",
+  "title": "Efficacy and safety of retatrutide, a novel GLP-1, GIP, and glucagon receptor agonist for obesity treatment: a systematic review and meta-analysis of randomized controlled trials",
+  "authors": [
+   "Abdrabou Abouelmagd A",
+   "Abdelrehim AM",
+   "Bashir MN",
+   "Abdelsalam F",
+   "Marey A",
+   "Tanas Y",
+   "Abuklish DM",
+   "Belal MM"
+  ],
+  "journal": "Proc (Bayl Univ Med Cent)",
+  "year": "2025",
+  "volume": "38",
+  "issue": "3",
+  "pages": "291-303",
+  "doi": "10.1080/08998280.2025.2456441",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ "40305708": {
+  "pmid": "40305708",
+  "title": "Phase 3 Trial of Semaglutide in Metabolic Dysfunction-Associated Steatohepatitis",
+  "authors": [
+   "Sanyal AJ",
+   "Newsome PN",
+   "Kliers I",
+   "Østergaard LH",
+   "Long MT",
+   "Kjær MS",
+   "Cali AMG",
+   "Bugianesi E",
+   "Rinella ME",
+   "Roden M",
+   "Ratziu V",
+   "ESSENCE Study Group"
+  ],
+  "journal": "N Engl J Med",
+  "year": "2025",
+  "volume": "392",
+  "issue": "21",
+  "pages": "2089-2099",
+  "doi": "10.1056/NEJMoa2413258",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Clinical Trial, Phase III",
+   "Multicenter Study"
   ]
  },
  "40320621": {
@@ -24012,6 +28169,26 @@
   "types": [
    "Journal Article",
    "Randomized Controlled Trial"
+  ]
+ },
+ "40364529": {
+  "pmid": "40364529",
+  "title": "Review Article: GLP-1 Receptor Agonists and Glucagon/GIP/GLP-1 Receptor Dual or Triple Agonists-Mechanism of Action and Emerging Therapeutic Landscape in MASLD",
+  "authors": [
+   "Zafer M",
+   "Tavaglione F",
+   "Romero-Gómez M",
+   "Loomba R"
+  ],
+  "journal": "Aliment Pharmacol Ther",
+  "year": "2025",
+  "volume": "61",
+  "issue": "12",
+  "pages": "1872-1888",
+  "doi": "10.1111/apt.70196",
+  "types": [
+   "Journal Article",
+   "Review"
   ]
  },
  "40371844": {
@@ -24220,6 +28397,30 @@
    "Clinical Trial, Phase III"
   ]
  },
+ "40551708": {
+  "pmid": "40551708",
+  "title": "Multicolumn Two-Dimensional Liquid Chromatography Screening Platform for Stereopeptidomics and Application to Antimicrobial Peptide Polyene and Lipopeptide",
+  "authors": [
+   "Knappe C",
+   "Jaag SJ",
+   "Dema T",
+   "Jaufmann R",
+   "Buckenmaier S",
+   "Gross H",
+   "Grond S",
+   "Lämmerhofer M"
+  ],
+  "journal": "Anal Chem",
+  "year": "2025",
+  "volume": "97",
+  "issue": "26",
+  "pages": "14048-14057",
+  "doi": "10.1021/acs.analchem.5c02658",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "40563436": {
   "pmid": "40563436",
   "title": "Retatrutide-A Game Changer in Obesity Pharmacotherapy",
@@ -24335,6 +28536,53 @@
    "Randomized Controlled Trial",
    "Clinical Trial, Phase II",
    "Multicenter Study"
+  ]
+ },
+ "40630318": {
+  "pmid": "40630318",
+  "title": "The Effect of Retatrutide on Kidney Parameters in Participants With Type 2 Diabetes Mellitus and/or Obesity",
+  "authors": [
+   "Heerspink HJL",
+   "Lu Z",
+   "Du Y",
+   "Duffin KL",
+   "Coskun T",
+   "Haupt A",
+   "Hartman ML"
+  ],
+  "journal": "Kidney Int Rep",
+  "year": "2025",
+  "volume": "10",
+  "issue": "6",
+  "pages": "1980-1992",
+  "doi": "10.1016/j.ekir.2025.03.049",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "40672369": {
+  "pmid": "40672369",
+  "title": "Exploring the beneficial effects of GHK-Cu on an experimental model of colitis and the underlying mechanisms",
+  "authors": [
+   "Mao S",
+   "Huang J",
+   "Li J",
+   "Sun F",
+   "Zhang Q",
+   "Cheng Q",
+   "Zeng W",
+   "Lei D",
+   "Wang S",
+   "Yao J"
+  ],
+  "journal": "Front Pharmacol",
+  "year": "2025",
+  "volume": "16",
+  "issue": "",
+  "pages": "1551843",
+  "doi": "10.3389/fphar.2025.1551843",
+  "types": [
+   "Journal Article"
   ]
  },
  "40675653": {
@@ -24584,6 +28832,44 @@
    "Systematic Review"
   ]
  },
+ "40857144": {
+  "pmid": "40857144",
+  "title": "Absolute Quantitation of Coeluting Impurities in Peptide Drugs Using High Resolution Mass Spectrometry: Glucagon a Case Study in Pharmaceutical Development",
+  "authors": [
+   "Kodidasu A",
+   "Acharyya K",
+   "Ramu VG"
+  ],
+  "journal": "J Am Soc Mass Spectrom",
+  "year": "2025",
+  "volume": "36",
+  "issue": "10",
+  "pages": "2072-2078",
+  "doi": "10.1021/jasms.5c00105",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "40872554": {
+  "pmid": "40872554",
+  "title": "Towards a Consensus for the Analysis and Exchange of TFA as a Counterion in Synthetic Peptides and Its Influence on Membrane Permeation",
+  "authors": [
+   "Erckes V",
+   "Streuli A",
+   "Chamera Rendueles L",
+   "Krämer SD",
+   "Steuer C"
+  ],
+  "journal": "Pharmaceuticals (Basel)",
+  "year": "2025",
+  "volume": "18",
+  "issue": "8",
+  "pages": "1163",
+  "doi": "10.3390/ph18081163",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "40908429": {
   "pmid": "40908429",
   "title": "Epitalon increases telomere length in human cell lines through telomerase upregulation or ALT activity",
@@ -24625,6 +28911,34 @@
    "Journal Article"
   ]
  },
+ "40934115": {
+  "pmid": "40934115",
+  "title": "Oral Semaglutide at a Dose of 25 mg in Adults with Overweight or Obesity",
+  "authors": [
+   "Wharton S",
+   "Lingvay I",
+   "Bogdanski P",
+   "Duque do Vale R",
+   "Jacob S",
+   "Karlsson T",
+   "Shaji C",
+   "Rubino D",
+   "Garvey WT",
+   "OASIS 4 Study Group"
+  ],
+  "journal": "N Engl J Med",
+  "year": "2025",
+  "volume": "393",
+  "issue": "11",
+  "pages": "1077-1087",
+  "doi": "10.1056/NEJMoa2500969",
+  "types": [
+   "Clinical Trial, Phase II",
+   "Journal Article",
+   "Multicenter Study",
+   "Randomized Controlled Trial"
+  ]
+ },
  "40959699": {
   "pmid": "40959699",
   "title": "Benefits, side effects, and uses of Hericium erinaceus as a supplement: a systematic review",
@@ -24644,6 +28958,35 @@
   "types": [
    "Journal Article",
    "Systematic Review"
+  ]
+ },
+ "40961952": {
+  "pmid": "40961952",
+  "title": "Once-weekly semaglutide 7·2 mg in adults with obesity (STEP UP): a randomised, controlled, phase 3b trial",
+  "authors": [
+   "Wharton S",
+   "Freitas P",
+   "Hjelmesæth J",
+   "Kabisch M",
+   "Kandler K",
+   "Lingvay I",
+   "Quiroga M",
+   "Rosenstock J",
+   "Garvey WT",
+   "STEP UP trial group"
+  ],
+  "journal": "Lancet Diabetes Endocrinol",
+  "year": "2025",
+  "volume": "13",
+  "issue": "11",
+  "pages": "949-963",
+  "doi": "10.1016/S2213-8587(25)00226-8",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Clinical Trial, Phase III",
+   "Multicenter Study",
+   "Research Support, N.I.H., Extramural"
   ]
  },
  "40962189": {
@@ -24712,6 +29055,29 @@
   "types": [
    "Journal Article",
    "Systematic Review"
+  ]
+ },
+ "41004666": {
+  "pmid": "41004666",
+  "title": "MOTS-C levels ın ındividuals with and without obesity and ıts association with ınflammation, insulin resistance and endothelial dysfunction",
+  "authors": [
+   "Ozkaya DY",
+   "Haymana C",
+   "Demirci I",
+   "Duman UG",
+   "Küpçük E",
+   "Koç GE",
+   "Tasci I",
+   "Sonmez YA"
+  ],
+  "journal": "Arch Endocrinol Metab",
+  "year": "2025",
+  "volume": "69",
+  "issue": "5",
+  "pages": "e250063",
+  "doi": "10.20945/2359-4292-2025-0063",
+  "types": [
+   "Journal Article"
   ]
  },
  "41005452": {
@@ -24869,6 +29235,23 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "41138283": {
+  "pmid": "41138283",
+  "title": "Analysis of growth hormone releasing hormone and its analogs in urine using nano liquid chromatography coupled with quadrupole/orbitrap mass spectrometry",
+  "authors": [
+   "Uçaktürk E",
+   "Nemutlu E"
+  ],
+  "journal": "J Pharm Biomed Anal",
+  "year": "2026",
+  "volume": "268",
+  "issue": "",
+  "pages": "117207",
+  "doi": "10.1016/j.jpba.2025.117207",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "41156531": {
   "pmid": "41156531",
   "title": "Marine-Based Omega-3 Fatty Acids and Metabolic Syndrome: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
@@ -25009,6 +29392,28 @@
   "types": [
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "41303619": {
+  "pmid": "41303619",
+  "title": "Validation of the Monocyte Activation Test Demonstrating Equivalence to the Rabbit Pyrogen Test",
+  "authors": [
+   "Burgmaier L",
+   "van den Berg J",
+   "Gajewi M",
+   "Röder R",
+   "Reich J",
+   "Deutschmann SM"
+  ],
+  "journal": "Int J Mol Sci",
+  "year": "2025",
+  "volume": "26",
+  "issue": "22",
+  "pages": "11136",
+  "doi": "10.3390/ijms262211136",
+  "types": [
+   "Journal Article",
+   "Validation Study"
   ]
  },
  "41328546": {
@@ -25251,6 +29656,24 @@
    "Systematic Review"
   ]
  },
+ "41487785": {
+  "pmid": "41487785",
+  "title": "Pyoderma Gangrenosum Secondary to Melanotan",
+  "authors": [
+   "Dickson D",
+   "Hlaing Htwe S"
+  ],
+  "journal": "Cureus",
+  "year": "2025",
+  "volume": "17",
+  "issue": "12",
+  "pages": "e98297",
+  "doi": "10.7759/cureus.98297",
+  "types": [
+   "Case Reports",
+   "Journal Article"
+  ]
+ },
  "41489668": {
   "pmid": "41489668",
   "title": "[Hormones and skin pigmentation: fundamentals and clinical relevance]",
@@ -25482,6 +29905,27 @@
    "Meta-Analysis",
    "Journal Article",
    "Systematic Review"
+  ]
+ },
+ "41547366": {
+  "pmid": "41547366",
+  "title": "Glucagon-like receptor agonists and next-generation incretin-based medications: metabolic, cardiovascular, and renal benefits",
+  "authors": [
+   "Nauck MA",
+   "Tuttle KR",
+   "Tschöp MH",
+   "Blüher M"
+  ],
+  "journal": "Lancet",
+  "year": "2026",
+  "volume": "407",
+  "issue": "10531",
+  "pages": "892-908",
+  "doi": "10.1016/S0140-6736(25)02105-1",
+  "types": [
+   "Journal Article",
+   "Review",
+   "Research Support, N.I.H., Extramural"
   ]
  },
  "41570392": {
@@ -25925,6 +30369,37 @@
    "Review"
   ]
  },
+ "41996180": {
+  "pmid": "41996180",
+  "title": "Effect of Incretin-Based and Nonpharmacologic Weight Loss on Body Composition : A Systematic Review",
+  "authors": [
+   "Batsis JA",
+   "Gavras A",
+   "Gross DC",
+   "Cheever CR",
+   "Da Silva BR",
+   "Meira Filho LF",
+   "Jones EP",
+   "Batchek D",
+   "Khandpekar S",
+   "Patel R",
+   "Awkal B",
+   "Pape A",
+   "Bahna M",
+   "Zamboni M",
+   "Prado CM"
+  ],
+  "journal": "Ann Intern Med",
+  "year": "2026",
+  "volume": "179",
+  "issue": "7",
+  "pages": "996-1013",
+  "doi": "10.7326/ANNALS-25-00478",
+  "types": [
+   "Journal Article",
+   "Systematic Review"
+  ]
+ },
  "42009015": {
   "pmid": "42009015",
   "title": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial",
@@ -25994,6 +30469,30 @@
    "Review"
   ]
  },
+ "42070013": {
+  "pmid": "42070013",
+  "title": "Formulation-Specific Cardiovascular Outcomes with High-Dose Eicosapentaenoic Acid: A Systematic Review and Meta-analysis",
+  "authors": [
+   "Faheem MA",
+   "Azeem B",
+   "Ali T",
+   "Asim R",
+   "Muhammad TS",
+   "Dogar ME",
+   "Naveed MA"
+  ],
+  "journal": "Am J Cardiovasc Drugs",
+  "year": "2026",
+  "volume": "26",
+  "issue": "4",
+  "pages": "453-465",
+  "doi": "10.1007/s40256-026-00798-5",
+  "types": [
+   "Journal Article",
+   "Systematic Review",
+   "Meta-Analysis"
+  ]
+ },
  "42123471": {
   "pmid": "42123471",
   "title": "Therapeutic Peptides in Aesthetic, Metabolic and Endocrine Conditions: Effects, Safety, Clinical Applications, and Future Perspectives",
@@ -26043,6 +30542,32 @@
    "Systematic Review"
   ]
  },
+ "42135195": {
+  "pmid": "42135195",
+  "title": "Retatrutide And Lipid And Metabolite Profiles In Participants With Obesity With Or Without Type 2 Diabetes",
+  "authors": [
+   "Pearson MJ",
+   "Willency JA",
+   "Lin Y",
+   "Abadi A",
+   "Hartman ML",
+   "Coskun T",
+   "Ruotolo G",
+   "Duffin KL",
+   "Haupt A",
+   "Newgard CB",
+   "Pirro V"
+  ],
+  "journal": "J Clin Endocrinol Metab",
+  "year": "2026",
+  "volume": "",
+  "issue": "",
+  "pages": "dgag201",
+  "doi": "10.1210/clinem/dgag201",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "42141930": {
   "pmid": "42141930",
   "title": "Creatine monohydrate for lean mass, strength, and bone density in postmenopausal women: a systematic review and meta-analysis",
@@ -26084,6 +30609,32 @@
    "Randomized Controlled Trial"
   ]
  },
+ "42161415": {
+  "pmid": "42161415",
+  "title": "Calcium, vitamin D, or combined supplementation to prevent fractures and falls: systematic review and meta-analysis",
+  "authors": [
+   "Massé O",
+   "Mercurio CM",
+   "Dupuis S",
+   "Al Sahwi M",
+   "Arruda A",
+   "Dallaire G",
+   "Desforges K",
+   "Dugré N",
+   "Williamson D"
+  ],
+  "journal": "BMJ",
+  "year": "2026",
+  "volume": "393",
+  "issue": "",
+  "pages": "e088050",
+  "doi": "10.1136/bmj-2025-088050",
+  "types": [
+   "Journal Article",
+   "Systematic Review",
+   "Meta-Analysis"
+  ]
+ },
  "42197028": {
   "pmid": "42197028",
   "title": "Effects of γ-Aminobutyric Acid (GABA) Supplementation on Symptoms, Quality of Life, Intestinal Permeability, Systemic Inflammation and Gut Microbiota in Patients with IBS-D: A Randomized, Double Blind, Placebo-Controlled, Crossover Pilot Study",
@@ -26113,6 +30664,24 @@
   "types": [
    "Journal Article",
    "Randomized Controlled Trial"
+  ]
+ },
+ "42212476": {
+  "pmid": "42212476",
+  "title": "Depigmented facial and neck patches following melanotan use in a patient with atopic dermatitis and alopecia areata",
+  "authors": [
+   "Ume A",
+   "Chambers S",
+   "Worswick S"
+  ],
+  "journal": "Clin Exp Dermatol",
+  "year": "2026",
+  "volume": "51",
+  "issue": "10",
+  "pages": "1971-1974",
+  "doi": "10.1093/ced/llag221",
+  "types": [
+   "Journal Article"
   ]
  },
  "42224388": {
@@ -26169,6 +30738,41 @@
    "Clinical Trial, Phase III",
    "Multicenter Study",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "42251702": {
+  "pmid": "42251702",
+  "title": "HTD1801 in Combination with Metformin for Type 2 Diabetes",
+  "authors": [
+   "Ji L",
+   "Cheng Z",
+   "Ma J",
+   "Liu D",
+   "Zhang X",
+   "Dong X",
+   "Lin Y",
+   "Yang M",
+   "Gan S",
+   "Cai H",
+   "Wang X",
+   "Liu Y",
+   "Shi X",
+   "Liu K",
+   "MacConell L",
+   "Yu M",
+   "Liu L"
+  ],
+  "journal": "NEJM Evid",
+  "year": "2026",
+  "volume": "5",
+  "issue": "7",
+  "pages": "EVIDoa2500317",
+  "doi": "10.1056/EVIDoa2500317",
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Clinical Trial, Phase III",
+   "Multicenter Study"
   ]
  },
  "42251856": {
@@ -26301,6 +30905,82 @@
   "types": [
    "Journal Article",
    "Review"
+  ]
+ },
+ "42296503": {
+  "pmid": "42296503",
+  "title": "Benefits and Harms of Pharmacologic Treatments in Adults With Overweight or Obesity: A Living Systematic Review and Network Meta-analysis for the American College of Physicians",
+  "authors": [
+   "Damen JAA",
+   "Idema DL",
+   "Vernooij RWM",
+   "Huis In 't Veld LF",
+   "Kusters MPT",
+   "Lokerse ME",
+   "de Kanter E",
+   "Spijker R",
+   "van der Braak K",
+   "Jenniskens K",
+   "Oerbekke MS",
+   "Hooft L"
+  ],
+  "journal": "Ann Intern Med",
+  "year": "2026",
+  "volume": "179",
+  "issue": "8",
+  "pages": "1140-1155",
+  "doi": "10.7326/ANNALS-24-03764",
+  "types": [
+   "Journal Article",
+   "Systematic Review",
+   "Network Meta-Analysis"
+  ]
+ },
+ "42348002": {
+  "pmid": "42348002",
+  "title": "ExD identification of C-terminal Ile/Leu in natural peptides using d-ions",
+  "authors": [
+   "Dmitrieva EV",
+   "Vasil'ev YV",
+   "Hare MC",
+   "Lebedev AT",
+   "Samgina TY"
+  ],
+  "journal": "Anal Bioanal Chem",
+  "year": "2026",
+  "volume": "418",
+  "issue": "14",
+  "pages": "4351-4361",
+  "doi": "10.1007/s00216-026-06599-8",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "42349896": {
+  "pmid": "42349896",
+  "title": "Circulating mitochondrial-derived microproteins at rest and in response to an acute bout of endurance exercise in individuals with cerebral palsy",
+  "authors": [
+   "Horwath O",
+   "Corell L",
+   "Wan J",
+   "Hjalmarsson E",
+   "Starck J",
+   "Reitzner SM",
+   "Norrbom J",
+   "Fernandez-Gonzalo R",
+   "Kvist O",
+   "Cohen P",
+   "von Walden F",
+   "Edman S"
+  ],
+  "journal": "Exp Physiol",
+  "year": "2026",
+  "volume": "111",
+  "issue": "8",
+  "pages": "3772-3783",
+  "doi": "10.1113/EP093298",
+  "types": [
+   "Journal Article"
   ]
  },
  "42355649": {
@@ -26622,6 +31302,39 @@
    "Journal Article"
   ]
  },
+ "42635552": {
+  "pmid": "42635552",
+  "title": "A Randomized Placebo-Controlled Trial of HTD1801 Monotherapy in Participants With Type 2 Diabetes",
+  "authors": [
+   "Ji L",
+   "Ma J",
+   "Cheng Z",
+   "Liu D",
+   "Cai H",
+   "Wang S",
+   "Wang X",
+   "Ma Y",
+   "Wang X",
+   "Han J",
+   "Yuan G",
+   "Zhang Y",
+   "Yu F",
+   "Liu K",
+   "MacConell L",
+   "Yu M",
+   "Liu L",
+   "SYMPHONY‐1 Investigators:"
+  ],
+  "journal": "Diabetes Care",
+  "year": "2026",
+  "volume": "",
+  "issue": "",
+  "pages": "dc260739",
+  "doi": "10.2337/dc26-0739",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "42635865": {
   "pmid": "42635865",
   "title": "Peptides in Regenerative Medicine: A Comprehensive Review of Clinical Applications in Tissue Repair and Chronic Pain Management",
@@ -26678,6 +31391,35 @@
    "Editorial"
   ]
  },
+ "42688617": {
+  "pmid": "42688617",
+  "title": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials",
+  "authors": [
+   "Chen D",
+   "Ma B",
+   "Sun H",
+   "Zhang J",
+   "Gong L",
+   "Wang W",
+   "Liu Z",
+   "Zha H",
+   "Du S",
+   "Chen M",
+   "Sun W",
+   "Guo Q",
+   "Cao Y",
+   "Li Y"
+  ],
+  "journal": "BMJ Med",
+  "year": "2026",
+  "volume": "5",
+  "issue": "1",
+  "pages": "e003026",
+  "doi": "10.1136/bmjmed-2026-003026",
+  "types": [
+   "Journal Article"
+  ]
+ },
  "42752426": {
   "pmid": "42752426",
   "title": "Synthetic Peptides in Pharmacy Compounding: Analysis of PCAC Recommendations and Industry Safety Standards",
@@ -26712,6 +31454,51 @@
   "issue": "3",
   "pages": "269-293",
   "doi": "10.26502/aimr.0255",
+  "types": [
+   "Journal Article"
+  ]
+ },
+ "42797253": {
+  "pmid": "42797253",
+  "title": "GHK-Cu as a Bioactive Metallopeptide and Drug-Delivery Cargo: Coordination Chemistry, Formulation Science, Therapeutic Evidence, and a Translational Roadmap",
+  "authors": [
+   "Mateescu DM",
+   "Gavrilescu DM",
+   "Mincioaga RI",
+   "Pah AM",
+   "Toma AO",
+   "Serban DV",
+   "Avram CA",
+   "Craciun ML",
+   "Enache B",
+   "Muresan CO"
+  ],
+  "journal": "Pharmaceutics",
+  "year": "2026",
+  "volume": "18",
+  "issue": "9",
+  "pages": "1077",
+  "doi": "10.3390/pharmaceutics18091077",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ "42803810": {
+  "pmid": "42803810",
+  "title": "Real-world comparison of abaloparatide and romosozumab: effects on bone mineral density and three-dimensional hip structure",
+  "authors": [
+   "Kobayakawa T",
+   "Takenaka H",
+   "Kobayashi T",
+   "Nakamura Y"
+  ],
+  "journal": "Osteoporos Int",
+  "year": "2026",
+  "volume": "",
+  "issue": "",
+  "pages": "10.1007/s00198-026-08241-w",
+  "doi": "10.1007/s00198-026-08241-w",
   "types": [
    "Journal Article"
   ]
@@ -27116,6 +31903,25 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "7679577": {
+  "pmid": "7679577",
+  "title": "Inhibition of nitric oxide synthesis by methylene blue",
+  "authors": [
+   "Mayer B",
+   "Brunner F",
+   "Schmidt K"
+  ],
+  "journal": "Biochem Pharmacol",
+  "year": "1993",
+  "volume": "45",
+  "issue": "2",
+  "pages": "367-74",
+  "doi": "10.1016/0006-2952(93)90072-5",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "7693845": {
   "pmid": "7693845",
   "title": "Plasma clearance and tissue distribution of labelled insulin-like growth factor-I (IGF-I) and an analogue LR3IGF-I in pregnant rats",
@@ -27154,6 +31960,27 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "7740167": {
+  "pmid": "7740167",
+  "title": "Growth hormone-releasing hormone: synthesis and signaling",
+  "authors": [
+   "Mayo KE",
+   "Godfrey PA",
+   "Suhr ST",
+   "Kulik DJ",
+   "Rahal JO"
+  ],
+  "journal": "Recent Prog Horm Res",
+  "year": "1995",
+  "volume": "50",
+  "issue": "",
+  "pages": "35-73",
+  "doi": "10.1016/b978-0-12-571150-0.50007-x",
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
  "7883854": {
   "pmid": "7883854",
   "title": "Blocked growth hormone-releasing peptide (GHRP-6)-induced GH secretion and absence of the synergic action of GHRP-6 plus GH-releasing hormone in patients with hypothalamopituitary disconnection: evidence that GHRP-6 main action is exerted at the hypothalamic level",
@@ -27174,6 +32001,49 @@
   "types": [
    "Journal Article",
    "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ "7981427": {
+  "pmid": "7981427",
+  "title": "A comparison of HPLC and bioassay methods for plasma melanotan-II (MT-II) determination: application to a pharmacokinetic study in rats",
+  "authors": [
+   "Ugwu SO",
+   "Blanchard J",
+   "Nguyen LD",
+   "Hadley ME",
+   "Dorr RT"
+  ],
+  "journal": "Biopharm Drug Dispos",
+  "year": "1994",
+  "volume": "15",
+  "issue": "5",
+  "pages": "383-90",
+  "doi": "10.1002/bdd.2510150505",
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Research Support, U.S. Gov't, P.H.S."
+  ]
+ },
+ "7983590": {
+  "pmid": "7983590",
+  "title": "Preformulation studies with melanotan-II: a potential skin cancer chemopreventive peptide",
+  "authors": [
+   "Lan EL",
+   "Ugwu SO",
+   "Blanchard J",
+   "Fang X",
+   "Hruby VJ",
+   "Sharma S"
+  ],
+  "journal": "J Pharm Sci",
+  "year": "1994",
+  "volume": "83",
+  "issue": "8",
+  "pages": "1081-4",
+  "doi": "10.1002/jps.2600830805",
+  "types": [
+   "Journal Article"
   ]
  },
  "8191521": {
@@ -27243,6 +32113,23 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "8513024": {
+  "pmid": "8513024",
+  "title": "Displacement of bilirubin from albumin by berberine",
+  "authors": [
+   "Chan E"
+  ],
+  "journal": "Biol Neonate",
+  "year": "1993",
+  "volume": "63",
+  "issue": "4",
+  "pages": "201-8",
+  "doi": "10.1159/000243932",
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "8637402": {
   "pmid": "8637402",
   "title": "Evaluation of melanotan-II, a superpotent cyclic melanotropic peptide in a pilot phase-I clinical study",
@@ -27267,6 +32154,53 @@
    "Controlled Clinical Trial",
    "Journal Article",
    "Research Support, U.S. Gov't, P.H.S."
+  ]
+ },
+ "8688086": {
+  "pmid": "8688086",
+  "title": "A receptor in pituitary and hypothalamus that functions in growth hormone release",
+  "authors": [
+   "Howard AD",
+   "Feighner SD",
+   "Cully DF",
+   "Arena JP",
+   "Liberator PA",
+   "Rosenblum CI",
+   "Hamelin M",
+   "Hreniuk DL",
+   "Palyha OC",
+   "Anderson J",
+   "Paress PS",
+   "Diaz C",
+   "Chou M",
+   "Liu KK",
+   "McKee KK",
+   "Pong SS",
+   "Chaung LY",
+   "Elbrecht A",
+   "Dashkevicz M",
+   "Heavens R",
+   "Rigby M",
+   "Sirinathsinghji DJ",
+   "Dean DC",
+   "Melillo DG",
+   "Patchett AA",
+   "Nargund R",
+   "Griffin PR",
+   "DeMartino JA",
+   "Gupta SK",
+   "Schaeffer JM",
+   "Smith RG",
+   "Van der Ploeg LH"
+  ],
+  "journal": "Science",
+  "year": "1996",
+  "volume": "273",
+  "issue": "5277",
+  "pages": "974-7",
+  "doi": "10.1126/science.273.5277.974",
+  "types": [
+   "Journal Article"
   ]
  },
  "8708565": {
@@ -27353,6 +32287,40 @@
    "Review"
   ]
  },
+ "8954023": {
+  "pmid": "8954023",
+  "title": "Stimulation of the growth hormone (GH)-insulin-like growth factor I axis by daily oral administration of a GH secretogogue (MK-677) in healthy elderly subjects",
+  "authors": [
+   "Chapman IM",
+   "Bach MA",
+   "Van Cauter E",
+   "Farmer M",
+   "Krupa D",
+   "Taylor AM",
+   "Schilling LM",
+   "Cole KY",
+   "Skiles EH",
+   "Pezzoli SS",
+   "Hartman ML",
+   "Veldhuis JD",
+   "Gormley GJ",
+   "Thorner MO"
+  ],
+  "journal": "J Clin Endocrinol Metab",
+  "year": "1996",
+  "volume": "81",
+  "issue": "12",
+  "pages": "4249-57",
+  "doi": "10.1210/jcem.81.12.8954023",
+  "types": [
+   "Clinical Trial",
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, Non-P.H.S.",
+   "Research Support, U.S. Gov't, P.H.S."
+  ]
+ },
  "8997176": {
   "pmid": "8997176",
   "title": "Degradation pathways, analytical characterization and formulation strategies of a peptide and a protein. Calcitonine and human growth hormone in comparison",
@@ -27390,6 +32358,33 @@
   "doi": "10.1111/1523-1747.ep12334249",
   "types": [
    "Journal Article"
+  ]
+ },
+ "9113347": {
+  "pmid": "9113347",
+  "title": "Skin pigmentation and pharmacokinetics of melanotan-I in humans",
+  "authors": [
+   "Ugwu SO",
+   "Blanchard J",
+   "Dorr RT",
+   "Levine N",
+   "Brooks C",
+   "Hadley ME",
+   "Aickin M",
+   "Hruby VJ"
+  ],
+  "journal": "Biopharm Drug Dispos",
+  "year": "1997",
+  "volume": "18",
+  "issue": "3",
+  "pages": "259-69",
+  "doi": "10.1002/(sici)1099-081x(199704)18:3<259::aid-bdd20>3.0.co;2-x",
+  "types": [
+   "Clinical Trial",
+   "Comparative Study",
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, U.S. Gov't, P.H.S."
   ]
  },
  "9231053": {
@@ -27573,6 +32568,36 @@
    "Research Support, Non-U.S. Gov't"
   ]
  },
+ "9467542": {
+  "pmid": "9467542",
+  "title": "Two-month treatment of obese subjects with the oral growth hormone (GH) secretagogue MK-677 increases GH secretion, fat-free mass, and energy expenditure",
+  "authors": [
+   "Svensson J",
+   "Lönn L",
+   "Jansson JO",
+   "Murphy G",
+   "Wyss D",
+   "Krupa D",
+   "Cerchio K",
+   "Polvino W",
+   "Gertz B",
+   "Boseaus I",
+   "Sjöström L",
+   "Bengtsson BA"
+  ],
+  "journal": "J Clin Endocrinol Metab",
+  "year": "1998",
+  "volume": "83",
+  "issue": "2",
+  "pages": "362-9",
+  "doi": "10.1210/jcem.83.2.4539",
+  "types": [
+   "Clinical Trial",
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
  "9468465": {
   "pmid": "9468465",
   "title": "Antenatal thyrotropin-releasing hormone to prevent lung disease in preterm infants. North American Thyrotropin-Releasing Hormone Study Group",
@@ -27641,6 +32666,36 @@
    "Journal Article",
    "Meta-Analysis",
    "Systematic Review"
+  ]
+ },
+ "9661080": {
+  "pmid": "9661080",
+  "title": "Treatment with the oral growth hormone secretagogue MK-677 increases markers of bone formation and bone resorption in obese young males",
+  "authors": [
+   "Svensson J",
+   "Ohlsson C",
+   "Jansson JO",
+   "Murphy G",
+   "Wyss D",
+   "Krupa D",
+   "Cerchio K",
+   "Polvino W",
+   "Gertz B",
+   "Baylink D",
+   "Mohan S",
+   "Bengtsson BA"
+  ],
+  "journal": "J Bone Miner Res",
+  "year": "1998",
+  "volume": "13",
+  "issue": "7",
+  "pages": "1158-66",
+  "doi": "10.1359/jbmr.1998.13.7.1158",
+  "types": [
+   "Clinical Trial",
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
   ]
  },
  "9679884": {
@@ -27777,6 +32832,26 @@
   "pages": "552-61",
   "doi": "10.1530/eje.0.1390552",
   "types": [
+   "Journal Article"
+  ]
+ },
+ "9879640": {
+  "pmid": "9879640",
+  "title": "Pharmacokinetic evaluation of ipamorelin and other peptidyl growth hormone secretagogues with emphasis on nasal absorption",
+  "authors": [
+   "Johansen PB",
+   "Hansen KT",
+   "Andersen JV",
+   "Johansen NL"
+  ],
+  "journal": "Xenobiotica",
+  "year": "1998",
+  "volume": "28",
+  "issue": "11",
+  "pages": "1083-92",
+  "doi": "10.1080/004982598238976",
+  "types": [
+   "Comparative Study",
    "Journal Article"
   ]
  },
