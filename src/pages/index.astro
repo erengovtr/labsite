@@ -3,81 +3,116 @@ import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import PostCard from '../components/PostCard.astro';
 import ProductCard from '../components/ProductCard.astro';
+import Facets from '../components/Facets.astro';
 import { CATEGORIES, fmtDate } from '../lib/site';
 import { tagSlug } from '../lib/tags';
 import { productImage } from '../lib/images';
+import lit from '../data/literature.json';
 const posts = (await getCollection('posts')).sort((a, b) => +b.data.date - +a.data.date);
 const products = (await getCollection('products')).sort((a, b) => a.data.order - b.data.order);
 const featured = posts.find((p) => p.data.featured) ?? posts[0];
 const latest = posts.filter((p) => p.id !== featured.id).slice(0, 6);
 const fProduct = products.find((p) => featured.data.tags.some((t) => tagSlug(t) === p.data.tag));
 const fImg = fProduct ? productImage(fProduct.id) : null;
-const heroIds = ['ghk-cu', 'mk-677', 'kpv-glutatyon'];
+const heroIds = ['retatrutide', 'ghk-cu', 'bpc-157', 'mk-677'];
 const count = (c: string) => posts.filter((p) => p.data.category === c).length;
+const nRes = products.filter((p) => p.data.group === 'Araştırma bileşiği').length;
+const nSup = products.length - nRes;
+const nRefs = Object.keys(lit).length;
+const quick = [['Retatrutid', 'retatrutide'], ['Semaglutid', 'semaglutid'], ['BPC-157', 'bpc-157'], ['GHK-Cu', 'ghk-cu'], ['MK-677', 'mk-677'], ['Epitalon', 'epitalon'], ['Kreatin', 'kreatin']];
+const check = '<svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="10" cy="10" r="8.2"/><path d="M6 10.3l2.8 2.8L14.2 7.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 ---
 <Base>
   <section class="hero">
+    <Facets />
     <div class="wrap">
       <div>
-        <span class="eyebrow">Bioscience Pharma · Araştırma Notları</span>
-        <h1><span class="w" style="--i:0"><span>Ürünlerin</span></span> <span class="w" style="--i:1"><span>arkasındaki</span></span> <span class="w" style="--i:2"><span><em>bilimi</em></span></span> <span class="w" style="--i:3"><span>okuyun</span></span></h1>
-        <p class="lead">Her bileşik için hangi reseptöre bağlandığını, hücrede ne yaptığını ve literatürün neyi gösterip neyi göstermediğini yazıyoruz. Doz ya da kullanım önerisi vermiyoruz.</p>
+        <span class="pill"><svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2l6 2.5v5c0 4-2.6 7-6 8.5-3.4-1.500-6-4.500-6-8.500v-5L10 2z" stroke-linejoin="round"/></svg> Hakemli literatüre dayalı bilgi</span>
+        <h1>Bileşiklerin arkasındaki bilim<em>kaynağıyla birlikte.</em></h1>
+        <p class="lead">Bioscience Pharma bileşiklerinin yapısı, biyolojik hedefleri, klinik öncesi ve klinik çalışma bulguları ile resmî kayıt durumları; kaynakça ve kontrol tarihiyle birlikte sunulur.</p>
+        <ul class="checks">
+          <li><Fragment set:html={check} /> Her bilgi PubMed, DailyMed, Drugs@FDA veya ClinicalTrials.gov kaydına dayanır</li>
+          <li><Fragment set:html={check} /> Hücre, hayvan ve insan verisi ayrı ayrı ve eleştirel biçimde değerlendirilir</li>
+          <li><Fragment set:html={check} /> Doz, süre veya kullanım önerisi içermez</li>
+        </ul>
         <div class="hero-actions">
-          <a class="btn" href="/urunler/">Ürünlere göz at</a>
-          <a class="btn ghost" href="/yazilar/">Yazılar</a>
+          <a class="btn light" href="/urunler/">Bileşik kataloğu</a>
+          <a class="btn outline-light" href="/yontem/">Yöntem ve kaynaklar</a>
+        </div>
+        <div class="hero-shelf">
+          {heroIds.map((id) => {
+            const pr = products.find((p) => p.id === id); const img = productImage(id);
+            return pr && img && <a href={`/urunler/${id}/`} aria-label={pr.data.name}><img src={img} alt={pr.data.name} /></a>;
+          })}
         </div>
       </div>
-      <div class="hero-shelf">
-        {heroIds.map((id, i) => {
-          const pr = products.find((p) => p.id === id);
-          const img = productImage(id);
-          return pr && img && (
-            <a class={`shelf-item s${i}`} href={`/urunler/${id}/`} data-parallax={[0.06, 0.14, 0.09][i]} aria-label={pr.data.name}>
-              <img src={img} alt={pr.data.name} />
-            </a>
-          );
-        })}
+      <div class="hero-card">
+        <h2>Bileşik veya konu arayın</h2>
+        <p>{products.length} bileşik sayfası ve {posts.length} araştırma yazısında tam metin arama.</p>
+        <button type="button" class="fake-input" data-open-search>
+          <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="6"/><path d="M14 14l4 4" stroke-linecap="round"/></svg>
+          Örn. retatrutid, GLP-1 reseptörü, HPLC
+        </button>
+        <h3>Sık incelenenler</h3>
+        <div class="quick">{quick.map(([n, id]) => <a href={`/urunler/${id}/`}>{n}</a>)}</div>
+        <div class="note"><svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="10" cy="10" r="8"/><path d="M10 6v5M10 14v.01" stroke-linecap="round"/></svg> Bu sitede satış yapılmaz; yalnızca bilgi sunulur.</div>
       </div>
+    </div>
+  </section>
+
+  <div class="wrap stats" data-reveal>
+    <div class="stats-in">
+      <div class="stat"><b data-count={products.length}>0</b><span>Bileşik bilgi sayfası</span></div>
+      <div class="stat"><b data-count={posts.length}>0</b><span>Kaynaklı araştırma yazısı</span></div>
+      <div class="stat"><b data-count={nRefs}>0</b><span>Dizinlenmiş literatür kaydı</span></div>
+      <div class="stat"><b data-count={CATEGORIES.length}>0</b><span>Konu başlığı</span></div>
+    </div>
+  </div>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="section-head" data-reveal><div><span class="eyebrow">Bileşik kataloğu</span><h2>Bileşik bilgi sayfaları</h2></div><a href="/urunler/">Tümünü gör ({products.length}) →</a></div>
+      <div class="group-tiles" data-stagger>
+        <a class="gtile" href="/urunler/#arastirma"><b>{nRes}</b><div><strong>Araştırma bileşikleri</strong><span>Peptitler, küçük moleküller ve hormon analogları</span></div></a>
+        <a class="gtile" href="/urunler/#takviye"><b>{nSup}</b><div><strong>Takviye bileşenleri</strong><span>Vitaminler, mineraller ve besin bileşenleri</span></div></a>
+      </div>
+      <div class="pgrid" data-stagger>{products.slice(0, 8).map((p) => <ProductCard product={p} />)}</div>
+    </div>
+  </section>
+
+  <section class="block tint">
+    <div class="wrap">
+      <div class="section-head" data-reveal><div><span class="eyebrow">Araştırma yazıları</span><h2>Son yayımlanan çalışmalar</h2></div><a href="/yazilar/">Tüm yazılar →</a></div>
+      <a class="featured" data-reveal="scale" href={`/yazilar/${featured.id}/`} style="margin-bottom:22px">
+        <div class="f-art">{fImg && <img src={fImg} alt={fProduct?.data.name} />}</div>
+        <div class="f-body">
+          <span class="eyebrow">Öne çıkan yazı</span>
+          <h3>{featured.data.title}</h3>
+          <p style="color:var(--ink-2);margin:0">{featured.data.description}</p>
+          <div class="muted" style="font-size:14px">{fmtDate(featured.data.date)} · {featured.data.sources.length} kaynak</div>
+        </div>
+      </a>
+      <div class="grid" data-stagger>{latest.map((p) => <PostCard post={p} />)}</div>
     </div>
   </section>
 
   <section class="block">
     <div class="wrap">
-      <div class="section-head" data-reveal><div><span class="eyebrow">Ürünler</span><h2>Bioscience Pharma ürün bilgi sayfaları</h2></div><a href="/urunler/">Tümü ({products.length}) →</a></div>
-    </div>
-    <div class="marquee" data-reveal="blur">
-      <div class="marquee-track">
-        {[0, 1].map(() => products.map((p) => <ProductCard product={p} />))}
+      <div class="section-head" data-reveal><div><span class="eyebrow">Konular</span><h2>Konuya göre araştırma</h2></div></div>
+      <div class="cat-grid" data-stagger>
+        {CATEGORIES.map((c) => <a class="cat" href={`/kategori/${c.slug}/`}><b>{c.name}</b><span>{c.blurb}</span><small>{count(c.name)} yazı</small></a>)}
       </div>
     </div>
   </section>
 
-  <section class="block" style="padding-top:8px">
+  <section class="block dark">
+    <Facets />
     <div class="wrap">
-      <a class="featured" data-reveal="scale" href={`/yazilar/${featured.id}/`}>
-        <div class="f-art">{fImg && <img src={fImg} alt={fProduct?.data.name} />}</div>
-        <div class="f-body">
-          <span class="eyebrow">Son yazı</span>
-          <h3>{featured.data.title}</h3>
-          <p style="color:var(--ink-2);margin:0">{featured.data.description}</p>
-          <div class="muted" style="font-size:14px">{fmtDate(featured.data.date)}</div>
-        </div>
-      </a>
-    </div>
-  </section>
-
-  <section class="block" style="padding-top:8px">
-    <div class="wrap">
-      <div class="section-head" data-reveal><div><h2>Diğer yazılar</h2></div><a href="/yazilar/">Tüm yazılar →</a></div>
-      <div class="grid" data-stagger>{latest.map((p) => <PostCard post={p} />)}</div>
-    </div>
-  </section>
-
-  <section class="block" style="background:var(--paper);border-block:1px solid var(--line)">
-    <div class="wrap">
-      <div class="section-head" data-reveal><div><h2>Konulara göre</h2></div></div>
-      <div class="cat-grid" data-stagger>
-        {CATEGORIES.map((c) => <a class="cat" href={`/kategori/${c.slug}/`}><b>{c.name}</b><span>{c.blurb}</span><small>{count(c.name)} yazı</small></a>)}
+      <div class="section-head" style="margin-bottom:0" data-reveal><div><span class="eyebrow">Editoryal ilkeler</span><h2>Bilginin nasıl derlendiği</h2></div><a href="/yontem/" style="color:var(--mint)">Yöntem ve kaynaklar →</a></div>
+      <div class="pillars" data-stagger>
+        <div class="pillar"><i>01</i><h3>Birincil kaynak</h3><p>İçerik, PubMed'de dizinlenmiş çalışmalara, resmî ilaç etiketlerine ve klinik çalışma kayıtlarına dayanır. Her sayfanın sonunda kaynakça yer alır.</p></div>
+        <div class="pillar"><i>02</i><h3>Eleştirel değerlendirme</h3><p>Hücre kültürü, hayvan modeli ve insan çalışması ayrı ele alınır; örneklem büyüklüğü, tasarım ve çıkar ilişkisi gibi sınırlılıklar metinde belirtilir.</p></div>
+        <div class="pillar"><i>03</i><h3>Kullanım önerisi yok</h3><p>Doz, süre, protokol veya sonuç vaadi içermez. Yasal durum, kontrol tarihiyle birlikte ilgili resmî kayda göre verilir.</p></div>
       </div>
     </div>
   </section>

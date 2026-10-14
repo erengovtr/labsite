@@ -6,14 +6,13 @@ const d = product.data;
 const img = productImage(product.id);
 ---
 <a class="pcard" href={`/urunler/${product.id}/`}>
-  <div class="pc-media tilt">
-    <div class="pc-glow"></div>
+  <div class="pc-media">
     {img ? <img src={img} alt={d.name} loading="lazy" /> : <Vial name={d.name} />}
   </div>
   <div class="pc-body">
     <span class="chip">{d.category}</span>
     <h3>{d.name}</h3>
     <p>{d.tagline}</p>
-    <span class="pc-more">Genel bilgi <i>→</i></span>
+    <span class="pc-more">Bilgi sayfası <i>→</i></span>
   </div>
 </a>

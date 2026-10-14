@@ -1,8 +1,8 @@
 export const SITE = {
   name: 'Bioscience Pharma',
-  tagline: 'Araştırma Notları',
+  tagline: 'Bilimsel Bilgi Merkezi',
   description:
-    'Bioscience Pharma ürünlerinin arkasındaki bilim: reseptörler, biyolojik yollar, klinik çalışmalar ve analiz yöntemleri.',
+    'Bioscience Pharma bileşiklerine ilişkin hakemli literatüre, resmî ilaç kayıtlarına ve klinik çalışma verilerine dayanan bilimsel bilgi merkezi.',
   email: 'support@assistsupps.com',
 };
 

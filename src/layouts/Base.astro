@@ -1,14 +1,17 @@
 ---
 import '../styles/global.css';
 import Disclaimer from '../components/Disclaimer.astro';
+import { getCollection } from 'astro:content';
 import { SITE, CATEGORIES } from '../lib/site';
 const { title, description = SITE.description, type = 'website', published } = Astro.props;
 const full = title ? `${title} · ${SITE.name} ${SITE.tagline}` : `${SITE.name} ${SITE.tagline}`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const path = Astro.url.pathname;
 const nav = [
-  ['/', 'Ana sayfa'], ['/urunler/', 'Ürünler'], ['/yazilar/', 'Yazılar'], ['/sozluk/', 'Sözlük'], ['/hakkinda/', 'Hakkında'],
+  ['/urunler/', 'Ürünler'], ['/yazilar/', 'Araştırma yazıları'], ['/sozluk/', 'Sözlük'], ['/yontem/', 'Yöntem'], ['/hakkinda/', 'Hakkında'], ['/iletisim/', 'İletişim'],
 ];
+const nProducts = (await getCollection('products')).length;
+const ticker = ['Hakemli literatüre dayalı bilgi', 'PubMed · DailyMed · ClinicalTrials.gov', 'Her sayfada kaynakça ve kontrol tarihi', 'Kullanım ve doz önerisi içermez'];
 ---
 <!doctype html>
 <html lang="tr">
@@ -24,7 +27,7 @@ const nav = [
   <meta property="og:title" content={full} /><meta property="og:description" content={description} />
   <meta property="og:type" content={type} /><meta property="og:locale" content="tr_TR" />
   {published && <meta property="article:published_time" content={published.toISOString()} />}
-  <meta name="theme-color" content="#f5f0e6" />
+  <meta name="theme-color" content="#0a3520" />
   <script is:inline>
     (function () {
       var d = document.documentElement; d.classList.add('js');
@@ -36,7 +39,7 @@ const nav = [
     })();
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet" />
 </head>
 <body>
   <div id="splash" aria-hidden="true">
@@ -45,22 +48,27 @@ const nav = [
     <div class="tv-scan"></div>
     <div class="tv-brand">
       <img class="tv-logo" src="/brand/logo-bp-light.png" alt="Bioscience Pharma" />
-      <span>Araştırma Notları</span>
+      <span>Bilimsel Bilgi Merkezi</span>
     </div>
     <div class="tv-skip">Geçmek için tıklayın</div>
   </div>
   <a class="skip" href="#main">İçeriğe geç</a>
+  <div class="announce" aria-hidden="true"><div class="announce-track">{[0, 1, 2].map(() => ticker.map((t) => <span>{t}</span>))}</div></div>
   <Disclaimer compact />
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="/"><img src="/brand/logo-bp.png" alt="Bioscience Pharma" width="171" height="50" /><span>{SITE.tagline}</span></a>
+      <a class="brand" href="/"><img src="/brand/logo-bp.png" alt="Bioscience Pharma" width="157" height="46" /></a>
       <nav class="nav" id="nav" aria-label="Ana menü">
-        {nav.map(([href, label]) => <a href={href} aria-current={(href === '/' ? path === '/' : path.startsWith(href)) ? 'page' : undefined}>{label}</a>)}
+        <div class="dd">
+          <button type="button" aria-haspopup="true">Konular</button>
+          <div class="dd-menu">{CATEGORIES.map((c) => <a href={`/kategori/${c.slug}/`}>{c.name}</a>)}</div>
+        </div>
+        {nav.map(([href, label]) => <a href={href} aria-current={path.startsWith(href) ? 'page' : undefined}>{label}</a>)}
       </nav>
       <div style="display:flex;gap:8px">
-        <button class="icon-btn" id="open-search" aria-label="Ara">
+        <button class="icon-btn" data-open-search aria-label="Ara">
           <svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="6"/><path d="M14 14l4 4" stroke-linecap="round"/></svg>
-          Ara <kbd>⌘K</kbd>
+          <span class="lbl">Bileşik veya konu ara</span> <kbd>⌘K</kbd>
         </button>
         <button class="icon-btn menu-toggle" id="menu-toggle" aria-label="Menü" aria-expanded="false">☰</button>
       </div>
@@ -78,20 +86,25 @@ const nav = [
     <div class="wrap">
       <div class="cols">
         <div>
-          <a class="brand" href="/"><img src="/brand/logo-bp-light.png" alt="Bioscience Pharma" style="height:66px" /></a>
-          <p style="margin-top:14px;max-width:44ch;font-size:15px">{SITE.description}</p>
+          <a class="brand" href="/"><img src="/brand/logo-bp-light.png" alt="Bioscience Pharma" style="height:60px" /></a>
+          <p style="margin-top:16px;max-width:42ch;font-size:14.5px;line-height:1.65">{SITE.description}</p>
+          <p style="margin-top:18px;font-size:14px"><span style="display:block;font:700 11.5px var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--mint);margin-bottom:6px">İletişim</span><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
         </div>
+        <div><h4>Bileşikler</h4><ul>
+          <li><a href="/urunler/">Tüm bileşikler ({nProducts})</a></li><li><a href="/urunler/#arastirma">Araştırma bileşikleri</a></li><li><a href="/urunler/#takviye">Takviye bileşenleri</a></li><li><a href="/sozluk/">Sözlük</a></li>
+        </ul></div>
         <div><h4>Konular</h4><ul>{CATEGORIES.map((c) => <li><a href={`/kategori/${c.slug}/`}>{c.name}</a></li>)}</ul></div>
-        <div><h4>Site</h4><ul>
-          <li><a href="/urunler/">Ürünler</a></li><li><a href="/yazilar/">Tüm yazılar</a></li><li><a href="/sozluk/">Sözlük</a></li>
-          <li><a href="/hakkinda/">Hakkında</a></li><li><a href="/iletisim/">İletişim</a></li><li><a href="/rss.xml">RSS</a></li>
+        <div><h4>Kurumsal</h4><ul>
+          <li><a href="/hakkinda/">Hakkında</a></li><li><a href="/yontem/">Yöntem ve kaynaklar</a></li><li><a href="/yazilar/">Araştırma yazıları</a></li><li><a href="/iletisim/">İletişim</a></li><li><a href="/rss.xml">RSS</a></li>
+        </ul></div>
+        <div><h4>Yasal</h4><ul>
+          <li><a href="/sorumluluk-reddi/">Sorumluluk reddi</a></li><li><a href="/yontem/#duzeltme">Düzeltme politikası</a></li>
         </ul></div>
       </div>
-      <p class="legal">
-        Bu sitedeki tüm içerik yalnızca bilimsel bilgilendirme amaçlıdır; tıbbi tavsiye, tanı veya tedavi yerine geçmez ve herhangi bir kullanım, doz ya da protokol önerisi içermez.
-        Bahsi geçen araştırma bileşikleri yalnızca laboratuvar araştırması içindir; insan veya hayvan tüketimi için değildir ve bu bileşiklerin çoğu hiçbir sağlık otoritesince ilaç olarak onaylanmamıştır.
-        © {new Date().getFullYear()} {SITE.name}.
-      </p>
+      <div class="legal">
+        <p>Bu sitedeki tüm içerik yalnızca bilimsel bilgilendirme amaçlıdır; tıbbi tavsiye, tanı veya tedavi yerine geçmez ve herhangi bir kullanım, doz ya da protokol önerisi içermez. Bahsi geçen araştırma bileşikleri yalnızca laboratuvar araştırması içindir; insan veya hayvan tüketimi için değildir ve bu bileşiklerin çoğu hiçbir sağlık otoritesince ilaç olarak onaylanmamıştır.</p>
+        <p>© {new Date().getFullYear()} {SITE.name}. Tüm hakları saklıdır.</p>
+      </div>
     </div>
   </footer>
 
@@ -120,7 +133,7 @@ const nav = [
       sel = -1;
     }
     async function open() { await load(); dlg.showModal(); input.value = ''; render(''); input.focus(); }
-    document.getElementById('open-search')?.addEventListener('click', open);
+    document.querySelectorAll('[data-open-search]').forEach((b) => b.addEventListener('click', open));
     document.addEventListener('keydown', (e) => {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); open(); }
       if (e.key === '/' && !/INPUT|TEXTAREA/.test((e.target as HTMLElement).tagName)) { e.preventDefault(); open(); }

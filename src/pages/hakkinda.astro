@@ -1,27 +1,22 @@
 ---
 import Base from '../layouts/Base.astro';
+import Facets from '../components/Facets.astro';
 import Disclaimer from '../components/Disclaimer.astro';
 ---
-<Base title="Hakkında" description="Bu sitenin amacı, bilgilerin nasıl derlendiği ve içerik sınırları.">
-  <div class="wrap" style="max-width:var(--prose)">
-    <div class="page-head" style="padding-left:0" data-reveal><span class="eyebrow">Hakkında</span><h1>Bu site neden var?</h1></div>
+<Base title="Hakkında" description="Bioscience Pharma Bilimsel Bilgi Merkezi'nin amacı ve kapsamı.">
+  <div class="band"><Facets /><div class="wrap"><div class="page-head" data-reveal><span class="eyebrow">Kurumsal</span><h1>Bioscience Pharma Bilimsel Bilgi Merkezi</h1>
+    <p>Bioscience Pharma bileşiklerine ilişkin bilimsel literatürü, resmî kayıtları ve klinik çalışma verilerini tek bir yerde, kaynaklarıyla birlikte sunan bağımsız bir bilgi kaynağıdır.</p></div></div></div>
+  <div class="wrap" style="max-width:calc(var(--prose) + 56px);padding-top:48px">
     <div class="prose" data-reveal>
-      <p>Bioscience Pharma ürünleri hakkında sorulan soruların çoğu aynı yerden çıkıyor: bu bileşik nedir, vücutta neye bağlanır, bilim bu konuda ne diyor? Cevapları tek bir yerde, kaynaklarıyla birlikte toplamak istedik.</p>
-      <h2>Bilgiler nereden geliyor?</h2>
-      <p>Sitedeki her yazı ve ürün sayfası yayımlanmış kaynaklara bağlıdır ve sayfanın altında listelenir. Makaleler PubMed'de dizinlenmiş çalışmalardır ve her kaynağın PubMed numarası verilir; metindeki [1], [2] gibi atıflar bu listeye karşılık gelir. İlaç etiketleri için FDA'nın DailyMed kayıtları, onay durumu için Drugs@FDA, klinik araştırmalar için ClinicalTrials.gov, kimyasal özellikler için PubChem kullanılır. Bir bileşiğin onaylı olup olmadığını yazarken kontrol tarihini de belirtiriz; bu durum zamanla değişebilir.</p>
-      <p>Bir sınırı açıkça söylemek gerekir: yazılar, makalelerin tam metinleri değil, PubMed özetleri ve resmî belgeler okunarak hazırlanmıştır. Özet, bir makalenin bütün ayrıntılarını taşımaz. Ayrıca bir yazarın kendi hipotezini sonuç olarak sunduğu yerlerde, bunu yazının içinde ayrıca belirtiriz.</p>
-      <h2>Nasıl yazıyoruz?</h2>
-      <p>Hücre kültürü, hayvan modeli ve insan çalışması ayrı ayrı anlatılır; laboratuvardaki bir bulgu insan için kanıtmış gibi sunulmaz. Çalışmalarda bildirilen yan etkiler ve bilinmeyenler yazının parçasıdır. Kaynakların kendi tanımlarını aştığımızı düşündüğümüz çıkarımlar yazıda "bize aittir" diye işaretlenir.</p>
-      <h2>Yazmadıklarımız</h2>
-      <p>Doz, süre, protokol, kombinasyon ya da "şunu yaparsanız şu olur" cümleleri yok. Kilo vermek, kas yapmak, gençleşmek gibi sonuç vaatleri de yok. Bu site ürün satmıyor ve satışa yönlendirmiyor.</p>
-      <h2>Hata görürseniz</h2>
-      <p>Bir bilgi kaynağıyla uyuşmuyorsa ya da daha güncel bir kaynak varsa <a href="/iletisim/">bize yazın</a>. Kaynağını kontrol edip sayfayı düzeltiriz.</p>
-      <h2>Yasal not</h2>
+      <h2 style="border:0;padding:0;margin-top:0">Amaç</h2>
+      <p>Araştırma bileşikleri ve takviye bileşenleri hakkında sorulan temel sorular aynıdır: bileşik nedir, hangi biyolojik hedefe etki eder, bu konuda yayımlanmış çalışmalar neyi gösterir ve neyi göstermez, hukuki ve düzenleyici durumu nedir? Bu merkez, söz konusu soruları birincil kaynaklara dayanarak ve sınırlılıklarıyla birlikte yanıtlamayı amaçlar.</p>
+      <h2>Kapsam</h2>
+      <p>Merkezde bileşik bilgi sayfaları, her bileşik için derinlemesine araştırma yazıları, temel kavramlar ve analitik kalite konularına dair yazılar ile bir terimler sözlüğü yer alır. İçerik, doz ya da kullanım önerisi vermeden yalnızca yayımlanmış bilimsel bulguları ve önerilen biyolojik mekanizmaları aktarır.</p>
+      <h2>Bağımsızlık ve satış</h2>
+      <p>Bu site bir satış kanalı değildir; hiçbir sayfası satışa yönlendirmez. İçerik, kaynakçada gösterilen yayımlanmış verilere dayanır ve ticari bir ürünün etkinliğine dair vaat içermez.</p>
+      <h2>Daha fazla bilgi</h2>
+      <p>Kaynakların nasıl seçildiği ve değerlendirildiği <a href="/yontem/">yöntem sayfasında</a>, yasal çerçeve <a href="/sorumluluk-reddi/">sorumluluk reddi</a> sayfasında açıklanır. Düzeltme ve geri bildirim için <a href="/iletisim/">iletişim</a> sayfasını kullanabilirsiniz.</p>
     </div>
-    <Disclaimer />
-    <div class="prose" style="margin-top:24px">
-      <p>Anlatılan bileşiklerin bir kısmı reçeteli ilaçtır, bir kısmı hiçbir otoritece onaylanmamış araştırma bileşiğidir, bir kısmı ise besin takviyesidir. Her sayfada hangisi olduğu belirtilir. Bilgiler yazıldığı tarihteki literatürü yansıtır ve değişebilir.</p>
-    </div>
-    <div style="height:64px"></div>
+    <div style="margin:36px 0 72px"><Disclaimer /></div>
   </div>
 </Base>

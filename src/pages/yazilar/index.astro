@@ -1,13 +1,14 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Facets from '../../components/Facets.astro';
 import PostCard from '../../components/PostCard.astro';
 import { CATEGORIES } from '../../lib/site';
 const posts = (await getCollection('posts')).sort((a, b) => +b.data.date - +a.data.date);
 ---
-<Base title="Tüm yazılar" description="Araştırma bileşikleri, etki mekanizmaları ve analitik kalite üzerine tüm yazılar.">
-  <div class="wrap">
-    <div class="page-head"><span class="eyebrow">Arşiv</span><h1>Tüm yazılar</h1><p>Konuya göre süzün veya başlıkta arayın.</p></div>
+<Base title="Araştırma yazıları" description="Araştırma bileşikleri, etki mekanizmaları ve analitik kalite üzerine tüm yazılar.">
+  <div class="band"><Facets /><div class="wrap"><div class="page-head"><span class="eyebrow">Arşiv</span><h1>Araştırma yazıları</h1><p>Bileşik, mekanizma ve analitik kalite konularında kaynaklı uzun yazılar. Konuya göre süzün veya başlıkta arayın.</p></div></div></div>
+  <div class="wrap" style="padding-top:36px">
     <div class="filters" role="group" aria-label="Kategori filtresi">
       <button data-f="" aria-pressed="true">Tümü</button>
       {CATEGORIES.map((c) => <button data-f={c.name} aria-pressed="false">{c.name}</button>)}

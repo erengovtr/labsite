@@ -1,12 +1,13 @@
 ---
+import Facets from '../components/Facets.astro';
 import Base from '../layouts/Base.astro';
 import { glossary } from '../data/glossary';
 import lit from '../data/literature.json';
 const items = [...glossary].sort((a, b) => a.term.localeCompare(b.term, 'tr'));
 ---
 <Base title="Sözlük" description="Peptit biyolojisi, farmakoloji ve analitik kimya terimleri sözlüğü.">
-  <div class="wrap">
-    <div class="page-head"><span class="eyebrow">Sözlük</span><h1>Araştırma dilinin sözlüğü</h1><p>Yazılarda geçen terimlerin tanımları. Her tanım, altında bağlantısı verilen kaynakta yazılanlara dayanır.</p></div>
+  <div class="band"><Facets /><div class="wrap"><div class="page-head"><span class="eyebrow">Sözlük</span><h1>Terimler sözlüğü</h1><p>Yazılarda geçen terimlerin tanımları. Her tanım, altında bağlantısı verilen kaynakta yazılanlara dayanır.</p></div></div></div>
+  <div class="wrap" style="padding-top:32px">
     <input class="gloss-search" id="gq" type="search" placeholder="Terim ara…" />
     <div class="gloss-list" id="gl">
       {items.map((g) => (

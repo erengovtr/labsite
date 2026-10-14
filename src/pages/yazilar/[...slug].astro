@@ -28,7 +28,7 @@ const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: d.t
       <a class="chip" href={`/kategori/${slugOf(d.category)}/`}>{d.category}</a>
       <h1>{d.title}</h1>
       <p class="dek">{d.description}</p>
-      <div class="byline"><span>Bioscience Pharma</span><span>{fmtDate(d.date)}</span><span>{mins} dk okuma</span>{d.updated && <span>Güncelleme: {fmtDate(d.updated)}</span>}</div>
+      <div class="byline"><span><b>Bioscience Pharma</b> · Bilimsel Bilgi Merkezi</span><span>Yayın: {fmtDate(d.date)}</span>{d.updated && <span>Güncelleme: {fmtDate(d.updated)}</span>}<span>{mins} dk okuma</span><span>{d.sources.length + d.docs.length} kaynak</span></div>
     </header>
     <div class="article-layout">
       <article>

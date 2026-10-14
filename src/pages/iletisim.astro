@@ -1,15 +1,15 @@
 ---
 import Base from '../layouts/Base.astro';
+import Facets from '../components/Facets.astro';
 import { SITE } from '../lib/site';
 ---
-<Base title="İletişim" description="Düzeltme, kaynak önerisi ve geri bildirim için bize ulaşın.">
-  <div class="wrap" style="max-width:var(--prose)">
-    <div class="page-head" style="padding-left:0" data-reveal><span class="eyebrow">İletişim</span><h1>Bize yazın</h1>
-      <p>Bir yazıda hata gördüyseniz, daha iyi bir kaynak biliyorsanız ya da işlenmesini istediğiniz bir bileşik varsa e-posta gönderin.</p></div>
+<Base title="İletişim" description="Düzeltme, kaynak önerisi ve geri bildirim için iletişim.">
+  <div class="band"><Facets /><div class="wrap"><div class="page-head" data-reveal><span class="eyebrow">İletişim</span><h1>Bize ulaşın</h1>
+    <p>İçerikte bir hata, daha güncel bir kaynak ya da incelenmesini önerdiğiniz bir bileşik varsa bize yazabilirsiniz.</p></div></div></div>
+  <div class="wrap" style="max-width:calc(var(--prose) + 56px);padding-top:48px;padding-bottom:72px">
     <div class="prose" data-reveal>
-      <p><a class="btn" href={`mailto:${SITE.email}?subject=Araştırma%20Notları`}>{SITE.email}</a></p>
-      <p>Yazılarımızdaki bir bilgiyi düzeltirken değişikliği ilgili yazının altına tarihiyle not düşeriz. Tıbbi tavsiye veremeyiz; kişisel sağlık soruları için bir hekime başvurun.</p>
+      <p><a class="btn" href={`mailto:${SITE.email}?subject=Bilimsel%20Bilgi%20Merkezi`}>{SITE.email}</a></p>
+      <p>Düzeltmeler kaynak kontrolünden sonra yapılır ve önemli değişiklikler ilgili yazının güncelleme tarihine yansıtılır. Tıbbi tavsiye veremeyiz; kişisel sağlık soruları için bir hekime başvurun.</p>
     </div>
-    <div style="height:64px"></div>
   </div>
 </Base>

@@ -1,19 +1,20 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Facets from '../../components/Facets.astro';
 import ProductCard from '../../components/ProductCard.astro';
 import Disclaimer from '../../components/Disclaimer.astro';
 const products = (await getCollection('products')).sort((a, b) => a.data.order - b.data.order);
 const groups = ['Araştırma bileşiği', 'Takviye'] as const;
 ---
 <Base title="Ürünler" description="Bioscience Pharma ürünleri hakkında bilimsel bilgi sayfaları.">
-  <div class="wrap">
-    <div class="page-head" data-reveal><span class="eyebrow">Ürünler</span><h1>Ürün bilgi sayfaları</h1>
-      <p>Her sayfada bileşiğin yapısı, biyolojik hedefi ve araştırma durumu yer alır. Sayfanın altında aynı etiketi taşıyan yazılar otomatik listelenir.</p></div>
+  <div class="band"><Facets /><div class="wrap"><div class="page-head" data-reveal><span class="eyebrow">Katalog</span><h1>Bileşik bilgi sayfaları</h1>
+      <p>Her sayfada bileşiğin yapısı, biyolojik hedefi, yayımlanmış çalışma bulguları ve resmî kayıt durumu kaynaklarıyla birlikte yer alır.</p></div></div></div>
+  <div class="wrap" style="padding-top:36px">
     <div class="filters" role="group" aria-label="Ürün grubu">
-      <button data-g="" aria-pressed="true">Tümü</button>
-      {groups.map((g) => <button data-g={g} aria-pressed="false">{g === 'Takviye' ? 'Takviyeler' : 'Araştırma bileşikleri'}</button>)}
-      <input class="gloss-search" id="pq" type="search" placeholder="Ürün ara…" style="max-width:220px;padding:8px 14px;margin-left:auto" />
+      <button data-g="" aria-pressed="true">Tümü ({products.length})</button>
+      {groups.map((g) => <button data-g={g} aria-pressed="false">{g === 'Takviye' ? 'Takviye bileşenleri' : 'Araştırma bileşikleri'}</button>)}
+      <input class="gloss-search" id="pq" type="search" placeholder="Bileşik ara…" style="max-width:220px;padding:8px 14px;margin-left:auto" />
     </div>
     <div class="pgrid" id="plist">
       {products.map((p) => <div class="pwrap" data-g={p.data.group} data-n={(p.data.name + ' ' + p.data.tag).toLowerCase()}><ProductCard product={p} /></div>)}
@@ -33,5 +34,7 @@ const groups = ['Araştırma bileşiği', 'Takviye'] as const;
     };
     btns.forEach((b) => b.addEventListener('click', () => { g = b.dataset.g!; btns.forEach((x) => x.setAttribute('aria-pressed', String(x === b))); apply(); }));
     q.addEventListener('input', apply);
+    const hash = location.hash.slice(1); const pick = hash === 'arastirma' ? 'Araştırma bileşiği' : hash === 'takviye' ? 'Takviye' : '';
+    if (pick) { g = pick; btns.forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.g === pick))); apply(); }
   </script>
 </Base>

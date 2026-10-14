@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Facets from '../../components/Facets.astro';
 import PostCard from '../../components/PostCard.astro';
 import { tagSlug, postHasTag } from '../../lib/tags';
 export async function getStaticPaths() {
@@ -16,9 +17,9 @@ const posts = (await getCollection('posts')).filter((p) => postHasTag(p.data.tag
 const product = (await getCollection('products')).find((p) => p.data.tag === slug);
 ---
 <Base title={`#${label}`} description={`“${label}” etiketiyle ilişkili yazılar.`}>
-  <div class="wrap">
-    <div class="page-head" data-reveal><span class="eyebrow">Etiket</span><h1>#{label}</h1>
-      <p>{posts.length} yazı{product && <> · <a href={`/urunler/${product.id}/`}>{product.data.name} ürün sayfası →</a></>}</p></div>
+  <div class="band"><Facets /><div class="wrap"><div class="page-head" data-reveal><span class="eyebrow">Etiket</span><h1>#{label}</h1>
+      <p>{posts.length} yazı{product && <> · <a href={`/urunler/${product.id}/`}>{product.data.name} ürün sayfası →</a></>}</p></div></div></div>
+  <div class="wrap" style="padding-top:36px">
     {posts.length ? <div class="grid" data-stagger>{posts.map((p) => <PostCard post={p} />)}</div> : <p class="muted">Bu etiketle yazı yok.</p>}
     <div style="height:64px"></div>
   </div>

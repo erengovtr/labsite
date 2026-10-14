@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Facets from '../../components/Facets.astro';
 import PostCard from '../../components/PostCard.astro';
 import { CATEGORIES } from '../../lib/site';
 export function getStaticPaths() { return CATEGORIES.map((c) => ({ params: { slug: c.slug }, props: { cat: c } })); }
@@ -8,8 +9,8 @@ const { cat } = Astro.props;
 const posts = (await getCollection('posts')).filter((p) => p.data.category === cat.name).sort((a, b) => +b.data.date - +a.data.date);
 ---
 <Base title={cat.name} description={cat.blurb}>
-  <div class="wrap">
-    <div class="page-head"><span class="eyebrow">Konu</span><h1>{cat.name}</h1><p>{cat.blurb}</p></div>
+  <div class="band"><Facets /><div class="wrap"><div class="page-head"><span class="eyebrow">Konu</span><h1>{cat.name}</h1><p>{cat.blurb}</p></div></div></div>
+  <div class="wrap" style="padding-top:36px">
     <div class="filters">
       <a href="/yazilar/">Tümü</a>
       {CATEGORIES.map((c) => <a href={`/kategori/${c.slug}/`} aria-current={c.slug === cat.slug ? 'page' : undefined}>{c.name}</a>)}
